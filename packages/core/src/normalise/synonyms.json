@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "_doc": "Synonym groups. When a query or alias token (compared in folded form) is a member of a group, the group token is appended so either spelling matches. Owner-extensible.",
+  "groups": {
+    "prophet": ["nabi", "rasool", "huzoor", "aaqa"]
+  }
+}

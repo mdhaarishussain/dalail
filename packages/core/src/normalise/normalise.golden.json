@@ -1,0 +1,78 @@
+{
+  "_doc": "Shared golden cases. Must pass in packages/core (Vitest) and pipeline (pytest). Inputs are neutral vocabulary.",
+  "cases": [
+    {
+      "rule": "lowercase-punct",
+      "input": "  Qalam, AUR   kitaab!! ",
+      "norm": "qalam aur kitaab",
+      "folded": "kalam aur kitab"
+    },
+    {
+      "rule": "diacritics",
+      "input": "Ghār  kī khiṛkī",
+      "norm": "ghar ki khirki",
+      "folded": "gar ki kirki"
+    },
+    {
+      "rule": "izafat-hyphen-both",
+      "input": "ilm-e-ghaib",
+      "norm": "ilm e ghaib",
+      "folded": "ilm e gaib"
+    },
+    {
+      "rule": "izafat-hyphen-before",
+      "input": "shahar-e duniya",
+      "norm": "shahar e duniya",
+      "folded": "shahar e duniya"
+    },
+    {
+      "rule": "izafat-hyphen-after",
+      "input": "ilm e-ghayb",
+      "norm": "ilm e ghayb",
+      "folded": "ilm e gaib"
+    },
+    {
+      "rule": "izafat-space",
+      "input": "ilm e ghayb",
+      "norm": "ilm e ghayb",
+      "folded": "ilm e gaib"
+    },
+    { "rule": "gh", "input": "ghar", "norm": "ghar", "folded": "gar" },
+    { "rule": "kh", "input": "khidki", "norm": "khidki", "folded": "kidki" },
+    { "rule": "dh", "input": "dhoop", "norm": "dhoop", "folded": "zup" },
+    { "rule": "zh", "input": "zhaala", "norm": "zhaala", "folded": "zala" },
+    { "rule": "q", "input": "qalam", "norm": "qalam", "folded": "kalam" },
+    { "rule": "ee", "input": "zameen", "norm": "zameen", "folded": "zamin" },
+    { "rule": "oo", "input": "phool", "norm": "phool", "folded": "phul" },
+    { "rule": "ay", "input": "ghayb", "norm": "ghayb", "folded": "gaib" },
+    { "rule": "w", "input": "dewaar", "norm": "dewaar", "folded": "devar" },
+    { "rule": "double", "input": "kitaab chhatt", "norm": "kitaab chhatt", "folded": "kitab chat" },
+    { "rule": "hyphen-non-izafat", "input": "aam-taur", "norm": "aam taur", "folded": "am taur" },
+    { "rule": "digits-kept", "input": "Room 101", "norm": "room 101", "folded": "rum 101" },
+    {
+      "rule": "synonym",
+      "input": "Huzoor ki baat",
+      "norm": "huzoor ki baat prophet",
+      "folded": "huzur ki bat prophet"
+    },
+    {
+      "rule": "synonym-folded-member",
+      "input": "rasul",
+      "norm": "rasul prophet",
+      "folded": "rasul prophet"
+    },
+    {
+      "rule": "synonym-once",
+      "input": "nabi aur rasool",
+      "norm": "nabi aur rasool prophet",
+      "folded": "nabi aur rasul prophet"
+    },
+    { "rule": "empty", "input": " ?! ", "norm": "", "folded": "" },
+    {
+      "rule": "non-latin-letters-kept",
+      "input": "قلم qalam",
+      "norm": "قلم qalam",
+      "folded": "قلم kalam"
+    }
+  ]
+}

@@ -18,3 +18,6 @@ __pycache__/
 *.db-*
 .DS_Store
 .env*.local
+models/
+eval/.cache/
+eval/results/

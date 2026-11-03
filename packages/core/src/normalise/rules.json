@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "_doc": "Roman Urdu normalisation rules. Data only: the owner may extend these without code changes. `izafat` runs on the lowercased text before punctuation is stripped. `fold` runs in order on each token to build the secondary (folded) form. Replacements use $1 for the first capture group. Every rule must have a case in normalise.golden.json.",
+  "izafat": [
+    { "id": "izafat-hyphen-both", "pattern": "-e-", "replace": " e " },
+    { "id": "izafat-hyphen-before", "pattern": "-e(?=\\s|$)", "replace": " e" },
+    { "id": "izafat-hyphen-after", "pattern": "(^|\\s)e-", "replace": "$1e " }
+  ],
+  "fold": [
+    { "id": "gh", "pattern": "gh", "replace": "g" },
+    { "id": "kh", "pattern": "kh", "replace": "k" },
+    { "id": "dh", "pattern": "dh", "replace": "z" },
+    { "id": "zh", "pattern": "zh", "replace": "z" },
+    { "id": "q", "pattern": "q", "replace": "k" },
+    { "id": "ee", "pattern": "ee", "replace": "i" },
+    { "id": "oo", "pattern": "oo", "replace": "u" },
+    { "id": "ay", "pattern": "ay", "replace": "ai" },
+    { "id": "w", "pattern": "w", "replace": "v" },
+    { "id": "double", "pattern": "([a-z])\\1+", "replace": "$1" }
+  ]
+}
