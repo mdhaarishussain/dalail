@@ -11,6 +11,7 @@ from .corpus import Corpus, Doc
 from .errors import Issue
 from .refs import FixtureRef, HadithRef, QuranRef, extract_inline_refs, parse_ref, quran_ref_problem
 from .schemas import validator
+from .verbatim import check_doc
 
 Mode = Literal["dev", "prod"]
 FIXTURE_MARK = "FIXTURE:"
@@ -158,6 +159,13 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
                     f"{'.'.join(map(str, err.path)) or '(root)'}: {err.message}",
                 )
             )
+
+    # --- verbatim: every real node/hadith traces back to a source snapshot --------------
+    for doc in corpus.nodes:
+        if doc.origin == "real":
+            rep.issues += check_doc(doc, corpus.sources, "node")
+    for h in corpus.hadith:
+        rep.issues += check_doc(h, corpus.sources, "hadith")
 
     # --- Quran data vs static table --------------------------------------------------
     if corpus.quran:

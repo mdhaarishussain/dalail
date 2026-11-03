@@ -12,6 +12,7 @@ from typing import Any, Literal
 import yaml
 
 from .errors import Issue
+from .sources import Source, load_sources
 
 Origin = Literal["real", "fixture"]
 KEY_LINE = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):")
@@ -50,6 +51,7 @@ class Corpus:
     quran_lines: dict[tuple[int, int], tuple[Path, int]] = field(default_factory=dict)
     load_issues: list[Issue] = field(default_factory=list)
     input_files: list[Path] = field(default_factory=list)
+    sources: dict[str, Source] = field(default_factory=dict)
 
 
 def _stringify_dates(v: Any) -> Any:
@@ -113,6 +115,9 @@ def load_corpus(root: Path, *, include_fixtures: bool) -> Corpus:
                 corpus.load_issues.append(doc)
             else:
                 target.append(doc)
+
+    corpus.sources, source_issues = load_sources(root)
+    corpus.load_issues += source_issues
 
     add_docs(root / "nodes", "real", corpus.nodes)
     add_docs(root / "hadith", "real", corpus.hadith)

@@ -26,6 +26,12 @@ COMMANDS: dict[str, str] = {
     "stats": "Report nodes per topic, verified %%, aliases per node, missing follow-ups.",
     "fetch-model": "Download the pinned embedding model to models/ (developer machines only).",
     "embed-queries": "Embed eval queries (query: prefix) for the Node eval runner.",
+    "new-source": "Capture an article into corpus/sources/<id>/ (immutable snapshot + meta.yaml template).",
+    "check-verbatim": "Check every real node/hadith field equals its source text at the recorded span.",
+    "fill-spans": "Locate extracted fields of a source's draft files in its text and record source_spans.",
+    "ingest-finish": "After /ingest-article: fill spans, sync cited_in, validate, find duplicates, summarise.",
+    "dedupe": "Report nodes whose claims look like duplicates (embedding cosine + token overlap).",
+    "next-id": "Print the next free node id for a topic, or the next hadith id.",
 }
 
 
@@ -47,6 +53,18 @@ def build_parser() -> argparse.ArgumentParser:
             cmd.add_argument("--out", type=Path, help="Output folder (default: <repo>/dist).")
         if name == "embed":
             cmd.add_argument("--out", type=Path, help="Folder holding the cache (default: <repo>/dist).")
+        if name == "new-source":
+            src = cmd.add_mutually_exclusive_group(required=True)
+            src.add_argument("--url", help="Fetch this page (developer machine only).")
+            src.add_argument("--file", type=Path, help="A saved .html / .md / .txt file.")
+            cmd.add_argument("--id", help="Source id (kebab-case). Default: from the title or file name.")
+        if name in {"fill-spans", "ingest-finish"}:
+            cmd.add_argument("source_id")
+        if name in {"ingest-finish", "dedupe"}:
+            cmd.add_argument("--no-model", action="store_true", help="Token overlap only (skip embeddings).")
+        if name == "next-id":
+            cmd.add_argument("kind", choices=["node", "hadith"])
+            cmd.add_argument("--topic")
         if name == "embed-queries":
             cmd.add_argument("questions", type=Path, nargs="+", help="YAML files with a `questions` list of {q: ...}.")
             cmd.add_argument("--out", type=Path, help="Default: <repo>/eval/.cache/query-embeddings.json")
@@ -123,6 +141,61 @@ def main(argv: Sequence[str] | None = None) -> int:
         if args.command == "fetch-model":
             path = fetch_model(embedding_model(repo))
             print(f"ok: {path} (sha256 verified)")
+            return 0
+
+        if args.command == "new-source":
+            from .sources import new_source
+
+            folder = new_source(corpus_dir, url=args.url, file=args.file, source_id=args.id)
+            print(
+                f"created {folder}\n"
+                f"  next: fill in scholar/work/lang in meta.yaml, then /ingest-article {folder.relative_to(repo)}"
+            )
+            return 0
+
+        if args.command == "check-verbatim":
+            from .verbatim import check_doc
+
+            corpus = load_corpus(corpus_dir, include_fixtures=False)
+            issues = list(corpus.load_issues)
+            for d in corpus.nodes:
+                issues += check_doc(d, corpus.sources, "node")
+            for h in corpus.hadith:
+                issues += check_doc(h, corpus.sources, "hadith")
+            _print_issues(issues, repo)
+            errors = [i for i in issues if i.severity == "error"]
+            print(f"check-verbatim: {len(corpus.nodes)} node(s), {len(corpus.hadith)} hadith, {len(errors)} error(s)")
+            return 1 if errors else 0
+
+        if args.command == "fill-spans":
+            from .ingest import fill_spans
+
+            n, issues = fill_spans(load_corpus(corpus_dir, include_fixtures=False), args.source_id)
+            _print_issues(issues, repo)
+            print(f"recorded spans for {n} file(s)")
+            return 1 if any(i.severity == "error" for i in issues) else 0
+
+        if args.command == "ingest-finish":
+            from .ingest import ingest_finish, summary_text
+
+            summary = ingest_finish(repo, corpus_dir, args.source_id, use_model=not args.no_model)
+            print(summary_text(summary, repo))
+            return 1 if any(i.severity == "error" for i in summary.issues) else 0
+
+        if args.command == "dedupe":
+            from .ingest import find_duplicates
+
+            pairs = find_duplicates(load_corpus(corpus_dir, include_fixtures=False), repo, use_model=not args.no_model)
+            for p in pairs:
+                cos = f"cosine {p.cosine:.3f}  " if p.cosine is not None else ""
+                print(f"{p.a} ~ {p.b}  {cos}jaccard {p.jaccard:.2f}")
+            print(f"{len(pairs)} possible duplicate pair(s)")
+            return 0
+
+        if args.command == "next-id":
+            from .ingest import next_id
+
+            print(next_id(load_corpus(corpus_dir, include_fixtures=False), args.kind, args.topic))
             return 0
 
         if args.command == "embed-queries":

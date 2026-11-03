@@ -1,0 +1,5 @@
+{
+  "_doc": "Duplicate detector thresholds. e5 cosines between unrelated short texts are often 0.8-0.9, so the cosine bar is high; folded-token Jaccard is a second, independent signal.",
+  "duplicate_cosine": 0.95,
+  "duplicate_jaccard": 0.6
+}
