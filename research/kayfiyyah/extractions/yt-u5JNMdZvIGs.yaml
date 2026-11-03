@@ -295,7 +295,7 @@ counter_questions:
     used_in: M11
 
   - id: CQ-K08
-    summary_en: "What is your proof for your claim?" (Demanding proof rather than accepting the inverted burden 'prove me wrong').
+    summary_en: "What is your proof for your claim? (Demanding proof rather than accepting the inverted burden 'prove me wrong')."
     used_in: M16
 
 debate_tips:
