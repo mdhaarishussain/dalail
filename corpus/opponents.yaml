@@ -1,7 +1,6 @@
 # Opponent groups a node can be tagged with. Extend here; no code changes needed.
-- id: wahhabi
-  name_en: Wahhabi
-  name_roman_urdu: Wahhabi
-- id: rawafidh
-  name_en: Rawafidh
-  name_roman_urdu: Rawafidh
+- {id: wahhabi, name_en: Wahhabi, name_roman_urdu: Wahhabi}
+- {id: rawafidh, name_en: Rawafidh, name_roman_urdu: Rawafidh}
+# Added for the research import (dev builds; ADR 0008). Name as given in the research transcripts.
+- {id: ali-mirza, name_en: Engineer Muhammad Ali Mirza, name_roman_urdu: Engineer Muhammad Ali Mirza}
+- {id: other, name_en: Other, name_roman_urdu: Deegar}

@@ -1,0 +1,24 @@
+{
+  "origin": "gemini-research",
+  "generated_on": "2026-11-03",
+  "thresholds": {
+    "_doc": "Calibrated 2026-11-04 on the 89 cross-video opponent claims (e5 cosines). summary = summary_en, quote = Roman Urdu quote.",
+    "merge_summary": 0.93,
+    "merge_both": 0.9,
+    "borderline_summary": 0.88,
+    "borderline_quote": 0.9
+  },
+  "counts": {
+    "videos": 46,
+    "claim_moves": 86,
+    "claim_nodes": 82,
+    "counter_questions": 41,
+    "edges": {
+      "follow_up": 11,
+      "counters": 25
+    },
+    "aliases": 141,
+    "candidate_responses": 92
+  },
+  "inputs_sha256": "7ec06be6bc074dbdce54348b44b9ba0d9b645e055e0ce686a48dba0a76e47aa1"
+}

@@ -1,0 +1,82 @@
+{
+ "_doc": "Mappings for `import-research` (ADR 0008). Owner-editable; re-run import-research after changes.",
+ "registry_prefix_topic": {
+  "TW": "tawassul",
+  "IS": "istighatha",
+  "IG": "ilm-e-ghaib",
+  "HN": "hazir-o-nazir",
+  "IK": "ikhtiyarat",
+  "KR": "karamat",
+  "NB": "nur-o-bashar",
+  "TH": "tawheed",
+  "AQ": "aqeedah",
+  "TS": "tasawwuf",
+  "KN": "khatam-e-nabuwwat",
+  "QD": "qadianiyat",
+  "SB": "sahaba",
+  "FQ": "fiqh",
+  "MS": "fiqh",
+  "TZ": "contradictions"
+ },
+ "video_topic": {
+  "tawassul": "tawassul",
+  "waseela": "tawassul",
+  "istighatha": "istighatha",
+  "istimdad": "istighatha",
+  "ya rasool allah madad": "istighatha",
+  "ya ali madad": "istighatha",
+  "shirk": "istighatha",
+  "ilm-e-ghaib": "ilm-e-ghaib",
+  "hazir-o-nazir": "hazir-o-nazir",
+  "ikhtiyarat": "ikhtiyarat",
+  "karamat": "karamat",
+  "nur-o-bashar": "nur-o-bashar",
+  "tawheed": "tawheed",
+  "aqeedah": "aqeedah",
+  "mini-god": "aqeedah",
+  "kalam": "aqeedah",
+  "tasawwuf": "tasawwuf",
+  "kalimat": "tasawwuf",
+  "usul": "fiqh",
+  "khatam-e-nabuwwat": "khatam-e-nabuwwat",
+  "takfir": "khatam-e-nabuwwat",
+  "qadiani-takfir": "qadianiyat",
+  "sahaba": "sahaba",
+  "tareekh": "sahaba",
+  "fiqh": "fiqh",
+  "raf-ul-yadain": "fiqh",
+  "sujud": "fiqh",
+  "fasting": "fiqh",
+  "abu-hanifa": "fiqh",
+  "tazadat": "contradictions",
+  "contradictions": "contradictions",
+  "akhlaq-e-nabuwwat": "contradictions"
+ },
+ "side_opponent": {
+  "ali-mirza": "ali-mirza",
+  "shia": "rawafidh",
+  "wahhabi": "wahhabi",
+  "opponent-scholar": "other"
+ },
+ "registry_code_opponent": {
+  "EM": "ali-mirza",
+  "WH": "wahhabi",
+  "SH": "rawafidh",
+  "TQ": "other"
+ },
+ "relaying_sides": [
+  "host",
+  "moderator"
+ ],
+ "rashid_name_contains": "Rashid",
+ "cluster": {
+  "_doc": "Calibrated 2026-11-04 on the 89 cross-video opponent claims (e5 cosines). summary = summary_en, quote = Roman Urdu quote.",
+  "merge_summary": 0.93,
+  "merge_both": 0.9,
+  "borderline_summary": 0.88,
+  "borderline_quote": 0.9
+ },
+ "skip_confidence": [
+  "low"
+ ]
+}

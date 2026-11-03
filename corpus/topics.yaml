@@ -1,9 +1,17 @@
 # Topics shown in the app. Adding a topic here (plus nodes) needs no code changes.
-- id: tawassul
-  name_en: Tawassul
-  name_roman_urdu: Tawassul
-  sort: 1
-- id: istighatha
-  name_en: Istighatha
-  name_roman_urdu: Istighatha
-  sort: 2
+# Topics after istighatha currently hold only research content (dev builds; ADR 0008).
+- {id: tawassul, name_en: Tawassul, name_roman_urdu: Tawassul, sort: 1}
+- {id: istighatha, name_en: Istighatha, name_roman_urdu: Istighatha, sort: 2}
+- {id: ilm-e-ghaib, name_en: Ilm-e-Ghaib, name_roman_urdu: Ilm-e-Ghaib, sort: 3}
+- {id: hazir-o-nazir, name_en: Hazir-o-Nazir, name_roman_urdu: Hazir-o-Nazir, sort: 4}
+- {id: ikhtiyarat, name_en: Ikhtiyarat, name_roman_urdu: Ikhtiyarat, sort: 5}
+- {id: karamat, name_en: Karamat, name_roman_urdu: Karamat, sort: 6}
+- {id: nur-o-bashar, name_en: Nur-o-Bashar, name_roman_urdu: Nur-o-Bashar, sort: 7}
+- {id: tawheed, name_en: Tawheed, name_roman_urdu: Tawheed, sort: 8}
+- {id: aqeedah, name_en: Aqeedah, name_roman_urdu: Aqeedah, sort: 9}
+- {id: tasawwuf, name_en: Tasawwuf, name_roman_urdu: Tasawwuf, sort: 10}
+- {id: khatam-e-nabuwwat, name_en: Khatam-e-Nabuwwat, name_roman_urdu: Khatam-e-Nabuwwat, sort: 11}
+- {id: qadianiyat, name_en: Qadianiyat, name_roman_urdu: Qadianiyat, sort: 12}
+- {id: sahaba, name_en: Sahaba, name_roman_urdu: Sahaba, sort: 13}
+- {id: fiqh, name_en: Fiqh, name_roman_urdu: Fiqh, sort: 14}
+- {id: contradictions, name_en: Contradictions, name_roman_urdu: Tazadat, sort: 15}

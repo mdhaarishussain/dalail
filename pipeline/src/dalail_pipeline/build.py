@@ -19,6 +19,7 @@ from .models import embedding_model
 from .normalise import Normaliser
 from .paths import normalise_dir
 from .refs import extract_inline_refs
+from .research_db import ResearchSet, load_research
 from .validate import FIXTURE_MARK, Mode, Report, validate
 
 SCHEMA_VERSION = 1
@@ -32,7 +33,10 @@ CREATE TABLE nodes (
   claim_en TEXT NOT NULL, short_answer TEXT NOT NULL, short_answer_origin TEXT NOT NULL, body_md TEXT NOT NULL,
   response_source_json TEXT NOT NULL, claim_source_json TEXT NOT NULL,
   madhhab TEXT NOT NULL, lang TEXT NOT NULL, status TEXT NOT NULL,
-  verified_by TEXT, verified_on TEXT, is_fixture INTEGER NOT NULL
+  verified_by TEXT, verified_on TEXT, is_fixture INTEGER NOT NULL,
+  origin TEXT NOT NULL DEFAULT 'scholar-article',
+  node_type TEXT NOT NULL DEFAULT 'claim-response',
+  research_json TEXT
 );
 CREATE TABLE node_aliases (
   rowid INTEGER PRIMARY KEY, node_id TEXT NOT NULL REFERENCES nodes(id),
@@ -100,7 +104,7 @@ def _content_sha(corpus: Corpus, repo_root: Path) -> str:
 
 def build(
     *, repo_root: Path, corpus_dir: Path, out_dir: Path, mode: Mode, embed: bool,
-    built_at: dt.datetime | None = None,
+    built_at: dt.datetime | None = None, research: bool = True,
 ) -> BuildResult:  # fmt: skip
     corpus = load_corpus(corpus_dir, include_fixtures=(mode == "dev"))
     report = validate(corpus, mode)
@@ -116,6 +120,20 @@ def build(
     for d in nodes:
         aliases.append((d.id, d.data["claim_en"], "en", "claim"))
         aliases += [(d.id, a, "roman-ur", "alias") for a in d.data.get("claim_roman_urdu") or []]
+
+    # Gemini research set: dev builds only (ADR 0008). Prod never loads it.
+    research_set = None
+    if mode == "dev" and research:
+        research_set = load_research(
+            corpus_dir / "research-import", {t["id"] for t in corpus.topics}, {o["id"] for o in corpus.opponents}
+        )
+    if research_set is not None:
+        for n in research_set.nodes:
+            topic_of[n["id"]] = n["topic"]
+            aliases.append((n["id"], n["claim"], "roman-ur", "claim"))
+            aliases += [(n["id"], a, "roman-ur", "alias") for a in n["aliases"] if a != n["claim"]]
+            if n.get("summary_en"):
+                aliases.append((n["id"], n["summary_en"], "en", "summary"))
 
     model = embedding_model(repo_root)
     vectors: list[list[float]] | None = None
@@ -135,6 +153,8 @@ def build(
         if vectors is not None:
             con.executescript(DDL_VEC)
         _write(con, corpus, report, nodes, node_ids, topic_of, aliases, vectors, normaliser, mode)
+        if research_set is not None:
+            _write_research(con, research_set)
         built = (built_at or dt.datetime.now(dt.UTC)).replace(microsecond=0).isoformat()
         meta = {
             "schema_version": str(SCHEMA_VERSION),
@@ -163,6 +183,10 @@ def build(
     os.replace(tmp, db_path)
 
     manifest = _manifest(db_path, meta, nodes, report, aliases, corpus)
+    manifest["counts"]["research"] = (
+        {"claim_nodes": len(research_set.nodes), "counter_questions": len(research_set.counter_questions),
+         "edges": len(research_set.edges)} if research_set is not None else None
+    )  # fmt: skip
     manifest_path = out_dir / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     return BuildResult(db_path, manifest_path, manifest, report)
@@ -184,7 +208,9 @@ def _write(
     for d in nodes:
         x = d.data
         con.execute(
-            "INSERT INTO nodes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO nodes (id, topic, opponent_json, claim_en, short_answer, short_answer_origin, body_md,"
+            " response_source_json, claim_source_json, madhhab, lang, status, verified_by, verified_on, is_fixture)"
+            " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 d.id, x["topic"], _j(x.get("opponent") or []), x["claim_en"], x.get("short_answer") or "",
                 x.get("short_answer_origin") or "article", d.body.strip() + "\n",
@@ -262,6 +288,29 @@ def _write(
             )
 
 
+def _write_research(con: sqlite3.Connection, rs: ResearchSet) -> None:
+    keep = ("summary_en", "move_type", "suggested_name", "registry_ids_seen", "occurrences", "candidate_responses")
+    for n in rs.nodes:
+        con.execute(
+            "INSERT INTO nodes (id, topic, opponent_json, claim_en, short_answer, short_answer_origin, body_md,"
+            " response_source_json, claim_source_json, madhhab, lang, status, verified_by, verified_on, is_fixture,"
+            " origin, node_type, research_json) VALUES (?, ?, ?, ?, '', 'article', '', '{}', '{}', 'all', 'ur-Latn',"
+            " 'draft', NULL, NULL, 0, ?, 'claim-only', ?)",
+            (n["id"], n["topic"], _j(n["opponent"]), n["claim"], n["origin"], _j({k: n.get(k) for k in keep})),
+        )
+    cq_keep = ("summary_en", "move_type", "suggested_name", "speaker", "source_id", "start_s", "at", "deep_link")
+    for c in rs.counter_questions:
+        con.execute(
+            "INSERT INTO nodes (id, topic, opponent_json, claim_en, short_answer, short_answer_origin, body_md,"
+            " response_source_json, claim_source_json, madhhab, lang, status, verified_by, verified_on, is_fixture,"
+            " origin, node_type, research_json) VALUES (?, ?, '[]', ?, '', 'article', '', '{}', '{}', 'all',"
+            " 'ur-Latn', 'draft', NULL, NULL, 0, ?, 'counter-question', ?)",
+            (c["id"], c.get("topic") or "", c["quote"], c["origin"], _j({k: c.get(k) for k in cq_keep})),
+        )
+    for i, e in enumerate(rs.edges):
+        con.execute("INSERT INTO edges VALUES (?, ?, ?, ?)", (e["from"], e["to"], e["kind"], i))
+
+
 def _prod_post_scan(con: sqlite3.Connection) -> None:
     """Defence in depth: re-read every text cell of the written DB."""
     problems: list[str] = []
@@ -286,6 +335,23 @@ def _prod_post_scan(con: sqlite3.Connection) -> None:
             problems.append(f"{t}: {n} row(s) not verified")
     if con.execute("SELECT COUNT(*) FROM nodes WHERE is_fixture != 0").fetchone()[0]:
         problems.append("nodes: fixture rows present")
+    node_cols = {r[1] for r in con.execute("PRAGMA table_info(nodes)")}
+    if "origin" in node_cols:
+        for what, sql in [
+            ("research nodes (origin gemini-research)", "SELECT COUNT(*) FROM nodes WHERE origin = 'gemini-research'"),
+            ("non-article node types", "SELECT COUNT(*) FROM nodes WHERE node_type != 'claim-response'"),
+            ("research_json rows", "SELECT COUNT(*) FROM nodes WHERE research_json IS NOT NULL"),
+        ]:
+            if n := con.execute(sql).fetchone()[0]:
+                problems.append(f"nodes: {n} {what}")
+    if "edges" in tables:
+        if n := con.execute("SELECT COUNT(*) FROM edges WHERE kind != 'follow_up'").fetchone()[0]:
+            problems.append(f"edges: {n} research edge(s) (counters)")
+        if n := con.execute("SELECT COUNT(*) FROM edges WHERE from_id LIKE 'rs-%' OR to_id LIKE 'rs-%'").fetchone()[0]:
+            problems.append(f"edges: {n} edge(s) touching research ids")
+    research_aliases = "SELECT COUNT(*) FROM node_aliases WHERE node_id LIKE 'rs-%'"
+    if "node_aliases" in tables and (n := con.execute(research_aliases).fetchone()[0]):
+        problems.append(f"node_aliases: {n} research alias(es)")
     if problems:
         raise PipelineError("prod safety scan failed:\n  " + "\n  ".join(problems))
 

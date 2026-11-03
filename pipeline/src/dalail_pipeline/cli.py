@@ -32,6 +32,7 @@ COMMANDS: dict[str, str] = {
     "ingest-finish": "After /ingest-article: fill spans, sync cited_in, validate, find duplicates, summarise.",
     "dedupe": "Report nodes whose claims look like duplicates (embedding cosine + token overlap).",
     "next-id": "Print the next free node id for a topic, or the next hadith id.",
+    "import-research": "DEV builds only: import research/munazara into corpus/research-import/ (ADR 0008).",
     "transcribe": "Developer-only: transcribe an audio file with faster-whisper large-v3 (research/munazara).",
     "parity-export": "Write the e5 parity set (20 strings + pipeline vectors) for the app's Diagnostics screen.",
     "record-review": "Owner: record who wrote/approved a scholar_review field (hashes the current value).",
@@ -53,6 +54,7 @@ def build_parser() -> argparse.ArgumentParser:
             mode.add_argument("--dev", action="store_true", help="Include fixtures and drafts.")
             mode.add_argument("--prod", action="store_true", help="Verified, non-fixture only.")
             cmd.add_argument("--no-embed", action="store_true", help="Keyword-only DB (meta.embed_model = none).")
+            cmd.add_argument("--no-research", action="store_true", help="Dev build without corpus/research-import.")
             cmd.add_argument("--out", type=Path, help="Output folder (default: <repo>/dist).")
         if name == "embed":
             cmd.add_argument("--out", type=Path, help="Folder holding the cache (default: <repo>/dist).")
@@ -66,6 +68,9 @@ def build_parser() -> argparse.ArgumentParser:
             cmd.add_argument("source_id")
         if name in {"ingest-finish", "dedupe"}:
             cmd.add_argument("--no-model", action="store_true", help="Token overlap only (skip embeddings).")
+        if name == "import-research":
+            cmd.add_argument("research_dir", type=Path, help="e.g. ../research/munazara")
+            cmd.add_argument("--out", type=Path, help="Default: <corpus>/research-import")
         if name == "fetch-model":
             cmd.add_argument("--transcription", action="store_true", help="Fetch the pinned Whisper model instead.")
         if name == "transcribe":
@@ -127,7 +132,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             mode = "prod" if args.prod else "dev"
             try:
                 res = build(repo_root=repo, corpus_dir=corpus_dir, out_dir=(args.out or repo / "dist").resolve(),
-                            mode=mode, embed=not args.no_embed)  # fmt: skip
+                            mode=mode, embed=not args.no_embed, research=not args.no_research)  # fmt: skip
             except PipelineError:
                 report = validate(load_corpus(corpus_dir, include_fixtures=mode == "dev"), mode)
                 _print_issues(report.errors, repo)
@@ -153,6 +158,19 @@ def main(argv: Sequence[str] | None = None) -> int:
 
         if args.command == "stats":
             print(stats_text(load_corpus(corpus_dir, include_fixtures=True)))
+            return 0
+
+        if args.command == "import-research":
+            from .embed import Embedder
+            from .research_import import import_research
+            from .sources import opponent_ids
+
+            emb = Embedder(embedding_model(repo), repo / "dist" / ".embed-cache.sqlite")
+            topics = {str(t["id"]) for t in yaml.safe_load((corpus_dir / "topics.yaml").read_text()) or []}
+            out = (args.out or corpus_dir / "research-import").resolve()
+            manifest = import_research(args.research_dir.resolve(), out, emb.passages, topics, opponent_ids(corpus_dir))
+            print(json.dumps(manifest["counts"], indent=2, default=dict))
+            print(f"wrote {out} (see report.md)")
             return 0
 
         if args.command == "fetch-model" and args.transcription:

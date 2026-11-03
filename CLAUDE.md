@@ -64,7 +64,7 @@ Thresholds live in config and are tuned via `/eval`. Never return a single "matc
 - Ingest articles only with `/ingest-article` (`.claude/commands/ingest-article.md`); `ingest-finish` must report 0 errors. Never edit `corpus/sources/` (snapshots are immutable).
 - `eval/questions.real.yaml` is human-written only: never generate, edit, reformat or copy aliases into it (see `eval/REAL_QUESTIONS.md`). Report real and fixture eval results separately.
 - Scholar-supplied fields use `<field>_origin: scholar_review` plus an entry in `corpus/reviews/<node-id>.yaml` (who wrote/approved, sha256), only on verified nodes. Never set or fill these yourself; the owner records them with `record-review`.
-- `research/` (e.g. `research/munazara/`, Gemini and Whisper transcripts) is unverified research only: never ingest it, never copy its text into `corpus/`, never show it in the app. Nodes come only from scholar articles captured in `corpus/sources/`.
+- `research/` (e.g. `research/munazara/`) is unverified research. It may be imported into **dev builds only**, with `python -m dalail_pipeline import-research research/munazara`, as `origin: gemini-research`, `status: draft` (generated into `corpus/research-import/`, regenerated on every run, never hand-edited, never via `/ingest-article`). `build --prod` refuses any node, alias, counter-question or edge with that origin (validation + post-build scan). Nothing from research is ever shareable; in the app it is shown only behind the "AI-extracted from video — not verified by scholars" banner, and Gemini's "evidence as said" is shown as plain text, never as a dalil card (ADR 0008). Real nodes still come only from scholar articles captured in `corpus/sources/`.
 - Sources carry `default_opponent`; ingestion flags claims from another group for the owner, never guesses. Never translate or transliterate article text (Urdu script stays Urdu script).
 - Prod builds exclude non-verified nodes and prune follow-up edges to them (reported); citing an unverified hadith or an ayah missing from `corpus/quran/` fails the build.
 
@@ -88,6 +88,7 @@ uv run python -m dalail_pipeline ingest-finish <source-id>   # spans, cited_in, 
 uv run python -m dalail_pipeline check-verbatim | dedupe | next-id node --topic T | next-id hadith
 uv run python -m dalail_pipeline transcribe <audio> --source-id yt-<id>   # dev-only, needs --extra transcribe
 python research/munazara/tools/coverage.py [--update-readme]               # transcript coverage audit
+uv run python -m dalail_pipeline import-research ../research/munazara        # dev-only research import
 uv run python -m dalail_pipeline embed-queries ../eval/questions.fixture.yaml ../eval/questions.real.yaml
 pnpm --filter @dalail/eval eval [--mode keyword|hybrid]  # top-1 / top-3 / ambiguous / no-match
 pnpm --filter @dalail/mobile android   # dev client on emulator/device (needs Android SDK)

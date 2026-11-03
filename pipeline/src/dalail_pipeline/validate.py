@@ -157,6 +157,9 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
             add(Issue(doc.path, doc.line("short_answer" if "short_answer" in doc.key_lines else "id"),
                       "NEEDS_SHORT_ANSWER", "no short_answer yet (needs human input)", "warning"))  # fmt: skip
         _check_fixture_marking(doc, add)
+        if doc.origin == "real" and str(doc.data.get("origin") or "") == "gemini-research":
+            add(Issue(doc.path, doc.line("origin"), "RESEARCH_IN_CORPUS",
+                      "gemini-research content may not live in corpus/nodes (dev-only import, ADR 0008)"))  # fmt: skip
 
     for h in corpus.hadith:
         for err in validator(corpus.root, "hadith").iter_errors(h.data):

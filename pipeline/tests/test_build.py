@@ -12,7 +12,7 @@ from dalail_pipeline.models import embedding_model
 
 
 def test_dev_build_keyword_only(repo: Path, tmp_path: Path) -> None:
-    res = build(repo_root=repo, corpus_dir=repo / "corpus", out_dir=tmp_path, mode="dev", embed=False)
+    res = build(repo_root=repo, corpus_dir=repo / "corpus", out_dir=tmp_path, mode="dev", embed=False, research=False)
     con = sqlite3.connect(res.db_path)
     meta = dict(con.execute("SELECT key, value FROM meta"))
     assert meta["embed_model"] == "none" and meta["build_mode"] == "dev"
@@ -111,7 +111,7 @@ def test_dev_build_with_embeddings(repo: Path, tmp_path: Path) -> None:
         pytest.skip("models/ GGUF or the embed extra is missing")
     import sqlite_vec
 
-    res = build(repo_root=repo, corpus_dir=repo / "corpus", out_dir=tmp_path, mode="dev", embed=True)
+    res = build(repo_root=repo, corpus_dir=repo / "corpus", out_dir=tmp_path, mode="dev", embed=True, research=False)
     con = sqlite3.connect(res.db_path)
     con.enable_load_extension(True)
     sqlite_vec.load(con)
