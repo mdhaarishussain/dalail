@@ -52,6 +52,11 @@ questions:
   - { q: 'chaand aur sitaare', expect: [fixture-istighatha-006], style: roman-urdu }
   - { q: 'moon and stars', expect: [fixture-istighatha-006], style: en }
   - { q: 'chand taare', expect: [fixture-istighatha-006], style: variant }
+  # Urdu script (with Arabic-codepoint variants as people often type them)
+  - { q: 'قلم اور كتاب', expect: [fixture-tawassul-001], style: urdu-script }
+  - { q: 'قلم کتاب', expect: [fixture-tawassul-001], style: urdu-script }
+  - { q: 'چاند اور ستاري', expect: [fixture-istighatha-006], style: urdu-script }
+  - { q: 'چاند ستارے', expect: [fixture-istighatha-006], style: urdu-script }
   # ambiguous on purpose: both nodes are about a "ghar"
   - {
       q: 'ghar',

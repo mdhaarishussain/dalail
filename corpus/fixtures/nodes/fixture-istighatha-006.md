@@ -11,6 +11,7 @@ claim_roman_urdu:
   - "FIXTURE: sitaron ka chaand"
   - "FIXTURE: moon aur sitaare"
   - "FIXTURE: chaand aur taare"
+  - "FIXTURE: چاند اور ستارے"
 claim_source:
   work: "FIXTURE: opponent work 6"
   author: "FIXTURE: opponent author"
@@ -25,7 +26,7 @@ response_source:
 dalail: [fixture:quran:6]
 follow_ups: []
 madhhab: all
-lang: en
+lang: ur
 verified_by: "FIXTURE: reviewer"
 verified_on: 2026-11-01
 status: verified
@@ -33,6 +34,6 @@ status: verified
 
 ## Response
 
-FIXTURE: response paragraph one for istighatha node 6. See [[fixture:quran:6]].
+FIXTURE: یہ چاند اور ستاروں کے بارے میں نمونے کا پہلا پیراگراف ہے۔ [[fixture:quran:6]]
 
-FIXTURE: response paragraph two for istighatha node 6.
+FIXTURE: یہ نمونے کا دوسرا پیراگراف ہے، صرف جانچ کے لیے۔

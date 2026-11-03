@@ -11,9 +11,13 @@ describe('normaliseRomanUrdu golden cases', () => {
 
 describe('rule coverage', () => {
   const covered = new Set(golden.cases.map((c) => c.rule));
-  it.each([...rules.izafat, ...rules.fold].map((r) => r.id))('rule %s has a golden case', (id) => {
-    expect(covered.has(id)).toBe(true);
-  });
+  const charmapIds = [rules.charmap_norm._ids, rules.charmap_fold._ids].join(' ').split(' ');
+  it.each([...rules.izafat, ...rules.fold].map((r) => r.id).concat(charmapIds))(
+    'rule %s has a golden case',
+    (id) => {
+      expect(covered.has(id)).toBe(true);
+    },
+  );
 });
 
 describe('spelling variants converge', () => {
@@ -23,6 +27,10 @@ describe('spelling variants converge', () => {
     ['qalam', 'kalam'],
     ['kitaab', 'kitab'],
     ['zameen', 'zamin'],
+    ['كتاب', 'کتاب'],
+    ['پاني', 'پانی'],
+    ['کِتَاب', 'کتاب'],
+    ['گھر', 'گہر'],
   ])('%s ~ %s', (a, b) => {
     expect(normaliseRomanUrdu(a).folded).toBe(normaliseRomanUrdu(b).folded);
   });

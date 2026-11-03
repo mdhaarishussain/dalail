@@ -11,6 +11,8 @@ claim_roman_urdu:
   - "FIXTURE: qlm aur kitaab"
   - "FIXTURE: pen aur kitaab"
   - "FIXTURE: qalam or kitab"
+  - "FIXTURE: قلم اور کتاب"
+  - "FIXTURE: قلم کتاب کی بات"
 claim_source:
   work: "FIXTURE: opponent work 1"
   author: "FIXTURE: opponent author"

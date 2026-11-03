@@ -127,3 +127,15 @@ def test_orphan_is_a_warning(corpus_copy: Path) -> None:
     )
     rep = validate(load_corpus(corpus_copy, include_fixtures=True), "dev")
     assert "ORPHAN" in [w.code for w in rep.warnings]
+
+
+def test_lang_mismatch_warning(corpus_copy: Path) -> None:
+    p = corpus_copy / "fixtures/nodes/fixture-istighatha-006.md"
+    replace_in(p, "lang: ur", "lang: en")
+    rep = validate(load_corpus(corpus_copy, include_fixtures=True), "dev")
+    assert "LANG_MISMATCH" in [w.code for w in rep.warnings]
+
+
+def test_urdu_fixture_is_clean(repo: Path) -> None:
+    rep = validate(load_corpus(repo / "corpus", include_fixtures=True), "dev")
+    assert not [i for i in rep.issues if i.code == "LANG_MISMATCH"]

@@ -30,6 +30,8 @@ class Normaliser:
         self.rules_version: int = rules["version"]
         self._izafat = [(re.compile(r["pattern"]), _py_replace(r["replace"])) for r in rules["izafat"]]
         self._fold = [(re.compile(r["pattern"]), _py_replace(r["replace"])) for r in rules["fold"]]
+        self._norm_chars = str.maketrans({k: v for k, v in rules["charmap_norm"].items() if not k.startswith("_")})
+        self._fold_chars = str.maketrans({k: v for k, v in rules["charmap_fold"].items() if not k.startswith("_")})
         self._syn: dict[str, str] = {}
         for group, members in synonyms["groups"].items():
             for m in members:
@@ -39,11 +41,12 @@ class Normaliser:
     def fold_token(self, token: str) -> str:
         for rx, rep in self._fold:
             token = rx.sub(rep, token)
-        return token
+        return token.translate(self._fold_chars)
 
     def base_tokens(self, text: str) -> list[str]:
         s = unicodedata.normalize("NFKD", text)
         s = "".join(ch for ch in s if not unicodedata.category(ch).startswith("M")).lower()
+        s = s.translate(self._norm_chars)
         for rx, rep in self._izafat:
             s = rx.sub(rep, s)
         s = "".join(ch if unicodedata.category(ch)[0] in "LN" else " " for ch in s)

@@ -23,3 +23,16 @@ Queries are normalised on device (TypeScript, Hermes); aliases are normalised at
 
 - Calling Node from the pipeline for one implementation: adds a cross-runtime dependency to every
   build for little gain, given the golden file catches drift.
+
+## Addendum (2026-11-04): Urdu script
+
+Articles and queries may be in Urdu script. Search-side normalisation only — display always uses
+the stored text exactly as written, and nothing is translated or transliterated.
+
+- `charmap_norm` (both forms): delete ZWNJ/ZWJ and tatweel (ZWNJ would otherwise split a word into
+  two tokens); unify Arabic-codepoint variants commonly typed for Urdu letters: `ي ى → ی`, `ك → ک`,
+  `ه ة → ہ`. NFKD + mark stripping already removes harakat and hamza/madda marks.
+- `charmap_fold` (folded form only): `ے → ی`, `ھ → ہ`, Urdu and Arabic-Indic digits → ASCII.
+- Urdu punctuation (`،`, `۔`) is treated as a separator like Latin punctuation.
+- Every charmap id has a golden case, held by both test suites.
+- `validate` warns `LANG_MISMATCH` when a node's `lang` disagrees with its body's script.

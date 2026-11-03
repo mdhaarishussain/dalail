@@ -37,18 +37,78 @@
       "norm": "ilm e ghayb",
       "folded": "ilm e gaib"
     },
-    { "rule": "gh", "input": "ghar", "norm": "ghar", "folded": "gar" },
-    { "rule": "kh", "input": "khidki", "norm": "khidki", "folded": "kidki" },
-    { "rule": "dh", "input": "dhoop", "norm": "dhoop", "folded": "zup" },
-    { "rule": "zh", "input": "zhaala", "norm": "zhaala", "folded": "zala" },
-    { "rule": "q", "input": "qalam", "norm": "qalam", "folded": "kalam" },
-    { "rule": "ee", "input": "zameen", "norm": "zameen", "folded": "zamin" },
-    { "rule": "oo", "input": "phool", "norm": "phool", "folded": "phul" },
-    { "rule": "ay", "input": "ghayb", "norm": "ghayb", "folded": "gaib" },
-    { "rule": "w", "input": "dewaar", "norm": "dewaar", "folded": "devar" },
-    { "rule": "double", "input": "kitaab chhatt", "norm": "kitaab chhatt", "folded": "kitab chat" },
-    { "rule": "hyphen-non-izafat", "input": "aam-taur", "norm": "aam taur", "folded": "am taur" },
-    { "rule": "digits-kept", "input": "Room 101", "norm": "room 101", "folded": "rum 101" },
+    {
+      "rule": "gh",
+      "input": "ghar",
+      "norm": "ghar",
+      "folded": "gar"
+    },
+    {
+      "rule": "kh",
+      "input": "khidki",
+      "norm": "khidki",
+      "folded": "kidki"
+    },
+    {
+      "rule": "dh",
+      "input": "dhoop",
+      "norm": "dhoop",
+      "folded": "zup"
+    },
+    {
+      "rule": "zh",
+      "input": "zhaala",
+      "norm": "zhaala",
+      "folded": "zala"
+    },
+    {
+      "rule": "q",
+      "input": "qalam",
+      "norm": "qalam",
+      "folded": "kalam"
+    },
+    {
+      "rule": "ee",
+      "input": "zameen",
+      "norm": "zameen",
+      "folded": "zamin"
+    },
+    {
+      "rule": "oo",
+      "input": "phool",
+      "norm": "phool",
+      "folded": "phul"
+    },
+    {
+      "rule": "ay",
+      "input": "ghayb",
+      "norm": "ghayb",
+      "folded": "gaib"
+    },
+    {
+      "rule": "w",
+      "input": "dewaar",
+      "norm": "dewaar",
+      "folded": "devar"
+    },
+    {
+      "rule": "double",
+      "input": "kitaab chhatt",
+      "norm": "kitaab chhatt",
+      "folded": "kitab chat"
+    },
+    {
+      "rule": "hyphen-non-izafat",
+      "input": "aam-taur",
+      "norm": "aam taur",
+      "folded": "am taur"
+    },
+    {
+      "rule": "digits-kept",
+      "input": "Room 101",
+      "norm": "room 101",
+      "folded": "rum 101"
+    },
     {
       "rule": "synonym",
       "input": "Huzoor ki baat",
@@ -67,12 +127,113 @@
       "norm": "nabi aur rasool prophet",
       "folded": "nabi aur rasul prophet"
     },
-    { "rule": "empty", "input": " ?! ", "norm": "", "folded": "" },
+    {
+      "rule": "empty",
+      "input": " ?! ",
+      "norm": "",
+      "folded": ""
+    },
     {
       "rule": "non-latin-letters-kept",
       "input": "قلم qalam",
       "norm": "قلم qalam",
       "folded": "قلم kalam"
+    },
+    {
+      "rule": "arabic-kaf",
+      "input": "كتاب",
+      "norm": "کتاب",
+      "folded": "کتاب"
+    },
+    {
+      "rule": "arabic-yeh",
+      "input": "پاني",
+      "norm": "پانی",
+      "folded": "پانی"
+    },
+    {
+      "rule": "alef-maksura",
+      "input": "پانى",
+      "norm": "پانی",
+      "folded": "پانی"
+    },
+    {
+      "rule": "arabic-heh",
+      "input": "خانه",
+      "norm": "خانہ",
+      "folded": "خانہ"
+    },
+    {
+      "rule": "teh-marbuta",
+      "input": "ساعة",
+      "norm": "ساعہ",
+      "folded": "ساعہ"
+    },
+    {
+      "rule": "tatweel",
+      "input": "کتـــاب",
+      "norm": "کتاب",
+      "folded": "کتاب"
+    },
+    {
+      "rule": "zwnj",
+      "input": "ہم‌سفر",
+      "norm": "ہمسفر",
+      "folded": "ہمسفر"
+    },
+    {
+      "rule": "zwj",
+      "input": "ہم‍سفر",
+      "norm": "ہمسفر",
+      "folded": "ہمسفر"
+    },
+    {
+      "rule": "harakat",
+      "input": "کِتَاب",
+      "norm": "کتاب",
+      "folded": "کتاب"
+    },
+    {
+      "rule": "madda-hamza",
+      "input": "آم اور گائے",
+      "norm": "ام اور گایے",
+      "folded": "ام اور گایی"
+    },
+    {
+      "rule": "yeh-barree",
+      "input": "بچے",
+      "norm": "بچے",
+      "folded": "بچی"
+    },
+    {
+      "rule": "do-chashmi-heh",
+      "input": "گھر",
+      "norm": "گھر",
+      "folded": "گہر"
+    },
+    {
+      "rule": "urdu-digits",
+      "input": "کمرہ ۱۰۱",
+      "norm": "کمرہ ۱۰۱",
+      "folded": "کمرہ 101"
+    },
+    {
+      "rule": "arabic-digits",
+      "input": "٤٢",
+      "norm": "٤٢",
+      "folded": "42"
+    },
+    {
+      "rule": "urdu-punctuation",
+      "input": "قلم، کتاب۔",
+      "norm": "قلم کتاب",
+      "folded": "قلم کتاب"
+    },
+    {
+      "rule": "mixed-script",
+      "input": "Qalam اور كتاب",
+      "norm": "qalam اور کتاب",
+      "folded": "kalam اور کتاب"
     }
   ]
 }

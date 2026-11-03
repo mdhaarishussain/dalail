@@ -1,21 +1,109 @@
 {
   "version": 1,
-  "_doc": "Roman Urdu normalisation rules. Data only: the owner may extend these without code changes. `izafat` runs on the lowercased text before punctuation is stripped. `fold` runs in order on each token to build the secondary (folded) form. Replacements use $1 for the first capture group. Every rule must have a case in normalise.golden.json.",
+  "_doc": "Roman Urdu / Urdu-script normalisation rules. Data only: the owner may extend these without code changes. `charmap_norm` maps single characters (applied after diacritics are stripped, before tokenising) and unifies Arabic-script codepoint variants; an empty value deletes the character. `izafat` runs on the lowercased text before punctuation is stripped. `fold` runs in order on each token to build the secondary (folded) form, followed by `charmap_fold`. Replacements use $1 for the first capture group. Every rule must have a case in normalise.golden.json.",
+  "charmap_norm": {
+    "_ids": "zwnj zwj tatweel arabic-yeh alef-maksura arabic-kaf arabic-heh teh-marbuta",
+    "‌": "",
+    "‍": "",
+    "ـ": "",
+    "ي": "ی",
+    "ى": "ی",
+    "ك": "ک",
+    "ه": "ہ",
+    "ة": "ہ"
+  },
   "izafat": [
-    { "id": "izafat-hyphen-both", "pattern": "-e-", "replace": " e " },
-    { "id": "izafat-hyphen-before", "pattern": "-e(?=\\s|$)", "replace": " e" },
-    { "id": "izafat-hyphen-after", "pattern": "(^|\\s)e-", "replace": "$1e " }
+    {
+      "id": "izafat-hyphen-both",
+      "pattern": "-e-",
+      "replace": " e "
+    },
+    {
+      "id": "izafat-hyphen-before",
+      "pattern": "-e(?=\\s|$)",
+      "replace": " e"
+    },
+    {
+      "id": "izafat-hyphen-after",
+      "pattern": "(^|\\s)e-",
+      "replace": "$1e "
+    }
   ],
   "fold": [
-    { "id": "gh", "pattern": "gh", "replace": "g" },
-    { "id": "kh", "pattern": "kh", "replace": "k" },
-    { "id": "dh", "pattern": "dh", "replace": "z" },
-    { "id": "zh", "pattern": "zh", "replace": "z" },
-    { "id": "q", "pattern": "q", "replace": "k" },
-    { "id": "ee", "pattern": "ee", "replace": "i" },
-    { "id": "oo", "pattern": "oo", "replace": "u" },
-    { "id": "ay", "pattern": "ay", "replace": "ai" },
-    { "id": "w", "pattern": "w", "replace": "v" },
-    { "id": "double", "pattern": "([a-z])\\1+", "replace": "$1" }
-  ]
+    {
+      "id": "gh",
+      "pattern": "gh",
+      "replace": "g"
+    },
+    {
+      "id": "kh",
+      "pattern": "kh",
+      "replace": "k"
+    },
+    {
+      "id": "dh",
+      "pattern": "dh",
+      "replace": "z"
+    },
+    {
+      "id": "zh",
+      "pattern": "zh",
+      "replace": "z"
+    },
+    {
+      "id": "q",
+      "pattern": "q",
+      "replace": "k"
+    },
+    {
+      "id": "ee",
+      "pattern": "ee",
+      "replace": "i"
+    },
+    {
+      "id": "oo",
+      "pattern": "oo",
+      "replace": "u"
+    },
+    {
+      "id": "ay",
+      "pattern": "ay",
+      "replace": "ai"
+    },
+    {
+      "id": "w",
+      "pattern": "w",
+      "replace": "v"
+    },
+    {
+      "id": "double",
+      "pattern": "([a-z])\\1+",
+      "replace": "$1"
+    }
+  ],
+  "charmap_fold": {
+    "_ids": "yeh-barree do-chashmi-heh urdu-digits arabic-digits",
+    "ے": "ی",
+    "ھ": "ہ",
+    "۰": "0",
+    "٠": "0",
+    "۱": "1",
+    "١": "1",
+    "۲": "2",
+    "٢": "2",
+    "۳": "3",
+    "٣": "3",
+    "۴": "4",
+    "٤": "4",
+    "۵": "5",
+    "٥": "5",
+    "۶": "6",
+    "٦": "6",
+    "۷": "7",
+    "٧": "7",
+    "۸": "8",
+    "٨": "8",
+    "۹": "9",
+    "٩": "9"
+  }
 }

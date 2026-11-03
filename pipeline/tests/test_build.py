@@ -17,13 +17,15 @@ def test_dev_build_keyword_only(repo: Path, tmp_path: Path) -> None:
     meta = dict(con.execute("SELECT key, value FROM meta"))
     assert meta["embed_model"] == "none" and meta["build_mode"] == "dev"
     assert con.execute("SELECT COUNT(*) FROM nodes").fetchone()[0] == 12
-    assert con.execute("SELECT COUNT(*) FROM node_aliases").fetchone()[0] == 12 * 7
+    assert (
+        con.execute("SELECT COUNT(*) FROM node_aliases").fetchone()[0] == 12 * 7 + 3
+    )  # + 3 Urdu-script fixture aliases
     assert con.execute("SELECT COUNT(*) FROM fixture_dalil").fetchone()[0] == 10
     assert not con.execute("SELECT name FROM sqlite_master WHERE name = 'vec_aliases'").fetchall()
     # FTS rowids equal alias rowids; topic rows come after them.
     assert con.execute(
         "SELECT COUNT(*) FROM nodes_fts f JOIN node_aliases a ON a.rowid = f.rowid WHERE a.node_id = f.node_id"
-    ).fetchone()[0] == 84  # fmt: skip
+    ).fetchone()[0] == 87  # fmt: skip
     hits = con.execute(
         "SELECT DISTINCT node_id FROM nodes_fts WHERE nodes_fts MATCH ? AND kind != 'topic'",
         ('{text_norm text_folded}: "kalam" OR "kitab"',),
@@ -114,7 +116,7 @@ def test_dev_build_with_embeddings(repo: Path, tmp_path: Path) -> None:
     con.enable_load_extension(True)
     sqlite_vec.load(con)
     assert dict(con.execute("SELECT key, value FROM meta"))["embed_dims"] == "384"
-    assert con.execute("SELECT COUNT(*) FROM vec_aliases").fetchone()[0] == 84
+    assert con.execute("SELECT COUNT(*) FROM vec_aliases").fetchone()[0] == 87
     blob = con.execute("SELECT embedding FROM vec_aliases WHERE alias_rowid = 1").fetchone()[0]
     assert len(blob) == 384 * 4
     (nearest,) = con.execute(

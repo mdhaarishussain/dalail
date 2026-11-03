@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from collections.abc import Iterator
 from dataclasses import dataclass, field
@@ -21,6 +22,17 @@ STRUCTURAL_KEYS = {
     "madhhab", "lang", "status", "verified_on", "source_id", "source_spans", "cited_in",
 }  # fmt: skip
 ALIAS_MIN, ALIAS_MAX = 5, 15
+RTL_LANGS = {"ur", "ar", "fa"}
+
+
+def arabic_script_share(text: str) -> float | None:
+    """Share of letters in Arabic-script blocks, or None if there are too few letters to judge."""
+    letters = [ch for ch in text if ch.isalpha()]
+    if len(letters) < 20:
+        return None
+    arabic = sum(1 for ch in letters if "\u0600" <= ch <= "\u06ff" or "\u0750" <= ch <= "\u077f"
+                 or "\ufb50" <= ch <= "\ufdff" or "\ufe70" <= ch <= "\ufeff")  # fmt: skip
+    return arabic / len(letters)
 
 
 @dataclass
@@ -109,6 +121,12 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
                         f"opponent '{o}' not in opponents.yaml",
                     )
                 )
+        body_text = re.sub(r"\[\[[^\]]*\]\]|FIXTURE:|^#.*$", "", doc.body, flags=re.M)
+        share = arabic_script_share(body_text)
+        lang = str(doc.data.get("lang") or "")
+        if share is not None and ((share > 0.5) != (lang.split("-")[0] in RTL_LANGS)):
+            add(Issue(doc.path, doc.line("lang"), "LANG_MISMATCH",
+                      f"lang '{lang}' but {share:.0%} of the body's letters are Arabic script", "warning"))  # fmt: skip
         if "## Response" not in doc.body:
             add(
                 Issue(
