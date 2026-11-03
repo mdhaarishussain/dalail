@@ -83,7 +83,7 @@ def corpus_copy(tmp_path: Path) -> Path:
 def real_corpus(tmp_path: Path) -> Path:
     """A corpus with one verified real node + hadith and no fixtures."""
     dst = tmp_path / "corpus"
-    shutil.copytree(REPO / "corpus", dst, ignore=shutil.ignore_patterns("fixtures"))
+    shutil.copytree(REPO / "corpus", dst, ignore=shutil.ignore_patterns("fixtures", "research-import"))
     (dst / "nodes" / "test-real-001.md").write_text(REAL_NODE)
     (dst / "hadith" / "h-9999.md").write_text(REAL_HADITH)
     write_test_quran(dst, surahs=(1, 2))

@@ -1,0 +1,13 @@
+# HELD-OUT eval questions for the research content — HUMAN-WRITTEN ONLY (owner, ~30 entries).
+# Same rules as questions.real.yaml (see eval/REAL_QUESTIONS.md): never generated or edited by
+# Claude/tools, never copied from aliases or from research/ quotes, phrasings or summaries.
+# `validate` fails with EVAL_LEAK if a question (nearly) equals any alias, claim or research text.
+# Expected ids can be research nodes (rs-<topic>-NNN, see corpus/research-import/nodes.yaml).
+#
+#   - q: "exactly what the person typed"
+#     expect: [rs-istighatha-003]
+#     style: roman-urdu
+#     added_by: "name"
+#     added_on: 2026-11-05
+#     origin: "owner"
+questions: []

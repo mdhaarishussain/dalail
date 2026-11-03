@@ -22,6 +22,7 @@ const { values: args } = parseArgs({
     db: { type: 'string', default: resolve(repo, 'dist/dalail.db') },
     fixture: { type: 'string', default: resolve(evalDir, 'questions.fixture.yaml') },
     real: { type: 'string', default: resolve(evalDir, 'questions.real.yaml') },
+    heldout: { type: 'string', default: resolve(evalDir, 'questions.heldout.yaml') },
     embeddings: { type: 'string', default: resolve(evalDir, '.cache/query-embeddings.json') },
     mode: { type: 'string', default: 'auto' },
     'min-top1': { type: 'string' },
@@ -108,6 +109,7 @@ async function main(): Promise<number> {
   const sets = [
     { name: 'fixture', questions: load(args.fixture), fixture: 1 },
     { name: 'real', questions: load(args.real), fixture: 0 },
+    { name: 'held-out (research)', questions: load(args.heldout), fixture: 0 },
   ];
 
   let vectors: Record<string, number[]> | null = null;

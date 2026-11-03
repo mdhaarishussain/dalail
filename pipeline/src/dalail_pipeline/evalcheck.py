@@ -15,6 +15,8 @@ from .normalise import Normaliser
 from .paths import normalise_dir
 
 REAL_FILE = "eval/questions.real.yaml"
+# Human-written sets: same schema, provenance rules and alias-leak check.
+HUMAN_FILES = (REAL_FILE, "eval/questions.heldout.yaml")
 REAL_REQUIRED = ("added_by", "added_on", "origin")
 
 
@@ -25,10 +27,29 @@ def _line_of(lines: list[str], q: str) -> int:
     return 1
 
 
-def check_real_eval(repo_root: Path, corpus: Corpus) -> list[Issue]:
-    path = repo_root / REAL_FILE
+def _research_targets(corpus: Corpus) -> list[tuple[str, str]]:
+    """(node id, text) for the dev-only research import (ADR 0008): claims, aliases, summaries."""
+    path = corpus.root / "research-import" / "nodes.yaml"
     if not path.is_file():
-        return [Issue(path, 1, "EVAL_MISSING", "eval/questions.real.yaml is missing", "warning")]
+        return []
+    out = []
+    for n in yaml.safe_load(path.read_text(encoding="utf-8")) or []:
+        for t in [n.get("claim") or "", n.get("summary_en") or "", *(n.get("aliases") or [])]:
+            if t:
+                out.append((str(n["id"]), str(t)))
+    return out
+
+
+def check_real_eval(repo_root: Path, corpus: Corpus) -> list[Issue]:
+    issues: list[Issue] = []
+    for rel in HUMAN_FILES:
+        issues += _check_file(repo_root, repo_root / rel, corpus)
+    return issues
+
+
+def _check_file(repo_root: Path, path: Path, corpus: Corpus) -> list[Issue]:
+    if not path.is_file():
+        return [Issue(path, 1, "EVAL_MISSING", f"{path.name} is missing", "warning")]
     text = path.read_text(encoding="utf-8")
     lines = text.split("\n")
     try:
@@ -46,13 +67,15 @@ def check_real_eval(repo_root: Path, corpus: Corpus) -> list[Issue]:
 
     cfg = json.loads((repo_root / "eval" / "config.json").read_text())["leak"]
     norm = Normaliser(normalise_dir(repo_root))
-    node_ids = {d.id for d in corpus.nodes}
+    research = _research_targets(corpus)
+    node_ids = {d.id for d in corpus.nodes} | {nid for nid, _ in research}
     targets: list[tuple[str, str, str]] = []  # (node id, original text, folded)
     for d in corpus.nodes:
         for t in [d.data.get("claim_en") or "", *(d.data.get("claim_roman_urdu") or [])]:
             clean = t.removeprefix("FIXTURE:").strip()
             if clean:
                 targets.append((d.id, t, norm(clean).folded))
+    targets += [(nid, t, norm(t).folded) for nid, t in research]
 
     for q in data["questions"]:
         line = _line_of(lines, q["q"])

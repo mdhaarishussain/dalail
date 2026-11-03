@@ -20,3 +20,16 @@ go to `eval/results/latest.json` (gitignored).
 - Thresholds live in `packages/core/src/retrieval/config.json`; tune there.
 - Vector search loads the same sqlite-vec binary as the pipeline (found via `uv`), or set
   `DALAIL_SQLITE_VEC=/path/to/vec0`.
+
+## Held-out research questions and leave-one-out
+
+- `questions.heldout.yaml`: ~30 human-written queries against the research claims (dev builds,
+  ADR 0008). Same rules and leak check as the real set; the leak check also covers research claims,
+  phrasings and summaries. Reported as its own block.
+- Leave-one-out over the research phrasings (how real Roman Urdu matches before any human questions):
+
+```bash
+pnpm --filter @dalail/eval loo --write-queries
+cd pipeline && uv run python -m dalail_pipeline embed-queries ../eval/.cache/loo-queries.yaml --out ../eval/.cache/loo-embeddings.json && cd ..
+pnpm --filter @dalail/eval loo            # keyword and hybrid; misses in eval/results/loo.json
+```

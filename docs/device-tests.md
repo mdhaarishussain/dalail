@@ -12,9 +12,9 @@ mid-range matrix.
 
 ## Results
 
-| Date       | Phone (model / Android / RAM) | Build                            | Model check | sqlite-vec     | Parity (min / mean, n=20) | Search time (4 queries)       | Notes                                 |
-| ---------- | ----------------------------- | -------------------------------- | ----------- | -------------- | ------------------------- | ----------------------------- | ------------------------------------- |
-| 2026-11-04 | _owner to add_                | dev-fixtures arm64 (`167f4f42…`) | verified    | v0.1.7-alpha.2 | **PASS** 0.9999 / 1.0000  | 31 / 20 / 17 / 23 ms (max 31) | init 19 ms; "Hi" → no match (correct) |
+| Date       | Phone (model / Android / RAM)                          | Build                            | Model check | sqlite-vec     | Parity (min / mean, n=20) | Search time (4 queries)       | Notes                                 |
+| ---------- | ------------------------------------------------------ | -------------------------------- | ----------- | -------------- | ------------------------- | ----------------------------- | ------------------------------------- |
+| 2026-11-04 | Samsung Galaxy M32 5G / Android 13 (One UI 5.1) / 6 GB | dev-fixtures arm64 (`167f4f42…`) | verified    | v0.1.7-alpha.2 | **PASS** 0.9999 / 1.0000  | 31 / 20 / 17 / 23 ms (max 31) | init 19 ms; "Hi" → no match (correct) |
 
 ## Phase 2 checklist (airplane mode)
 

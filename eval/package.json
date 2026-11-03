@@ -6,7 +6,8 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "eval": "tsx src/run.ts"
+    "eval": "tsx src/run.ts",
+    "loo": "tsx src/loo.ts"
   },
   "dependencies": {
     "@dalail/core": "workspace:*",

@@ -18,6 +18,7 @@ def fake_repo(repo: Path, real_corpus: Path, tmp_path: Path) -> Path:
     for f in ("questions.schema.json", "config.json"):
         shutil.copy(repo / "eval" / f, root / "eval" / f)
     (root / "packages").symlink_to(repo / "packages")
+    (root / "eval" / "questions.heldout.yaml").write_text("questions: []\n")
     return root
 
 
@@ -55,3 +56,18 @@ def test_provenance_and_unknown_node(fake_repo: Path, real_corpus: Path) -> None
 
 def test_schema_error(fake_repo: Path, real_corpus: Path) -> None:
     assert run(fake_repo, real_corpus, '  - q: "no expectation"\n') == ["SCHEMA"]
+
+
+def test_heldout_file_checks_research_aliases(fake_repo: Path, real_corpus: Path) -> None:
+    import yaml
+
+    (real_corpus / "research-import").mkdir()
+    node = {"id": "rs-tawassul-001", "claim": "TEST research claim words", "summary_en": "TEST summary",
+            "aliases": ["TEST research phrasing here"]}  # fmt: skip
+    (real_corpus / "research-import" / "nodes.yaml").write_text(yaml.safe_dump([node]))
+    (fake_repo / "eval" / "questions.real.yaml").write_text("questions: []\n")
+    (fake_repo / "eval" / "questions.heldout.yaml").write_text(
+        f'questions:\n  - q: "TEST research phrasing here"\n    expect: [rs-tawassul-001]\n    {PROV}\n'
+    )
+    codes = [i.code for i in check_real_eval(fake_repo, load_corpus(real_corpus, include_fixtures=False))]
+    assert codes == ["EVAL_LEAK"]
