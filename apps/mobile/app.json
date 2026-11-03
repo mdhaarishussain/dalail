@@ -18,9 +18,66 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "org.dalail.app"
+      "package": "org.dalail.app",
+      "permissions": []
     },
-    "plugins": ["expo-router", "expo-localization"],
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "llama.rn",
+        {
+          "enableEntitlements": false,
+          "enableOpenCLAndHexagon": false
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Amiri",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Amiri-Regular.ttf",
+                    "weight": 400
+                  },
+                  {
+                    "path": "./assets/fonts/Amiri-Bold.ttf",
+                    "weight": 700
+                  }
+                ]
+              },
+              {
+                "fontFamily": "NotoNastaliqUrdu",
+                "path": "./assets/fonts/NotoNastaliqUrdu.ttf",
+                "fontDefinitions": [
+                  {
+                    "weight": 400
+                  },
+                  {
+                    "weight": 700,
+                    "axes": {
+                      "wght": 700
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": [
+              "./assets/fonts/Amiri-Regular.ttf",
+              "./assets/fonts/Amiri-Bold.ttf",
+              "./assets/fonts/NotoNastaliqUrdu.ttf"
+            ]
+          }
+        }
+      ],
+      "expo-sharing",
+      "./plugins/withDalailAssets"
+    ],
     "scheme": "dalail"
   }
 }

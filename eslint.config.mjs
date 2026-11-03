@@ -25,6 +25,10 @@ export default tseslint.config(
     languageOptions: { globals: { ...globals.node } },
     rules: {
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_', ignoreRestSiblings: true },
+      ],
     },
   },
   {
@@ -39,6 +43,23 @@ export default tseslint.config(
       ...react.configs.flat.recommended.rules,
       ...react.configs.flat['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
+    },
+  },
+  {
+    // Expo config plugins run in Node at prebuild time and are CommonJS by convention.
+    files: ['apps/mobile/plugins/**/*.js'],
+    languageOptions: { sourceType: 'commonjs', globals: { ...globals.node } },
+    rules: { '@typescript-eslint/no-require-imports': 'off' },
+  },
+  {
+    // App code runs on Hermes: Node built-ins only in tests.
+    files: ['apps/mobile/src/**/*.{ts,tsx}'],
+    ignores: ['apps/mobile/src/__tests__/**'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        { patterns: [{ group: ['node:*'], message: 'app code runs on Hermes' }] },
+      ],
     },
   },
   {
