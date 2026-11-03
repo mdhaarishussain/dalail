@@ -1,0 +1,140 @@
+source_id: yt-VwfdF6s7SiY
+moves:
+  - move_id: M01
+    timestamp: "00:03:55-00:04:10"
+    speaker: B
+    side: wahhabi
+    kind: demand
+    maps_to: IS-C01
+    move_type: definition
+    quote: "us hadees se mustadal kya hai? Yaani aap kis cheez par istidlal karenge? Aasan lafzon mein: waseela par ya istighasa par? Kyunki ye riwayat dono mein musta'mal aap karte hain"
+    summary_en: "Demands the claimant define whether the Hadith of Malik al-Dar is being adduced as proof for waseela or for istighatha"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:04:12-00:04:36"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "istighasa jo hai wo tawassul hi ki ek qisam hai, is par kai muhaddiseen-e-karam ne tasreehaat ki hain. Allama Taqiuddin Subki... Shifa al-Siqam mein... is baat ki wajahat ki hai ki istighasa karna ye tawassul hi ki ek qisam hai"
+    summary_en: "Affirms that istighatha is a subcategory of tawassul, citing Taqi al-Din al-Subki in Shifa' al-Siqam"
+    evidence_cited:
+      - as_said: "Allama Taqiuddin Subki Shifa al-Siqam"
+        timestamp: "00:04:22"
+    responds_to: M01
+  - move_id: M03
+    timestamp: "00:11:35-00:12:15"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C04
+    move_type: attack-chain
+    quote: "Hamaara jawab-e-da'wa ye tha ki ye hadees jo aapne pesh ki hai usool-e-hadees ki roo se aur usool-e-muhaddiseen se ye hadees za'eef hai aur iske matn mein bhi naqarah hai"
+    summary_en: "Formally enters the counter-claim that the Hadith of Malik al-Dar is weak in sanad and defective in matn"
+    confidence: high
+  - move_id: M04
+    timestamp: "00:12:42-00:15:40"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Al-Musannaf Ibn Abi Shaybah jild 6 safha 356... ek mard pyare Aaqa... ke qabr-e-anwar... ki taraf aaya aur usne kaha: Ya Rasool Allah, istasqi li-ummatika fa-innahum qad halaku... is par hamara da'wa hai ki iski sanad bhi sahih hai, iske matn bhi naqarah se be-ghubaar hai"
+    summary_en: "Presents the text and sanad of Malik al-Dar from Musannaf Ibn Abi Shaybah 6/356 asserting both its chain and matn are authentic and sound"
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah jild 6 safha 356"
+        timestamp: "00:13:25"
+  - move_id: M05
+    timestamp: "00:17:21-00:18:35"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-04
+    move_type: attack-chain
+    quote: "Ammi Aisha ki maujoodgi mein ek majhool jo ghair-mahram hai wo qabr-e-nabi par kaise aa gaya jabki Ammi Aisha wahan par raha karti theen? Hujra-e-Aisha mein hi nabi alayhis salam ki qabr thi, to ek ghair-mahram ko qabr ke paas aane ki ijazat kisne di hai?"
+    summary_en: "Attacks the matn arguing that an unnamed non-mahram man could not have entered Aisha's living chamber to visit the grave while she was alive"
+    responds_to: M04
+    confidence: high
+  - move_id: M06
+    timestamp: "00:18:37-00:18:50"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-05
+    move_type: attack-chain
+    quote: "Ye riwayat Hazrat Umar ke upar bhi bohtan laga rahe hain ki Umar kotahi karte hain! Bhai Hazrat Umar ne kaun si kotahi ki hai iski bhi wajahat kijiyega"
+    summary_en: "Attacks the matn arguing it implies Umar fell short in his administrative duties, which is unacceptable regarding a Rightly Guided Caliph"
+    responds_to: M04
+    confidence: high
+  - move_id: M07
+    timestamp: "00:18:52-00:20:00"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C05
+    move_type: attack-chain
+    quote: "raawi-e-hadees ko ye jo khwab mein wajahat kar rahe hain... to ye waqia pata kaise chala... na samitu ka lafz hai, na akhbarani ka lafz hai... Usko mursal kehte hain!"
+    summary_en: "Attacks the chain on grounds of inqita' (disconnection), asserting Malik al-Dar did not explicitly state hearing the dream account from Umar"
+    responds_to: M04
+    confidence: high
+  - move_id: M08
+    timestamp: "00:20:08-00:21:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "hadees-e-paak mein kidhar maujood hai ki wo Hujra-e-Aisha mein gaye?... Udhar alfaz hain: ata qabr an-Nabi... dakhala rajulun ala qabr an-Nabi nahi hai! Lehaza ye pehla aitraaz to aapka baatil hua"
+    summary_en: "Rebuts the chamber objection by showing the text states 'he came to the grave' (outside), not that he entered Aisha's personal room"
+    responds_to: M05
+  - move_id: M09
+    timestamp: "00:21:10-00:22:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hadees-e-paak mein to koi mazkoor nahi hai ki un par kisi qisam ki kotahi ka ilzam diya gaya ho! Huzoor Paak unki tarbiyat karne ke liye pyare Aaqa ne farmaya... Farooq-e-Azam ne yehi kaha: Ya Allah main to bilkul diyanatdari ke saath idhar aata hoon magar un ma'amlaat mein jab main aajiz ho chuka hoon"
+    summary_en: "Rebuts the shortcoming objection, clarifying the Prophet's words were pedagogical encouragement ('al-kayyis al-kayyis') and Umar affirmed doing his utmost"
+    responds_to: M06
+  - move_id: M10
+    timestamp: "00:22:50-00:23:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "kisi cheez ka mazkoor na hona adam-e-wujood par dalalat nahi karta! Wazeh baat hai jab un rajul ke khwab mein pyare Aaqa aaye to unhone Malik al-Dar ko kaha hoga ya kisi aur ko bataya hoga"
+    summary_en: "Applies the principle that omission of explicit transmission details does not establish non-existence, as Malik al-Dar was Umar's treasurer"
+    responds_to: M07
+  - move_id: M11
+    timestamp: "00:37:15-00:38:15"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C05
+    move_type: attack-chain
+    quote: "ye waqia Umar bin Khattab se bil-waasta Malik al-Dar ne nahi suna, kisi jhoote shakhs se suna hai!... Ye ihtimaal ho sakta ki kisi jhoote bande ne ye Malik al-Dar ko bayan kiya ho... dikhayiye jahan unhone kaha ho samitu Umara"
+    summary_en: "Asserts that without an explicit statement of direct hearing, there is a probability Malik al-Dar received the story through an unknown or fabricated link"
+    responds_to: M10
+    confidence: high
+  - move_id: M12
+    timestamp: "00:41:20-00:42:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Is waqiye par muhaddiseen ne aitmad kiya hai, is se istighasa ko tawassul ko saabit kiya hai!... Ummat 1450 saal se istidlal karti aa rahi hai, kai a'imma ne istidlal kiya, kai ne sahih kaha iski sanad ko"
+    summary_en: "Appeals to historical consensus and widespread reliance by classical imams (Ibn Kathir, Ibn Hajar, Bayhaqi) who authenticated the narration and used it as proof"
+    responds_to: M11
+new_claims:
+  - id: NEW-04
+    side: wahhabi
+    summary_en: "Opponent raises a structural matn objection against the Malik al-Dar narration, arguing that a non-mahram visitor could not have entered Aisha's living chamber to reach the Prophet's grave during her lifetime"
+    move_type: attack-chain
+    first_seen: M05
+  - id: NEW-05
+    side: wahhabi
+    summary_en: "Opponent objects to the matn of Malik al-Dar arguing that the Prophet's admonition to Umar ('al-kayyis al-kayyis') attributes administrative dereliction to Umar, which contradicts his upright status"
+    move_type: attack-chain
+    first_seen: M06
+phrasings:
+  - maps_to: IS-C01
+    text: "istighasa par aapka da'wa kya hai?... waseela par ya istighasa par? Kyunki ye riwayat dono mein musta'mal aap karte hain"
+    timestamp: "00:04:05"
+  - maps_to: TW-C04
+    text: "ye hadees jo aapne pesh ki hai usool-e-hadees ki roo se aur usool-e-muhaddiseen se ye hadees za'eef hai aur iske matn mein bhi naqarah hai"
+    timestamp: "00:12:01"
+  - maps_to: TW-C05
+    text: "na samitu ka lafz hai, na akhbarani ka lafz hai, na balaghani ka lafz hai... Usko mursal kehte hain!"
+    timestamp: "00:25:34"

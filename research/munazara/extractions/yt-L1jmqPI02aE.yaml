@@ -1,0 +1,147 @@
+source_id: yt-L1jmqPI02aE
+moves:
+  - move_id: M01
+    timestamp: "00:01:02-00:02:10"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: charge
+    quote: "Shia hazraat jo na'ra lagate hain, nida aawaz lagate hain Ya Ali madad... Quran Majeed ki rooh se Allah ma-siwa ko ma-fawq-al-asbab aawaz ke saath nida bilkul najayez aur haram hai!... pukarne wala mushrik aur da'ira-e-Islam se kharij ho jata hai"
+    summary_en: "Calling upon anyone other than Allah beyond natural means (ma fawq al-asbab), such as 'Ya Ali Madad', is strictly forbidden, constitutes shirk, and expels one from Islam"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:02:15-00:03:50"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C06
+    move_type: principle
+    quote: "Surah Ar-Ra'd aayat number 14: Lahu da'watul haq... usi Allah ke liye pukaar sachhi hai... aur wo log jinko pukaarte hain uske ilawa wo inki pukaar ka bilkul jawab nahi de sakte, qubool nahi kar sakte, sun nahi sakte!"
+    summary_en: "Cites Surah Ar-Ra'd 14 to prove true supplication belongs exclusively to Allah, and those invoked besides Him cannot hear or respond"
+    evidence_cited:
+      - as_said: "Surah Ra'd ayat 14"
+        timestamp: "00:02:15"
+    confidence: high
+  - move_id: M03
+    timestamp: "00:05:05-00:07:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Ibn Taymiyya jin ki wafat 728 Hijri mein hui, unse pehle kisi ne is par inkar nahi kiya!... Allama Taqiuddin Subki... Shifa' al-Siqam... farmate hain: tawassul aur istighatha ambiya aur auliya se jaayez aur hasan hai, aur kisi ne iska inkar nahi kiya jab tak ki Ibn Taymiyya nahi aaya"
+    summary_en: "Argues that tawassul and istighatha were accepted by universal consensus until Ibn Taymiyya innovated their prohibition, citing Taqi al-Din al-Subki in Shifa' al-Siqam"
+    evidence_cited:
+      - as_said: "Taqiuddin Subki Shifa al-Siqam Bab al-Thamin fee al-Tawassul wal-Istighatha"
+        timestamp: "00:06:45"
+  - move_id: M04
+    timestamp: "00:11:45-00:15:10"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Lafz du'a ke do maane hain lughtan aur shar'an: ek maana hai ibadat ka, aur dusra maana hai nida aur pukaar ka. Taj al-'Arus mein likha hai: da'ahu: nadahu, pukaarna"
+    summary_en: "Examines the dual semantic meaning of du'a, proving it denotes both worship ('ibadah) and general calling (nida)"
+    evidence_cited:
+      - as_said: "Taj al-Arus: da'ahu nadahu"
+        timestamp: "00:15:15"
+  - move_id: M05
+    timestamp: "00:16:00-00:17:15"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C06
+    move_type: principle
+    quote: "Sunan al-Tirmidhi... Hadees-e-Nu'man ibn Bashir: Nabi-e-Kareem ne farmaya: Ad-Du'a huwal 'ibadah! Dua hi ibadat hai!... Nabi-e-Kareem ne dua ko ibadat qarar diya! Dua ka maana ibadat hai!"
+    summary_en: "Cites Sunan al-Tirmidhi and Surah Ghafir 60 where the Prophet defined du'a as worship itself, concluding that making du'a to anyone else is direct shirk"
+    evidence_cited:
+      - as_said: "Sunan al-Tirmidhi hadees Nu'man ibn Bashir 'Ad-Du'a huwal ibadah'"
+        timestamp: "00:16:05"
+      - as_said: "Surah Ghafir ayat 60"
+        timestamp: "00:16:40"
+    responds_to: M04
+    confidence: high
+  - move_id: M06
+    timestamp: "00:17:41-00:20:10"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Surah Ra'd aayat 14 ki tafseer mein Tanwir al-Miqbas Tafsir Ibn Abbas safha 195: walladhina yad'oona min doonihi ka tarjuma farmaya: walladhina ya'budoona min doonillahi al-awthan (jo Allah ke ilawa buton ki ibadat karte hain)!"
+    summary_en: "Cites Tafsir Ibn Abbas, Tabari, and Ibn Kathir on Surah Ra'd 14 showing 'yad'oona' is unanimously interpreted as 'ya'budoona al-awthan' (worshipping idols)"
+    evidence_cited:
+      - as_said: "Tanwir al-Miqbas Tafsir Ibn Abbas safha 195"
+        timestamp: "00:19:15"
+      - as_said: "Tafsir al-Tabari jild 7 safha 344"
+        timestamp: "00:21:30"
+      - as_said: "Tafsir Ibn Kathir jild 4 safha 448"
+        timestamp: "00:23:50"
+    responds_to: M02
+  - move_id: M07
+    timestamp: "00:20:20-00:21:20"
+    speaker: B
+    side: shia
+    kind: counter-question
+    maps_to: CQ-06
+    quote: "Agar pukaarna hi shirk ho jaye to sabse pehle namaz mein Tashahhud: As-salamu 'alayka ayyuhan-Nabiyyu! Ayyuha harf-e-nida hai! Har namazi namaz mein nabi ko nida karta hai! Agar pukaarna shirk hota to har namazi namaz mein mushrik ho jata!"
+    summary_en: "Points out that the daily prayer contains direct address to the Prophet in Tashahhud ('As-salamu 'alayka ayyuhan-Nabiyyu'); if direct vocative address to the deceased were shirk, all prayers would be invalid"
+    responds_to: M01
+  - move_id: M08
+    timestamp: "00:27:35-00:29:10"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-06
+    move_type: principle
+    quote: "ek hota hai ma-taht-al-asbab, ek hota hai ma-fawq-al-asbab. Zinda insaan saamne maujood ho, asbaab ke da'ire mein aawaz de to shirk nahi hai. Lekin jab ma-fawq-al-asbab jahan sabab khatam ho gaya, wahan pukaarna shirk hai!"
+    summary_en: "Defines the demarcation between shirk and permissible requests strictly based on the framework of within means (ma taht al-asbab) versus beyond means (ma fawq al-asbab)"
+    responds_to: M07
+    confidence: high
+  - move_id: M09
+    timestamp: "00:34:55-00:36:55"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C08
+    move_type: charge
+    quote: "Surah Fatir aayat number 13 aur 14: Agar tum unko aawaz do, qabr mein jaakar aawaz do, wo tumhari aawaz sun nahi sakte! Aur agar bil-farz sun bhi lein to jawab nahi de sakte! Aur qayamat ke din tumhare shirk ka inkar kar denge!"
+    summary_en: "Cites Surah Fatir 13-14 establishing that calling upon those in the grave cannot be heard, and Allah explicitly designates this invocation as shirk"
+    evidence_cited:
+      - as_said: "Surah Fatir ayat 13-14"
+        timestamp: "00:34:55"
+    confidence: high
+  - move_id: M10
+    timestamp: "00:40:40-00:41:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Hazrat Nuh Alayhis Salam ne farmaya: Rabbi inni da'awtu qawmi laylan wa naharan... Kya Nuh ne qaum ki ibadat ki thi? Yahan lafz du'a ka maana nida aur pukaar hai, ibadat nahi hai!"
+    summary_en: "Cites Surah Nuh 5 showing Prophet Noah used the word 'da'awtu' for calling his people, demonstrating that calling creation is not synonymous with worship"
+    evidence_cited:
+      - as_said: "Surah Nuh ayat 'Rabbi inni da'awtu qawmi'"
+        timestamp: "00:40:45"
+    responds_to: M05
+  - move_id: M11
+    timestamp: "00:49:00-00:51:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Surah Fatir ki aayat 13 aur 14 ke baare mein Tafsir Ibn Abbas, Tafsir Tabari, Tafsir Baghawi... sab mein likha hai: tad'oona min doonihi se murad ta'budoona min doonihi al-awthan wal-asnam hai! Buton ki ibadat murad hai, nabi ya auliya ki nida murad nahi hai!"
+    summary_en: "Cites classical tafsir consensus on Surah Fatir 13-14, affirming the verse addresses lifeless idols worshipped by polytheists, not prophets or saints"
+    evidence_cited:
+      - as_said: "Tafsir Tabari, Baghawi, Samarqandi, Jalalayn, Maraghi on Surah Fatir"
+        timestamp: "00:49:30"
+    responds_to: M09
+new_claims:
+  - id: NEW-06
+    side: wahhabi
+    summary_en: "Opponent establishes the theological dichotomy that any petition beyond normal physical means (ma fawq al-asbab) directed to creation is inherently shirk"
+    move_type: principle
+    first_seen: M08
+phrasings:
+  - maps_to: IS-C03
+    text: "Allah ma-siwa ko ma-fawq-al-asbab aawaz ke saath nida bilkul najayez aur haram hai!... pukarne wala mushrik aur da'ira-e-Islam se kharij ho jata hai"
+    timestamp: "00:01:30"
+  - maps_to: TW-C06
+    text: "Ad-Du'a huwal 'ibadah! Dua hi ibadat hai!... Dua ka maana ibadat hai!"
+    timestamp: "00:16:10"
+  - maps_to: TW-C08
+    text: "Agar tum unko aawaz do, qabr mein jaakar aawaz do, wo tumhari aawaz sun nahi sakte!... Aur qayamat ke din tumhare shirk ka inkar kar denge!"
+    timestamp: "00:35:50"

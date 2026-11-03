@@ -1,0 +1,122 @@
+source_id: yt-KeGLJ5RdPGg
+moves:
+  - move_id: M01
+    timestamp: "00:00:02-00:00:45"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C03
+    move_type: restrict-evidence
+    quote: "waseela jo hai na... jo saabit shuda waseela hai wo nabi ki dua ka waseela liya karta tha sahaba... jab nabi faut ho gaye to uske chacha se waseela liya jata tha... waseela bil-amwaat ye najayez hai... bid'at hai"
+    summary_en: "Legitimate waseela is restricted to the supplication of the living Prophet; after his death Umar turned to Abbas, proving waseela through the deceased is bid'ah"
+    evidence_cited:
+      - as_said: "Sahih Bukhari: sahaba ka nabi ki dua ka waseela aur Abbas ka waseela"
+        timestamp: "00:00:20"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:01:45-00:02:40"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: definition
+    quote: "Bid'at usko kehte hain jo deen mein nahi ho aur jo nabi ki hadees se saabit na ho... jo deen mein aise koi amal kare na wo hamara deen ka hissa nahi wo bid'at hai"
+    summary_en: "Defines bid'ah as any novel religious act lacking explicit proof from the Prophet or normative practice of the Sahaba"
+    evidence_cited:
+      - as_said: "Hadees: 'maa ana alayhi wa as-haabi'"
+        timestamp: "00:02:30"
+      - as_said: "Tafsir Ibn Kathir jild 7 safha 278"
+        timestamp: "00:06:42"
+    confidence: high
+  - move_id: M03
+    timestamp: "00:17:19-00:18:40"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Jami' al-Tirmidhi ki hadees shareef hai... Ae Allah main tujhse dua karta hoon Nabi Alayhis Salam ke waseele se, aur ae Muhammad main aapki taraf mutawajjih hota hoon... yehi dua Nabi ke ba'd Hazrat Uthman Ghani ke daur-e-khilafat mein bhi ki gayi... Hazrat Uthman bin Hunayf ne yehi dua unhein sikhaayi"
+    summary_en: "Cites Hadith of the Blind Man in Tirmidhi where the Prophet taught invoking his waseela, and its post-death transmission by Uthman ibn Hunayf during Uthman's caliphate"
+    evidence_cited:
+      - as_said: "Jami al-Tirmidhi hadees number 3578"
+        timestamp: "00:17:30"
+      - as_said: "Waqia Uthman bin Hunayf ba'd wisaal zamana-e-Uthman Ghani"
+        timestamp: "00:18:35"
+  - move_id: M04
+    timestamp: "00:19:30-00:21:10"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C01
+    move_type: restrict-evidence
+    quote: "is hadees mein mazkoor hai ki us shakhs ne Nabi se dua ki darkhwast ki thi... agar aap chahein to main dua kar deta hoon... is hadees mein Nabi ki zaat-e-aqdas ka waseela zikr nahi hai! Balki aapki hayat-e-tayyiba mein dua aur sifarish saabit hai"
+    summary_en: "Restricts the Blind Man hadith to seeking the du'a and intercession of the living Prophet, denying it supports tawassul bi al-dhat after his death"
+    evidence_cited:
+      - as_said: "Jami al-Tirmidhi 3578 matn: 'in shi'ta da'awtu'"
+        timestamp: "00:19:49"
+    responds_to: M03
+    confidence: high
+  - move_id: M05
+    timestamp: "00:21:40-00:23:10"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Nabi Alayhis Salam ne unko dua sikha di, khud nahi ki, unko sikhaayi! Aur unko kaun si dua sikhaayi? Ye dua ki: Ae Allah main Nabi Alayhis Salam ke waseele se tujhse dua karta hoon... to jab Nabi ne apni zahiri hayat mein hi apne waseele se dua maangna sikha diya to ab koi ye kaise keh sakta hai ki waseele se dua karna bid'at hai?"
+    summary_en: "Points out that the Prophet specifically taught the man a formula containing his waseela, proving tawassul bi al-dhat was instituted by prophetic command"
+    responds_to: M04
+  - move_id: M06
+    timestamp: "00:23:45-00:25:40"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C01
+    move_type: restrict-evidence
+    quote: "yahan zaat ka waseela nahi saabit hota kyunki yahan par dua ka waseela ka zikr hai! Allahumma shaffi'hu fiyya iska matlab kya hai? Ae Allah tu mere baare mein apne nabi ki sifarish qubool farma!... Ye silsila Nabi ki zindagi tak mehdood tha... aapki wafat ke baad ye silsila khatam ho gaya!"
+    summary_en: "Argues the phrase 'fa-shaffi'hu fiyya' proves the waseela was the Prophet's supplication, which ended upon his death"
+    evidence_cited:
+      - as_said: "Tirmidhi 3578: 'Allahumma shaffi'hu fiyya'"
+        timestamp: "00:24:40"
+      - as_said: "Bukhari 1010: Abbas ka waseela"
+        timestamp: "00:25:30"
+    responds_to: M05
+    confidence: high
+  - move_id: M07
+    timestamp: "00:32:47-00:35:10"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Uthman bin Hunayf ne Hazrat Uthman Ghani ke zamane mein ye dua sikhaayi ek shakhs ko... Aur is hadees shareef ko Rasoolullah ki wafat-e-mubarak ke baad wali hadees shareef ko Imam Haythami ne apni Majma' al-Zawa'id mein sahih kaha, raqam number 3629!"
+    summary_en: "Cites the post-death application by Uthman ibn Hunayf during Caliph Uthman's era, authenticated by al-Haythami in Majma' al-Zawa'id 3629"
+    evidence_cited:
+      - as_said: "Majma al-Zawa'id jild 2 raqam 3629"
+        timestamp: "00:35:20"
+    responds_to: M06
+  - move_id: M08
+    timestamp: "00:37:35-00:40:55"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C02
+    move_type: attack-chain
+    quote: "iske sanad mein ek raawi hai Abdullah bin Wahb al-Misri, aur ye riwayat apne ustad Shabib bin Sa'id se riwayat kar rahe hain... Imam al-Jarh wat-Ta'deel Ibn 'Adi farmate hain: Shabib ke paas Imam Zuhri ki riwayat par mushtamil ek nuskha hai... taham Ibn Wahb ne us-se munkar ahadees bayan ki hain!... Ibn Hajar ne kya kaha: Ibn Wahb se marwi riwayat mein kharabi hai!... Ye jarh mufassar hai!"
+    summary_en: "Attacks the chain of the post-death Uthman ibn Hunayf report, citing Ibn 'Adi and Ibn Hajar that Abdullah b. Wahb's narrations from Shabib b. Sa'id contain munkar reports due to memory lapses in Egypt"
+    evidence_cited:
+      - as_said: "Ibn 'Adi Al-Kamil fee Du'afa al-Rijal: Shabib bin Sa'id aur Ibn Wahb"
+        timestamp: "00:37:59"
+      - as_said: "Hafiz Ibn Hajar: Ibn Wahb ki Shabib se riwayat mein kharabi"
+        timestamp: "00:39:35"
+    responds_to: M07
+    confidence: high
+  - move_id: M09
+    timestamp: "00:41:00-00:41:40"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Shabib bin Sa'id Bukhari ke raawi hain, aur Ibn Wahb Sahih Muslim ke jayyid raawi hain! Jarh mufassar wo hoti hai jiske ta'alluq se daleel pesh ki jaye mo'tabar"
+    summary_en: "Defends the narrators, noting Shabib is a narrator in Bukhari and Ibn Wahb is an authoritative narrator in Muslim"
+    responds_to: M08
+phrasings:
+  - maps_to: TW-C01
+    text: "is hadees mein mazkoor hai ki us shakhs ne Nabi se dua ki darkhwast ki thi... zaat-e-aqdas ka waseela zikr nahi hai! Balki aapki hayat-e-tayyiba mein dua aur sifarish saabit hai"
+    timestamp: "00:20:45"
+  - maps_to: TW-C02
+    text: "Ibn Wahb ne us-se munkar ahadees bayan ki hain... Ibn Wahb se marwi riwayat mein kharabi hai! Shabib bin Sa'id jab Misr gaye to wahan unhone apne hafizah se hadees bayan ki... Ye jarh mufassar hai!"
+    timestamp: "00:39:40"

@@ -1,0 +1,82 @@
+source_id: yt-thm-cj4jOcM
+moves:
+  - move_id: M01
+    timestamp: "00:01:08-00:01:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: principle
+    quote: "Allah Ta'ala farmata hai ki agar Allah tumko koi museebat mein daal de to kaun hai jo tumko museebat se door kar sakta hai, Surah Al-An'am aayat number 17"
+    summary_en: "Cites Surah Al-An'am 17 to prove that removing affliction belongs exclusively to Allah and cannot be attributed to creation"
+    evidence_cited:
+      - as_said: "Surah Al-An'am ayat 17"
+        timestamp: "00:01:16"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:10:55-00:11:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: charge
+    quote: "Ae paighambar tum keh do ki agar tumko Allah museebat mein daal de to Allah ke siwa kaun hai jo museebat ko door kar sake?... To mushkil-kusha kaun hai? Museebat door karne wala kaun hai? Allah ke ilawa koi ma'bood hai kya?"
+    summary_en: "Argues that invoking anyone as 'Mushkil Kusha' (remover of distress) gives divine attributes to creation and violates tauheed"
+    confidence: high
+  - move_id: M03
+    timestamp: "00:11:35-00:12:45"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Allah Ta'ala ne buzurgaan-e-deen ko, auliya ko taaqat ata ki hai, wo mushkilein door karte hain!... Hum Khwaja Gareeb Nawaz ko pukarte hain, auliya-e-karam ko pukarte hain!"
+    summary_en: "States that Allah has endowed saints (awliya) like Khwaja Gharib Nawaz with spiritual capacity to assist believers"
+  - move_id: M04
+    timestamp: "00:13:00-00:14:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-03
+    move_type: burden
+    quote: "Qabr ke andar se kaise madad karte hain, yaani haath badha kar karte hain ya kaise karte hain?... Aur ye qabr se bahar aakar kaise madad karenge ye bhi zara bata dena, kyunki Allah ke Rasool ne farmaya qayamat ke din sabse pehle meri qabr phategi"
+    summary_en: "Demands proof of the physical or spiritual modality through which a deceased saint in the grave can perceive calls and provide aid"
+    responds_to: M03
+    confidence: high
+  - move_id: M05
+    timestamp: "00:15:00-00:15:30"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Allah Ta'ala ne Quran mein farmaya: shaheedon ko murda mat kaho, wo zinda hain!"
+    summary_en: "Cites Surah Al-Baqarah stating martyrs are alive, applying this vitality to saints"
+    evidence_cited:
+      - as_said: "Surah Baqarah: 'wa la taqooloo li-man yuqtalu fee sabeelillahi amwat'"
+        timestamp: "00:15:00"
+    responds_to: M04
+  - move_id: M06
+    timestamp: "00:18:00-00:18:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "ye daleel pesh karni hai aapko ki Khwaja sahab kaun si jung mein shaheed hue, unka naam batayiye aap?"
+    summary_en: "Restricts the application of martyr verses strictly to those killed on the battlefield, questioning applying it to saints who died natural deaths"
+    responds_to: M05
+    confidence: high
+  - move_id: M07
+    timestamp: "00:21:20-00:22:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: principle
+    quote: "aalam-e-barzakh mein zinda hone ka ye matlab kisne bataya ki wo duniya walon ki pukaar sunte hain aur qabr se nikal kar mushkil-kusha ban jaate hain?... Surah An'am aayat 17 mein Allah ne saaf farma diya: wa in yamsaskallahu bi-durrin fala kashifa lahu illa huwa"
+    summary_en: "Barzakhi life does not imply hearing earthly petitions or possessing the attribute of Mushkil Kusha, which belongs solely to Allah under Surah An'am 17"
+    evidence_cited:
+      - as_said: "Surah An'am ayat 17"
+        timestamp: "00:22:15"
+    confidence: high
+phrasings:
+  - maps_to: IS-C03
+    text: "mushkil-kusha kaun hai? Museebat door karne wala kaun hai? Allah ke ilawa koi ma'bood hai kya?... Surah An'am aayat 17: wa in yamsaskallahu bi-durrin fala kashifa lahu illa huwa"
+    timestamp: "00:11:00"

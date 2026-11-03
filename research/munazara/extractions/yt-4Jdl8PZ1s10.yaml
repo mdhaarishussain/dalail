@@ -1,0 +1,73 @@
+source_id: yt-4Jdl8PZ1s10
+moves:
+  - move_id: M01
+    timestamp: "00:03:06-00:03:50"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: demand
+    quote: "Zakir Naik ki speech thi jisme unhone kaha tha ki Quran mein 25 aayatein aisi hain jo waseele ko haram kehti hain... wo kaun si 25 aayatein hain to bata dijiye?"
+    summary_en: "Challenges the popular polemical claim made by Dr. Zakir Naik that 25 distinct Quranic verses prohibit waseela"
+  - move_id: M02
+    timestamp: "00:03:25-00:03:55"
+    speaker: B
+    side: wahhabi
+    kind: concession
+    quote: "Humne nahi kaha aisa Quran Majeed mein 25 aayatein hain jo aqeedah-e-waseela ko haram qarar deti hain, balki hamare paas khud dusre dala'il hain!"
+    summary_en: "Concedes that the 25-verse claim is unsubstantiated and relies instead on normative arguments against tawassul after death"
+    responds_to: M01
+  - move_id: M03
+    timestamp: "00:10:30-00:13:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Surah Ma'idah mein: ya ayyuhalladhina aamanu-ttaqullaha wabtaghoo ilayhil waseelah... Shah Ismail Dehlvi ne Sirat-e-Mustaqeem safha 100 mein likha: Beshak murshid Allah Ta'ala ke raaste ka waseela hai"
+    summary_en: "Cites Surah Al-Ma'idah 35 and Shah Ismail Dehlvi's Sirat-e-Mustaqeem establishing that waseela encompasses righteous guides and prophets"
+    evidence_cited:
+      - as_said: "Surah Maidah ayat 35"
+        timestamp: "00:10:35"
+      - as_said: "Shah Ismail Dehlvi Sirat-e-Mustaqeem safha 100"
+        timestamp: "00:13:00"
+  - move_id: M04
+    timestamp: "00:16:45-00:18:00"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C03
+    move_type: practice-consensus
+    quote: "Sahaba-e-karam ka ijma' hua Nabi ki wafat ke baad Nabi ke waseele se dua karna nahi hai! Jab Madinah mein qeht pada to Umar ne Abbas ko waseela banaya... Tamam sahaba-e-karam khamosh rahe... Ye ijma'-e-sukooti hai!"
+    summary_en: "Argues Umar's drought prayer through Abbas establishes a silent consensus (ijma' sukuti) that tawassul through the deceased Prophet was abandoned"
+    evidence_cited:
+      - as_said: "Bukhari: Umar ka Abbas se baarish ki dua karwana"
+        timestamp: "00:17:28"
+    responds_to: M03
+    confidence: high
+  - move_id: M05
+    timestamp: "00:19:40-00:20:05"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C01
+    move_type: restrict-evidence
+    quote: "Jo waseela tha wo bhi Abbas ki dua ka waseela tha. Wo ye nahi tha ki ghar par baith kar Abbas ke waseele se dua ki jaye, balki Abbas se dua karwayi jaye!"
+    summary_en: "Restricts the Abbas narration to seeking the supplication of a living person present, not invoking the person or status from afar"
+    responds_to: M04
+    confidence: high
+  - move_id: M06
+    timestamp: "00:20:16-00:23:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hazrat Anas ibn Malik sahabi-e-Rasool farmate hain ki... Hazrat Fatima bint Asad... Huzoor ne dua farmayi: Allahumma ighfir li-ummi Fatima binta Asad... bi-haqqi nabiyyika wal-ambiyaa'i alladhina qabli!... Tujhe main waasta deta hoon tere nabi ka aur mujhse jo pehle nabi guzre unka bhi waseela pesh karta hoon!"
+    summary_en: "Cites the Hadith of Fatima bint Asad where the Prophet prayed at her burial using the waseela of himself and earlier deceased prophets ('bi-haqqi nabiyyika wal-ambiya' alladhina qabli')"
+    evidence_cited:
+      - as_said: "Tabarani Mu'jam al-Kabir jild 24 safha 351"
+        timestamp: "00:22:38"
+      - as_said: "Hakim Mustadrak wa Ibn Hibban"
+        timestamp: "00:22:30"
+      - as_said: "Haythami Majma al-Zawa'id jild 9 safha 256"
+        timestamp: "00:22:55"
+    responds_to: M05
+phrasings:
+  - maps_to: TW-C03
+    text: "Nabi hamare darmiyan jab tak the hum nabi ke waseele se dua karte the... ab hum nabi ke chacha ko waseela banate hain! Tamam sahaba-e-karam khamosh rahe... Ye ijma'-e-sukooti hai!"
+    timestamp: "00:17:40"

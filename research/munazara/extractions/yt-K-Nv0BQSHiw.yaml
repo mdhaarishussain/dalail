@@ -1,0 +1,112 @@
+source_id: yt-K-Nv0BQSHiw
+moves:
+  - move_id: M01
+    timestamp: "00:00:36-00:00:55"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: charge
+    quote: "qabr mein jo faut-shudgaan hain wo na to hamari mutlaqan pukaar sun sakte hain aur na hi kisi qisam ki madad kar sakte hain!"
+    summary_en: "Deceased persons in graves cannot hear earthly invocations, nor do they possess any capacity to grant aid"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:02:45-00:07:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Sahih Bukhari hadees number 1370... Nabi ne Badr ke kuen par khitab farmaya... Aap log inse behtar nahi sun sakte!... Sahih Bukhari 1388: mayyit dafan karne walon ke jooton ki aahat sun leta hai"
+    summary_en: "Cites Sahih Bukhari narrations (1370, 3966, 1388) proving the dead hear words spoken at Badr and footsteps upon burial"
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadees 1370 wa 3966: Badr ke kuen par khitab"
+        timestamp: "00:02:50"
+      - as_said: "Sahih Bukhari hadees 1388: jooton ki aahat sunna"
+        timestamp: "00:06:55"
+    responds_to: M01
+  - move_id: M03
+    timestamp: "00:07:52-00:08:15"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "Allah ke nabi unse khitab kar rahe the to farmaya ye aapse behtar sun rahe hain, ye Allah ki taraf se mo'jiza hai! Aur mo'jize ki pairwi nahi hoti! Mo'jize ki pairwi ummati nahi kar sakta!"
+    summary_en: "Argues the dead hearing at Badr was an exclusive prophetic miracle that cannot serve as general theological evidence that the dead hear"
+    responds_to: M02
+    confidence: high
+  - move_id: M04
+    timestamp: "00:09:25-00:11:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-07
+    move_type: principle
+    quote: "Surah Fatir aayat number 22 mein Allah farmata hai: wa ma anta bi-musmi'in man fil-quboor, Ae nabi tu nahi suna sakta unko jo qabr ke andar hain!... Surah An-Naml aayat number 80: innaka la tusmi'ul mawta, tu murdon ko nahi suna sakta!"
+    summary_en: "Cites Surah Fatir 22 and Surah An-Naml 80 to establish that Allah explicitly negates the capacity of those in graves to hear speech"
+    evidence_cited:
+      - as_said: "Surah Fatir ayat 13-14"
+        timestamp: "00:09:25"
+      - as_said: "Surah Fatir ayat 22 'wa ma anta bi-musmi'in man fil-quboor'"
+        timestamp: "00:10:18"
+      - as_said: "Surah Naml ayat 80 'innaka la tusmi'ul mawta'"
+        timestamp: "00:11:00"
+    confidence: high
+  - move_id: M05
+    timestamp: "00:13:03-00:22:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Surah Al-An'am aayat number 122: a-wa man kaana maytan fa-ahyaynaahu... Kafir ko murda kaha Quran mein! Tafsir Ibn Abbas aur Tafsir Tabari... maytan yaani kafir... Surah Naml aayat 80 mein innaka la tusmi'ul mawta is se murad zinda kafir hai jinke dilon par mohar lag chuki hai, qabr wale nahi hain"
+    summary_en: "Demonstrates Quranic metaphor (majaz) where 'dead' and 'deaf' refer to living disbelievers whose hearts reject truth, citing Tafsir Ibn Abbas and Tabari"
+    evidence_cited:
+      - as_said: "Surah An'am ayat 122"
+        timestamp: "00:13:05"
+      - as_said: "Tanwir al-Miqbas Tafsir Ibn Abbas"
+        timestamp: "00:16:55"
+      - as_said: "Tafsir al-Tabari jild 7"
+        timestamp: "00:19:25"
+    responds_to: M04
+  - move_id: M06
+    timestamp: "00:32:00-00:34:30"
+    speaker: B
+    side: shia
+    kind: counter-question
+    maps_to: CQ-06
+    quote: "Jab aap qabrastan jaate hain to kya kehte hain? As-salamu alaykum ya ahlal quboor! Aur namaz mein Tashahhud mein kya kehte hain? As-salamu alayka ayyuhan-Nabiyyu! Kise khitab karte hain? Agar murda sunta nahi aur khitab shirk hai to har namazi mushrik ho jayega!"
+    summary_en: "Argues that if addressing the deceased were impossible or shirk, the grave greeting and Tashahhud would both be invalid"
+    responds_to: M04
+  - move_id: M07
+    timestamp: "00:36:00-00:41:30"
+    speaker: B
+    side: shia
+    kind: response
+    quote: "Surah Ali Imran aayat number 49 mein Hazrat Isa farmate hain: wa ubri'ul akmaha wal-abrasa wa uhyil mawta bi-idhnillah... Isa Alayhis Salam Allah ke hukm se murde ko zinda karte the... To agar nabi aur auliya Allah ke izn aur hukm se madad karein to wo shirk kaise ho gaya?"
+    summary_en: "Cites Surah Ali Imran 49 showing Prophet Isa healed the blind and revived the dead by Allah's leave (bi-idhnillah), demonstrating delegated supernatural aid is not shirk"
+    evidence_cited:
+      - as_said: "Surah Ali Imran ayat 49"
+        timestamp: "00:36:00"
+    responds_to: M01
+  - move_id: M08
+    timestamp: "00:43:00-00:43:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "Ye to mo'jizaat hain ambiya ke! Main to keh raha hoon qabr mein faut-shudgaan madad kar sakte hain iski daleel dein!"
+    summary_en: "Restricts miracles of living prophets as exclusive signs that cannot be adduced to prove the deceased in graves can grant assistance"
+    responds_to: M07
+    confidence: high
+new_claims:
+  - id: NEW-07
+    side: wahhabi
+    summary_en: "Opponent cites Surah Fatir 22 ('wa ma anta bi-musmi'in man fil-quboor') and Surah An-Naml 80 ('innaka la tusmi'ul mawta') to assert an absolute textual negation of hearing for the deceased in graves"
+    move_type: principle
+    first_seen: M04
+phrasings:
+  - maps_to: NEW-07
+    text: "Surah Fatir aayat 22: wa ma anta bi-musmi'in man fil-quboor... qabr wale sunte nahi hain! Surah An-Naml aayat 80: innaka la tusmi'ul mawta, tu murdon ko nahi suna sakta!"
+    timestamp: "00:10:25"
+  - maps_to: TW-C07
+    text: "ye Allah ki taraf se mo'jiza hai! Aur mo'jize ki pairwi nahi hoti! Mo'jize ki pairwi ummati nahi kar sakta!"
+    timestamp: "00:08:10"

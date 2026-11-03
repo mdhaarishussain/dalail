@@ -1,0 +1,104 @@
+source_id: yt-SvTDDbl1uYw
+moves:
+  - move_id: M01
+    timestamp: "00:00:25-00:00:58"
+    speaker: B
+    side: wahhabi
+    kind: demand
+    quote: "Aap keh rahe hain ki aap ghairullah se nahi maangte, aap ghairullah se maangne ki daleel bhi de rahe hain... Aap ghairullah se dua maangte hain ki nahi maangte hain? Apna thoda sa mauqaf wazeh rakhiye!"
+    summary_en: "Demands the opponent clarify whether he advocates making du'a to and asking from other than Allah"
+  - move_id: M02
+    timestamp: "00:00:59-00:01:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "hum Hazrat Ali ko murda nahi maante... Quran Majeed mein Allah Ta'ala ne kaha hai ki shaheedon ko murda mat kaho... Barzakhi zindagi hai unki. Agar kisi ne bola Ya Ali madad, wo ek ummat taaqat ke liye bola to ghalat kya hai usme?"
+    summary_en: "Martyrs possess life in the barzakh according to the Quran; saying 'Ya Ali Madad' is invoking a living martyr for strength"
+    evidence_cited:
+      - as_said: "Quran: shaheedon ko murda mat kaho"
+        timestamp: "00:01:14"
+  - move_id: M03
+    timestamp: "00:01:58-00:02:20"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-03
+    move_type: burden
+    quote: "Hazrat Ali ka maan lijiye bataur-e-shaheed zinda hona saabit hai, to kya iska matlab hai ki Hazrat Ali har jagah kahin par bhi maujood hon, unse dua maango to wo sun lete hain aur madad karne ke liye bhi aate hain? Aisa Quran-o-Hadees mein hai?"
+    summary_en: "Even if martyrs possess barzakhi life, opponent challenges the claimant to prove they are omnipresent, hear prayers from anywhere, and arrive to help"
+    responds_to: M02
+    confidence: high
+  - move_id: M04
+    timestamp: "00:02:29-00:02:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "wo jaati hai na wahan tak bhi, jaise durood shareef jaati hai! Koi bhi cheez aap maan rahe ho to rooh tak to pahunchaye jaate hain"
+    summary_en: "Supplications and greetings reach the souls of the righteous just as Durood is conveyed to the Prophet"
+    responds_to: M03
+  - move_id: M05
+    timestamp: "00:02:37-00:03:30"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "Durood ki daleel to Allah ke Nabi ne batayi... Ye jo aap keh rahe hain na ki koi madad maangne wala agar Hazrat Ali se madad maangta hai to uski dua Hazrat Ali tak pahunchayi jaati hai, iski daleel dijiye!"
+    summary_en: "Conveying Durood is grounded in specific explicit texts and cannot be extrapolated to prove prayers for help are conveyed to Ali"
+    responds_to: M04
+    confidence: high
+  - move_id: M06
+    timestamp: "00:07:15-00:08:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Allah madad karta hai shaheed ke sadqe mein! Shaheed madad nahi karta hai, Allah madad karta hai shaheed ke waseele se! Simple baat hai"
+    summary_en: "Clarifies that the martyr is not the independent grantor of aid; Allah performs the help through the martyr's waseela"
+  - move_id: M07
+    timestamp: "00:09:40-00:10:45"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C01
+    move_type: charge
+    quote: "Allah madad karta hai ye to hum bhi maan rahe hain, aap bhi maan rahe hain. Shaheed madad karta hai ki nahi karta hai?... Waseela to isi ne dua mein lagaya na, madad kaun kar raha hai?"
+    summary_en: "Charges that invoking 'Ya Ali Madad' addresses the creation for aid rather than merely invoking a means to Allah"
+    responds_to: M06
+    confidence: high
+  - move_id: M08
+    timestamp: "00:11:15-00:12:00"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Surah Yasin se 36 ki 12: Aur hum murda ko zinda karenge aur unke aage bheje hue kaam aur unke peeche chhode hue nishan... Nishan means a'maal... Agar kisi ne dua karne ka system banaya to wo unki aulaad tak jaati hai"
+    summary_en: "Cites Surah Yasin 12 to argue that deeds and prayers connected to deceased righteous persons are preserved and reach them"
+    evidence_cited:
+      - as_said: "Surah Yasin ayat 12"
+        timestamp: "00:11:30"
+  - move_id: M09
+    timestamp: "00:12:32-00:16:30"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C04
+    move_type: restrict-evidence
+    quote: "Isme ye kahan hai ki murdon se jo dua karta hai wo dua'ein murdon tak pahunchayi jaati hain?... Ye to likha hua hai ki hum likh rahe hain... Na dua'on ka zikr hai, na shaheedon ka zikr hai, na pahunchaye jaane ka zikr hai!"
+    summary_en: "Refutes deduction from Surah Yasin 12, arguing the text states Allah records actions and legacy, not that prayers made to the deceased are delivered to them"
+    evidence_cited:
+      - as_said: "Surah Yasin ayat 12 'wa naktubu ma qaddamu wa aatharahum'"
+        timestamp: "00:12:32"
+    responds_to: M08
+    confidence: high
+new_claims:
+  - id: NEW-03
+    side: wahhabi
+    summary_en: "Opponent demands separate textual proof that supplications directed to a deceased martyr are conveyed to him and that he possesses the capacity to physically arrive and grant aid"
+    move_type: burden
+    first_seen: M03
+phrasings:
+  - maps_to: IS-C01
+    text: "Ya Ali madad ka jo example... wo apne morale ke liye hota hai... Allah madad karta hai shaheed ke waseele se"
+    timestamp: "00:02:14"
+  - maps_to: NEW-03
+    text: "kya iska matlab hai ki Hazrat Ali har jagah kahin par bhi maujood hon, unse dua maango to wo sun lete hain aur madad karne ke liye bhi aate hain?"
+    timestamp: "00:01:58"

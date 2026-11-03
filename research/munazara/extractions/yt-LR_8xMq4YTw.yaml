@@ -1,0 +1,79 @@
+source_id: yt-LR_8xMq4YTw
+moves:
+  - move_id: M01
+    timestamp: "00:01:00-00:01:30"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C08
+    move_type: charge
+    quote: "Janab Rasoolullah Sallallahu Alayhi Wasallam ka waseela lena ye bid'at-e-zalalah hai!... kyunki ispe koi bhi ek sahih daleel nahi hai ki kisi sahabi ne Allah ke Rasool ka waseela unki wafat ke baad liya!"
+    summary_en: "Taking the waseela of the Prophet after his death is an innovation (bid'ah dalalah) devoid of authentic precedent from the Sahaba"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:02:56-00:03:35"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C01
+    move_type: definition
+    quote: "Isti'anat bi-ghairillah aur tawassul dono mein tafreeq hai!... aap do mauzu ko mix kar rahe hain! Hum isti'anat par baat nahi kar rahe, yaani istighasa par hum baat nahi kar rahe, hum tawassul par baat kar rahe hain"
+    summary_en: "Enforces a strict definition separating waseela (means to Allah) from isti'ana/istighatha (seeking aid from creation), arguing they cannot be treated as synonymous"
+    confidence: high
+  - move_id: M03
+    timestamp: "00:04:12-00:05:05"
+    speaker: A
+    side: wahhabi
+    kind: demand
+    quote: "Aap kya mayyit se madad ke qa'il hain ya Allah se madad ke qa'il hain mayyit ke zariye? Isko wazeh karein! Aap baar baar keh rahe hain mayyit se madad"
+    summary_en: "Demands the claimant state clearly whether he advocates seeking help directly from the dead or asking Allah through the deceased"
+    responds_to: M02
+  - move_id: M04
+    timestamp: "00:05:08-00:05:30"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-01
+    quote: "Jo haqeeqi madad hai wo Allah Ta'ala ki hai, majazi madad buzurgaan-e-deen jinse hum waseela lete hain wo hai! Aur waseele ka maine maana bataya wo qurbat yaani qareeb hona Allah Ta'ala ke, ye zariya bante hain"
+    summary_en: "Applies the distinction between haqiqi (real/primary) aid belonging exclusively to Allah and majazi (figurative/instrumental) aid attributed to the righteous as a means"
+    responds_to: M03
+  - move_id: M05
+    timestamp: "00:18:20-00:18:40"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C02
+    move_type: attack-chain
+    quote: "Hadees-e-Malik al-Dar mein jo shakhs aaya tha wo majhool hai! Uska naam riwayat mein maujood nahi hai"
+    summary_en: "Attacks the Hadith of Malik al-Dar asserting that the visitor to the grave is unnamed and unknown (majhul)"
+    confidence: high
+  - move_id: M06
+    timestamp: "00:19:10-00:19:35"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hafiz Ibn Hajar Asqalani ne Fath al-Bari mein aur Ibn Taymiyya ne Iqtida Sirat al-Mustaqeem mein tasreeh ki hai ki wo sahabi Hazrat Bilal ibn Harith Muzani Radiallahu Anhu the!"
+    summary_en: "Identifies the visitor as the companion Bilal ibn al-Harith al-Muzani, citing Ibn Hajar in Fath al-Bari and Ibn Taymiyya in Iqtida al-Sirat al-Mustaqim"
+    evidence_cited:
+      - as_said: "Ibn Hajar Fath al-Bari"
+        timestamp: "00:19:15"
+      - as_said: "Ibn Taymiyya Iqtida Sirat al-Mustaqeem"
+        timestamp: "00:19:25"
+    responds_to: M05
+  - move_id: M07
+    timestamp: "01:21:11-01:22:25"
+    speaker: A
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-04
+    move_type: attack-chain
+    quote: "Aane ki ijazat nahi thi!... koi platform tha, koi railway station tha ki Ammi Aisha ke gharon ke andar aayenge? Kyun aayenge? Ghair-mahram hai wo, kaise aayega?... Ammi Aisha koi aam shakhsiyat nahi hain... unke upar purdah hai!"
+    summary_en: "Reiterates the structural objection against the Malik al-Dar narration based on the inviolability and purdah of Aisha's personal living quarters"
+    confidence: high
+phrasings:
+  - maps_to: IS-C01
+    text: "Isti'anat bi-ghairillah aur tawassul dono mein tafreeq hai!... Hum isti'anat par baat nahi kar rahe... hum tawassul par baat kar rahe hain"
+    timestamp: "00:03:00"
+  - maps_to: TW-C08
+    text: "Janab Rasoolullah ka waseela lena ye bid'at-e-zalalah hai!... kyunki ispe koi bhi ek sahih daleel nahi hai ki kisi sahabi ne Allah ke Rasool ka waseela unki wafat ke baad liya"
+    timestamp: "00:01:05"

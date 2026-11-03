@@ -1,0 +1,200 @@
+source_id: yt-sq2CPVTwIT0
+moves:
+  - move_id: M01
+    timestamp: "00:03:02-00:04:30"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "wo ibadat karte the, wahan par ibadat ka lafz hai Quran Majeed mein... hum jab kisi ko waseela qarar dete hain to usme hargiz ye ibadat ka pehlu nahi hota balki dar-haqeeqat Allah Tabaraka wa Ta'ala ki zaat tak pahunchne ka ek zariya hai"
+    summary_en: "Waseela does not constitute worship (ibadat); Quranic condemnation of idols refers to worship, whereas waseela is seeking a created means to reach Allah as seen in angels and prophets"
+    evidence_cited:
+      - as_said: "Surah Zumar ayat 'maa na'buduhum illa li yuqarriboona ila Allahi zulfa'"
+        timestamp: "00:03:22"
+  - move_id: M02
+    timestamp: "00:04:44-00:06:40"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C03
+    move_type: restrict-evidence
+    quote: "hum waseela shar'iyyah ki wo teeno qismein maante hain jo Quran aur Sunnah se saabit hain... Allah ke naamon ka waasta... apne nek a'maal ka waseela... aur kisi zinda se dua karwana... Bukhari Shareef ki ke Rasoolullah ke zamane mein hum Rasoolullah ka waseela diya karte the... Hazrat Umar ka daur aaya to unke chacha ki dua ka waseela dete hain"
+    summary_en: "Legitimate waseela is strictly limited to three types: divine names, righteous deeds, and the supplication of a living righteous person, citing Umar turning to Abbas for rain"
+    evidence_cited:
+      - as_said: "Quran: Asma-ul-Husna"
+        timestamp: "00:05:08"
+      - as_said: "Hadees: teen aadmi ghaar mein phans gaye apne nek a'maal ka waasta diya"
+        timestamp: "00:05:18"
+      - as_said: "Bukhari Shareef: Umar ne chacha Abbas se dua karwayi"
+        timestamp: "00:05:32"
+    confidence: high
+  - move_id: M03
+    timestamp: "00:06:43-00:07:45"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C01
+    move_type: definition
+    quote: "Bhar do jholi meri Ya Muhammad, yahan waseele ki kaun si qisam hai? Ya Rasool Allah madad, Ya Ali madad mein waseele ki kaun si qisam hai?... Isko kehte hain zaat ka waseela, shakhs ka waseela... Hum is waseele ke qa'il nahi hain"
+    summary_en: "Phrases like 'Ya Rasool Allah madad' and 'Ya Ali madad' are not waseela but direct requests to creation, and tawassul bi al-dhat is rejected"
+    evidence_cited:
+      - as_said: "Fiqh Akbar mein Imam Abu Hanifa: jo kisi nabi ka Baitullah ka Allah ki makhlooq ka waseela dega ye makrooh hai"
+        timestamp: "00:07:18"
+    confidence: high
+  - move_id: M04
+    timestamp: "00:07:48-00:08:55"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C08
+    move_type: charge
+    quote: "Surah Zumar ki aayat number 3... Allah keh raha hai qayamat tak shirk is ek bunyad ke upar hoga... Jo bhi Allah ke ilawa ko pukarte hain wo kahenge hum inki ibadat thodi kar rahe hain... ye humein Allah ke qareeb karne wale hain"
+    summary_en: "Calling upon the deceased under the pretext that they bring one closer to Allah is the exact premise of shirk condemned in Surah Az-Zumar 3"
+    evidence_cited:
+      - as_said: "Surah Zumar ayat 3"
+        timestamp: "00:08:00"
+    confidence: high
+  - move_id: M05
+    timestamp: "00:09:40-00:10:15"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "a'rabi aaya tha to aap Sallallahu Alayhi Wasallam zahiri duniya mein nahi hain, gumbad-e-khazra aaraam farma rahe hain... Ya Rasoolullah main apni jaan par zulm kar chuka hoon... aawaz aati hai qad ghufira laka"
+    summary_en: "Cites the Utbi report on Surah An-Nisa 64 where a Bedouin visited the Prophet's grave after his passing to ask for his intercession and was forgiven"
+    evidence_cited:
+      - as_said: "Surah Nisa 64 aur a'rabi ka waqia"
+        timestamp: "00:09:40"
+  - move_id: M06
+    timestamp: "00:10:20-00:11:10"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Umrul Momineen Hazrat Aisha Siddiqa Radiallahu Ta'ala Anha ke paas... Aapne farmaya gumbad-e-khazra mein chhota sa suraakh karein, chhat mein suraakh karein... suraakh karne ke baad jab kiya to baarish hui"
+    summary_en: "Cites Aisha instructing the people of Madinah during a drought to open an aperture above the Prophet's grave to seek rain"
+    evidence_cited:
+      - as_said: "Hazrat Aisha ka waqia qabr-e-anwar ki chhat mein suraakh ka"
+        timestamp: "00:10:45"
+  - move_id: M07
+    timestamp: "00:12:30-00:12:55"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hazrat Abu Ayyub Ansari... Rasool-e-Paak ki qabr ke upar sar rakh ke lete hue the... Unhone kaha main kisi pathar ke paas nahi aaya, main Rasoolullah ke paas aaya hoon"
+    summary_en: "Cites Abu Ayyub al-Ansari placing his face upon the Prophet's grave, replying to the ruler that he came to the Messenger, not to a stone"
+    evidence_cited:
+      - as_said: "Hazrat Abu Ayyub Ansari ka waqia qabr-e-Rasool par chehra rakhne ka"
+        timestamp: "00:12:35"
+  - move_id: M08
+    timestamp: "00:13:00-00:14:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Kaun hai jo nabi ki ibadat karta hai? Kaun hai jo Hazrat Ali ki ibadat karta hai? Ibadat sirf Allah ki hai!... Allama Taqiuddin Ali bin Abdul Kafi Shafe'i... unhone apni kitaab mein ye ishara kiya ki inse pehle Ibn Taymiyya se pehle kisi ne is cheez ki taraf ishara nahi kiya ki Rasool-e-Khuda ko aap yun waseela nahi bana sakte"
+    summary_en: "Muslims honor the Prophet and Ali without worshipping them, and Taqi al-Din al-Subki affirmed that no scholar before Ibn Taymiyya prohibited tawassul through the Prophet"
+    evidence_cited:
+      - as_said: "Allama Taqiuddin Subki Shifa al-Siqam"
+        timestamp: "00:14:04"
+  - move_id: M09
+    timestamp: "00:14:16-00:16:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Surah Yusuf mein padhein... Hazrat Yusuf ne kya kaha: mera ye qameez le jao mere baap ke chehre pe daal do unki beena'i laut aayegi... badan se mass hui qameez uske waseele se aankhon ki beena'i aayi"
+    summary_en: "Cites Surah Yusuf where Prophet Yusuf's shirt was placed over Ya'qub's face to restore sight, proving physical objects associated with prophets serve as a means"
+    evidence_cited:
+      - as_said: "Surah Yusuf qameez ka waqia"
+        timestamp: "00:14:22"
+  - move_id: M10
+    timestamp: "00:17:08-00:18:05"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "ye jo dala'il hote hain na mo'jizaat-e-ambiya ke... ye daleel nahi hote... Mo'jizaat jo hote hain na, mo'jizaat ambiya ke saath khaas hote hain"
+    summary_en: "Prophetic miracles are unique exceptions restricted to prophets and cannot serve as legal precedent for normative religious practice"
+    responds_to: M09
+    confidence: high
+  - move_id: M11
+    timestamp: "00:18:10-00:18:40"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C03
+    move_type: practice-consensus
+    quote: "Rasoolullah duniya se chale gaye hain, Hazrat Umar kahan khade hain? Mimbar-e-Rasool ke upar. Qabr se kitni door hain? Rasoolullah ki zaat ka agar tawassul... hota to chacha Abbas ko kyun bulaya? Rasoolullah ki zaat ka waseela deke dua kyun nahi ki?"
+    summary_en: "Umar praying on the Prophet's pulpit called upon Abbas instead of the deceased Prophet resting nearby, proving tawassul bi al-dhat after death was abandoned"
+    evidence_cited:
+      - as_said: "Bukhari: Umar ka Abbas ke zariye baarish maangna"
+        timestamp: "00:18:18"
+    confidence: high
+  - move_id: M12
+    timestamp: "00:18:45-00:19:30"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C01
+    move_type: restrict-evidence
+    quote: "Wo jo andha aaya usne kaha aankhein chahiye, aapne kaha do nafal padh mera waseela de... Dua-e-Rasool hai wahan pe bhi!... zinda bande se dua karwane par koi ikhtilaf nahi hai, ikhtilaf zaat ke upar hai"
+    summary_en: "The Hadith of the Blind Man demonstrates seeking the living Prophet's supplication, not tawassul bi al-dhat after death"
+    responds_to: M11
+    confidence: high
+  - move_id: M13
+    timestamp: "00:20:45-00:21:04"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-01
+    move_type: principle
+    quote: "Zinda maujood hain to pichle deewar ke peeche ki baat nahi sunte aur faut ho jayein to poori duniya se jahan koi pukarega uski baat sunte hain? Ye kaun sa aqeedah hai?"
+    summary_en: "It is an ungrounded theological contradiction to claim prophets cannot hear behind a wall in life yet hear global invocations after death"
+    confidence: high
+  - move_id: M14
+    timestamp: "00:21:05-00:21:12"
+    speaker: B
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Badr mein keh rahe the na Rasool-e-Paak ke ye sunte hain aur tumse behtar sunte hain!"
+    summary_en: "Cites the Prophet addressing the dead in the well of Badr stating they hear better than the living, proving the dead can hear"
+    evidence_cited:
+      - as_said: "Waqia Badr murdon ka sunna"
+        timestamp: "00:21:06"
+  - move_id: M15
+    timestamp: "00:21:13-00:21:46"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C07
+    move_type: restrict-evidence
+    quote: "Murde ko jab Allah Ta'ala sunwana chahta hai sunwata hai. Ye bhi hadees sahih hai ki qadmon ki aahat ko sunta hai. Jahan jahan pe Allah Ta'ala ne humein bata diya ki wahan wahan sunta hai wahan wahan hi sunta hai, aap fill in the blanks nahi kar sakte!"
+    summary_en: "Hearing by the dead at Badr or footsteps in the grave are exceptional, textually restricted instances that cannot be generalized to universal hearing"
+    responds_to: M14
+    confidence: high
+  - move_id: M16
+    timestamp: "00:22:10-00:23:25"
+    speaker: C
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: charge
+    quote: "Dua us-se maangni nahi hai, uske liye maangni hai!... Dua Allah se maangein, unse nahi maangna!... Ya Rasool Allah madad hai, Ya Ali madad hai, ye waseela nahi hai, ye inse direct maangna hai"
+    summary_en: "Supplication is strictly for Allah, and calling 'Ya Rasool Allah madad' or 'Ya Ali madad' is asking creation directly rather than valid waseela"
+    confidence: high
+new_claims:
+  - id: NEW-01
+    side: wahhabi
+    summary_en: "Opponent claims that asserting the deceased hear calls from anywhere across the globe contradicts their human limitation in life where they could not hear behind an ordinary wall"
+    move_type: principle
+    first_seen: M13
+phrasings:
+  - maps_to: TW-C03
+    text: "Rasoolullah ki zaat ka agar tawassul hota to chacha Abbas ko kyun bulaya? Rasoolullah ki zaat ka waseela deke dua kyun nahi ki?"
+    timestamp: "00:18:25"
+  - maps_to: TW-C01
+    text: "Dua-e-Rasool hai wahan pe bhi! Zinda bande se dua karwane par koi ikhtilaf nahi hai, ikhtilaf zaat ke upar hai"
+    timestamp: "00:18:49"
+  - maps_to: IS-C01
+    text: "Ya Rasool Allah madad, Ya Ali madad mein waseele ki kaun si qisam hai? Waseela to ye hota hai... ye inse direct maangna hai"
+    timestamp: "00:06:48"
+  - maps_to: TW-C08
+    text: "Jo bhi Allah ke ilawa ko pukarte hain wo kahenge hum inki ibadat thodi kar rahe hain... ye humein Allah ke qareeb karne wale hain"
+    timestamp: "00:08:27"

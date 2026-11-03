@@ -1,0 +1,148 @@
+source_id: yt--Donk1omKUs
+moves:
+  - move_id: M01
+    timestamp: "00:02:45-00:02:59"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: IS-C03
+    move_type: charge
+    quote: "Ya Rasool Allah agar ye imaan rakh ke kehta hai ki Allah ke Rasool hazir nazir dekh rahe hain, sun rahe hain to shirk hai!"
+    summary_en: "Calling 'Ya Rasool Allah' under the belief that the Prophet is present, watching, and hearing is shirk"
+    confidence: high
+  - move_id: M02
+    timestamp: "00:03:00-00:04:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: demand
+    quote: "kis muhaddis ne ya kis hadees mein sihah sittah ki ya phir kis Quran ki aayat-e-kareema mein aisa aaya hai, itna bata dijiye?"
+    summary_en: "Demands explicit proof from Quran, Sihah Sittah, or classical muhaddithin that calling 'Ya Rasool Allah' with this belief is shirk"
+    responds_to: M01
+  - move_id: M03
+    timestamp: "00:04:51-00:05:35"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C06
+    move_type: principle
+    quote: "Quran mein Allah ne farmaya... jo muztarr aur bekas ki pukaar ko sune aur uski takleef ko door kare, kya Allah ke ilawa bhi koi Allah hai? To is se ye hua ki Allah ke Rasool agar sunte hain ya madad karte hain to wo bhi ilaah ho jaate hain"
+    summary_en: "Cites Surah An-Naml 62: answering the distressed and relieving hardship belongs only to Allah; believing the Prophet hears and assists makes him an ilah"
+    evidence_cited:
+      - as_said: "Surah Naml ya Surah Nahl aayat 'Amman yujeebul muztarr'"
+        timestamp: "00:04:51"
+    responds_to: M02
+    confidence: high
+  - move_id: M04
+    timestamp: "00:06:41-00:07:35"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: NEW-02
+    move_type: turnabout
+    quote: "Fatawa Alamgiri wagheira mein likha hua hai ki agar koi... do aadmi nikah padhaye miyan biwi aur dono ye kahein ki main Allah aur uske Rasool ko gawah banata hoon nikah ke liye, to aisa aadmi kafir ho jayega!... Isliye ki Allah ke Rasool ko zindagi mein to ilm-e-ghayb tha hi nahi to ba'd intiqal kaise ilm-e-ghayb?"
+    summary_en: "Cites Hanafi text Fatawa Alamgiri stating that making the Prophet a witness to a marriage is kufr because he lacks knowledge of the unseen"
+    evidence_cited:
+      - as_said: "Fatawa Alamgiri nikah mein Allah aur Rasool ko gawah banana"
+        timestamp: "00:06:41"
+    confidence: high
+  - move_id: M05
+    timestamp: "00:08:49-00:10:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Surah Hujurat aayat number 2... Tafseer Ibn Abbas safha number 547... nabi ko is tarah na pukaro jaise ek dusre ko pukarte ho balki is tarah pukaro: nabi ki azmat, waqar aur sharaf ke saath pukaro aur Huzoor Nabi-e-Kareem ko is tarah pukaro Ya Nabiyallah, Ya Rasoolallah, Ya Abul Qasim"
+    summary_en: "Cites Surah Al-Hujurat 2 and Tafsir Ibn Abbas showing that addressing the Prophet as 'Ya Rasool Allah' is the prescribed Quranic etiquette of honor"
+    evidence_cited:
+      - as_said: "Surah Hujurat ayat 2"
+        timestamp: "00:08:49"
+      - as_said: "Tanwir al-Miqbas Tafsir Ibn Abbas safha 547"
+        timestamp: "00:09:40"
+  - move_id: M06
+    timestamp: "00:10:55-00:11:40"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hazrat Abdullah ibn Abbas se riwayat hai ki jab Hazrat Umar Islam laaye to Jibreel-e-Ameen ne aake kaha: Ya Muhammad... Sunan Ibn Majah jild 1 safha 75... Is hadees se wazeh hua ki Jibreel-e-Ameen Alayhis Salam bhi Ya Rasool Allah kehke pukarte the"
+    summary_en: "Cites Sunan Ibn Majah where Jibreel addressed the Prophet directly using the vocative particle 'Ya Muhammad'"
+    evidence_cited:
+      - as_said: "Sunan Ibn Majah jild 1 safha 75 hadees 108"
+        timestamp: "00:11:05"
+  - move_id: M07
+    timestamp: "00:11:45-00:14:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hazrat Malik al-Dar riwayat karte hain ki daur-e-Farooq-e-Azam mein qeht-saali hui. Ek saahib Huzoor ke rauza-e-aqdas pe hazir hue aur arz kiya: Ya Rasool Allah, apni ummat ke liye baarish talab farmayein... Ibn Kathir ne Al-Bidayah wan-Nihayah mein likha iski sanad sahih hai... Ibn Hajar Asqalani Fath al-Bari mein likhte hain ki ye hadees sahih hai"
+    summary_en: "Cites the Hadith of Malik al-Dar where a Sahabi went to the Prophet's grave during Umar's caliphate calling 'Ya Rasool Allah, istasqi li-ummatika', authenticated by Ibn Kathir and Ibn Hajar"
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah jild 6 safha 356 hadees 32002"
+        timestamp: "00:12:45"
+      - as_said: "Ibn Kathir Al-Bidayah wan-Nihayah jild 5 safha 164"
+        timestamp: "00:13:10"
+      - as_said: "Ibn Hajar Fath al-Bari jild 3 safha 430"
+        timestamp: "00:13:44"
+  - move_id: M08
+    timestamp: "00:14:15-00:14:35"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C04
+    move_type: attack-chain
+    quote: "us hadees mein us aadmi ka naam nahi liya gaya ki wo kaun aadmi tha! Dusri baat ye hadees za'eef hai, bekaar hai!"
+    summary_en: "Attacks the Hadith of Malik al-Dar asserting it is weak (da'eef) because the person visiting the grave is unnamed (majhul)"
+    responds_to: M07
+    confidence: high
+  - move_id: M09
+    timestamp: "00:15:45-00:19:00"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: demand
+    quote: "Ibn Kathir ne Al-Bidayah wan-Nihayah mein likha hai iski sanad sahih hai. Aap ye batayiye is hadees ko za'eef kisne kaha? Aap us muhaddis ka qaul pesh kariye jisne isko za'eef kaha hai!"
+    summary_en: "Demands the opponent cite which classical muhaddith graded Malik al-Dar weak, noting Ibn Kathir explicitly confirmed its chain is sahih"
+    responds_to: M08
+  - move_id: M10
+    timestamp: "00:19:10-00:19:40"
+    speaker: B
+    side: wahhabi
+    kind: claim
+    maps_to: TW-C04
+    move_type: principle
+    quote: "Allama Dhahabi aur Hafiz Ibn Hajar aur ye Hakim ye sab jo agar hai agar isme karte hain to sahih ho jayega, nahi to aisa koi bhi hadees leke hum log nahi chalte bhai"
+    summary_en: "Asserts that unless confirmed by authorities like Dhahabi, Ibn Hajar, or Hakim, isolated reports are not accepted as normative proof"
+    responds_to: M09
+    confidence: medium
+  - move_id: M11
+    timestamp: "00:22:36-00:24:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    quote: "Hazrat Abdur Rahman bin Sa'd farmate hain ki Hazrat Abdullah ibn Umar ke paon sunn ho gaye, to kisi ne kaha apne mehboob ko yaad karo. Aapne irshad farmaya: Ya Muhammad! Imam Bukhari ne Al-Adab al-Mufrad safha number 217 hadees number 966 mein isko naqal farmaya"
+    summary_en: "Cites Bukhari's Al-Adab al-Mufrad 966 where Ibn Umar invoked 'Ya Muhammad' when his leg became numb, proving invoking the Prophet from afar"
+    evidence_cited:
+      - as_said: "Bukhari Al-Adab al-Mufrad hadees 966"
+        timestamp: "00:22:36"
+  - move_id: M12
+    timestamp: "00:24:34-00:25:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-02
+    quote: "Hamara aqeedah ye hai ki hamare pyare Aaqa... Allah ki ata se jahan chahein jab chahein ja sakte hain, sunte hain!... Zaati nahi, ata'i! Allah ki ata se!"
+    summary_en: "Presents the distinction between zati (inherent) and ata'i (divinely bestowed) power, denying that the Prophet's hearing or presence is independent of Allah"
+    responds_to: M01
+new_claims:
+  - id: NEW-02
+    side: wahhabi
+    summary_en: "Opponent cites Hanafi text Fatawa Alamgiri arguing that taking the Prophet as a witness to a marriage contract is kufr because he has no knowledge of unseen matters"
+    move_type: turnabout
+    first_seen: M04
+phrasings:
+  - maps_to: IS-C03
+    text: "Ya Rasool Allah agar ye imaan rakh ke kehta hai ki Allah ke Rasool hazir nazir dekh rahe hain, sun rahe hain to shirk hai!"
+    timestamp: "00:02:45"
+  - maps_to: TW-C04
+    text: "us hadees mein us aadmi ka naam nahi liya gaya... Dusri baat ye hadees za'eef hai, bekaar hai!"
+    timestamp: "00:14:25"
+  - maps_to: TW-C06
+    text: "jo muztarr aur bekas ki pukaar ko sune... Allah ke Rasool agar sunte hain ya madad karte hain to wo bhi ilaah ho jaate hain"
+    timestamp: "00:05:30"
