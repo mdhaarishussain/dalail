@@ -68,7 +68,16 @@ Thresholds live in config and are tuned via `/eval`. Never return a single "matc
 pnpm install                 # JS/TS workspace (node-linker=hoisted for React Native)
 pnpm lint && pnpm typecheck && pnpm test
 cd pipeline && uv sync && uv run pytest && uv run ruff check .
-bash scripts/ci.sh           # everything CI runs
+bash scripts/ci.sh           # everything CI runs (keyword-only; no model needed)
+
+# corpus pipeline (from pipeline/)
+uv sync --extra embed                                   # + llama-cpp-python (compiles, CPU)
+uv run python -m dalail_pipeline fetch-model            # pinned e5 GGUF -> models/ (sha256 checked)
+uv run python -m dalail_pipeline validate [--prod]
+uv run python -m dalail_pipeline build --dev|--prod [--no-embed]
+uv run python -m dalail_pipeline stats
+uv run python -m dalail_pipeline embed-queries ../eval/questions.fixture.yaml
+pnpm --filter @dalail/eval eval [--mode keyword|hybrid]  # top-1 / top-3 / ambiguous / no-match
 pnpm --filter @dalail/mobile android   # dev client on emulator/device (needs Android SDK)
 ```
 
