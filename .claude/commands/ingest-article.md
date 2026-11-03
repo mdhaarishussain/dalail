@@ -20,7 +20,9 @@ under these rules.
    scholar name, book title, page number or citation that is not written in the article or its
    `meta.yaml`. If something is missing, leave it empty and flag it.
 3. **`short_answer`** = the article's own most direct 1–3 consecutive sentences answering the claim.
-   If the article has no such sentences, set `short_answer: ""`. Never compose one.
+   If the article has no such sentences, set `short_answer: ""` and flag it: a scholar may supply one
+   during review (`short_answer_origin: scholar_review`). **Never compose one, and never set any
+   `*_origin: scholar_review` field** — only the owner does that, with a review record.
 4. **Hadith**: one file per hadith the article quotes, in `corpus/hadith/<id>.md`, with the reference
    and grading **exactly as the article writes them**. If the article states no grading, omit the
    `grading` key entirely. Never infer a grading or complete a reference.
@@ -31,14 +33,18 @@ under these rules.
 7. **Everything is `status: draft`.** Never set `verified`, `verified_by` or `verified_on`.
 8. **Never edit** anything in `corpus/sources/`, `eval/questions.real.yaml`, or any existing
    `verified` node. Never copy aliases into any eval file.
-9. Write into the article's language as-is. `lang` = the language of the body text.
+9. **Language**: keep the article's language and script exactly (Urdu script stays Urdu script).
+   Never translate or transliterate. `lang` = the language of that node's body (`en`, `ur`, …).
+10. **Opponent**: use `default_opponent` from `meta.yaml`. If a claim appears to come from a
+    different group, still use the default and list the claim under "opponent — owner decision" in
+    the report. Never guess silently.
 
 The only text you author is `claim_roman_urdu` (search phrasings, allowed by non-negotiable 1).
 
 ## Steps
 
-1. **Read** `$ARGUMENTS/meta.yaml` and `$ARGUMENTS/text.txt` in full. If `scholar` or `work` in
-   `meta.yaml` is empty, note it for the summary (the owner fills these in; don't guess).
+1. **Read** `$ARGUMENTS/meta.yaml` and `$ARGUMENTS/text.txt` in full. If `scholar`, `work` or
+   `default_opponent` in `meta.yaml` is empty, stop and ask the owner (don't guess).
 2. **Identify** each opponent claim the article answers and the scholar's response to it. A claim
    that the article only mentions in passing, without a response, is not a node.
 3. **Check for existing nodes** with the same objection: `uv run python -m dalail_pipeline dedupe`
@@ -54,7 +60,7 @@ The only text you author is `claim_roman_urdu` (search phrasings, allowed by non
    id: tawassul-001
    topic: tawassul
    type: claim-response
-   opponent: [wahhabi]
+   opponent: [<default_opponent from meta.yaml>]
    claim_en: '<exact sentence(s) from the article stating the objection>'
    claim_roman_urdu:
      - '<8–15 ways people actually type this objection: WhatsApp style, mixed English,'
@@ -106,6 +112,6 @@ The only text you author is `claim_roman_urdu` (search phrasings, allowed by non
      passage, in which case mention it in the summary.
    - Repeat until there are **0 errors**.
 8. **Report** to the owner: paste the `ingest-finish` table, then list everything needing human
-   input — empty `short_answer`s, empty `scholar`/`work`, claims you were unsure were objections,
+   input — empty `short_answer`s, `OPPONENT_DIFFERS` / suspected other-group claims, claims you were unsure were objections,
    suggested alias merges, possible duplicates, follow-up links you were unsure about, and any part
    of the article you did not turn into a node and why. Do not commit unless the owner asks.

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review record: corpus/reviews/<node-id>.yaml (audit trail; Phase 4 appends approvals here too)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "node_id",
+    "entries"
+  ],
+  "properties": {
+    "node_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "date"
+        ],
+        "properties": {
+          "field": {
+            "type": "string",
+            "description": "For scholar-supplied fields: the frontmatter key, e.g. short_answer"
+          },
+          "origin": {
+            "enum": [
+              "scholar_review"
+            ]
+          },
+          "written_by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "approved_by": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "sha256 of the whitespace-normalised field value at approval"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "if": {
+          "required": [
+            "origin"
+          ]
+        },
+        "then": {
+          "required": [
+            "field",
+            "origin",
+            "written_by",
+            "approved_by",
+            "date",
+            "sha256"
+          ]
+        }
+      }
+    }
+  }
+}

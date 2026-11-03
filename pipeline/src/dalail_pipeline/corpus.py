@@ -52,6 +52,7 @@ class Corpus:
     load_issues: list[Issue] = field(default_factory=list)
     input_files: list[Path] = field(default_factory=list)
     sources: dict[str, Source] = field(default_factory=dict)
+    reviews: dict[str, tuple[Path, dict[str, Any]]] = field(default_factory=dict)
 
 
 def _stringify_dates(v: Any) -> Any:
@@ -118,6 +119,12 @@ def load_corpus(root: Path, *, include_fixtures: bool) -> Corpus:
 
     corpus.sources, source_issues = load_sources(root)
     corpus.load_issues += source_issues
+
+    for p in sorted((root / "reviews").glob("*.yaml")):
+        try:
+            corpus.reviews[p.stem] = (p, yaml.safe_load(p.read_text(encoding="utf-8")) or {})
+        except yaml.YAMLError as e:
+            corpus.load_issues.append(Issue(p, 1, "YAML", str(e).splitlines()[0]))
 
     add_docs(root / "nodes", "real", corpus.nodes)
     add_docs(root / "hadith", "real", corpus.hadith)

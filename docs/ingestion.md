@@ -8,8 +8,8 @@ and hadith can be traced to the article — enforced by a checker, not by trust.
 From `pipeline/`:
 
 ```bash
-uv run python -m dalail_pipeline new-source --url "https://…"          # or:
-uv run python -m dalail_pipeline new-source --file ~/Downloads/article.html --id tawassul-some-article
+uv run python -m dalail_pipeline new-source --url "https://…" --opponent wahhabi          # or:
+uv run python -m dalail_pipeline new-source --file ~/Downloads/article.html --opponent wahhabi --id tawassul-some-article
 ```
 
 This creates `corpus/sources/<id>/`:
@@ -48,7 +48,22 @@ adds 8–15 Roman Urdu search phrasings per node, then runs `ingest-finish`, whi
 - Every real node and hadith names its source; the source is unchanged since capture.
 - Everything stays `status: draft` until a scholar approves it (Phase 4).
 
-## 4. What needs a human
+## 4. Scholar-written short answers
+
+Many articles have no clean 1–3 sentence answer. Then `short_answer` stays empty during ingestion.
+During review the scholar may write one: put it in the node, set
+`short_answer_origin: scholar_review`, mark the node verified, and record it:
+
+```bash
+uv run python -m dalail_pipeline record-review --node tawassul-004 --field short_answer \
+  --written-by "…" --approved-by "…" --note "…"
+```
+
+That field is then exempt from the verbatim check but tied to `corpus/reviews/<node>.yaml` by a
+hash: editing it later fails validation until a new review entry is recorded. The same pattern
+(`<field>_origin` + review entry) applies to any future scholar-supplied field.
+
+## 5. What needs a human
 
 The summary lists: empty `short_answer` (the article had no direct 1–3 sentence answer — the
 scholar decides), empty `scholar`/`work`, possible duplicates (merge aliases instead), and any

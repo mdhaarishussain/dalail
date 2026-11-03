@@ -174,6 +174,10 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
     for h in corpus.hadith:
         rep.issues += check_doc(h, corpus.sources, "hadith")
 
+    from .reviews import check_reviews
+
+    rep.issues += check_reviews(corpus)
+
     # --- Quran data vs static table --------------------------------------------------
     if corpus.quran:
         from .refs import surah_ayah_counts

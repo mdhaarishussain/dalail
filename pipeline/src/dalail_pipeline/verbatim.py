@@ -88,6 +88,8 @@ def compute_spans(doc: Doc, text: str, kind: str) -> tuple[dict[str, Any], list[
     if kind == "node":
         for span_key, field in NODE_FIELDS:
             value = str(doc.data.get(field) or "")
+            if doc.data.get(f"{field}_origin") == "scholar_review":
+                continue
             if value.strip() and (hit := locate(span_key, value, field)):
                 spans[span_key] = list(hit)
         body: list[list[int]] = []
@@ -143,6 +145,8 @@ def check_doc(doc: Doc, sources: dict[str, Source], kind: str) -> list[Issue]:
     if kind == "node":
         for span_key, field in NODE_FIELDS:
             value = str(doc.data.get(field) or "")
+            if doc.data.get(f"{field}_origin") == "scholar_review":
+                continue  # written during review; checked against corpus/reviews instead
             if value.strip():
                 same(field, value, spans.get(span_key), field)
         paras = body_paragraphs(doc.body)

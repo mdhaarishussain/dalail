@@ -29,7 +29,7 @@ CREATE TABLE topics (id TEXT PRIMARY KEY, name_en TEXT NOT NULL, name_roman_urdu
 CREATE TABLE opponents (id TEXT PRIMARY KEY, name_en TEXT NOT NULL, name_roman_urdu TEXT NOT NULL);
 CREATE TABLE nodes (
   id TEXT PRIMARY KEY, topic TEXT NOT NULL REFERENCES topics(id), opponent_json TEXT NOT NULL,
-  claim_en TEXT NOT NULL, short_answer TEXT NOT NULL, body_md TEXT NOT NULL,
+  claim_en TEXT NOT NULL, short_answer TEXT NOT NULL, short_answer_origin TEXT NOT NULL, body_md TEXT NOT NULL,
   response_source_json TEXT NOT NULL, claim_source_json TEXT NOT NULL,
   madhhab TEXT NOT NULL, lang TEXT NOT NULL, status TEXT NOT NULL,
   verified_by TEXT, verified_on TEXT, is_fixture INTEGER NOT NULL
@@ -184,10 +184,11 @@ def _write(
     for d in nodes:
         x = d.data
         con.execute(
-            "INSERT INTO nodes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO nodes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 d.id, x["topic"], _j(x.get("opponent") or []), x["claim_en"], x.get("short_answer") or "",
-                d.body.strip() + "\n", _j(x.get("response_source")), _j(x.get("claim_source")),
+                x.get("short_answer_origin") or "article", d.body.strip() + "\n",
+                _j(x.get("response_source")), _j(x.get("claim_source")),
                 x["madhhab"], x["lang"], x["status"], x.get("verified_by"), x.get("verified_on"),
                 int(d.origin == "fixture"),
             ),

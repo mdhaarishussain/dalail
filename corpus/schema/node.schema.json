@@ -4,56 +4,200 @@
   "title": "Dalail claim-response node (frontmatter)",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "topic", "type", "opponent", "claim_en", "claim_roman_urdu", "dalail", "follow_ups", "madhhab", "lang", "status"],
+  "required": [
+    "id",
+    "topic",
+    "type",
+    "opponent",
+    "claim_en",
+    "claim_roman_urdu",
+    "dalail",
+    "follow_ups",
+    "madhhab",
+    "lang",
+    "status"
+  ],
   "$defs": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
     "ref": {
       "type": "string",
       "pattern": "^(quran:[0-9]{1,3}:[0-9]{1,3}(-[0-9]{1,3})?|hadith:h-[0-9]{4,}|fixture:(quran|hadith):[0-9]+)$"
     },
-    "span": { "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 2, "maxItems": 2 },
-    "text": { "type": "string" }
+    "span": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "text": {
+      "type": "string"
+    }
   },
   "properties": {
-    "id": { "$ref": "#/$defs/id" },
-    "topic": { "$ref": "#/$defs/id", "description": "Must exist in corpus/topics.yaml" },
-    "type": { "const": "claim-response" },
-    "opponent": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/id" }, "description": "Each must exist in corpus/opponents.yaml" },
-    "claim_en": { "type": "string", "minLength": 1 },
-    "claim_roman_urdu": { "type": "array", "minItems": 1, "maxItems": 20, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "topic": {
+      "$ref": "#/$defs/id",
+      "description": "Must exist in corpus/topics.yaml"
+    },
+    "type": {
+      "const": "claim-response"
+    },
+    "opponent": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "description": "Each must exist in corpus/opponents.yaml"
+    },
+    "claim_en": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_roman_urdu": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
     "claim_source": {
       "type": "object",
       "additionalProperties": false,
-      "properties": { "work": { "$ref": "#/$defs/text" }, "author": { "$ref": "#/$defs/text" }, "page": { "$ref": "#/$defs/text" } }
+      "properties": {
+        "work": {
+          "$ref": "#/$defs/text"
+        },
+        "author": {
+          "$ref": "#/$defs/text"
+        },
+        "page": {
+          "$ref": "#/$defs/text"
+        }
+      }
     },
-    "their_evidence": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/ref" } },
-    "short_answer": { "type": "string" },
+    "their_evidence": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/ref"
+      }
+    },
+    "short_answer": {
+      "type": "string"
+    },
     "response_source": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "scholar": { "$ref": "#/$defs/text" },
-        "work": { "$ref": "#/$defs/text" },
-        "url": { "$ref": "#/$defs/text" },
-        "page": { "$ref": "#/$defs/text" }
+        "scholar": {
+          "$ref": "#/$defs/text"
+        },
+        "work": {
+          "$ref": "#/$defs/text"
+        },
+        "url": {
+          "$ref": "#/$defs/text"
+        },
+        "page": {
+          "$ref": "#/$defs/text"
+        }
       }
     },
-    "source_id": { "type": "string" },
+    "source_id": {
+      "type": "string"
+    },
     "source_spans": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "claim": { "$ref": "#/$defs/span" },
-        "body": { "type": "array", "items": { "$ref": "#/$defs/span" } },
-        "short_answer": { "$ref": "#/$defs/span" }
+        "claim": {
+          "$ref": "#/$defs/span"
+        },
+        "body": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/span"
+          }
+        },
+        "short_answer": {
+          "$ref": "#/$defs/span"
+        }
       }
     },
-    "dalail": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/ref" } },
-    "follow_ups": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/id" } },
-    "madhhab": { "enum": ["all", "hanafi", "shafii", "maliki", "hanbali"] },
-    "lang": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z]+)?$" },
-    "verified_by": { "type": ["string", "null"] },
-    "verified_on": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
-    "status": { "enum": ["draft", "under_review", "verified"] }
+    "dalail": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/ref"
+      }
+    },
+    "follow_ups": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/id"
+      }
+    },
+    "madhhab": {
+      "enum": [
+        "all",
+        "hanafi",
+        "shafii",
+        "maliki",
+        "hanbali"
+      ]
+    },
+    "lang": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z]+)?$"
+    },
+    "verified_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified_on": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "under_review",
+        "verified"
+      ]
+    },
+    "short_answer_origin": {
+      "enum": [
+        "article",
+        "scholar_review"
+      ],
+      "description": "article (default): verbatim from the source. scholar_review: written during scholar review; needs a corpus/reviews record and status verified. Never set by tooling."
+    }
+  },
+  "patternProperties": {
+    "^[a-z][a-z_]*_origin$": {
+      "enum": [
+        "article",
+        "scholar_review"
+      ]
+    }
   }
 }

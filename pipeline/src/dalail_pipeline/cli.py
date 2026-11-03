@@ -32,6 +32,7 @@ COMMANDS: dict[str, str] = {
     "ingest-finish": "After /ingest-article: fill spans, sync cited_in, validate, find duplicates, summarise.",
     "dedupe": "Report nodes whose claims look like duplicates (embedding cosine + token overlap).",
     "next-id": "Print the next free node id for a topic, or the next hadith id.",
+    "record-review": "Owner: record who wrote/approved a scholar_review field (hashes the current value).",
 }
 
 
@@ -63,6 +64,12 @@ def build_parser() -> argparse.ArgumentParser:
             cmd.add_argument("source_id")
         if name in {"ingest-finish", "dedupe"}:
             cmd.add_argument("--no-model", action="store_true", help="Token overlap only (skip embeddings).")
+        if name == "record-review":
+            cmd.add_argument("--node", required=True)
+            cmd.add_argument("--field", required=True)
+            cmd.add_argument("--written-by", required=True)
+            cmd.add_argument("--approved-by", required=True)
+            cmd.add_argument("--note", default="")
         if name == "next-id":
             cmd.add_argument("kind", choices=["node", "hadith"])
             cmd.add_argument("--topic")
@@ -193,6 +200,14 @@ def main(argv: Sequence[str] | None = None) -> int:
                 cos = f"cosine {p.cosine:.3f}  " if p.cosine is not None else ""
                 print(f"{p.a} ~ {p.b}  {cos}jaccard {p.jaccard:.2f}")
             print(f"{len(pairs)} possible duplicate pair(s)")
+            return 0
+
+        if args.command == "record-review":
+            from .reviews import record_review
+
+            corpus = load_corpus(corpus_dir, include_fixtures=False)
+            path = record_review(corpus, args.node, args.field, args.written_by, args.approved_by, args.note)
+            print(f"recorded review entry in {path}")
             return 0
 
         if args.command == "next-id":
