@@ -69,7 +69,23 @@ def real_corpus(tmp_path: Path) -> Path:
     shutil.copytree(REPO / "corpus", dst, ignore=shutil.ignore_patterns("fixtures"))
     (dst / "nodes" / "test-real-001.md").write_text(REAL_NODE)
     (dst / "hadith" / "h-9999.md").write_text(REAL_HADITH)
+    write_test_quran(dst, surahs=(1, 2))
     return dst
+
+
+def write_test_quran(corpus: Path, surahs: tuple[int, ...]) -> None:
+    """Complete placeholder rows for the given surahs (TEST: text, never real Quran text)."""
+    import json
+
+    from dalail_pipeline.refs import surah_ayah_counts
+
+    rows = [
+        {"surah": s, "ayah": a, "text_ar": f"TEST: placeholder {s}:{a}", "translation_ur": "TEST: placeholder"}
+        for s in surahs
+        for a in range(1, surah_ayah_counts()[s - 1] + 1)
+    ]
+    (corpus / "quran").mkdir(exist_ok=True)
+    (corpus / "quran" / "test.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
 
 
 def replace_in(path: Path, old: str, new: str) -> None:

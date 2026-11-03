@@ -315,4 +315,11 @@ def _manifest(
             "fixture_dalil": len(corpus.fixture_dalil) if meta["build_mode"] == "dev" else 0,
         },
         "excluded_unverified": sorted(report.excluded),
+        "prod_report": {
+            "nodes_included": sorted(d.id for d in nodes),
+            "nodes_excluded": dict(sorted(report.excluded_status.items())),
+            "edges_pruned": [list(e) for e in sorted(report.pruned_edges)],
+        }
+        if meta["build_mode"] == "prod"
+        else None,
     }

@@ -52,6 +52,16 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def prod_report_text(pr: dict) -> str:
+    lines = ["", "PROD BUILD REPORT", f"  nodes included ({len(pr['nodes_included'])}):"]
+    lines += [f"    {i}" for i in pr["nodes_included"]]
+    lines.append(f"  drafts / under review excluded ({len(pr['nodes_excluded'])}):")
+    lines += [f"    {i} [{st}]" for i, st in pr["nodes_excluded"].items()]
+    lines.append(f"  follow-up edges pruned ({len(pr['edges_pruned'])}):")
+    lines += [f"    {a} -> {b}" for a, b in pr["edges_pruned"]]
+    return "\n".join(lines)
+
+
 def _print_issues(issues: Sequence, root: Path) -> None:
     for i in issues:
         print(i.format(root), file=sys.stderr)
@@ -90,6 +100,8 @@ def main(argv: Sequence[str] | None = None) -> int:
                 f"built {res.db_path} ({m['db_size_bytes']} bytes, {m['build_mode']}, embed_model={m['embed_model']})"
             )
             print(json.dumps(m["counts"], indent=2))
+            if (pr := m.get("prod_report")) is not None:
+                print(prod_report_text(pr))
             return 0
 
         if args.command == "embed":

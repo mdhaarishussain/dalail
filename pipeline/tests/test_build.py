@@ -56,6 +56,31 @@ def test_prod_build_of_real_corpus(repo: Path, real_corpus: Path, tmp_path: Path
     assert not con.execute("SELECT name FROM sqlite_master WHERE name = 'fixture_dalil'").fetchall()
     roles = set(con.execute("SELECT ref, role FROM node_dalail"))
     assert ("quran:2:1-5", "supports") in roles
+    assert con.execute("SELECT COUNT(*) FROM quran_ayah").fetchone()[0] == 7 + 286
+    assert res.manifest["prod_report"] == {
+        "nodes_included": ["test-real-001"],
+        "nodes_excluded": {},
+        "edges_pruned": [],
+    }
+
+
+def test_prod_build_prunes_edge_to_draft(repo: Path, real_corpus: Path, tmp_path: Path) -> None:
+    node = (real_corpus / "nodes/test-real-001.md").read_text()
+    draft = node.replace("test-real-001", "test-real-002").replace("status: verified", "status: draft")
+    (real_corpus / "nodes/test-real-002.md").write_text(draft.replace("hadith:h-9999", "quran:1:2"))
+    (real_corpus / "nodes/test-real-001.md").write_text(node.replace("follow_ups: []", "follow_ups: [test-real-002]"))
+    res = build(repo_root=repo, corpus_dir=real_corpus, out_dir=tmp_path, mode="prod", embed=False)
+    con = sqlite3.connect(res.db_path)
+    assert con.execute("SELECT COUNT(*) FROM edges").fetchone()[0] == 0
+    assert res.manifest["prod_report"]["edges_pruned"] == [["test-real-001", "test-real-002"]]
+    assert res.manifest["prod_report"]["nodes_excluded"] == {"test-real-002": "draft"}
+
+
+def test_prod_build_fails_on_unverified_hadith(repo: Path, real_corpus: Path, tmp_path: Path) -> None:
+    h = real_corpus / "hadith/h-9999.md"
+    h.write_text(h.read_text().replace("status: verified", "status: draft"))
+    with pytest.raises(PipelineError):
+        build(repo_root=repo, corpus_dir=real_corpus, out_dir=tmp_path, mode="prod", embed=False)
 
 
 def test_post_scan_catches_fixture_text(tmp_path: Path) -> None:

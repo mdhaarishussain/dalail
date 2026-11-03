@@ -28,6 +28,8 @@ class Report:
     included_nodes: list[Doc] = field(default_factory=list)
     included_hadith: list[Doc] = field(default_factory=list)
     excluded: list[str] = field(default_factory=list)
+    excluded_status: dict[str, str] = field(default_factory=dict)
+    pruned_edges: list[tuple[str, str]] = field(default_factory=list)
 
     @property
     def errors(self) -> list[Issue]:
@@ -164,16 +166,16 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
         per_surah: dict[int, int] = defaultdict(int)
         for s, _a in corpus.quran:
             per_surah[s] += 1
+        absent = []
         for s, n in enumerate(surah_ayah_counts(), start=1):
-            if per_surah.get(s, 0) != n:
-                add(
-                    Issue(
-                        corpus.root / "quran",
-                        1,
-                        "QURAN_COUNT",
-                        f"surah {s}: {per_surah.get(s, 0)} rows, expected {n}",
-                    )
-                )
+            have = per_surah.get(s, 0)
+            if have == 0:
+                absent.append(s)
+            elif have != n:
+                add(Issue(corpus.root / "quran", 1, "QURAN_COUNT", f"surah {s}: {have} rows, expected {n}"))
+        if absent:
+            add(Issue(corpus.root / "quran", 1, "QURAN_PARTIAL",
+                      f"{len(absent)} surah(s) not supplied yet (first: {absent[0]})", "warning"))  # fmt: skip
 
     # --- refs ------------------------------------------------------------------------
     citers: dict[str, set[str]] = defaultdict(set)
@@ -307,14 +309,22 @@ def _prod_scope(corpus: Corpus, node_by_id: dict[str, Doc], hadith_by_id: dict[s
             rep.included_nodes.append(doc)
         else:
             rep.excluded.append(doc.id)
+            rep.excluded_status[doc.id] = str(doc.data.get("status"))
     included = {d.id for d in rep.included_nodes}
     for doc in rep.included_nodes:
         for target in doc.data.get("follow_ups") or []:
             if target in node_by_id and target not in included:
-                add(Issue(doc.path, doc.line("follow_ups"), "PROD_LINK_UNVERIFIED",
-                          f"verified node links to '{target}', which is not verified"))  # fmt: skip
+                # Owner decision: prune the edge from the prod DB, warn, don't fail.
+                rep.pruned_edges.append((doc.id, target))
+                msg = f"follow-up '{target}' is not verified; edge left out of the prod build"
+                add(Issue(doc.path, doc.line("follow_ups"), "PROD_EDGE_PRUNED", msg, "warning"))
         for raw, _key in _node_refs(doc):
             ref = parse_ref(raw)
+            if isinstance(ref, QuranRef) and quran_ref_problem(ref) is None:
+                missing = [a for a in range(ref.start, ref.end + 1) if (ref.surah, a) not in corpus.quran]
+                if missing:
+                    msg = f"cites {raw}; ayah {ref.surah}:{missing[0]} is not in corpus/quran (owner-supplied text)"
+                    add(Issue(doc.path, doc.line("dalail"), "PROD_QURAN_MISSING", msg))
             if isinstance(ref, HadithRef) and (h := hadith_by_id.get(ref.id)) is not None:
                 if h.data.get("status") != "verified":
                     add(

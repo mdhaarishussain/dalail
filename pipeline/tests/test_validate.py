@@ -68,10 +68,17 @@ def test_quran_range_against_static_table(real_corpus: Path) -> None:
 
 
 def test_quran_rows_checked_when_present(real_corpus: Path) -> None:
-    (real_corpus / "quran").mkdir(exist_ok=True)
-    (real_corpus / "quran" / "partial.jsonl").write_text('{"surah": 1, "ayah": 1, "text_ar": "TEST"}\n')
+    (real_corpus / "quran" / "test.jsonl").write_text('{"surah": 1, "ayah": 1, "text_ar": "TEST"}\n')
     found = codes(real_corpus, "prod")
     assert "QURAN_COUNT" in found and "QURAN_MISSING" in found
+    rep = validate(load_corpus(real_corpus, include_fixtures=False), "prod")
+    assert "QURAN_PARTIAL" in [w.code for w in rep.warnings]
+
+
+def test_prod_needs_quran_text_for_cited_ayat(real_corpus: Path) -> None:
+    (real_corpus / "quran" / "test.jsonl").unlink()
+    assert "PROD_QURAN_MISSING" in codes(real_corpus, "prod")
+    assert "PROD_QURAN_MISSING" not in codes(real_corpus, "dev")
 
 
 def test_hadith_missing_and_cited_in(real_corpus: Path) -> None:
@@ -93,7 +100,7 @@ def test_prod_rules(real_corpus: Path) -> None:
     assert "PROD_HADITH_UNVERIFIED" in codes(real_corpus, "prod")
 
 
-def test_prod_excludes_unverified_and_rejects_links_to_them(real_corpus: Path) -> None:
+def test_prod_excludes_unverified_and_prunes_links_to_them(real_corpus: Path) -> None:
     node = (real_corpus / "nodes/test-real-001.md").read_text()
     draft = node.replace("test-real-001", "test-real-002").replace("status: verified", "status: draft")
     draft = draft.replace("dalail: [quran:1:1, hadith:h-9999]", "dalail: [quran:1:1]")
@@ -101,7 +108,10 @@ def test_prod_excludes_unverified_and_rejects_links_to_them(real_corpus: Path) -
     rep = validate(load_corpus(real_corpus, include_fixtures=False), "prod")
     assert rep.excluded == ["test-real-002"] and not rep.errors
     replace_in(real_corpus / "nodes/test-real-001.md", "follow_ups: []", "follow_ups: [test-real-002]")
-    assert "PROD_LINK_UNVERIFIED" in codes(real_corpus, "prod")
+    rep = validate(load_corpus(real_corpus, include_fixtures=False), "prod")
+    assert not rep.errors
+    assert rep.pruned_edges == [("test-real-001", "test-real-002")]
+    assert "PROD_EDGE_PRUNED" in [w.code for w in rep.warnings]
 
 
 def test_prod_refuses_fixture_only_corpus(repo: Path) -> None:
