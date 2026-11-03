@@ -38,8 +38,10 @@ BERT WordPiece tokenizer (`keisuke-miyako/…`), both wrong for this model.
 - **`n_ctx` must be 512**, not the trained length 511: `n_ctx=511` trips
   `GGML_ASSERT(ggml_can_mul_mat(a, b))` in llama.cpp. Recorded as `runtime_n_ctx` in the registry;
   Phase 2 must use the same on device.
-- **Size**: 126 MiB on its own. With the app (~30 MB) and the DB, the base APK would be ~155–165 MB,
-  over the 150 MB target. 4-bit quants save only ~11 MiB (the 250k-token vocabulary dominates).
-  Open question for Phase 2.
+- **Size**: 126 MiB on its own; the app is estimated at ~160 MB with it bundled. Owner accepted
+  this on 2026-11-03: the target is now "under Play's 500 MB base-module limit, ideally under the
+  200 MB mobile-data warning", with a Play Asset Delivery install-time asset pack as the fallback
+  (see `docs/release.md`). 4-bit quants would save only ~11 MiB (the 250k-token vocabulary
+  dominates), so they aren't worth the accuracy loss.
 - `models/` is gitignored; `python -m dalail_pipeline fetch-model` downloads and verifies it
   (developer machines only — the app never downloads it from here).
