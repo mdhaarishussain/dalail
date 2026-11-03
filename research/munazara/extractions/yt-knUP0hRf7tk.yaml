@@ -1,0 +1,116 @@
+source_id: yt-knUP0hRf7tk
+moves:
+  - move_id: M01
+    timestamp: "00:00:06-00:00:29"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: charge
+    quote: "Ye aaj tak Chishti Rasool Allah ka difa karte rahe. Ye chhotu jo aage Barelviyat ka difa kar raha hai, ye chhotu us munazre mein baitha hua hai jis mein usne Chishti Rasool Allah ka difa kiya... Tu ne SubhanAllah kaha tha Chishti Rasool Allah ke difa ke upar! Tera bunyadi aqeedah Chishti Rasool Allah hai."
+    summary_en: "Accuses Barelvi scholars of defending the phrase 'Chishti Rasool Allah' in past debates and treating it as an acceptable creed."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:00-00:03:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C01
+    move_type: definition
+    quote: "Pehli baat toh jahan tak kalima ko defend karne wali baat hai toh ye ek bahut bada buhtan hai ke humne is baat ko defend kiya ho ke 'La ilaha illallah Chishti Rasool Allah' kehna durust hai ya sahih hai, ye ek bahut bada buhtan hai."
+    summary_en: "Categorically denies that Ahl-e-Sunnat ever defended the correctness or legitimacy of reciting 'Chishti Rasool Allah', calling the allegation a slander."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:17-00:05:03"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C01
+    move_type: turnabout
+    quote: "Mirza Jhelumi se sawal kiya gaya ke Khwaja Moinuddin Ajmeri rahmatullah ki taraf ye kalima mansoob kiya jata hai ke unhone ye kalima padhaya hai, toh aap unko kafir kyun nahi kehte? Toh Mirza ne uska jawab ye diya tha ke wo 800 saal purane buzurg hain ho sakta hai ke unki taraf ye baat jhooti mansoob kar di gayi ho. Toh iska matlab ye hua ke difa toh Mirza ne bhi kiya!"
+    summary_en: "Applies turnabout showing that Mirza himself refused to make takfir of Khwaja Moinuddin Chishti by arguing the statement was falsely attributed to him."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:06:11-00:08:16"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Doosri misal Sahih Muslim ke andar maujood hai: Huzoor alayhis salatu was-salam ne tamsil bayan ki ke ek shakhs jiski sahra jangal mein sawari gum ho jati hai phir usko sawari milti hai toh shiddat-e-farah mein khushi ki shiddat mein wo kehta hai... 'Allahumma anta 'abdi wa ana rabbuk'. Aye Allah tu mera banda hai aur main tera Rabb hoon! Ye jumla bazahir kufr hai lekin hadith mein maujood hai: 'akhta'a min shiddatil-farah' — khushi ki shiddat mein us se ghalti hui. Hum jumlay ki nafi karein ge lekin shakhs par kufr ka fatwa nahi lagega."
+    summary_en: "Cites Sahih Muslim where a desert traveler mistakenly exclaimed 'You are my servant and I am your Lord', explaining that classical jurists condemn the statement while withholding takfir from an individual experiencing loss of cognitive control."
+    evidence_cited:
+      - as_said: "Sahih Muslim (the traveler in the desert)"
+        timestamp: "00:07:09"
+      - as_said: "Sahih Bukhari (the man requesting cremation out of fear)"
+        timestamp: "00:06:11"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:09:43-00:10:31"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C02
+    move_type: attack-chain
+    quote: "Fawai'd al-Salikeen mein is waqie ko Khwaja Bakhtiar Kaki ki taraf mansoob kiya gaya hai. Hasht Bihisht ke andar is waqie ko Khwaja Yusuf Chishti ki taraf mansoob kiya gaya hai. Ek hi waqia teen alag alag afrad ki taraf mansoob hai, ye daleel hai ke ye waqia sacha nahi hai."
+    summary_en: "Demonstrates textual unreliability by showing the same anecdote is conflictingly attributed to three distinct figures across different malfuzat collections."
+    evidence_cited:
+      - as_said: "Fawa'id al-Salikeen"
+        timestamp: "00:09:43"
+      - as_said: "Hasht Bihisht"
+        timestamp: "00:10:01"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M06
+    timestamp: "00:11:11-00:12:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C02
+    move_type: principle
+    quote: "Fatawa Razawiyyah ke andar Imam Ahmad Raza Khan Bareilly farmate hain ke koi shakhs agar lafz-e-rasool bole aur murad ye le ke paigham laane wala hoon tab bhi kafir ho jayega, apne aap ko paighambar kahe tab bhi kafir ho jayega. Aur Fatawa Razawiyyah ke andar likha hai ke mashayikh-e-Chisht ki kitabon ke andar ilhaqaat hue hain. Shaykh Abdul Haq Muhaddith Dehlawi 400 saal pehle guzar gaye, wo apni kitab Akhbar al-Akhyar mein likhte hain ke mashayikh-e-Chisht ne koi kitab nahi likhi, ye jo unki taraf kitabein mansoob hain ye mashkook hain."
+    summary_en: "Cites Ahmad Raza Khan in Fatawa Razawiyyah declaring any claim to prophethood or using the word rasool for oneself to be kufr, and cites Abdul Haq Dehlawi in Akhbar al-Akhyar confirming the unreliability and interpolations in Chishti malfuzat."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah by Ahmad Raza Khan"
+        timestamp: "00:11:11"
+      - as_said: "Akhbar al-Akhyar by Shaykh Abdul Haq Dehlawi"
+        timestamp: "00:12:18"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: TS-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Barelvi scholars defend the utterance 'Chishti Rasool Allah' and consider it acceptable, prioritizing the defense of Sufi masters over orthodox Islamic monotheism."
+    move_type: charge
+    first_seen: M01
+
+  - id: TS-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Because classical Chishti Sufi texts contain phrases like 'Chishti Rasool Allah' and were praised by later scholars, the Barelvi school formally endorses these utterances."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: TS-EM-C01
+    text: "Ye aaj tak Chishti Rasool Allah ka difa karte rahe... Tera bunyadi aqeedah Chishti Rasool Allah hai"
+    timestamp: "00:00:06"

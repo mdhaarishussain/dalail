@@ -1,0 +1,130 @@
+source_id: yt-sAVly9evIpA
+moves:
+  - move_id: M01
+    timestamp: "00:03:50-00:04:15"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C06
+    move_type: principle
+    quote: "chat par jane ke liye seedhi ki zaroorat hai, lekin Allah tak pohnchne ke liye kisi seedhi ki zaroorat nahi hai! Kyunke Allah ne farmaya... Jab mere bande mere baare mein poochein toh farma dein main bilkul qareeb hoon, pukaarne wale ki pukaar ko sunta hoon jab wo mujhe pukaare."
+    summary_en: "Argues that Quran 2:186 establishes direct supplication to Allah without intermediaries, rejecting the analogy of intermediaries acting as a ladder to God."
+    evidence_cited:
+      - as_said: "Surah Al-Baqarah ayat 186"
+        timestamp: "00:04:01"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:09:30-00:10:05"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: IS-C01
+    move_type: definition
+    quote: "Hamari zubaan mein waseela hai ke koi shakhs kahe: 'Aye Allah, tujhe tere Nabi ka wasita, mera falan kaam kar de'... Lekin agar koi kehta hai: 'Ya Rasool Allah madad' ya 'Al-Madad Ya Abdul Qadir Jilani', toh ye waseela nahi hai, ye direct pukaarna hai!"
+    summary_en: "Distinguishes waseela (asking Allah using a status) from istighatha (directly calling upon a personality for assistance)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:10:45-00:11:15"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C03
+    move_type: practice-consensus
+    quote: "Sahih Bukhari mein 1010 number hadith hai: Hazrat Umar ne farmaya... Aye Allah, pehle hum Nabi ke zariye waseela pakadte the toh tu barish deta tha, ab hum tere Nabi ke chacha ke zariye waseela pakadte hain. Agar faut-shuda zaat ka waseela jaiz hota toh Hazrat Umar Hazrat Abbas ko aage na karte, direct Nabi alayhis salam ka waseela pesh karte."
+    summary_en: "Argues from Bukhari 1010 that Umar seeking rain through Abbas demonstrates that supplication through a deceased person was not practiced."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 1010"
+        timestamp: "00:10:45"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:13:55-00:17:30"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C07
+    move_type: definition
+    quote: "Total paanch waseele hain: Pehla waseela hai: kisi nek zinda bande se jo aapke samne maujood ho dua karwana. Doosra waseela hai: apne nek a'maal ke zariye... Tehsra waseela hai: Allah Ta'ala ke Asma-e-Husna aur Kalimat ke zariye... Chawtha waseela hai: Nabi alayhis salam ke tabarrukat ke zariye... Paanchwan waseela hai: Jannat ke muqam 'Al-Waseela' ke liye dua karna"
+    summary_en: "Lists five permissible forms of waseela according to his view, excluding post-mortem waseela of a person's status."
+    evidence_cited:
+      - as_said: "Bukhari Muslim (Ghaar wale teen log)"
+        timestamp: "00:14:14"
+      - as_said: "Surah Al-A'raf (Asma-ul-Husna)"
+        timestamp: "00:14:48"
+      - as_said: "Sahih Muslim (Jubba of the Prophet)"
+        timestamp: "00:16:05"
+      - as_said: "Sahih Bukhari (Hair of the Prophet with Umme Salama)"
+        timestamp: "00:16:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:18:15-00:18:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C01
+    move_type: restrict-evidence
+    quote: "Tirmidhi aur Ibn Majah mein jo nabina sahabi ki hadith hai, wo Huzoor ki zindagi mein unke samne maujood the aur Huzoor ne unke liye dua farmayi. Faut hone ke baad zaat ka waseela bilkul sabit nahi hai."
+    summary_en: "Restricts the hadith of the blind companion to the Prophet's ﷺ lifetime and physical presence."
+    evidence_cited:
+      - as_said: "Tirmidhi aur Ibn Majah (Nabina sahabi ki hadith)"
+        timestamp: "00:18:25"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:20:10-00:20:25"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C02
+    move_type: attack-chain
+    quote: "Aur jo Tabarani ki riwayat hai Uthman bin Hunayf wali Uthman bin Affan ke daur ki, usme Shabib bin Sa'id par kalam hai."
+    summary_en: "Cites criticism against narrator Shabib bin Sa'id to challenge the chain of the post-death version in Tabarani."
+    evidence_cited:
+      - as_said: "Tabarani (Uthman bin Hunayf riwayat in Uthman bin Affan era)"
+        timestamp: "00:20:10"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M07
+    timestamp: "00:23:40-00:24:25"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C08
+    move_type: charge
+    quote: "Jin hastiyon ko ye pukaar rahe hain wo toh khud apne Rabb ke paas waseela talash karte hain. Toh jinhein ye pukaarte hain wo khud Allah ke muhtaj hain."
+    summary_en: "Cites Surah Bani Isra'il 17:57 to argue that beings called upon are themselves seeking means to Allah."
+    evidence_cited:
+      - as_said: "Surah Bani Isra'il ayat 56-57"
+        timestamp: "00:22:30"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-EM-C05
+    legacy_id: EM-C03
+    side: ali-mirza
+    summary_en: "Waseela is restricted to five scriptural forms (living person's du'a, righteous deeds, Divine Names, physical relics, and praying for the rank Al-Waseela); post-mortem waseela of personalities is unlegislated."
+    move_type: definition
+    first_seen: M04
+
+phrasings:
+  - maps_to: TW-EM-C05
+    text: "Total paanch waseele hain... Faut hone ke baad zaat ka waseela bilkul sabit nahi hai"
+    timestamp: "00:13:55"

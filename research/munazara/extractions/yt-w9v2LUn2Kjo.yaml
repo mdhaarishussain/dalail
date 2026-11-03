@@ -1,0 +1,91 @@
+source_id: yt-w9v2LUn2Kjo
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:16"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TZ-EM-C04
+    move_type: charge
+    quote: "Ghamidi sahab agar Imam Hanifa Imam Shafi'i Imam Malik Ahmad bin Hanbal ke zamane mein hote to ye Ahl-e-Sunnat ke paanchwein imam hote... waise paanchwein bhi maine ahtiram mein kaha hai pehle hi hote"
+    summary_en: "Declares in clip that if Javed Ahmad Ghamidi lived in the early centuries, he would have been the 5th Imam of Ahl al-Sunnah alongside the Four Imams, or even their superior as the 1st Imam."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:08-00:02:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TZ-EM-C04
+    move_type: definition
+    quote: "Javed Ahmad Ghamidi ke hawale se Mirza Jhelumi ki mukhtalif statements hain ek waqt tha ke Mirza Jhelumi ne Javed Ahmad Ghamidi ko apna murshid kaha... phir Mirza Jhelumi ne Javed Ahmad Ghamidi ko ujadd jahil kaha"
+    summary_en: "Traces the chronological contradiction: Mirza initially courted Ghamidi's followers by calling him his murshid, then subsequently attacked him as an 'ujadd jahil' (crude ignoramus) lacking knowledge of Quran and Sunnah."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:22-00:05:13"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TZ-EM-C04
+    move_type: charge
+    quote: "Mujhe to kehna chahiye tha Iran ke tukron pe palne wala rafzi janwar jo Shaykhayn par bhonkta hai haan Saudia ke tukron pe palne wala nasbi jo Banu Umayyah ko uplift kar raha hai... maine kaha is shakhs ke jahil aur ujadd hone ke liye yahi kafi hai sarkar planet earth pe is se koi narm lafz maujood hai na aise shakhs ke haq mein"
+    summary_en: "Justifies in clip calling Ghamidi 'ujadd jahil', asserting that he was lenient because he could have proven from Quran and Sunnah that Ghamidi is a 'Rafzi animal barking at the Shaykhayn' and a 'Nasibi uplifted by Saudi'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:14-00:06:40"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-32
+    move_type: turnabout
+    quote: "chunke Mirza Jhelumi ke haq mein Javed Ahmad Ghamidi ne 295-C ke hawale se bayan diya aur jo Mirza Jhelumi ke khilaf FIR hui thi us hawale se Javed Ahmad Ghamidi ne Mirza Jhelumi ko support kiya to ab Mirza Jhelumi jo hai woh Javed Ahmad Ghamidi ke is tarah qaseeday parh raha hai aur is tarah uski tareef mein ratb al-lisan nazar aa raha hai ke ye da'wa kar diya ke agar Javed Ahmad Ghamidi doosri ya teesri sadi hijri mein hote to ye paanchwein imam hote"
+    summary_en: "Exposes the political turnabout: after Ghamidi supported Mirza during his Section 295-C FIR controversy, Mirza executed a complete 180-degree flip, elevating the 'Rafzi animal' and 'ujadd jahil' to the rank of the 5th Imam of Ahl al-Sunnah."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:58-00:08:20"
+    speaker: C
+    side: ali-mirza
+    kind: claim
+    maps_to: QD-EM-C01
+    move_type: charge
+    quote: "Dekhiye mera nuqta-e-nazar aur zara dil tham ke sun lijiye woh hamesha se ye hai ke har woh shakhs jo apne aap ko Musalman kehta hai mujhko koi haq nahin hai ke main uska inkar karoon"
+    summary_en: "Javed Ahmad Ghamidi in recorded interview refuses to declare Qadianis/Ahmadis non-Muslims, stating that he has no right to deny the Islam of anyone who self-identifies as Muslim and recites the kalimah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:08:30-00:09:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-32
+    move_type: consistency
+    quote: "To ab jo Ashraf Ali Rasool Allah ka difa kare jo Qadianiyon ko mehz zabani jo kalimah parhne ki bunyad par Musalman maane uska aqeedah-e-Khatam-e-Nabuwwat jo hai woh behtareen aqeedah hai to Mirza Jhelumi is silsilah mein bare tazadaat ka aur qalabaziyon ka murtakib hua hai"
+    summary_en: "Contrasts Mirza's claim that Ghamidi possesses the superior belief in Khatam-e-Nabuwwat with Ghamidi's on-camera refusal of takfir of Qadianis and his defense of 'Ashraf Ali Rasool Allah'."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+new_claims:
+  - id: TZ-EM-C04
+    side: ali-mirza
+    summary_en: "Javed Ahmad Ghamidi possesses an intellectual level qualifying him to be the 5th Imam of Ahl al-Sunnah (or even their first), superior in Khatam-e-Nabuwwat to traditional scholars."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: TZ-EM-C04
+    text: "Ghamidi sahab agar Imam Hanifa Imam Shafi'i Imam Malik Ahmad bin Hanbal ke zamane mein hote to ye Ahl-e-Sunnat ke paanchwein imam hote"
+    timestamp: "00:00:02"

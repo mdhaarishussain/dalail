@@ -1,0 +1,76 @@
+source_id: yt-j8Cj9nOfY3M
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:00"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    maps_to: TS-EM-C02
+    move_type: charge
+    quote: "Fawa'id al-Fu'ad page number 19... ye kehte hain Khwaja Moinuddin Chishti sahab ka ek chahne wala tha unke paas mureed hone ke liye aaya... pucha ke bata tu kalima kis tarah padhta hai, usne kaha main kalima padhta hoon La ilaha illallah Muhammadur Rasoolullah... unhone kaha is tarah nahi, ek dafa tu kalima padh: La ilaha illallah Chishti Rasool Allah... ma'adhAllah naara-e-takbeer... ek kalima ye padhaya"
+    summary_en: "Charges Chishti Sufis with teaching a replacement Shahadah ('Chishti Rasool Allah') citing Fawa'id al-Fu'ad page 19."
+    evidence_cited:
+      - as_said: "Fawa'id al-Fu'ad p. 19"
+        timestamp: "00:00:19"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:27-00:02:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C02
+    move_type: principle
+    quote: "Fatawa Razawiyyah jild number 15 safha number 555 aur 556 par Aala Hazrat farmate hain: koi kitab ya risala kisi buzurg ke naam se mansoob hona is se suboot-e-qat'i ko mustalzam nahi. Aala Hazrat farmate hain ke bahut si tasaneef aisi hain jo a'imma aur auliya ke naam par mansoob hain aur unka suboot unse nahi hai. Kisi kitab ka sabit hona uske har har juz ka sabit hona nahi hota, kyunke bahut si kitabon mein ilhaqaat hue hain."
+    summary_en: "Cites Fatawa Razawiyyah (Vol 15, p. 555) establishing that textual attribution of a historical booklet does not constitute definitive proof of authorship, noting interpolations (ilhaqaat) across manuscript traditions."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah Vol 15 p. 555-556"
+        timestamp: "00:01:27"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M03
+    timestamp: "00:04:35-00:06:10"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TS-EM-C02
+    move_type: consistency
+    quote: "Iski misal Abdullah ibn Mas'ud radiyallahu anhu ki taraf mansoob ki gayi ke wo Qul A'oodhu bi-Rabbil Falaq aur Qul A'oodhu bi-Rabbin Naas ko Quran nahi samajhte the. Muhadditheen ne farmaya ke ye riwayat Abdullah ibn Mas'ud ki taraf jhooti mansoob hai. Doosri misal waqia-e-Gharaniq hai jo baaz kitabon mein darj hua jisko a'imma-e-muhadditheen ne jhoota aur batil qarar diya."
+    summary_en: "Provides historical parallels where erroneous reports were falsely attributed to companions (Ibn Mas'ud and the Mu'awwidhatayn) or recorded in tafsir literature (the Gharaniq incident) and discarded by critical scholars."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:11:29-00:11:54"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: turnabout
+    quote: "Sahih Bukhari mein jo hadith hai ke wahi ke rukne ke zamane mein Huzoor ne pahad se girne ka irada kiya, is hadith ke baare mein Mirza Jhelumi ne kaha tha ke ye gustakhana waqia hai. Kya Mirza Jhelumi Sahih Bukhari ke baare mein ye keh sakta hai ke isko aag laga di jaye? Ilmi tareeqa ye hota hai ke jo baat ghalat mansoob ho us par hawashi aur tahqeeqi foot-note likhe jayein, kitabon ko aag lagana jahalat hai."
+    summary_en: "Applies turnabout against Mirza's demand to burn books containing problematic passages, asking whether he would burn Sahih Bukhari because it contains a report of distress during revelation that Mirza himself labelled disrespectful."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (fatrat al-wahi incident)"
+        timestamp: "00:11:29"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: TS-EM-C03
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Books containing Sufi shathiyyat or problematic anecdotes (such as Fawa'id al-Fu'ad) should be publicly burned and banned from circulation."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: TS-EM-C03
+    text: "aisi kitabon ko chaunk mein rakh ke aag laga do"
+    timestamp: "00:10:14"

@@ -1,0 +1,54 @@
+source_id: yt-bpuy1pCuVh8
+moves:
+  - move_id: M01
+    timestamp: "00:02:01-00:04:13"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C05
+    move_type: definition
+    quote: "deen woh jo tamam ambiya alayhimus salatu wat-tasleemat ki mushtarakah aur muttafaqah ta'leemat hain uske liye deen ka itlaq kiya jaata hai... aur shari'at ka itlaq un ahkamaat ke upar hota hai jo Allah Rabbul Izzat ki taraf se us nabi ke liye jari kiye jaate hain... fiqhi aara' aur fiqhi masail par mazhab ka itlaq hota hai Hanafi mazhab Shafi'i mazhab Maliki mazhab Hanbali mazhab ye charon mazhab hain aur Ahl-e-Sunnat wal Jama'at ye maslak hai"
+    summary_en: "Establishes foundational Islamic definitions: Deen constitutes the shared core creed of all prophets (Tawhid, Risalah, Akhirah); Shari'ah denotes the specific legal codes revealed to individual prophets; Mazhab designates the four legal schools of jurisprudence; and Maslak denotes the theological identity of Ahl al-Sunnah wal-Jama'ah."
+    evidence_cited:
+      - as_said: "Surah Ash-Shura 42:13 ('shara'a lakum min al-deeni')"
+        timestamp: "00:02:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:20:25-00:23:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C05
+    move_type: charge
+    quote: "Mirza Jhelumi ka jo bunyadi masla hai woh ye hai ke na to usne ba-qa'idah taur par kisi ustaad ke samne zaano-e-talammudh tay kiye hain na Dars-e-Nizami parha hai na uske paas koi tehqeeqi sanad hai bus computer par baith ke aur kuch ahadees ko dekh kar unka context samjhe baghair logon ke samne bayan karta hai"
+    summary_en: "Analyzes the methodology of Engineer Muhammad Ali Mirza, noting his lack of classical seminary training (Dars-e-Nizami) and reliance on literalist computer searches without understanding the hermeneutics of naskh, illat, and classical juristic context."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "01:16:37-01:17:47"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-37
+    move_type: principle
+    quote: "tasawwuf ki kitabon ka woh woh martaba nahin hai jo hadees ki kitabon ka hai jo fiqh ki kitabon ka hai kyunke fiqh aur hadees ki kitabon se to humne masail-e-deen ke lene hain tasawwuf ki kitabon se us tarah nahin tasawwuf ki kitabon ko humne jo hai na woh parakhna hai Quran aur Sunnat aur hamari jo fiqh hai uske mutabiq agar woh Quran aur Sunnat fiqh ke mutabiq nahin to hum reject kar deinge khatam"
+    summary_en: "Articulates the strict epistemic hierarchy of Ahl al-Sunnah regarding Sufi literature: Tasawwuf and hagiographical books possess no independent doctrinal authority and are strictly subordinate to the Quran, Sunnah, and Fiqh; any text violating Shari'ah is unconditionally rejected, refuting the polemical conflation of commercial printing errors or interpolations with Sunni creed."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: AQ-EM-C05
+    side: ali-mirza
+    summary_en: "Unverified Sufi hagiographies and malfuzat literature printed by commercial presses constitute the foundational theological creed of traditional Sunni Muslims, justifying blanket charges of shirk."
+    move_type: charge
+    first_seen: M03
+
+phrasings:
+  - maps_to: AQ-EM-C05
+    text: "tasawwuf ki kitabon mein Sufiya ki kitabon mein aisi aisi ibaratein likhi hain jo shirk hain to un kitabon ko kyun chhapte hain"
+    timestamp: "01:14:15"

@@ -1,0 +1,200 @@
+source_id: yt-f5D6zj2Kr6Y
+moves:
+  - move_id: M01
+    timestamp: "00:07:04-00:09:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: definition
+    quote: "Surah Ash-Shura mein irshad farmaya... Wo jise chahta hai betiyan ata farmata hai aur jise chahta hai bete ata farmata hai. Yahan dene ki nisbat aur isnad Allah ki taraf haqeeqi hai, haqeeqat mein dene wala Allah hai. Lekin isi wahaba yahabu se is fa'l ki nisbat Quran-e-Majeed mein Surah Maryam ki ayat 19 mein Allah ne Hazrat Jibril alayhis salam ki taraf farmayi. Hazrat Jibril ne Hazrat Maryam ko aa kar kaha... Taake main tujhe suthra beta doon. Yahan Jibril alayhis salam ki taraf nisbat isnad-e-majazi hai, haqeeqi nahi."
+    summary_en: "Contrasts Quranic attribution of bestowing children to Allah (Surah Ash-Shura 49, real attribution) versus attributing it to Jibril (Surah Maryam 19, figurative attribution)."
+    evidence_cited:
+      - as_said: "Surah Ash-Shura"
+        timestamp: "00:07:45"
+      - as_said: "Surah Maryam ayat 19"
+        timestamp: "00:08:25"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:09:42-00:10:34"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: definition
+    quote: "Surah Yunus ki ayat number 3 mein Allah Rabbul Izzat ne farmaya... Allah Rabbul Izzat hai jo amr ki tadbeer farmata hai, yani mudabbir-e-haqeeqi Allah hai. Lekin isi tadbeer ki nisbat Surah An-Nazi'at ki ayat number 5 mein farishtoon ki taraf farmayi... Farishte hain jo amr ki tadbeer karne wale hain. Farishtoon ki taraf isnad majazi hai."
+    summary_en: "Compares Surah Yunus 3 (Allah managing affairs, real) with Surah An-Nazi'at 5 (angels managing affairs, figurative)."
+    evidence_cited:
+      - as_said: "Surah Yunus ayat 3"
+        timestamp: "00:09:42"
+      - as_said: "Surah An-Nazi'at ayat 5"
+        timestamp: "00:10:09"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:17:28-00:18:25"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Sawal ye hai ke yahan jo Quran ne hasr bayan kiya ke 'Iyyaaka Nasta'een', ye hasr-e-haqeeqi hai ya hasr-e-mutlaq? Agar hasr-e-mutlaq murad liya jaye ke mutlaqan Allah ke ilawa kisi makhlooq se madad maangi ja sakti hi nahi aur jo maange wo mushrik hai, toh phir koi Musalman baqi nahi bache ga. Madaris ke liye ta'awun lete hain, police se madad maangte hain, doctor aur hakeem se dawai lete hain."
+    summary_en: "Asks whether the restriction in Surah Al-Fatiha is absolute (hasr-e-mutlaq) or ontological (hasr-e-haqeeqi), arguing that an absolute restriction would categorize common medical and social assistance as shirk."
+    evidence_cited:
+      - as_said: "Surah Al-Fatiha (Iyyaaka Nasta'een)"
+        timestamp: "00:16:53"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:19:23-00:20:47"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Sunan An-Nasa'i ki hadith hai: Sarkare Do Alam sallallahu alayhi wa sallam ki bargah mein ek qabeela aaya, Huzoor ne unko hukm diya ke jab main Zohr ki namaz padhoon toh tumne Zohr ke baad mere paas aana hai aur aa ke kehna hai... Hum Allah ke Rasool se madad ka mutaliba karte hain. Nabi-e-Paak alayhis salatu was-salam ne us qabeelay ko baqa'ida ye ta'leem irshad farmayi ke tumne Zohr ke baad aa ke mujhse istianat karni hai. Agar makhlooq se istianat shirk hoti toh kya Allah ke Nabi unhein shirk ki ta'leem dete?"
+    summary_en: "Cites Sunan an-Nasa'i where the Prophet instructed a visiting tribe to explicitly ask him for assistance after Zuhr prayer."
+    evidence_cited:
+      - as_said: "Sunan An-Nasa'i"
+        timestamp: "00:19:23"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:22:13-00:22:45"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Surah An-Naml ki ayat number 40 mein Asif bin Barkhiya ka waqia maujood hai ke unhon ne ma fawq al-asbab, baghair asbab ke Shaam mein baith kar Yemen se takht-e-Bilqis aankh jhapakhne se pehle hazir kar diya."
+    summary_en: "Cites Quran 27:40 regarding Asif ibn Barkhiya transporting the throne across countries without physical causes."
+    evidence_cited:
+      - as_said: "Surah An-Naml ayat 40"
+        timestamp: "00:22:13"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:23:53-00:25:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Sahih Bukhari ke andar hadith maujood hai: Nabi alayhis salam farmate hain jab kal qayamat ka din hoga saari makhlooq Sayyiduna Adam ke paas aayegi... Saari makhlooq Adam alayhis salam se aa kar istighatha kare gi, phir Musa alayhis salam se, phir Muhammad alayhis salam se. Istighatha ka ma'ana kya hai? Mushkil ke waqt mein kisi ko madad ke liye pukarna, kisi se faryad karna. Agar makhlooq se istighatha shirk hota toh qayamat ke din makhlooq anbiya se istighatha kyun karegi?"
+    summary_en: "Cites the Hadith of Intercession in Sahih Bukhari where creation performs istighatha to prophets on the Day of Judgment to challenge the claim that istighatha to creation is inherently shirk."
+    evidence_cited:
+      - as_said: "Sahih Bukhari"
+        timestamp: "00:23:53"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:28:48-00:31:25"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Surah An-Nur ki ayat number 63... Rasool ke pukarne ko is tarah na bana lo jis tarah tumhara aapas mein ek doosre ko pukarna. Agar har dua ibadat ho toh yahan ma'ana ye banega ke Rasool ki ibadat ko is tarah na bana lo jaise ek doosre ki ibadat karna. Kya koi Musalman ye ma'ana karega? Hargiz nahi."
+    summary_en: "Asks whether interpreting du'a strictly as worship in Surah An-Nur 63 would result in translating the verse as prohibiting worshipping the Messenger like worshipping one another."
+    evidence_cited:
+      - as_said: "Surah An-Nur ayat 63"
+        timestamp: "00:28:48"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:35:40-00:37:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: definition
+    quote: "Tafsir al-Tabari mein Imam Ibn Jarir al-Tabari ne farmaya: tad'oona ka ma'ana ta'budoona hai, yani Allah ke sath kisi ki ibadat na karo. 'Ad-du'a huwal ibadah' ka ma'ana hai: du'a-ullah huwal ibadah — jab banda Allah ko pukare toh usko apna ma'bud samajh kar pukarta hai isliye wo ibadat hai."
+    summary_en: "Cites Tafsir al-Tabari interpreting du'a as worship when addressed to an object of worship, concluding that the hadith refers to supplicating Allah."
+    evidence_cited:
+      - as_said: "Tafsir al-Tabari"
+        timestamp: "00:36:37"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M09
+    timestamp: "00:38:40-00:40:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: practice-consensus
+    quote: "Sahih Muslim mein hadith hai Hazrat Rabi'ah bin Ka'b al-Aslami radiyallahu anhu ki: Nabi alayhis salatu was-salam ne farmaya... Maango aye Rabi'ah, Sunan Abi Dawud ke alfaz hain: mujhse maango main tumhe ata farmaonga. Rabi'ah ne jannat mein aapki rifaqat maangi. Agar ghair se maangna shirk hota toh Huzoor khud maangne ka hukm na dete."
+    summary_en: "Cites the narration of Rabi'ah ibn Ka'b in Sahih Muslim where the Prophet asked him to request what he wished."
+    evidence_cited:
+      - as_said: "Sahih Muslim"
+        timestamp: "00:38:40"
+      - as_said: "Sunan Abi Dawud"
+        timestamp: "00:39:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:42:37-00:44:45"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Musannaf Ibn Abi Shaybah hadith 30339 Abdullah ibn Abbas se marfoo'an... Majma al-Zawa'id jild 10 hadith 17103 Utba bin Ghazwan se... ya 'IbadAllah agheesoonee"
+    summary_en: "Cites Musannaf Ibn Abi Shaybah and Majma al-Zawa'id for the text instructing lost travelers to call upon unseen servants of Allah."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah 30339"
+        timestamp: "00:42:37"
+      - as_said: "Majma al-Zawa'id Vol 10 hadith 17103"
+        timestamp: "00:44:05"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M11
+    timestamp: "00:45:16-00:47:00"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Masa'il Ahmad ibn Hanbal bi-riwayati Abdillah jild 2 safha 817: Imam Ahmad farmate hain meri sawari gum hui toh maine pukara: ya 'IbadAllah dulluna 'alat-tareeq."
+    summary_en: "Cites Masa'il Ahmad ibn Hanbal documenting Imam Ahmad calling upon the unseen servants of Allah during pilgrimage."
+    evidence_cited:
+      - as_said: "Masa'il Ahmad ibn Hanbal bi-riwayati Abdillah Vol 2 p. 817"
+        timestamp: "00:45:16"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M12
+    timestamp: "00:50:39-00:53:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: turnabout
+    quote: "Nawab Siddiq Hasan Khan Nuzul al-Abrar safha 657 par is hadith ko zikr karte hain aur apna tajarba likhte hain ke Mirzapur se Jabalpur ja rahe the kashti bhanwar mein phansi toh unhon ne is hadith par amal kiya aur bach gaye."
+    summary_en: "Cites Nawab Siddiq Hasan Khan's personal report in Nuzul al-Abrar regarding calling upon the unseen servants during a river vortex crisis."
+    evidence_cited:
+      - as_said: "Nawab Siddiq Hasan Khan Nuzul al-Abrar p. 657"
+        timestamp: "00:50:39"
+    responds_to: null
+    confidence: medium
+
+new_claims: []
+phrasings: []

@@ -1,0 +1,174 @@
+source_id: yt-hqDt_1BwzLc
+moves:
+  - move_id: M01
+    timestamp: "00:00:15-00:00:23"
+    speaker: Q
+    side: host
+    kind: claim
+    reported: true
+    reported_by: Q
+    similar_to: TW-EM-C05
+    move_type: burden
+    quote: "Kya har dua mein hi humein waseela daalna lazmi hai ya hum direct dua nahi maang sakte?"
+    summary_en: "Relays the objection asking whether taking a waseela is mandatory in every prayer or if direct supplication is permissible."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:36-00:01:00"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-EM-C05
+    move_type: definition
+    quote: "Dekhein, fawq al-asbab yani Allah ke mehboob bandon, auliya aur anbiya-e-kiram alayhimus salatu wat-tasleemat se istighasa aur istimdad karna, isko hum mustahabb aur jaiz samajhte hain."
+    summary_en: "States that seeking istighatha and istimdad from prophets and saints beyond causes is considered recommended (mustahabb) and permissible (jaiz), not mandatory (farz or wajib)."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:16-00:01:46"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: definition
+    quote: "Ke unhon ne auliya, anbiya, saliheen se jo istighasa ya istimdad ki hai, toh wo yehi aqeedah rakh kar ke Allah ke mehboob bande Allah Rabbul Izzat ki ata se, Allah ki di hui taqat se, jis tarah zahir mein ek doosre ki madad kar sakte hain, toh Allah ke mehboob bande baatin mein bhi roohani taur par chahe wo zinda hon ya faut ho gaye hon, faut hone ke baad bhi apni roohani taqat se apne yaaron ki, apne doston ki madad kar sakte hain."
+    summary_en: "Explains that assistance from pious figures, living or deceased, operates through spiritual capability granted by Allah."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:28-00:02:55"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Sawal ye paida hota hai ke ye unhon ne apni jismani taqat se wo laye hain ya roohani taqat se? Insaan ki jismani taqat toh nahi hoti na ke banda mulk-e-Shaam mein baitha ho aur Shaam mein baitha Yemen se aankh jhapakhne se pehle takht Sulayman alayhis salam ke darbar mein hazir kar raha hai."
+    summary_en: "Cites Asif ibn Barkhiya bringing Bilqis's throne to ask whether this aid occurred through physical power or spiritual power granted by Allah."
+    evidence_cited:
+      - as_said: "Surah An-Naml ayat 40"
+        timestamp: "00:02:10"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:04:36-00:04:56"
+    speaker: Q
+    side: host
+    kind: claim
+    reported: true
+    reported_by: Q
+    similar_to: IS-EM-C01
+    move_type: principle
+    quote: "Aur aam taur par mukhalifeen kehte hain ke ye du'a ghairullah se ibadat hai, du'a sirf Allah Ta'ala se hi ki ja sakti hai, hum isay kyun ghairullah ke liye thehrate hain?"
+    summary_en: "Relays the opponent argument that calling upon other than Allah ('Ya Rasool Allah' or 'Ya Ghous') constitutes supplication, and supplication is worship exclusive to Allah."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:05:04-00:05:14"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: definition
+    quote: "Agar du'a mehaz kisi ko pukaarne ko ya kisi ke bulane ko du'a kehte hain aur isko ibadat thehrate hain, toh ye toh Quran aur Hadith ke khilaf hai."
+    summary_en: "Argues that defining du'a as merely calling or summoning and equating every such call with worship contradicts Quranic usage."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:06:04-00:06:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Agar mutlaq pukaarna du'a aur ibadat kehlaye, toh na'uzubillah yahan kya ma'ana liya jayega ke Rasoolullah pukaar rahe the toh ibadat kar rahe the?"
+    summary_en: "Cites Surah Aal-e-Imran 3:153 to ask what the opponent would deduce if every call were classified as an act of worship."
+    evidence_cited:
+      - as_said: "Surah Aal-e-Imran"
+        timestamp: "00:05:25"
+    responds_to: M05
+    confidence: medium
+
+  - move_id: M08
+    timestamp: "00:08:44-00:09:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: definition
+    quote: "Yani jab momin Musalman banda Allah ko pukaare toh Allah ko pukaarna ye ibadat hai. Kyunke jab banda apne Rabb ko pukaarta hai, apne ilah aur ma'bud ko pukaarta hai, toh usko apna ma'bud samajh kar pukaarta hai."
+    summary_en: "States that supplication to Allah is worship because the believer addresses Him as Rabb, Ilah, and Ma'bud, whereas addressing a human being carries no such belief."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:10:07-00:10:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Ibrahim alayhis salam ne un murda parindon ko pukaara, toh kya murda parindon ko pukaarna ibadat tha?"
+    summary_en: "Cites Ibrahim calling deceased birds in Quran 2:260 to ask whether calling non-living beings was considered an act of worship."
+    evidence_cited:
+      - as_said: "Surah Al-Baqarah"
+        timestamp: "00:09:40"
+    responds_to: M05
+    confidence: medium
+
+  - move_id: M10
+    timestamp: "00:11:18-00:11:42"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Daur-e-khilafat mein Madina se door Hazrat Umar radiyallahu anhu ne minbar par baithe hue pukaara: Ya Sariyah al-jabal."
+    summary_en: "Cites Umar calling Sariyah from Madina to Nahawand across distance as evidence that calling someone at a distance is not worship."
+    evidence_cited:
+      - as_said: "Hafiz Ibn Kathir Al-Bidayah wan-Nihayah"
+        timestamp: "00:10:55"
+      - as_said: "Nasiruddin Albani graded sahih"
+        timestamp: "00:11:05"
+    responds_to: M05
+    confidence: medium
+
+  - move_id: M11
+    timestamp: "00:12:08-00:12:28"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: practice-consensus
+    quote: "Abdullah ibn Umar radiyallahu anhuma ka paon sunn ho gaya toh unhein kaha gaya: ud'u ahabba an-nasi ilayk. Jo aapko sabse zyada pyari hasti hain unko pukaariye, unhon ne pukaara: Ya Muhammad."
+    summary_en: "Cites Ibn Umar invoking the Prophet ﷺ upon his leg becoming numb as evidence for calling upon the Prophet ﷺ after his passing."
+    evidence_cited:
+      - as_said: "Imam Bukhari Al-Adab al-Mufrad"
+        timestamp: "00:11:50"
+      - as_said: "Imam Nawawi Kitab al-Adhkar"
+        timestamp: "00:11:58"
+    responds_to: M05
+    confidence: medium
+
+new_claims: []
+phrasings:
+  - maps_to: IS-EM-C01
+    text: "Aur aam taur par mukhalifeen kehte hain ke ye du'a ghairullah se ibadat hai, du'a sirf Allah Ta'ala se hi ki ja sakti hai"
+    timestamp: "00:04:47"

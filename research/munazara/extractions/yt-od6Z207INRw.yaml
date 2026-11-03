@@ -1,0 +1,117 @@
+source_id: yt-od6Z207INRw
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:30"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: HN-EM-C04
+    move_type: consistency
+    quote: "Hum namaz mein jo padhte hain: 'Assalamu alayka ayyuhan-nabiyyu wa rahmatullahi wa barakatuhu', iske context mein Bukhari aur Muslim mein Abdullah ibn Mas'ud ki hadith hai. Jab tum ye padhte ho zameen-o-aasman mein jahan jahan Allah ka nek banda hai Allah tumhara salam pohnchata hai. Ye Bukhari Muslim ke alfaz hain. Hum insha'Allah padh rahe hain lekin hamara hazir-o-nazir ka aqeedah nahi hai, Allah ko ja raha hai salam."
+    summary_en: "Argues that addressing the Prophet in Tashahhud does not imply Hazir-o-Nazir, citing Bukhari and Muslim where the parallel greeting to all righteous servants in heavens and earth is conveyed by Allah."
+    evidence_cited:
+      - as_said: "Sahih Bukhari and Sahih Muslim (Hadith Ibn Mas'ud on Tashahhud)"
+        timestamp: "00:00:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:10-00:03:00"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: HN-EM-C04
+    move_type: consistency
+    quote: "Nabi alayhis salam jab Madina shareef mein the Masjid-e-Nabawi mein, toh Makkay wale jo Sahaba hain wo 'Assalamu alayka ayyuhan-nabiyyu' padhte the ya 'Assalamu alan-nabiyyi' padhte the? Toh kehne lage ke 'Assalamu alayka ayyuhan-nabiyyu' padhte the. Maine kaha toh mas'ala toh phir wohi hai apni jagah, yani wo phir ye hazir-o-nazir ka aqeedah rakhte the ke Huzoor Madinay mein hote hue bhi Makkay mein maujood hain roohani taur pe? Toh ye toh logically durust nahi."
+    summary_en: "Argues that companions living in Makka during the Prophet's lifetime recited the vocative greeting in prayer without believing the Prophet was omnipresent in Makka."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:09:26-00:10:14"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: TW-EM-C08
+    move_type: practice-consensus
+    quote: "Chaar kitabon ke andar sahih sanad se hai: Muwatta Imam Malik ke andar ke Abdullah bin Umar jab bhi Madina shareef se bahar nikalte ya safar karke wapas aate toh pehle Masjid-e-Nabawi mein do nafl padhte, phir qabr-e-Rasool pe aake arz karte: 'Assalamu alayka ya Rasool Allah', phir Hazrat Abu Bakr ki qabr pe aake: 'Assalamu alayka ya Aba Bakr', aur phir: 'Assalamu alayka ya Umar'. Toh Abdullah bin Umar Nabi alayhis salam ki qabr-e-mubarak pe 'Assalamu alayka ya Rasool Allah' padhte the aur aap hi ko mukhatib kar rahe hote the."
+    summary_en: "Affirms that saying 'Assalamu alayka ya Rasool Allah' directly at the Prophet's grave in Madina was practiced by Ibn Umar in Muwatta Malik as a physical graveside greeting, distinguishing this from calling from distant locations."
+    evidence_cited:
+      - as_said: "Muwatta Imam Malik (Ibn Umar at the grave)"
+        timestamp: "00:09:26"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:10:14-00:11:05"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: TW-EM-C08
+    move_type: practice-consensus
+    quote: "Aur Sahih Bukhari mein hai ke jab Nabi alayhis salam ki wafat hui toh Sayyiduna Abu Bakr Siddiq radiyallahu ta'ala anhu hujrah-e-Aisha mein dakhil hue, Nabi alayhis salam ke mubarak chehre se kafan uthaya aur aapko yahan pe bosa diya aur kaha: Ya Rasool Allah, Allah Ta'ala aap pe do mautein jama nahi karega. Nabi alayhis salam ki mayyat-e-mubarak ko mukhatib karke Hazrat Abu Bakr ne kya kaha: Ya Rasool Allah! Ye Bukhari ke alfaz hain. Isliye main ye samajhta hoon ke Sahaba-e-Kiram ne isi cheez se ye akhaz kiya tha ke jab bhi hum qabr-e-Rasool par jayein ge toh Nabi alayhis salam ko direct khitab karein"
+    summary_en: "Cites Abu Bakr addressing the Prophet as 'Ya Rasool Allah' over his physical body in Sahih Bukhari, defining direct vocatives as valid only when present before the body or grave."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (Abu Bakr kissing the Prophet's forehead)"
+        timestamp: "00:10:14"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:26:48-00:27:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: definition
+    quote: "Albatta qabr-e-Rasool ka ek protocol hai, Sunan Abi Dawud mein hadith hai: jo meri qabr pe aake salam arz karega, Allah Ta'ala meri rooh ko lauta dega main uske salam ka jawab bhi doonga. Ye hadith bilkul sahih hai. Aapki rooh-e-mubarak Jannat-ul-Firdaus mein hai aur us rooh aur jism ka bhi rishta hai, aur Nabi alayhis salam salam ka jawab dete hain. Na hamara salam pohnchna physical hai aur na Huzoor ka jawab aana physical hai."
+    summary_en: "Cites Sunan Abi Dawud regarding returning the soul to respond to greetings at the grave, defining this as a metaphysical barzakhi reality rather than physical communication."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud (returning of the soul for salam)"
+        timestamp: "00:26:48"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M06
+    timestamp: "00:32:07-00:34:34"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: IG-EM-C03
+    move_type: practice-consensus
+    quote: "Sahaba-e-Kiram ki tarbiyat dekhein, Bukhari Muslim dono mein hadith hai: 70 Sahaba ko jab dhokay se shaheed kiya ja raha tha Bi'r Ma'oonah par, unhone marte waqt ye dua ki: Allah hamare Nabi ko hamare haal ki khabar kar de. Rasoolullah ne farmaya: mere paas abhi Jibril aaye the aur unhone mujhe khabar di ke tumhare saathiyon ko dhokay se shaheed kar diya gaya. Ye hadith teen aqa'id clear kar deti hai: number one, Ilm-e-Ghaib ka aqeedah... Doosra aqeedah Hazir-o-Nazir... Tehsra aqeedah istianat bhi clear ho gaya, yani madad nahi mangi Huzoor se, Allah se madad mangi."
+    summary_en: "Cites the Bi'r Ma'oonah incident in Bukhari and Muslim to argue that Sahaba supplicated Allah to convey their condition rather than calling upon the Prophet directly, which he argues refutes Ilm-e-Ghaib, Hazir-o-Nazir, and Istighatha simultaneously."
+    evidence_cited:
+      - as_said: "Sahih Bukhari and Sahih Muslim (Bi'r Ma'oonah)"
+        timestamp: "00:32:07"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: HN-EM-C04
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The direct address in Tashahhud ('Assalamu alayka ayyuhan-nabiyyu') does not imply Hazir-o-Nazir, because the parallel greeting to all righteous servants in heavens and earth is conveyed by Allah, and companions outside Madina recited it without believing the Prophet was omnipresent."
+    move_type: consistency
+    first_seen: M01
+
+  - id: TW-EM-C08
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Direct vocative address ('Assalamu alayka ya Rasool Allah') practiced by Ibn Umar at the grave in Madina or by Abu Bakr over the deceased body is strictly a graveside greeting, which cannot justify distant vocative istighatha ('Ya Rasool Allah madad')."
+    move_type: practice-consensus
+    first_seen: M03
+
+phrasings:
+  - maps_to: HN-EM-C04
+    text: "Hum insha'Allah padh rahe hain lekin hamara hazir-o-nazir ka aqeedah nahi hai, Allah ko ja raha hai salam"
+    timestamp: "00:00:30"
+  - maps_to: TW-EM-C08
+    text: "Sahaba-e-Kiram ne isi cheez se ye akhaz kiya tha ke jab bhi hum qabr-e-Rasool par jayein ge toh Nabi alayhis salam ko direct khitab karein"
+    timestamp: "00:10:58"

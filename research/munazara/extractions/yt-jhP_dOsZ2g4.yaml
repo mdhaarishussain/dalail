@@ -1,0 +1,143 @@
+source_id: yt-jhP_dOsZ2g4
+moves:
+  - move_id: M01
+    timestamp: "00:00:20-00:00:43"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: charge
+    quote: "Is hadith par Imam Bukhari ne baab bandha hai ke zahar peena haraam hai. Aur ye aapko batate hain hamare buzurg jo hain na wo Bismillah padh ke zahar bhi pee lein toh kuch nahi hoga. Aur phir Khalid ibn Waleed ki taraf ek jhoota waqia mansoob kiya. Al-Mu'jam al-Kabir Tabarani mein maujood hai, Majma al-Zawa'id mein Imam Haythami le kar aaye hain, unhone khud jarah ki hai is waqie pe. Ye bilkul ja'li waqia hai bhai! Khalid ibn Waleed khilaf-e-shara kaam nahi kar sakte the."
+    summary_en: "Argues that drinking poison is prohibited suicide under Sahih Bukhari, and that the narration attributed to Khalid bin Waleed drinking poison in Tabarani and Majma al-Zawa'id is fabricated and criticized by Haythami."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (Bab on prohibition of poison)"
+        timestamp: "00:00:20"
+      - as_said: "Al-Mu'jam al-Kabir li-Tabarani"
+        timestamp: "00:00:32"
+      - as_said: "Majma al-Zawa'id (Imam Haythami)"
+        timestamp: "00:00:39"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:51-00:01:23"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: definition
+    quote: "Kehte hain jee karamat hoti wohi hai jo khilaf-e-aql ho. Bilkul karamat khilaf-e-aql hoti hai, khilaf-e-shara nahi hoti. Aap jo karamatein bata rahe ho ye khilaf-e-shara hain... Lekin khilaf-e-shara koi baat, jis tarah ye zahar peena, isko karamat kehna ye karamat ki bhi tauheen hai, Quran-o-Sunnat ki bhi tauheen hai!"
+    summary_en: "Defines karamat as an event contrary to reason (khilaf-e-aql) but never contrary to Sacred Law (khilaf-e-shara), arguing that categorizing poison-drinking as a miracle insults both karamat and the Quran and Sunnah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:52-00:04:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C01
+    move_type: practice-consensus
+    quote: "Imam Ibn Hajar Asqalani... Fath al-Bari sharh Sahih Bukhari... Uski jild number 10 ke safha number 304 pe hadith number 5778 aur 5779... likhte hain: 'wa qad waqa'at karamatun li-Khalid'... Aur Umdat al-Qari sharh Sahih al-Bukhari... Imam Ayni safha number 431 pe likhte hain: 'qultu waqa'at karamatun li-Khalid'... Imam Dhahabi unki kitab Siyar A'lam al-Nubala uski jild number hai 3 aur safha number 229 pe Imam Dhahabi likhte hain: 'qultu lillahi al-karamatu wa hadhihi shaja'atu Khalid'."
+    summary_en: "Cites Ibn Hajar in Fath al-Bari, Badr al-Din al-Ayni in Umdat al-Qari, and al-Dhahabi in Siyar A'lam al-Nubala explicitly confirming the incident as a verified karamat of Khalid bin Waleed."
+    evidence_cited:
+      - as_said: "Fath al-Bari Vol 10 p. 304 under hadith 5778-5779"
+        timestamp: "00:03:07"
+      - as_said: "Umdat al-Qari Vol 21 p. 431"
+        timestamp: "00:03:50"
+      - as_said: "Siyar A'lam al-Nubala Vol 3 p. 229"
+        timestamp: "00:04:14"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M04
+    timestamp: "00:10:31-00:13:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C02
+    move_type: support-chain
+    quote: "Ye jo Qays ibn Abi Hazim wali sanad hai ye bilkul sahih sanad hai: farmate hain 'ra'aytu Khalid ibn al-Waleed' maine khud Khalid ibn Waleed ko dekha ke unke paas zahar laya gaya toh unhon ne us zahar ko piya... Imam Haythami ne Majma al-Zawa'id mein likha: 'rawaahu Abu Ya'la wat-Tabarani... wa ahaduhuma rijaaluhu rijaal al-Sahih wa huwa muttasil' — Tabarani ki do sanadon mein se ek sanad ke rijal Sahih ke rijal hain aur wo sanad muttasil hai... Aur Imam Dhahabi ne Tarikh al-Islam mein is sanad ko bayan karke farmaya: 'min asahhi ma rawa Ibn Abi Khalid 'an Qays ibn Abi Hazim'."
+    summary_en: "Refutes Mirza's claim regarding Haythami, showing Haythami declared the chain through eyewitness Qays ibn Abi Hazim to be continuous with narrators of Sahih Bukhari, corroborated by al-Dhahabi in Tarikh al-Islam."
+    evidence_cited:
+      - as_said: "Al-Mu'jam al-Kabir li-Tabarani hadith 3719"
+        timestamp: "00:09:59"
+      - as_said: "Majma al-Zawa'id (rijaluhu rijal al-Sahih wa huwa muttasil)"
+        timestamp: "00:12:25"
+      - as_said: "Tarikh al-Islam by al-Dhahabi"
+        timestamp: "00:13:44"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:14:40-00:15:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C01
+    move_type: definition
+    quote: "Ye bhi Mirza Jhelumi ki ek bahut badi jahalat hai ke karamat khilaf-e-aql nahi hoti balkay karamat khilaf-e-aadat hoti hai: 'amrun khariqun lil-'adah'."
+    summary_en: "Corrects Mirza's definition of karamat, stating classical theology defines it as an event breaking natural habit (khariq lil-'adah) rather than contrary to intellect (khilaf-e-aql)."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:16:51-00:20:10"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C01
+    move_type: principle
+    quote: "Bukhari ka bab hai 'Shurb al-Dawa', Imam Ibn Hajar ne tafseel likhi hai ke mutlaqan zahar peena haraam nahi hai, haan zahar is tarah peena ke banda khud-kushi karta hai wo haraam hai... Imam Ibn Hajar ne likha ke ho sakta hai ke Sayyiduna Khalid ibn Waleed ke paas koi ahd-o-payman ho Nabi alayhis salam ki taraf se jis bunyad pe unhein yaqeen tha ke meri maut zahar se nahi ho sakti. Aur doosri hadith Imam Bukhari 5779 isi baab ke tehat leke aaye ke Nabi alayhis salam ne farmaya: jis shakhs ne subah saat Ajwah khajoorein khaayein saara din koi zahar aur jadoo usko nuqsan nahi de sakta. Ho sakta hai ke Sayyiduna Khalid ibn Waleed ne saat Ajwah khajoorein khaayi hui hon aur Nabi alayhis salam ke is farman par bharosa karte hue unhon ne wo zahar pee ke kuffar ke dilon mein ro'b bitha diya ho."
+    summary_en: "Reconciles Khalid's act with Shariah via Ibn Hajar: the prohibition applies to suicide, whereas Khalid acted in warfare to establish divine trust, possibly supported by the hadith in Bukhari 5779 concerning protection via seven Ajwah dates."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 5779 (seven Ajwah dates against poison)"
+        timestamp: "00:19:21"
+      - as_said: "Fath al-Bari by Ibn Hajar"
+        timestamp: "00:18:22"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M07
+    timestamp: "00:15:23-00:16:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Pehla sawal Mirza Jhelumi se ye hai: kya Mirza Jhelumi Sahaba-e-Kiram ke liye khilaf-e-shariat kaam ke sudoor ka qaayal nahi hai? Agar yahi aqeedah hai toh phir kis munh se Sahaba-e-Kiram ke hawale se negative baatein karke bilkhusoos Hazrat Ameer Muawiyah, Amr ibn al-Aas, Abu Musa Ash'ari aur Mugheerah bin Shu'bah radiyallahu anhum ke baare mein zabaan-darazi karta hai aur unki taraf jhoot aur zilm mansoob karta hai?"
+    summary_en: "Asks how Mirza can argue that a Sahabi could never commit an action contrary to Shariah to dismiss Khalid's karamat, while simultaneously accusing other Sahaba of actions contrary to Shariah in historical conflicts."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: KR-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Consuming poison is prohibited suicide under Sahih Bukhari, and true karamat is contrary to regular habit/reason (khilaf-e-aql) but never contrary to Sacred Law (khilaf-e-shara); therefore, the incident of Khalid bin Waleed drinking poison is fabricated."
+    move_type: principle
+    first_seen: M01
+
+  - id: KR-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The narration of Khalid bin Waleed drinking poison in Tabarani is criticized and rejected as weak/unauthentic by Haythami in Majma al-Zawa'id."
+    move_type: attack-chain
+    first_seen: M01
+
+phrasings:
+  - maps_to: KR-EM-C01
+    text: "karamat khilaf-e-aql hoti hai, khilaf-e-shara nahi hoti... zahar peena, isko karamat kehna ye karamat ki bhi tauheen hai, Quran-o-Sunnat ki bhi tauheen hai"
+    timestamp: "00:00:51"
+  - maps_to: KR-EM-C02
+    text: "Al-Mu'jam al-Kabir Tabarani mein maujood hai, Majma al-Zawa'id mein Imam Haythami le kar aaye hain, unhone khud jarah ki hai is waqie pe"
+    timestamp: "00:00:32"

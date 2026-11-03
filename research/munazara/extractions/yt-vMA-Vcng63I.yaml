@@ -1,0 +1,99 @@
+source_id: yt-vMA-Vcng63I
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: definition
+    quote: "Ke Allah Rabbul Izzat jalla shaanuhu ke bandon se istimdad karna aur madad talab karna is bunyad ke sath ke unko Allah ki madad ka, Allah ki shaan ka zariya samjhe, aur haqeeqat mein yehi aqeedah rakhe ke asal mein, haqeeqat mein madad Allah ki taraf se hai."
+    summary_en: "Presents the definition of istimdad as asking creation with the conviction that true aid is from Allah alone, creation being only a means."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:10-00:02:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: principle
+    quote: "Farmate hain ke jaan lena chahiye ke ghair se is tarah istimdad karna ke us par mukammal aetemad ho aur usko Allah ki madad ka mazhar na samjha jaye, aisi madad ghair se haraam hai. Aur agar mehaz tawajjuh Allah ki taraf ho aur us bande ko Allah ki madad ka mazhar jaane toh farmate hain ye jo madad hai ye jaiz hai Allah ke bandon se."
+    summary_en: "Cites Shah Abdul Aziz Dehlawi's Tafsir Fath al-Aziz distinguishing unlawful total reliance on creation from permissible assistance viewing creation as Allah's manifestation."
+    evidence_cited:
+      - as_said: "Shah Abdul Aziz Muhaddith Dehlawi Tafsir Fath al-Aziz Vol 1 p. 10"
+        timestamp: "00:01:45"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M03
+    timestamp: "00:04:45-00:05:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Ab takht kis tarah le ke aaye? Aankh jhapakhne se pehle. Sawal ye paida hota hai ke kis taqat ke sath le ke aaye? Ye baghair zahiri asbab ke le ke aaye, Allah Rabbul Izzat ki di hui roohani taqat se le ke aaye."
+    summary_en: "Asks how Asif ibn Barkhiya brought the throne of Bilqis before the blink of an eye without external physical causes."
+    evidence_cited:
+      - as_said: "Surah An-Naml ayat 40"
+        timestamp: "00:03:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:07:20-00:07:45"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: attack-chain
+    quote: "Aur isi hadith ko Imam Haythami ne Majma al-Zawa'id jild 10 safha 188 pe zikr kiya aur likha hai: 'rawaahu al-Bazzar wa rijaaluhu thiqaat' — isko Bazzar ne zikr kiya aur iske tamaam rijaal thiqah hain."
+    summary_en: "Cites Majma al-Zawa'id on the hadith of calling unseen angels, noting Haythami and Bazzar graded the narrators trustworthy."
+    evidence_cited:
+      - as_said: "Majma al-Zawa'id Vol 10 p. 188"
+        timestamp: "00:07:20"
+      - as_said: "Musnad al-Bazzar hadith 4975"
+        timestamp: "00:05:40"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:13:30-00:14:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Masa'il Ahmad ibn Hanbal jild 2 safha 816 aur 817 riwayat 1090: Imam Ahmad farmate hain maine paanch haj kiye hain, do paidal aur teen sawari par. Farmate hain ek haj mein paidal ja raha tha toh main rasta gum ho gaya toh maine kehna shuru kar diya: ya 'IbadAllah dulluna 'alat-tareeq."
+    summary_en: "Cites Masa'il Ahmad ibn Hanbal documenting Imam Ahmad calling upon the unseen servants of Allah when lost."
+    evidence_cited:
+      - as_said: "Masa'il Ahmad ibn Hanbal Vol 2 p. 816-817 no. 1090"
+        timestamp: "00:13:30"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M06
+    timestamp: "00:18:22-00:18:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: turnabout
+    quote: "Aur Ibn Taymiyyah ne apni kitab Al-Kalim al-Tayyib safha 98 riwayat 177 par is riwayat ko zikr kiya aur koi jarah nahi ki."
+    summary_en: "Notes Ibn Taymiyyah cited this narration in Al-Kalim al-Tayyib page 98 report 177 without criticism."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah Al-Kalim al-Tayyib p. 98 report 177"
+        timestamp: "00:18:22"
+    responds_to: null
+    confidence: medium
+
+new_claims: []
+phrasings: []

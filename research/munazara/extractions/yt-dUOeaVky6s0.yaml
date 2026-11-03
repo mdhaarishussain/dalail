@@ -1,0 +1,92 @@
+source_id: yt-dUOeaVky6s0
+moves:
+  - move_id: M01
+    timestamp: "00:00:06-00:00:57"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: definition
+    quote: "Pul Sirat se pehle jo jo bhi Musalmanon ke firqe hain khwah wo kafir the, gumrah the, bid'ati the, sab ke sab namazein padhte the, unki tafreeq nahi hogi, a'za-e-wuzu chamak rahe hon ge... Baat ye discuss ho rahi thi ke Pul Sirat ka maqsad ye hai ke Musalmanon mein jo chupe hue munafiqeen hain jo ahl-e-qibla, ahl-e-kalima the. Kya Qadiani ahl-e-qibla, ahl-e-kalima nahi hain? Usi qiblay ki taraf namaz padhte hain, ahl-e-kalima bhi hain wo. Waise wo Ghulam Ahmad Qadiani ko Rasoolullah nahi kehte, ummati nabi kehte hain, kalima wo yahi padhte hain: Muhammadur Rasoolullah."
+    summary_en: "Argues that Qadianis are technically Ahl-e-Qibla and Ahl-e-Kalima because they face the Ka'bah and recite the Shahadah without substituting Muhammad's name, claiming their wudu limbs will shine prior to separation on Pul Sirat."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:09-00:04:45"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: QD-EM-C01
+    move_type: definition
+    quote: "Sahih Bukhari ke andar 391 number hadith hai, Nabi Paak sallallahu alayhi wa sallam farmate hain... 'Man salla salatana wastaqbala qiblatana wa akala zabeehatana fa-dhalikal muslim'... Nabi Paak sallallahu alayhi wa sallam ne ahl-e-qibla ko muslim kaha hai, aur ahl-e-qibla ki takfeer karne ki ijazat nahi hai jo tamaam zarooriyyat-e-deen par imaan rakhta ho... Jabke kalima padhne wale ka kalima tab mo'tabar hai jab wo tamaam zarooriyyat-e-deen par imaan rakhta ho. Agar wo zarooriyyat-e-deen mein se kisi zaroorat-e-deeni ka munkir ho wo karodon martaba bhi kalima padhe toh uska kalima mo'tabar nahi hai."
+    summary_en: "Explains that in Shariah jurisprudence 'Ahl-e-Qibla' is synonymous with Muslim possessing full faith in all necessities of religion (zarooriyyat-e-deen), citing Sahih Bukhari 391 and 393."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 391"
+        timestamp: "00:03:09"
+      - as_said: "Sahih Bukhari hadith 393"
+        timestamp: "00:07:46"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:15:21-00:16:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: QD-EM-C02
+    move_type: practice-consensus
+    quote: "Sahih Muslim ke andar 583 number hadith ka hissa ye hai ke Nabi alayhis salam ne farmaya: tum qayamat ke din mere paas is haalat mein aaoge ke tumhare a'za-e-wuzu chamakte hon ge... 'Laysat li-ahadin ghayrikum'. Aur ye fazeelat sirf tumhare liye hai, tumhare ilawa kisi aur ko ye fazeelat hasil nahi hogi! Jab ummat-e-Mustafa ke ilawa kisi doosri ummat ko ye khusoosiyat hasil nahi hogi, Musa alayhis salam ki ummat ko hasil nahi hogi, Isa alayhis salam ki ummat ko hasil nahi hogi, toh kis munh se Mirza Jhelumi is fazeelat ko Qadianiyon par fit kar raha hai?"
+    summary_en: "Cites Sahih Muslim 583 where the Prophet stated that the radiance of wudu limbs is exclusive to his orthodox ummah, showing apostates cannot share this distinction."
+    evidence_cited:
+      - as_said: "Sahih Muslim hadith 583"
+        timestamp: "00:15:21"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:16:35-00:19:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: QD-EM-C02
+    move_type: practice-consensus
+    quote: "Surah Aal-e-Imran ayat 106-107... Qayamat ke din kuch chehre roshan hon ge aur kuch siyah hon ge. Jin ke chehre siyah hon ge unse kaha jaye ga: kya tumne imaan ke baad kufr ikhtiyar kiya?... Surah Az-Zumar ayat 60... Jinhon ne Allah par jhoot baandha unke chehre kaalay hon ge, siyah hon ge. Surah Abasa ayat 40-42... Qayamat ke din kuffar ke chehre siyah hon ge, un par gard padi hogi aur siyahi chadhi hogi, a'za-e-wuzu chamakna ummat-e-Mustafa ki fazeelat hai."
+    summary_en: "Cites Surah Aal-e-Imran 106, Az-Zumar 60, and Abasa 40-42 to demonstrate that disbelievers and apostates will appear with blackened faces on Judgment Day, not with luminous limbs."
+    evidence_cited:
+      - as_said: "Surah Aal-e-Imran ayat 106-107"
+        timestamp: "00:16:35"
+      - as_said: "Surah Az-Zumar ayat 60"
+        timestamp: "00:17:52"
+      - as_said: "Surah Abasa ayat 40-42"
+        timestamp: "00:18:54"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: QD-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Qadianis are technically Ahl-e-Qibla and Ahl-e-Kalima in worldly appearance because they face the Ka'bah and recite Muhammadur Rasoolullah without replacing the text of the Shahadah."
+    move_type: definition
+    first_seen: M01
+
+  - id: QD-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "On the Day of Judgment prior to Pul Sirat, all groups who prayed and performed ablution in the world, including Qadianis, will have radiant wudu limbs before being sifted."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: QD-EM-C01
+    text: "Kya Qadiani ahl-e-qibla, ahl-e-kalima nahi hain? Usi qiblay ki taraf namaz padhte hain, ahl-e-kalima bhi hain wo"
+    timestamp: "00:00:45"
+  - maps_to: QD-EM-C02
+    text: "qayamat wale din Qadianiyon ke a'za-e-wuzu bhi chamak rahe hon ge... wo toh Pul Sirat pe faisla hoga"
+    timestamp: "00:00:10"

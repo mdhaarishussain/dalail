@@ -1,0 +1,176 @@
+source_id: yt-j8HMKqpDamg
+moves:
+  - move_id: M01
+    timestamp: "00:00:48-00:01:25"
+    speaker: Scholar (played clip)
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Mirza
+    move_type: consistency
+    quote: "Doosre muqam par farmaya: namaz aur sabr se madad talab karo. Batayein namaz khuda hai? Sabr khuda hai? Nahi, ghairullah hai na. Jaise aap ek dawai khate hain toh aap kehte hain yaar goli badi zabardast thi aisa dard theek kiya hai. Ab batayein sar ka dard durust karne wali zaat kaun hai? Lekin aap keh rahe hain goli ne door kar diya, batayein aap mushrik ho gaye ke nahi ho gaye? Auliya-e-kiram jo hain duniya se tashreef le jane ke baad, ambiya-e-kiram auliya-e-kiram toh ye zinda hote hain"
+    summary_en: "Argues from Quran 2:45 ('seek help through patience and prayer'), medicinal relief, and martyrs being alive that seeking help through created means and living souls of the pious is not shirk."
+    evidence_cited:
+      - as_said: "Quran (namaz aur sabr se madad talab karo)"
+        timestamp: "00:00:48"
+      - as_said: "Quran (shaheed zinda hain)"
+        timestamp: "00:01:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:04:33-00:04:55"
+    speaker: Mirza
+    side: ali-mirza
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    maps_to: IS-EM-C05
+    move_type: definition
+    quote: "Bhai Khwaja Ajmeri sahab toh qabr mein hain, Disprin ki goli toh samne maujood hai, wo zahiri sabab hai, paani toh samne maujood hai, roti toh samne maujood hai, ammi toh samne maujood hai. Koi mari hui maa se bhi roti mangta hai? Qayamat tak bhooka hi mare ga. Ye do different cheezein hain."
+    summary_en: "Distinguishes physical causal means available in the present (medicine, mother) from invoking deceased persons in their graves, arguing nobody asks a deceased mother for food."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:05:15-00:05:43"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: practice-consensus
+    quote: "Jee Khaibar mein Nabi alayhis salam ne Hazrat Ali se madad mangi. Bhai Hazrat Ali samne maujood the, jung ke liye bulaya. Toh Hazrat Hamza ko kyun nahi bulaya Khaibar mein? Wo shaheed ho chuke the. Shaheed toh zinda hain, unko madad ke liye aap toh pukarte hain, toh Huzoor ne kyun nahi pukara?"
+    summary_en: "Argues from the Battle of Khaybar that the Prophet ﷺ called upon the physically present Ali rather than calling upon the martyred Hamza, asking why the deceased martyr was not summoned if post-mortem calling were valid."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:06:50-00:07:22"
+    speaker: Scholar (played clip)
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Mirza
+    move_type: practice-consensus
+    quote: "Bukhari ke shuru mein Kitab al-Ilm mein dekh lein Hazrat Abu Huraira radiyallahu ta'ala anhu Sarkar ki khidmat mein hazir hue: Ya Rasool Allah mujhe cheezein yaad nahi rehtein. Sarkar ne ek chadar bichhai aur teen martaba is tarah kiya jaise koi cheez daal rahe hon aur farmaya Abu Huraira isko samet lo. Uske baad farmate hain khuda ki qasam main koi cheez nahi bhoola."
+    summary_en: "Cites Sahih Bukhari where Abu Huraira asked the Prophet ﷺ for improved memory, presenting this as seeking non-physical aid from the Prophet."
+    evidence_cited:
+      - as_said: "Sahih Bukhari Kitab al-Ilm"
+        timestamp: "00:06:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:25-00:07:37"
+    speaker: Mirza
+    side: ali-mirza
+    kind: response
+    reported: false
+    answers: TW-EM-C01
+    maps_to: TW-EM-C01
+    move_type: restrict-evidence
+    quote: "Lekin sir wo jo unhone kaha tha, Nabi alayhis salam toh samne maujood the jinse dua karwani thi jin ka mojaza zahir hona tha wo toh samne the na! Toh theek hai Rasoolullah aaj bhi maujood hon hum apne har mas'ale ke liye aap ke paas jayein ge."
+    summary_en: "Restricts Abu Huraira's report to the physical presence and lifetime of the Prophet ﷺ."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:37-00:08:35"
+    speaker: Scholar (played clip)
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Mirza
+    move_type: practice-consensus
+    quote: "Sahih Bukhari mein aata hai ek sahabi ki pindli toot gayi toh Nabi alayhis salam ne us pe haath phera pindli bilkul theek ho gayi. Bukhari jild do page number 577, Hazrat Abdullah bin Ateek radiyallahu anhu jab Abu Rafi Yahudi ko qatl kar ke wapas aane lage toh zeene se gir pade paon toot gaya. Allah ke pyare Nabi ne toote hue paon par mubarak haath phera toh wo foran jud gaya."
+    summary_en: "Cites Sahih Bukhari regarding Abdullah bin Ateek's fractured leg healed by the touch of the Prophet ﷺ as proof of seeking physical cure through his person."
+    evidence_cited:
+      - as_said: "Sahih Bukhari Vol 2 p. 577"
+        timestamp: "00:07:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:40-00:09:05"
+    speaker: Mirza
+    side: ali-mirza
+    kind: response
+    reported: false
+    answers: TW-EM-C07
+    maps_to: TW-EM-C07
+    move_type: consistency
+    quote: "Lekin aaj agar kisi ki pindli toot ti hai toh hum usey Rauza shareef pe toh nahi le ke jayein ge, orthopedic surgeon ke paas le ke jayein ge. Aap Rauza shareef pe le bhi jayein tab bhi kuch nahi hoga kyunke na Nabi alayhis salam ne bahar tashreef lana hai na haath pherna hai aur na aap ko shifa honi hai."
+    summary_en: "Argues that if post-mortem physical healing were operative, people would take fractured limbs to the Prophet's grave rather than visiting surgeons."
+    evidence_cited: []
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:10:10-00:10:45"
+    speaker: Scholar (played clip)
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Mirza
+    move_type: practice-consensus
+    quote: "Imam Abu Bakr Ibn Abi Shaybah unhone apni tasneef Al-Musannaf ke andar ye riwayat naqal ki hai ke Hazrat Umar ke daur-e-khilafat mein qahat pada toh Hazrat Sayyiduna Bilal bin Harith al-Muzani radiyallahu ta'ala anhu ye bargah-e-risalat mein qabr-e-anwar ke paas hazir hue aur aa ke arz ki ke Allah se hamare liye barish talab kijiye, toh Nabi Paak unke khwab mein aaye aur bisharat di ke Umar se ja ke kaho tumhe barish di jaye gi."
+    summary_en: "Cites Musannaf Ibn Abi Shaybah reporting that a companion visited the Prophet's grave during drought in Umar's caliphate asking for rain."
+    evidence_cited:
+      - as_said: "Imam Abu Bakr Ibn Abi Shaybah Al-Musannaf"
+        timestamp: "00:10:10"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:10:48-00:11:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: response
+    reported: false
+    answers: TW-EM-C03
+    maps_to: TW-EM-C03
+    move_type: practice-consensus
+    quote: "Bukhari Muslim mein aata hai Sulh al-Hudaybiyyah mein 1500 Sahaba ne ek katoray se wuzu kiya, paani piya, janwaron ko pilaya aur store bhi kar liya. Toh wo Hazrat Umar na'uzubillah Huzoor ki wafat ke baad aap ki barkat ke qaayal nahi rahe the? Unko pata tha ab hamari communication nahi ho sakti, ab is tareeqe se hum Nabi alayhis salam ke sath guft-o-shaneed nahi kar sakte. Wo Allah ki jannaton mein hain, haan hamara durood-o-salam un tak pohnchta hai."
+    summary_en: "Argues from Bukhari 1010 that Umar did not take vessels to the grave because post-mortem physical communication is no longer operable, durood being conveyed instead."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 1010"
+        timestamp: "00:09:40"
+      - as_said: "Bukhari Muslim (Sulh al-Hudaybiyyah)"
+        timestamp: "00:11:20"
+    responds_to: M08
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:14:06-00:14:55"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: IS-EM-C04
+    move_type: principle
+    quote: "Barish bhi farishte barsate hain Allah ke hukm se, lekin barish hum maangein ge kis se? Allah se. Farishton se maangein ge mushrik ho jayein ge. Sunan An-Nasa'i mein hadith hai: zameen mein farishte sayahat karte hain aur mere ummatiyon ka salam mujh tak pohnchate hain, lekin humne farishton ko nahi pukarna. Humne durood shareef mein kehna hai: Allahumma salli ala Muhammad. Humne farishton se nahi kehna ke hamara paigham le ke aap chale jayein."
+    summary_en: "Argues that although angels manage rain and convey greetings, believers must address Allah to send blessings rather than summoning or invoking angels directly."
+    evidence_cited:
+      - as_said: "Sunan An-Nasa'i (angels roaming earth conveying salam)"
+        timestamp: "00:14:31"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IS-EM-C06
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "At the Battle of Khaybar, the Prophet ﷺ summoned the physically living Ali for assistance rather than summoning the deceased martyr Hamza, showing that calling upon deceased righteous figures was not practiced."
+    move_type: practice-consensus
+    first_seen: M03
+
+phrasings:
+  - maps_to: IS-EM-C06
+    text: "Toh Hazrat Hamza ko kyun nahi bulaya Khaibar mein? Wo shaheed ho chuke the. Shaheed toh zinda hain, unko madad ke liye aap toh pukarte hain, toh Huzoor ne kyun nahi pukara?"
+    timestamp: "00:05:31"
+  - maps_to: IS-EM-C05
+    text: "Bhai Khwaja Ajmeri sahab toh qabr mein hain, Disprin ki goli toh samne maujood hai, wo zahiri sabab hai... Koi mari hui maa se bhi roti mangta hai?"
+    timestamp: "00:04:33"

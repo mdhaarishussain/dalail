@@ -1,0 +1,111 @@
+source_id: yt-dD66hGXISp0
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:10"
+    speaker: E
+    side: shia
+    kind: claim
+    maps_to: SB-SH-C02
+    move_type: charge
+    quote: "Aliyyun khayrul-bashari ba'dee fa-man abaa fa-qad kafara... mere baad jo Mola Ali ko mujh se mere baad afzal na maane woh kafir hai yani ke jo Mola Ali alayhis salatu was salam ko Huzoor ke baad afzal na maane aap ka kehne ka matlab hai riwayat ki roshni mein ke woh kafir ho jaata hai pakka kafir hai"
+    summary_en: "Shia speaker Qari Ahmad Hassan cites the narration 'Ali is the best of mankind after me, and whoever refuses has disbelieved', arguing that anyone who does not believe Ali is superior to all companions after the Prophet is an absolute apostate/kafir."
+    evidence_cited:
+      - as_said: "Fabricated report: 'Aliyyun khayru al-bashari ba'dee fa-man abaa fa-qad kafara'"
+        timestamp: "00:00:03"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:11-00:02:47"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C02
+    move_type: attack-chain
+    quote: "ye riwayat batil hai mardood hai aur mawdoo' aur man-gharat aur ja'li hai aur Rafziyon ki garhi hui riwayat hai Ahl-e-Sunnat wal Jama'at ke haan kisi soorat mein ye qabil-e-qabool nahin... Imam Dhahabi apni kitab al-Mughni fi al-Du'afa ke andar isi riwayat ko zikr karte hain 1362 number riwayat hai... Imam Dhahabi kehte hain ye jo riwayat hai ke Ali khayrul-bashar hadha kadhib ye jhoot hai ye jhooti riwayat hai"
+    summary_en: "Exposes the cited narration as an unauthentic forgery (mawdoo' / kadhib) invented by Shia polemicists, citing Imam al-Dhahabi in al-Mughni fi al-Du'afa (1362)."
+    evidence_cited:
+      - as_said: "al-Mughni fi al-Du'afa by Imam al-Dhahabi hadith 1362 ('hadha kadhib')"
+        timestamp: "00:02:50"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:48-00:05:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C02
+    move_type: support-chain
+    quote: "Imam Ibn al-Jawzi ki kitab hai Kitab al-Mawdoo'at usmein Imam Ibn al-Jawzi ne safha number 246 pe isi riwayat ko mawdoo'at mein yani jhooti aur ja'li man-gharat riwayaat mein shumar kiya hai... Imam Jalaluddin al-Suyuti rahmatullahi ta'ala alayh ki al-La'ali al-Masnoo'ah fi al-Ahadith al-Mawdoo'ah uski jild number hai 1 aur safha number 300 aur 301 pe... Muhammad bin Kathir hai jo ke Shi'i hai aur wadda' hai... al-Abateel wal-Manakeer kitab hai Allama al-Jawzaqani ki usmein safha number 151 pe Jawzaqani likhte hain hadithun munkarun batil"
+    summary_en: "Cites classical rijal authorities documenting the fabrication: Ibn al-Jawzi in al-Mawdoo'at (p. 246), al-Suyuti in al-La'ali al-Masnoo'ah (1/300-301) proving the isnad contains Shia forger Muhammad ibn Kathir and liars al-Salji and al-Darra, and al-Jawzaqani in al-Abateel wal-Manakeer (p. 151)."
+    evidence_cited:
+      - as_said: "Kitab al-Mawdoo'at by Ibn al-Jawzi p. 246"
+        timestamp: "00:03:10"
+      - as_said: "al-La'ali al-Masnoo'ah fi al-Ahadith al-Mawdoo'ah by al-Suyuti Vol 1 pp. 300-301"
+        timestamp: "00:03:40"
+      - as_said: "al-Abateel wal-Manakeer by al-Jawzaqani p. 151 ('munkarun batil')"
+        timestamp: "00:04:30"
+      - as_said: "Mizan al-I'tidal by Imam al-Dhahabi"
+        timestamp: "00:04:58"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:35-00:06:20"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C02
+    move_type: support-chain
+    quote: "Sahih Bukhari ke andar Imam Bukhari baab qayam karte hain babu fadli Abi Bakrin ba'dan-Nabi... 3655 number hadees leke aaye Sayyiduna Abdullah ibn Umar radiyallahu ta'ala anhuma farmate hain... hum kis ko afzal qarar dete the Abu Bakr Siddiq radiyallahu ta'ala anhu ko phir Hazrat Umar ibn al-Khattab radiyallahu ta'ala anhu ko phir Uthman ibn Affan radiyallahu ta'ala anhu ko"
+    summary_en: "Cites Sahih Bukhari 3655 (Ibn Umar) establishing that during the lifetime of the Prophet, the Sahaba unanimously ranked Abu Bakr first in virtue, followed by Umar, then Uthman."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3655 (Bab Fadli Abi Bakr ba'da al-Nabi via Ibn Umar)"
+        timestamp: "00:05:40"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:21-00:07:30"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-40
+    move_type: turnabout
+    quote: "Sahih Bukhari ke andar Imam Bukhari 3671 number hadees leke aaye ke aapke betay Muhammad ibn al-Hanafiyyah ne Mola Ali se poocha ke abba jaan ye batayein ayyun-nasi khayrun ba'da Rasulillah Rasoolullah sallallahu alayhi wa aalihi wa sallam ke baad sab se afzal aur sab se khayr aur behtar kaun shakhs hai qala Abu Bakrin to Mola Ali Pak radiyallahu ta'ala anhu ne farmaya Abu Bakr maine poocha unke baad to farmaya unke baad Umar radiyallahu ta'ala anhu ye Mola Ali ka aqeedah hai"
+    summary_en: "Presents Ali ibn Abi Talib's own explicit testimony in Sahih Bukhari 3671 to his son Muhammad ibn al-Hanafiyyah confirming that the best of mankind after the Prophet is Abu Bakr, then Umar, proving that the opponent's takfir decree would absurdly encompass Ali himself."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3671 (Ali testifying to his son on Abu Bakr and Umar)"
+        timestamp: "00:06:27"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:31-00:08:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C02
+    move_type: practice-consensus
+    quote: "Huzoor Sayyiduna Data Ganj Bakhsh Ali Hujwiri rahmatullahi ta'ala alayh apni kitab Kashf al-Mahjoob mein likhte hain... farmate hain Siddiq-e-Akbar nabiyon ke baad sab se afzal hain aur kisi ke liye rawa nahin hai ke woh Abu Bakr Siddiq se aagay qadam rakh sakay Huzoor Ghaus-e-Pak Sarkar radiyallahu ta'ala anhu apni kitab Ghunyat al-Talibeen ki pehli jild safha 158 pe likhte hain... afdalu Abu Bakrin thumma Umaru thumma Uthmanu thumma Aliyyun"
+    summary_en: "Corroborates the consensus of the Awliya and Fuqaha: Data Ganj Bakhsh in Kashf al-Mahjoob and Sheikh Abdul Qadir Jilani in Ghunyat al-Talibeen (1/158) confirming the unanimous Sunni hierarchy of superiority: Abu Bakr, then Umar, then Uthman, then Ali."
+    evidence_cited:
+      - as_said: "Kashf al-Mahjoob by Data Ganj Bakhsh Ali al-Hujwiri"
+        timestamp: "00:07:38"
+      - as_said: "Ghunyat al-Talibeen by Abdul Qadir Jilani Vol 1 p. 158"
+        timestamp: "00:07:58"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: SB-SH-C02
+    side: shia
+    summary_en: "Ali is the best of mankind immediately after the Prophet without interval, and anyone who refuses to believe he is superior to all companions is an absolute apostate/kafir, based on the narration 'Aliyyun khayru al-bashar'."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: SB-SH-C02
+    text: "Aliyyun khayrul-bashari ba'dee fa-man abaa fa-qad kafara... jo Mola Ali ko Huzoor ke baad afzal na maane... woh kafir ho jaata hai pakka kafir hai"
+    timestamp: "00:00:20"

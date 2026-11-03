@@ -1,0 +1,169 @@
+source_id: yt-yKVfjqJAMBk
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:26"
+    speaker: C
+    side: ahl-e-sunnat
+    kind: claim
+    maps_to: MS-EM-C04
+    move_type: reconciliation
+    quote: "Ibn Mubarak ke jo purane student the woh ye wala baat naqal kiya aur jab Sunan an-Nasa'i mein ye hadees aati hai to uske rawi mein Ibn Mubarak ka naam aata hai jo ke unke baad ke student the woh ye riwayat karte hain to bolte hain ke unhone ruju kar liya tha"
+    summary_en: "Inquirer presents the argument that earlier students reported Ibn Mubarak's critical remark in Tirmidhi 256, whereas later students reported Ibn Mas'ud's hadith in Sunan an-Nasa'i directly from Ibn Mubarak, showing retraction (ruju)."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 256"
+        timestamp: "00:00:02"
+      - as_said: "Sunan an-Nasa'i"
+        timestamp: "00:00:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:27-00:01:18"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C05
+    move_type: attack-chain
+    quote: "mujhe Abdullah ibn Mubarak ka naam batayein zara us hadees mein is tarah nikalein hold karta hoon nikalein"
+    summary_en: "Challenges the inquirer to locate Abdullah ibn al-Mubarak's name in the chain of Sunan an-Nasa'i, asserting it does not appear in the transmission."
+    evidence_cited:
+      - as_said: "Sunan an-Nasa'i 1059"
+        timestamp: "00:03:12"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:40-00:04:11"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C05
+    move_type: support-chain
+    quote: "Ye hadees 1026 ya 27 number Sunan Nasa'i ke andar maujood hai jismein Imam Abdullah ibn al-Mubarak woh khud Sayyiduna Abdullah ibn Mas'ud radiyallahu ta'ala anhu ki hadees ko bayan kar rahe hain"
+    summary_en: "Demonstrates that Sunan an-Nasa'i 1026/1027 explicitly features Abdullah ibn al-Mubarak in the isnad narrating Ibn Mas'ud's prayer, authenticated as sahih by Nasiruddin Albani."
+    evidence_cited:
+      - as_said: "Sunan an-Nasa'i 1026 / 1027 (tahqeeq Nasiruddin Albani, Maktabat al-Ma'arif Riyadh, sahih)"
+        timestamp: "00:04:18"
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:12-00:05:59"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C05
+    move_type: support-chain
+    quote: "Imam Nasa'i kehte hain ke hamein Suwayd bin Nasr ne ye hadees bayan ki khabar di aur Suwayd bin Nasr jo Abdullah ibn al-Mubarak ke shagird hain woh kehte hain ke hamein Abdullah bin Mubarak ne iski khabar di"
+    summary_en: "Reads the complete unbroken isnad from Sunan an-Nasa'i 1026: Suwayd bin Nasr -> Abdullah ibn al-Mubarak -> Sufyan al-Thawri -> Asim bin Kulayb -> Abd al-Rahman ibn al-Aswad -> Alqamah -> Abdullah ibn Mas'ud."
+    evidence_cited:
+      - as_said: "Sunan an-Nasa'i 1026 isnad (Suwayd bin Nasr -> Ibn al-Mubarak -> Sufyan Thawri -> Asim bin Kulayb -> Abdur Rahman ibn al-Aswad -> Alqamah -> Abdullah ibn Mas'ud)"
+        timestamp: "00:04:34"
+    responds_to: M02
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:01-00:07:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: practice-consensus
+    quote: "woh Abdullah ibn Mas'ud radiyallahu ta'ala anhu hain ye Abdullah ibn Mas'ud woh hain ke jinke baare mein Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ki Sahih Bukhari mein 4999 number hadees hai"
+    summary_en: "Cites Ibn Mas'ud's preeminent status as verified in Bukhari (3762, 4999, 5000), noting that Imam Tirmidhi graded his hadith hasan/sahih."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3762"
+        timestamp: "00:06:12"
+      - as_said: "Sahih Bukhari 4999"
+        timestamp: "00:06:48"
+      - as_said: "Sahih Bukhari 5000"
+        timestamp: "00:07:00"
+      - as_said: "Jami at-Tirmidhi 257 (hasan sahih)"
+        timestamp: "00:07:38"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:56-00:11:26"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C04
+    move_type: reconciliation
+    quote: "Jo qadeem al-sama' shagird jo pehle ke shagird hain woh ye tabsirah zikr karte hain lekin jo jadeed al-sama' yani naye shagird hain baad mein 40 45 ya 50 saal ki umr mein taqreeban yani baad wali umr mein jo shagird hain woh Abdullah ibn al-Mubarak se is hadees ko khud riwayat kar rahe hain jo is baat ki daleel hai ke Abdullah ibn al-Mubarak ne ya to unka kalam se aur us tabsire se ruju kar liya tha"
+    summary_en: "Reconciles the jarh: earlier students (Sufyan bin Abd al-Malik) transmitted Ibn Mubarak's criticism of a different matn, whereas later students (Suwayd bin Nasr) received the narration directly from him without criticism, establishing retraction (ruju) or subsequent discovery of the chain."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 256 (matn: annan-Nabiyya lam yarfa)"
+        timestamp: "00:09:05"
+      - as_said: "Sunan an-Nasa'i 1026 (matn: ala ukhbirukum bi-salati Rasulillah)"
+        timestamp: "00:09:30"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:11:27-00:12:29"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C05
+    move_type: consistency
+    quote: "aur ab jab sabit ho gaya to ab kehta hai ke iska matlab ye nahin ke woh is hadees ko sahih bhi samajhte the bhai agar sahih nahin samajhte the sabit nahin maante the to sath ye kehte ke ye hadees sabit nahin hai halanke aisi koi baat unhone nahin ki"
+    summary_en: "Notes the opponent's retreat from denying Ibn Mubarak's transmission to claiming narrating does not mean authenticity; argues that transmitting without critical annotation in his mature teaching proves acceptance."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:12:30-00:13:08"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C06
+    move_type: attack-chain
+    quote: "Imam Bukhari is waqia ki sanad zikr nahin karta aur jis waqia ki sanad na ho Mirza Jhelumi kehta hai ye chawal hai to ab naam de khud isko kya naam dega sanad hi mazkoor nahin Imam Bukhari ne zikr nahin ki sanad"
+    summary_en: "Points out that Imam Bukhari's citation in Juz Raf al-Yadayn of a debate between Abu Hanifa and Ibn Mubarak lacks an isnad, failing the opponent's own standard of proof."
+    evidence_cited:
+      - as_said: "Juz Raf al-Yadayn by Imam Bukhari (without isnad)"
+        timestamp: "00:12:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:13:09-00:14:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-18
+    move_type: turnabout
+    quote: "Imam Abu Hanifa ne Abdullah ibn al-Mubarak se kaha Ibn Mubarak tu har takbeer ke waqt apne haathon ko uthata hai goya ke tum urne lage ho ya jab bhi Allahu Akbar kehte ho har Allahu Akbar ke mauqa par apne haathon ko uthate ho to ab sawal ye paida hota hai ke kya Mirza Jhelumi aur Mirza Jhelumi ke followers har Allahu Akbar ke mauqa par apne haathon ko uthate hain"
+    summary_en: "Cites the sourced version in Abdullah ibn Ahmad's Kitab al-Sunnah, revealing Abu Hanifa's critique was directed at Ibn Mubarak raising hands at every single takbeer and movement, asking if Mirza's followers practice this extreme form of raf al-yadayn."
+    evidence_cited:
+      - as_said: "Kitab al-Sunnah by Abdullah ibn Ahmad ibn Hanbal"
+        timestamp: "00:13:17"
+    responds_to: M08
+    confidence: high
+
+new_claims:
+  - id: MS-EM-C04
+    side: ali-mirza
+    summary_en: "Abdullah ibn al-Mubarak declared the hadith of Ibn Mas'ud regarding the omission of raf al-yadayn unestablished (lam yathbut) in Tirmidhi 256."
+    move_type: attack-chain
+    first_seen: M01
+  - id: MS-EM-C05
+    side: ali-mirza
+    summary_en: "Abdullah ibn al-Mubarak is not in the isnad of Sunan an-Nasa'i 1026, and transmitting a narration does not imply the muhaddith considered it authentic."
+    move_type: attack-chain
+    first_seen: M02
+  - id: MS-EM-C06
+    side: ali-mirza
+    summary_en: "Imam Bukhari in Juz Raf al-Yadayn records that Abdullah ibn al-Mubarak refuted Imam Abu Hanifa on the issue of raf al-yadayn."
+    move_type: practice-consensus
+    first_seen: M08
+
+phrasings:
+  - maps_to: MS-EM-C04
+    text: "Tirmidhi mein 256 number hadees hai jismein Ibn Mubarak ka comment naqal kiya gaya ke raf-ul-yadain Ibn Mas'ud wala sabit nahin hai"
+    timestamp: "00:00:03"
+  - maps_to: MS-EM-C05
+    text: "mujhe Abdullah ibn Mubarak ka naam batayein zara us hadees mein"
+    timestamp: "00:00:54"

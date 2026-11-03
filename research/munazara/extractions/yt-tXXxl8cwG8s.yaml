@@ -1,0 +1,121 @@
+source_id: yt-tXXxl8cwG8s
+moves:
+  - move_id: M01
+    timestamp: "00:17:14-00:18:52"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: AQ-EM-C01
+    move_type: turnabout
+    quote: "Agar sifat ki bunyad par shirk thehrana hai toh sabse bada mujrim Mirza Jhelumi khud hai, kyunke usne kaha: Allah kehta hai 60 saal ki zindagi mujhe de do main tumhe jannat mein mini-god bana doonga!... Aur phir safai dete hue Mirza kehta hai ke nahi jab khaliq aur makhlooq ka farq aa jaye toh shirk nahi rehta! Jab apni baari aati hai toh ye kehta hai, hamari baari mein kehta hai shirk ho gaya. Hum kehte hain Quran-o-Sunnat ki roshni mein jab zaati aur ata'i ka farq aa jaye, haqeeqi aur majazi ka farq aa jaye toh shirk nahi rehta."
+    summary_en: "Applies turnabout to Mirza's concept of believers becoming 'mini-gods' in Paradise, arguing that if maintaining the Creator/creation distinction excuses using the word god for creation, then distinguishing between inherent (zaati) and granted (ata'i) attributes completely excludes shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:19:30-00:20:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: AQ-EM-C01
+    move_type: definition
+    quote: "Quran mein Allah Samee'-o-Baseer hai, lekin Surah Al-Insan mein bande ko bhi samee'-o-baseer banaya. Allah Ra'oof-o-Raheem hai, Surah At-Tawbah mein Nabi alayhis salam ko bhi ra'oof-o-raheem farmaya. Farq kya hai? Zaati aur ata'i ka farq hai."
+    summary_en: "Demonstrates that the Quran shares attributes between Allah and creation (Samee', Baseer, Ra'oof, Raheem), with the distinction residing between inherent infinite divine attributes versus granted finite created attributes."
+    evidence_cited:
+      - as_said: "Surah Al-Insan ayat 2"
+        timestamp: "00:19:30"
+      - as_said: "Surah At-Tawbah ayat 128"
+        timestamp: "00:19:41"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:22:03-00:22:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    similar_to: AQ-EM-C02
+    move_type: charge
+    quote: "I'lamiya mein likha tha: Allah Ta'ala har shay ka khaliq hai lekin shar ki nisbat uski taraf nahi karni chahiye. Mirza Jhelumi ne is par aitraaz kiya ke ye kya deen ki khidmat ho rahi hai ke tamaam af'aal ka khaliq Allah hai lekin buray af'aal ki nisbat Allah ki taraf karna jaiz nahi hai!"
+    summary_en: "Relays Mirza's critique of the Sunni creedal statement that Allah creates all actions but evil is not attributed to Him out of adab."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:24:28-00:25:04"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: AQ-EM-C02
+    move_type: practice-consensus
+    quote: "Sahih Muslim ki hadith number 1812 mein Nabi Paak sallallahu alayhi wa sallam ki du'a-e-istiftah maujood hai... 'Wal-khayru kulluhu fee yadayka wash-sharru laysa ilayk'. Kul ki kul khayr tere haathon mein hai aur shar ki nisbat teri taraf nahi hai!"
+    summary_en: "Cites Sahih Muslim 1812 where the Prophet explicitly prayed 'all good is in Your hands, and evil is not attributed to You', proving the prophetic origin of withholding evil attributions out of adab."
+    evidence_cited:
+      - as_said: "Sahih Muslim hadith 1812"
+        timestamp: "00:24:28"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:25:41-00:26:16"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: AQ-EM-C02
+    move_type: definition
+    quote: "Surah As-Saffat ayat 96... 'Wallahu khalaqakum wa ma ta'maloon'. Allah ne tumhe bhi paida kiya aur jo tum karte ho usko bhi paida kiya. Khaliq Allah hai, lekin adaban shar ki nisbat Allah ki taraf nahi karni chahiye."
+    summary_en: "Cites Surah As-Saffat 96 establishing that Allah is the Creator of humans and their deeds (khalq), while humans are the acquirers (kasb), refuting the Mu'tazilite doctrine."
+    evidence_cited:
+      - as_said: "Surah As-Saffat ayat 96"
+        timestamp: "00:25:41"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:28:44-00:30:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: AQ-EM-C02
+    move_type: practice-consensus
+    quote: "Imam Bayhaqi Kitab al-I'tiqad safha 147 pe likhte hain: tamaam af'aal khayr hon ya shar hon wo Allah ki takhleeq se saadir hote hain. Aur safha 151 par Sahih Muslim ki hadith 1812 ke tehat likhte hain ke is hadith mein adab sikhaya gaya hai ke Allah ki sana bayan karte hue behtar umoor ki nisbat ki jaye, shar ki nisbat na ki jaye. Imam Nawawi Sharh Sahih Muslim mein Imam Khattabi ka qawl naqal karte hain ke adaban ye na kaha jaye: 'Ya Khaliqa al-khanazeer' ya 'Ya Rabba ash-sharr', balkay achay umoor ki nisbat ki jaye."
+    summary_en: "Cites al-Bayhaqi in Kitab al-I'tiqad and al-Nawawi in Sharh Sahih Muslim citing al-Khattabi, explaining that although Allah creates all things, adab forbids addressing Him as 'Creator of swine' or 'Lord of evil'."
+    evidence_cited:
+      - as_said: "Kitab al-I'tiqad by al-Bayhaqi p. 147 and 151"
+        timestamp: "00:27:25"
+      - as_said: "Sharh Sahih Muslim by al-Nawawi"
+        timestamp: "00:29:24"
+    responds_to: M03
+    confidence: high
+
+new_claims:
+  - id: AQ-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Barelvis guard monotheism in Allah's essence (zaat) but commit shirk in His attributes (sifat) by attributing divine hearing, seeing, and assistance to saints."
+    move_type: charge
+    first_seen: M01
+
+  - id: AQ-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The classical theological proposition that Allah creates all actions but evil is not attributed to Him out of adab is an unscriptural and illogical philosophical contrivance."
+    move_type: charge
+    first_seen: M03
+
+phrasings:
+  - maps_to: AQ-EM-C01
+    text: "zaat ki hadd tak toh ehtiyat karte hain Barelvi lekin sifat ke hawale se shirk karte hain"
+    timestamp: "00:16:38"
+  - maps_to: AQ-EM-C02
+    text: "tamaam af'aal ka khaliq Allah hai lekin buray af'aal ki nisbat Allah ki taraf karna jaiz nahi... ye konsi deen ki khidmat ho rahi hai"
+    timestamp: "00:22:19"

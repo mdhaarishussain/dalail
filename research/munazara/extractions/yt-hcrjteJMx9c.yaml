@@ -1,0 +1,36 @@
+source_id: yt-hcrjteJMx9c
+moves:
+  - move_id: M01
+    timestamp: "00:00:16-00:01:19"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IG-WH-C01
+    move_type: practice-consensus
+    quote: "Sayyiduna Hudhayfah radiyallahu ta'ala anhu farmate hain ke ek din main apni walidah ko ye keh ke aaya tha ke ammi jaan aaj main Maghrib ki namaz apne Aaqa ke peeche padhoonga... aur Sarkar ki bargah mein arz karoonga: Ya Rasool Allah, mere liye aur meri ammi ke liye bakhshish ki dua farmayein... Farmate hain jis waqt main Huzoor ke peeche peeche ja raha tha, abhi maine aake bataya nahi ke main kis maqsad ke liye aaya hoon. Huzoor ki bargah mein arz nahi kiya ke main Huzoor kya lene ke liye aaya hoon."
+    summary_en: "Relates from Jami al-Tirmidhi that Hudhayfah intended in his heart to request prayers for forgiveness for himself and his mother without expressing it aloud."
+    evidence_cited:
+      - as_said: "Jami' Tirmidhi Kitab al-Manaqib"
+        timestamp: "00:00:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:19-00:02:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IG-WH-C01
+    move_type: practice-consensus
+    quote: "Huzoor ne jis waqt mehsoos farmaya toh mere Aaqa Kareem ne farmaya... 'Ma haajatuka ghafarAllahu laka wa li-ummika'. Aane wale kya kaam hai? Allah teri aur teri maa ki bakhshish farmaye. Huzoor ne bin maange ata farma diya. Aane wala dil mein soch ke aa raha tha, niyat leke aa raha tha, Mehboob apni nigah-e-nubuwwat se, Allah ki ata se apne aane wale ghulam ke dil ki haalat ko jaan rahe hain"
+    summary_en: "Cites the Prophet addressing Hudhayfah's unuttered intention and granting forgiveness for him and his mother, arguing this demonstrates knowledge of thoughts granted by Allah."
+    evidence_cited:
+      - as_said: "Jami' Tirmidhi"
+        timestamp: "00:01:25"
+    responds_to: null
+    confidence: high
+
+new_claims: []
+phrasings: []

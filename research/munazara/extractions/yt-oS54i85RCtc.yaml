@@ -1,0 +1,53 @@
+source_id: yt-oS54i85RCtc
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:14"
+    speaker: Q
+    side: host
+    kind: claim
+    reported: true
+    reported_by: Q
+    similar_to: IS-EM-C01
+    move_type: principle
+    quote: "Ye Rasoolullah sallallahu alayhi wa sallam ki taleemat hain, jis tarah ke Hazrat Ali ke baare mein aata hai ke aapne Hazrat Hasan apne bete ko farmaya tha ke aye mere bete Hasan tujhe jab bhi koi museebat ya pareshani ho toh sirf Allah se mangna hai. Hazrat Ali toh keh rahe hain ke aap Allah se maango, apne bete ko wasiyyat kar rahe hain."
+    summary_en: "Relays the objection that Ali advised his son Hasan to ask only from Allah during hardship, citing this as evidence that asking creation is prohibited."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:14-00:01:18"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C01
+    move_type: consistency
+    quote: "Tu jab bhi sawal kare Allah se sawal kar, wa idha ista'anta fasta'in billah, tu jab bhi madad ke liye pukare toh Allah Rabbul Izzat ko madad ke liye pukar, Allah se istianat kar. Ab ye hadith maujood hai lekin isi Sunan Abi Dawud ke andar ek doosri hadith bhi hai ke Nabi Paak sallallahu alayhi wa sallam ki bargah-e-aqdas mein Hazrat Sayyiduna Rabi'ah al-Aslami radiyallahu ta'ala anhu aaye toh Aap alayhis salatu was-salam ne farmaya... 'Salnee' tu mujhse maang. Ab ye dono aapas mein takra rahi hain ahadith? Bazahir takra rahi hain lekin haqeeqat mein takrao nahi hai. Kyunke ye jo hukm diya ja raha hai ke tu jab bhi maange Allah se maang wo madad haqeeqi hai, haqeeqi madadgaar Allah hai, Allah ko haqeeqat mein madadgaar samajh ke Allah se mangna hai. Aur jab Huzoor ne apne se maangne ka Rabi'ah ko kaha hai toh Nabi Paak alayhis salam ki madad haqeeqi madad nahi hai, asal mein madad Allah ki hai aur Allah Rabbul Izzat ki ata se Nabi Paak alayhis salam apne Sahabi ko ata farma rahe hain"
+    summary_en: "Reconciles the hadith 'when you ask, ask Allah' with the hadith where the Prophet told Rabiah 'ask me', explaining the former refers to real ontological aid from Allah while the latter refers to granted intermediary aid."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud (idha sa'alta fas'alillah)"
+        timestamp: "00:00:14"
+      - as_said: "Sunan Abi Dawud (salnee ya Rabiah)"
+        timestamp: "00:00:35"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:19-00:02:11"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Sunan An-Nasa'i mein sahih hadith hai: qabeela Hawazin ke log Nabi Paak alayhis salatu was-salam ki bargah-e-aqdas mein aaye toh Huzoor ne unko farmaya ke jab main Zohr ki namaz padh chuka hoon... Toh tumne Zohr ki namaz ke baad khade ho jana aur khade ho ke kehna ke hum Allah ke Rasool se madad maangte hain, 'inna nasta'eenu bi-rasoolillah'. Quran Paak mein kya hai: 'Iyyaaka Nasta'een' ya Allah hum tujh hi se madad chahte hain, aur yahan Huzoor farma rahe hain ke tumne kehna hai 'inna nasta'eenu bi-rasoolillah' hum Rasoolullah se madad chahte hain. Ye dono takra rahe hain? Nahi takra rahe. Kyunke Allah se madad jab maangein ge toh Allah ko haqeeqi madadgaar samajh ke, Nabi Paak alayhis salatu was-salam se jo madad wo le rahe hain wo Huzoor alayhis salatu was-salam ko haqeeqi madadgaar nahi balkay Allah ki madad ka zariya samajh rahe hain."
+    summary_en: "Cites Sunan an-Nasa'i reporting the Prophet instructing Hawazin to publicly declare 'we seek help through the Messenger of Allah', proving that asking the Prophet as a means does not contradict Surah Al-Fatiha."
+    evidence_cited:
+      - as_said: "Sunan An-Nasa'i"
+        timestamp: "00:01:22"
+    responds_to: M01
+    confidence: medium
+
+new_claims: []
+phrasings: []

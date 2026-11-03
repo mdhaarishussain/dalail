@@ -1,0 +1,129 @@
+source_id: yt-eol43GtSS9E
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:02:48"
+    speaker: F
+    side: opponent-scholar
+    kind: claim
+    maps_to: SB-TQ-C01
+    move_type: charge
+    quote: "Ameer Muawiyah radiyallahu ta'ala anhu Fath-e-Makkah ke din Musalman hone ka ailan karne wale gyarhwan tabqah bante hain... Ulama-e-Ahl-e-Sunnat 1400 saal se sirf un par la'n karne se rokte rahe zaban band rakho faqat zaban band rakho aqeedah ki kisi kitab mein unke manaqib par koi baab qayam nahin kiya gaya ye aaj Ahl-e-Sunnat ke libas orh kar chupe hue kharijiyon ne Ahl-e-Bayt ki dushmani ki wajah se fitnah shuru kiya hai"
+    summary_en: "Dr. Tahir-ul-Qadri claims in recorded lecture that Ameer Muawiyah was merely from the pardoned Tulaqa, that Ahl al-Sunnah for 1400 years strictly observed silence (sukoot) only forbidding cursing without narrating positive virtues, and that compiling chapters of his virtues is a modern Kharidji innovation."
+    evidence_cited:
+      - as_said: "Sharh Aqeedah al-Tahawiyyah p. 529 ('minhum Abu Sufyan wa-bnahu Yazid wa Muawiyah')"
+        timestamp: "00:01:15"
+      - as_said: "al-Isabah by Ibn Hajar al-Asqalani p. 152"
+        timestamp: "00:01:55"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:36-00:06:58"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-TQ-C01
+    move_type: definition
+    quote: "Tareekh Dimashq Ibn Asakir ki jild number 59 safha number 132 se main bayan kar deta hoon aur is riwayat ko Imam Ibn Hajar Asqalani ne apni kitab Fath al-Bari Sharh Sahih al-Bukhari ke andar isko jayyid qarar diya hai... fa-qala Muawiyatu la wallahi hargiz nahin Allah ki qasam aise nahin hai main jaanta hoon ke Ali mujh se afzal hain... Fatawa Razawiyyah shareef ki jild number 29 safha number 377 pe likha hai... farq-e-maratib be-shumar aur haq badast-e-Haydar-e-Karrar magar Muawiyah bhi hamare sardar ta'n un par bhi kar-e-fujjar"
+    summary_en: "Clarifies that Sunni orthodoxy never equates Muawiyah to Ali: cites Muawiyah's own oath in Tarikh Dimashq (59/132, jayyid in Fath al-Bari) swearing that Ali was vastly superior and more entitled to rule, and cites Imam Ahmad Raza Khan's balance in Fatawa Razawiyyah (29/377 & 10/201)."
+    evidence_cited:
+      - as_said: "Tarikh Dimashq by Ibn Asakir Vol 59 p. 132 (jayyid in Fath al-Bari)"
+        timestamp: "00:04:25"
+      - as_said: "Fatawa Razawiyyah by Imam Ahmad Raza Khan Vol 29 p. 377 & Vol 10 p. 201"
+        timestamp: "00:05:20"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:06:59-00:11:42"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-TQ-C01
+    move_type: support-chain
+    quote: "Surah al-Hadid ki aayat number 10 ke andar Allah Rabbul Izzat ne... irshad farma diya wa kullan wa'adallahu al-husna... Hazrat Abdullah ibn Abbas farmate hain innahu sahiba Rasulallah Ameer Muawiyah ko chhor do woh Rasoolullah sallallahu alayhi wa aalihi wa sallam ke sahabi hain... Imam Abu Bakr Ahmad ibn Abi Khaythama apni kitab al-Tarikh al-Kabir... farmate hain ke main Nabi-e-Pak sallallahu alayhi wa sallam ki bargah-e-aqdas mein jis saal aap alayhis salatu was salam ne Umrah al-Qada kiya us saal Huzoor ki bargah mein hazir hua maine Islam qabool kiya... Fath-e-Makkah se pehle woh Islam qabool kar chuke the haan izhar jo hai woh Fath-e-Makkah ke mauqe par unhone kiya"
+    summary_en: "Refutes the disparaging use of 'Tulaqa': Surah Al-Hadid 57:10 promises Paradise to all companions; Sahih Bukhari records Ibn Abbas defending his companionship; and Tarikh Ibn Abi Khaythama (1/544), Tahdhib al-Asma (2/406), and al-Isabah document that Muawiyah accepted Islam during Umrat al-Qada (7 AH, prior to the Conquest), declaring it publicly at the Conquest."
+    evidence_cited:
+      - as_said: "Surah Al-Hadid 57:10 ('wa kullan wa'ada Allahu al-husna')"
+        timestamp: "00:08:05"
+      - as_said: "Sahih Bukhari (Ibn Abbas: 'innahu sahiba Rasulallah')"
+        timestamp: "00:08:45"
+      - as_said: "al-Tarikh al-Kabir by Ibn Abi Khaythama Vol 1 p. 544"
+        timestamp: "00:09:25"
+      - as_said: "Tahdhib al-Asma wal-Lughat by Imam an-Nawawi Vol 2 p. 406"
+        timestamp: "00:10:05"
+      - as_said: "Sharh Sahih Muslim by Imam an-Nawawi Vol 15 p. 149 ('min fudalai-sahaba')"
+        timestamp: "00:11:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:12:56-00:15:17"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-TQ-C01
+    move_type: attack-chain
+    quote: "ye Imam Ahmad ibn Hanbal rahmatullahi ta'ala alayh ki kitab hai Fada'il al-Sahaba usmein Imam Ahmad ibn Hanbal ne poora chapter aur baab qayam kiya hai Hazrat Ameer Muawiyah radiyallahu anhu ke faza'il ke hawale se ye kutub-e-ahadees mein se mashhoor kitab hai Jami at-Tirmidhi Imam Tirmidhi rahmatullahi ta'ala alayh ne Sayyiduna Ameer Muawiyah radiyallahu ta'ala anhu ke faza'il ke upar poora baab qayam kiya hai Kitab al-Manaqib Jami at-Tirmidhi ke andar Manaqib Muawiyah ibn Abi Sufyan radiyallahu ta'ala anhu iske alawa Hafiz Hibatullah al-Lalaka'i Sharh Usul I'tiqad Ahl al-Sunnah wal-Jama'ah usmein Hazrat Ameer Muawiyah radiyallahu ta'ala anhu ke faza'il ke hawale se unhone ek unwan qayam kiya hai"
+    summary_en: "Disproves Qadri's assertion that virtues were never compiled, presenting primary classical works establishing dedicated chapters on Muawiyah's virtues: Ahmad ibn Hanbal in Fada'il al-Sahaba, Imam at-Tirmidhi in Jami at-Tirmidhi (Kitab al-Manaqib), and al-Lalaka'i in Sharh Usul I'tiqad Ahl al-Sunnah."
+    evidence_cited:
+      - as_said: "Fada'il al-Sahaba by Imam Ahmad ibn Hanbal (Chapter on Muawiyah)"
+        timestamp: "00:13:25"
+      - as_said: "Jami at-Tirmidhi (Kitab al-Manaqib: Bab Manaqib Muawiyah ibn Abi Sufyan)"
+        timestamp: "00:13:55"
+      - as_said: "Sharh Usul I'tiqad Ahl al-Sunnah wal-Jama'ah by Imam al-Lalaka'i"
+        timestamp: "00:14:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:15:18-00:21:20"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-39
+    move_type: turnabout
+    quote: "Sheikh Abdul Qadir Jilani Ghaus-e-Pak Sarkar rahmatullahi ta'ala alayh ne apni kitab Ghunyat al-Talibeen ki jild number 1 safha number 163 pe yahi aqeedah likha hai... farmate hain Ahl-e-Sunnat wal Jama'at is baat par muttafiq hain ke apni zabanon ko Sahaba ke mushajarat ke baare mein rok ke rakha jaye aur unki burayi bayan karne se ruk jaaya jaye... wa-ittafaqoo ala izhari fada'ilihim wa mahasinihim haan is baat par bhi muttafiq hain ke Sahaba-e-Kiram radiyallahu ta'ala anhum ke faza'il aur unki khoobiyan aur unke mahasin ka izhar kiya jaye... Imam Qadi Iyad Maliki rahmatullah alayh ki kitab al-Shifa... unke darmiyan jo aapas mein ikhtilafat hue usmein apni zabanon ko rok liya jaye... balki Sahaba-e-Kiram ke faza'il unki khoobiyan unka zikr kiya jaye"
+    summary_en: "Demonstrates that classical authorities explicitly distinguished between silence on civil wars and vocal proclamation of virtues: Sheikh Abdul Qadir Jilani in Ghunyat al-Talibeen (1/163), Ibn Abi Zamanin in Usul al-Sunnah (2/850), and Qadi Iyad in al-Shifa (2/55) all define sukoot as withholding criticism of disputes while affirming consensus on publicly broadcasting their virtues (izhar al-fada'il)."
+    evidence_cited:
+      - as_said: "Ghunyat al-Talibeen by Abdul Qadir Jilani Vol 1 p. 163 ('wa-ittafaqoo ala izhari fada'ilihim')"
+        timestamp: "00:15:35"
+      - as_said: "Kitab Usul al-Sunnah by Ibn Abi Zamanin Vol 2 p. 850"
+        timestamp: "00:17:05"
+      - as_said: "al-Shifa bi-Ta'rif Huquq al-Mustafa by Qadi Iyad Vol 2 p. 55"
+        timestamp: "00:18:15"
+      - as_said: "al-Aqeedah al-Tahawiyyah by Imam al-Tahawi p. 79"
+        timestamp: "00:21:35"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:24:16-00:29:56"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-TQ-C01
+    move_type: reconciliation
+    quote: "hamara Ahl-e-Sunnat wal Jama'at ka jumhoor ka nazriyah aur aqeedah ye hai ke Sayyiduna Mola Ali radiyallahu ta'ala anhu apni tamam haroob aur jangon ke andar museeb bar-haq the aur aapka ijtihad hi woh durust tha museeb tha aur muqable mein aane wale ijtihadi khata par the... Fath al-Bari Sharh Sahih al-Bukhari ki jild number 13 safha number 83 se Imam Ibn Hajar likhte hain... muttafiqoon ala annahu la yadhumm wahidun minhum... Imam Abu al-Hasan al-Ash'ari rahmatullah alayh farmate hain kulluhum kanoo ala haqqin fee ijtihadihim"
+    summary_en: "Articulates the Sunni consensus on the civil wars: Jumhoor maintain Ali was correct (museeb) and his opponents erred in ijtihad (mukhti' fee ijtihadihi), yet all classical authorities agree neither group is condemned (Fath al-Bari 13/83), while Abu al-Hasan al-Ash'ari in al-Ibanah (pp. 624-625) recorded that all parties were sincere mujtahids promised Paradise."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud 4666 (Ali on fighting based on ijtihad)"
+        timestamp: "00:24:55"
+      - as_said: "Fath al-Bari by Ibn Hajar al-Asqalani Vol 13 p. 83"
+        timestamp: "00:25:35"
+      - as_said: "al-Ibanah an Usul al-Diyanah by Abu al-Hasan al-Ash'ari pp. 624-625"
+        timestamp: "00:27:50"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: SB-TQ-C01
+    side: opponent-scholar
+    summary_en: "Ameer Muawiyah is merely of the pardoned Tulaqa, Ahl al-Sunnah for 1400 years observed strict silence (sukoot) only forbidding cursing without affirming virtues, and compiling chapters of his virtues is a modern Kharidji invention."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: SB-TQ-C01
+    text: "Ulama-e-Ahl-e-Sunnat 1400 saal se sirf un par la'n karne se rokte rahe zaban band rakho faqat zaban band rakho aqeedah ki kisi kitab mein unke manaqib par koi baab qayam nahin kiya gaya"
+    timestamp: "00:02:15"

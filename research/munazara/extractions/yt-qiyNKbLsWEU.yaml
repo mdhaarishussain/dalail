@@ -1,0 +1,108 @@
+source_id: yt-qiyNKbLsWEU
+moves:
+  - move_id: M01
+    timestamp: "00:00:30-00:01:23"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: attack-chain
+    quote: "Riwayat toh koi sabit nahi hai, ye jis kitab se pesh kar rahe hain Musannaf Abdur Razzaq mein maujood hai uske manuscripts bhi maujood hain aur ye kehte hain ke uska ek chapter jo hai na wo ghum gaya tha, wo Afghanistan ke kisi ghar se inko mila hai... Musannaf Abdur Razzaq Bukhari se pehle likhi gayi hai... Musannaf duniya mein har jagah maujood hai ab aap usmein khamkhwah kehte hain ke chapter usme se... Ye riwayat waise hi ghalat hai na: Allah mein se koi nikla na Allah kisi mein se nikla, Surah Ikhlas ke khilaf hai."
+    summary_en: "Argues that the Hadith of Nur attributed to Musannaf Abdur Razzaq is unauthentic and absent from historical manuscripts, claiming the doctrine that the Prophet originated from Allah's light contradicts Surah Al-Ikhlas."
+    evidence_cited:
+      - as_said: "Musannaf Abdur Razzaq"
+        timestamp: "00:00:30"
+      - as_said: "Surah Al-Ikhlas"
+        timestamp: "00:01:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:04:10-00:05:06"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: NB-EM-C01
+    move_type: definition
+    quote: "Aala Hazrat Imam Ahmad Raza Khan Muhaddith-e-Bareilly rahmatullahi ta'ala alayh Fatawa Razawiyyah ki jild number 30 ke safha number 666 par likhte hain: Huzoor Sayyid-ul-Aalam sallallahu ta'ala alayhi wa sallam khwah kisi shay ko ain-e-zaat-e-ilahi ya juz-e-zaat-e-ilahi manna kufr hai. Koi banda Nabi Kareem alayhis salatu was-salam ki zaat-e-aqdas ko ya kisi bhi shay ko Allah Rabbul Izzat ka juz maane, Allah ka tukda maane, Allah ka hissa maane wo kafir hai!"
+    summary_en: "Cites Ahmad Raza Khan in Fatawa Razawiyyah (Vol 30, p. 666) declaring that believing the Prophet to be a part, piece, or essence of Allah is kufr, refuting the misrepresentation that Barelvis consider the Prophet a chunk of God."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah Vol 30 p. 666"
+        timestamp: "00:04:10"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:05:35-00:06:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: NB-EM-C01
+    move_type: definition
+    quote: "Fatawa Razawiyyah ki jild number 14 ke safha number 378 pe ye likha hai: aur jo mutlaqan Huzoor sallallahu alayhi wa sallam se bashariyyat ki nafi kare wo kafir hai. Jo mutlaqan ye kahe ke Nabi Kareem alayhis salatu was-salam insaan nahi the ya bashar nahi the, Huzoor se bashariyyat ki nafi karta hai, Imam Ahmad Raza farmate hain wo kafir hai wo Quran ki ayat ka munkir hai. Toh hum Nabi-e-Paak alayhis salatu was-salam ki bashariyyat ko bhi maante hain, Huzoor ko bashar maante hain, khayr-ul-bashar maante hain aur Rasoolullah sallallahu alayhi wa sallam ki shaan-e-nuraniyyat ko bhi tasleem karte hain."
+    summary_en: "Cites Fatawa Razawiyyah (Vol 14, p. 378) stating that completely denying the human nature (bashariyyat) of the Prophet is kufr, establishing that Ahl-e-Sunnat affirms both bashariyyat and created nuraniyyat."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah Vol 14 p. 378"
+        timestamp: "00:05:35"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:09:13-00:11:25"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: NB-EM-C02
+    move_type: support-chain
+    quote: "Jo nuskha hamare paas haathon mein maujood hai ye mukammal nahi hai ye naqis hai, khud muhaqqiq Habib al-Rahman al-A'zami ne shuru mein tanbeeh ke taur par shuru mein likha hai... Farmaya ke jitne nuskhe Musannaf Abdur Razzaq ke humein mile hain saare ke saare nuskhe naqis hain siwaye Murad Mulla ke nuskhe ke, lekin uske awwal mein bhi naqs maujood hai, pehla hissa humein nahi mil saka. Aur likhte hain ke humne pehla warq iska khali chhod diya hai taake makhtootaat ke maahireen is warqay ko mukammal karne ke liye hamari madad karein."
+    summary_en: "Refutes Mirza's assertion that published manuscripts of Musannaf Abdur Razzaq are complete, reading the editor's preface in the 1370 AH edition stating the opening portion of the first volume was missing in surviving Turkish and Yemeni manuscripts."
+    evidence_cited:
+      - as_said: "Musannaf Abdur Razzaq edited by Habib al-Rahman al-A'zami Vol 1 preface"
+        timestamp: "00:09:47"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:14:20-00:16:00"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: NB-EM-C02
+    move_type: practice-consensus
+    quote: "Al-Mawahib al-Ladunniyyah seerat ki badi mashhoor kitab hai Imam Ahmad Qastallani al-mutawaffa 923 Hijri, unhone Al-Mawahib al-Ladunniyyah ki jild number ek safha number 37 par is riwayat ko zikr kiya aur likha: 'wa rawaahu Abdur Razzaq bi-sanadihi 'an Jabir'... Aur is riwayat ko Deoband ke bahut bade aalim Ashraf Ali Thanvi apni kitab Nashr al-Teeb safha number 5 pe pehli riwayat naqal karte hain: Abdur Razzaq ne apni sanad ke sath Hazrat Jabir bin Abdullah Ansari se riwayat kiya."
+    summary_en: "Cites al-Qastallani in Al-Mawahib al-Ladunniyyah and Ashraf Ali Thanvi in Nashr al-Teeb citing the Hadith of Nur directly from Musannaf Abdur Razzaq with its chain centuries before recent printings."
+    evidence_cited:
+      - as_said: "Al-Mawahib al-Ladunniyyah by al-Qastallani Vol 1 p. 37"
+        timestamp: "00:14:20"
+      - as_said: "Nashr al-Teeb by Ashraf Ali Thanvi p. 5"
+        timestamp: "00:15:25"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: NB-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The doctrine of the Prophet being created from light (nur) implies that a piece of Allah separated and descended to earth, which contradicts Surah Al-Ikhlas."
+    move_type: charge
+    first_seen: M01
+
+  - id: NB-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The narration of Jabir regarding the creation of the Prophet's light in Musannaf Abdur Razzaq is a modern fabrication absent from historical complete manuscripts of the work."
+    move_type: attack-chain
+    first_seen: M01
+
+phrasings:
+  - maps_to: NB-EM-C01
+    text: "Allah mein se koi nikla na Allah kisi mein se nikla, Surah Ikhlas ke khilaf hai"
+    timestamp: "00:01:16"
+  - maps_to: NB-EM-C02
+    text: "Musannaf duniya mein har jagah maujood hai ab aap usmein khamkhwah kehte hain ke chapter usme se ghum gaya tha"
+    timestamp: "00:00:54"

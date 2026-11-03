@@ -1,0 +1,143 @@
+source_id: yt-gPL2u_-SL7Y
+moves:
+  - move_id: M01
+    timestamp: "00:00:57-00:01:55"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TS-EM-C03
+    move_type: charge
+    quote: "Hamare nazdeek Ghulam Ahmad Qadiani dajjal ho ya koi Chishti dajjal ho ya koi Thanvi dajjal ho ya koi Shibli dajjal ho kyunke ye buzurgon ki kitabein chhaap rahe hain aur isko defend karte hain jee haan aur woh kehte hain yahan rasool se murad unka numaindah hai batil ta'weelat karte hain to hum to sab ke sab ko Islam se kharij samajhte hain... danke ki chot pe aise logon ko chanda dena bhi haram hai unke peeche namaz bhi aapki durust nahin hogi zahir hai woh to kafir ho gaya na"
+    summary_en: "Declares that anyone who interprets, defends, publishes, or finances books containing Sufi utterances like 'Chishti Rasool Allah' or 'Thanvi Rasool Allah' is an apostate/kafir outside Islam, behind whom prayer is invalid."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:44-00:04:07"
+    speaker: B
+    side: ali-mirza
+    kind: concession
+    maps_to: TS-EM-C03
+    move_type: charge
+    quote: "Sufiya ke baare mein har batil baat ki woh ta'weel karte the aur ye maine unko unse phone pe baat karke unhein is baat ke upar ek dafa phone pe baat indirectly hui thi mera khayal hai Ali Naqvi sahab ke through Ashraf Ali Thanvi Rasool Allah ke upar to unhone uski bhi ta'weel ki... even Maulana Ishaq sahab jaise log bhi Chishti Rasool Allah aur Thanvi Rasool Allah ki ta'weel karte the"
+    summary_en: "Concedes in recorded video that his premier mentor Molvi Ishaq Faisalabadi interpreted both Chishti Rasool Allah and Thanvi Rasool Allah and defended Sufi shathiyat."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:08-00:06:30"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-24
+    move_type: turnabout
+    quote: "Chunke Ishaq Faisalabadi Mirza Jhelumi ke baba number one hain Shaykh-ul-Islam bhi hain Mirza Jhelumi ke waqt ke Husayn bhi hain woh in cheezon ki ta'weel karte the aur jo Chishti Rasool Allah aur Ashraf Ali Rasool Allah ki ta'weel kare Mirza Jhelumi usko kafir qarar deta hai to ab Mirza Jhelumi ke kufr ka fatwa jaata hai Mirza Jhelumi ke baba Ishaq Faisalabadi par"
+    summary_en: "Demonstrates that by the opponent's own takfir criterion, his foremost mentor Molvi Ishaq Faisalabadi falls directly under his fatwa of apostasy for interpreting Sufi shathiyat."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:06:47-00:09:19"
+    speaker: C
+    side: ali-mirza
+    kind: claim
+    maps_to: TS-EM-C03
+    move_type: reconciliation
+    quote: "Khwab mein hamari jo kaifiyatein hoti hain woh hamare batin mein jaakar mash-hood ho jaati hain yani kya hota hai ek tamtheel mein badal jaati hain to us shakhs ne jab iradat ka ta'alluq qayam kar liya hai to zahir hai ke uske batin mein jo ehsasat paida hue hain wohi khwab mein aayeinge in ehsasat mein Maulana Ashraf Ali Thanvi ab Rasoolullah ki jagah par aa gaye hain yani tamtheel mein dekhiye ye koi fatwe ki baat nahin hai"
+    summary_en: "Javed Ahmad Ghamidi in recorded video explains the incident of Thanvi Rasool Allah as an internal dream representation (tamtheel) and source of inspiration reflecting following the Sunnah, explicitly rejecting takfir."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:09:20-00:11:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-24
+    move_type: turnabout
+    quote: "Javed Ahmad Ghamidi jiske baare mein tumne ye kaha hai ke unki tawheed bhi achhi hai aur unka aqeedah-e-Khatam-e-Nabuwwat bhi in sab se achha hai... woh Javed Ahmad Ghamidi Ashraf Ali Rasool Allah ki ta'beer karte hue paye gaye hain ab himmat hai to kufr ka fatwa do unke khilaf"
+    summary_en: "Challenges the opponent to apply his takfir fatwa against Javed Ahmad Ghamidi, whom Mirza praised as having superior tawhid and khatam-e-nabuwwat, since Ghamidi explicitly interpreted and excused the utterance."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:11:38-00:15:48"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TS-EM-C03
+    move_type: charge
+    quote: "Aam molvi ke inkar karne se Chishti Rasool Allah ka inkar lazim nahin aayega Mufti Muneeb kahe ke kitab chhapne wala kafir usko print karne wala kafir aaj tak ye 700 saal se jo print kar rahe the woh kafir ye maine to nahin daryaft ki ye baat hogi ek gali mohallay ka molvi bhagne ke liye ye baat kar de main nahin isko manta aise nahin hota"
+    summary_en: "Demands that senior Sunni leadership (such as Mufti Muneeb-ur-Rahman) issue explicit takfir declaring all printers, translators, and historical transmitters over the past 700 years to be kafir."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:16:06-00:16:57"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TS-EM-C03
+    move_type: principle
+    quote: "Fatawa Razawiyyah hai iski jild number 15 safha number 719 pe Imam-e-Ahl-e-Sunnat Imam Ahmad Raza Khan Muhaddith Barelvi rahmatullahi ta'ala alayh farmate hain ke jo shakhs sirf itna kahe na Arabi ke andar ana Rasoolullah ma'na ye hai ke main Allah ka Rasool hoon ya ye ke Farsi mein kahe man payghambaram main paighambar hoon to farmate hain itna kehne se kafir hoga chahe woh is se murad ye le raha ho ke main paigham laane wala hoon... tab bhi woh kafir ho jayega hum tab bhi us par kufr ka hukum deinge kyunke is kalimah ke andar aur is lafz ke andar ta'weel ki gunjaish nahin hai"
+    summary_en: "Cites Fatawa Razawiyyah 15/719 where Imam Ahmad Raza Khan explicitly ruled that claiming 'Ana Rasoolullah' or 'Man payghambaram' is absolute kufr without any possibility of metaphorical interpretation (ta'weel), even if intended as 'messenger/letter-carrier'."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah by Imam Ahmad Raza Khan Vol 15 p. 719"
+        timestamp: "00:16:11"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:16:58-00:19:29"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TS-EM-C03
+    move_type: attack-chain
+    quote: "Fatawa Sharih Bukhari ki jild number 2 safha number 154 pe likhte hain ke mera zann-e-ghalib ye hai ke ye kisi ka ilhaq hai bi-aynihi yahi qissa doosri kitabon mein Hazrat Yusuf Chishti quddisa sirruhu ke baare mein maktoob hai mera tajriba hai ke jab ek hikayat muta'addid buzurgon ki taraf mansoob hoti hai to woh arzi hoti hai hamare ulama likh rahe hain ke ye waqia sahih nahin hai ye ilhaqi waqia hai"
+    summary_en: "Demonstrates that senior Sunni authorities (Mufti Sharif-ul-Haq Amjadi, Mufti Ajmal Sambhali, Maulana Zulfiqar Na'eemi, and Sayyid Madani Miya) investigated the Chishti anecdote and declared it a fabricated interpolation (ilhaq) attributed spuriously across multiple figures, not a Sunni creed."
+    evidence_cited:
+      - as_said: "Fatawa Sharih Bukhari by Mufti Sharif-ul-Haq Amjadi Vol 2 p. 154"
+        timestamp: "00:17:10"
+      - as_said: "Fatawa Ajmaliyyah by Mufti Ajmal Sambhali Vol 1 p. 7"
+        timestamp: "00:17:45"
+      - as_said: "Fatawa Hanafiyyah by Maulana Zulfiqar Na'eemi p. 43"
+        timestamp: "00:18:31"
+      - as_said: "al-Tasdiqat li-Daf' al-Talbisat by Sayyid Muhammad Madani Miya p. 53"
+        timestamp: "00:18:53"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:20:05-00:21:41"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TS-EM-C03
+    move_type: restrict-evidence
+    quote: "maine usko challenge kiya tha ke tum is video ko forensic karwa lo aur forensic karwake mera challenge hai Mirza Jhelumi ko ke ye Mirza Jhelumi sabit nahin kar sakta ke woh SubhanAllah ki aawaz meri hai woh ek saathi sath baithe hain unki aawaz hai aur Mirza Jhelumi ne mere khilaf is qadr propaganda kiya hai jabke alhamdulillah ta'ala maine dalail ke sath is baat ko sabit kiya hai ke ye waqia ilhaqi hai jhoota waqia hai"
+    summary_en: "Refutes the opponent's allegation that Razvi voiced 'SubhanAllah' in approval of the phrase during a debate, clarifying that a companion praised Khwaja Mu'inuddin's statement of being an humble slave of the Prophet, challenging Mirza to forensic audio verification."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TS-EM-C03
+    side: ali-mirza
+    summary_en: "Anyone who interprets (ta'weel), defends, publishes, or finances historical texts containing Sufi utterances like 'Chishti Rasool Allah' or 'Thanvi Rasool Allah' is an apostate/kafir outside Islam, behind whom prayer is invalid."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: TS-EM-C03
+    text: "jo jo Chishti Rasool Allah wale waqiye ki ta'weel karte hain woh kafir hain woh da'ira-e-Islam se kharij hain"
+    timestamp: "00:00:50"
+  - maps_to: TS-EM-C03
+    text: "hum to sab ke sab ko Islam se kharij samajhte hain... aise logon ko chanda dena bhi haram hai unke peeche namaz bhi aapki durust nahin hogi"
+    timestamp: "00:01:15"

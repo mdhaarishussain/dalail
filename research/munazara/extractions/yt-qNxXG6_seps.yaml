@@ -1,0 +1,104 @@
+source_id: yt-qNxXG6_seps
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:57"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: AQ-EM-C06
+    move_type: charge
+    quote: "ye nabiyon wali jo akhlaq-e-nabuwwat hai na Allah Ta'ala ne uska kuch hissa mujhe diya hai ke main apne mukhalifeen se kabhi bhi badla lene ki baat nahin karta tha... chahe main phakki bol ke samjhaoon antivenom bol ke samjhaoon ilzami jawab bol ke samjhaoon ye mera right hai vulgar lafz koi nahin hoga... main sharir jinnon aur jiniyon se teri panah mangta hoon mera khayal hai ye dua to masjid mein jaate waqt bhi parhni chahiye kyunke sabse bare sharir jo hain woh to masjid mein baithe hue hain molvi"
+    summary_en: "Claims to have been granted a portion of prophetic moral character (akhlaq-e-nabuwwat), while asserting that comparing critics to dogs, donkeys, jinns, and rabid animals is not vulgarity but his pedagogical right to administer 'antivenom' and 'phakki'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:58-00:04:30"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C06
+    move_type: definition
+    quote: "Quran-e-Majeed mein Huzoor ke mubarak khulq ke baare mein irshad farmaya gaya wa innaka la'ala khuluqin azeem... Sahih Bukhari ke andar hadees hai mazmoon uska ye hai ke munafiq ki jo alamat hain... wa idha khasama fajara aur jab woh kisi ke sath jhagrah karta hai to phir woh fisq-o-fujoor pe utar aata hai nafarmani pe utar aata hai gandi zaban istemal karta hai vulgar zaban istemal karta hai"
+    summary_en: "Contrasts prophetic character (Surah Al-Qalam 68:4) and the hadith profile of a believer (avoiding slander and obscenity) with the prophetic definition of a hypocrite in Sahih Bukhari who resorts to shamelessness and foul language during disputes (wa idha khasama fajara)."
+    evidence_cited:
+      - as_said: "Surah Al-Qalam 68:4 ('wa innaka la'ala khuluqin azeem')"
+        timestamp: "00:02:45"
+      - as_said: "Sahih Bukhari ('wa idha khasama fajara')"
+        timestamp: "00:04:00"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:05:38-00:06:30"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: AQ-EM-C06
+    move_type: charge
+    quote: "Hamara imam woh hai jiski qabr Madine mein hai aur tumhare imam woh hain ke jab maray the to unki shalwarein utaar ke unhein ghusal diya gaya tha tumhare babon ki auqat to ye hai ke unki shalwarein utaar ke unko nanga karke ghusal diya jaata hai"
+    summary_en: "Disparages all classical scholars, Sahaba, and imams of the Ummah by claiming their status is merely that they were stripped naked for ritual washing after death."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:06:31-00:08:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C06
+    move_type: charge
+    quote: "Sahih Muslim ka muqaddamah zikr karte hue Mirza Jhelumi ne ye kaha ke Imam Muslim farmate hain ke Madinah Tayyibah mein 100 aise tabi'een the jin se muhadditheen hadees nahin lete the to kehta hai ke main bataoon ke kyun nahin lete the kyunke woh chaddo the na'udhubillahi ta'ala halanke Sahih Muslim ke muqaddamah ke andar aisi koi baat nahin... ye Punjabi Urdu Lughat ki kitab hai usmein chaddo ka ma'na likha hua hai chaddo yani zaniyah aur haramzadi"
+    summary_en: "Documents Mirza's use of the vulgar Punjabi slur 'chaddo' (denoting illegitimate birth) against 100 pious Tabi'in of Madinah mentioned in Muqaddimah Sahih Muslim, demonstrating that Imam Muslim praised their piety but noted hadith transmission was not their technical specialization."
+    evidence_cited:
+      - as_said: "Muqaddimah Sahih Muslim (on the 100 pious Tabi'in of Madinah)"
+        timestamp: "00:06:50"
+      - as_said: "Punjabi-Urdu Dictionary definition of 'chaddo'"
+        timestamp: "00:07:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:08:11-00:10:04"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: AQ-EM-C06
+    move_type: charge
+    quote: "Shaykh-ul-Hadees to ek mohallay mein itne pagal kuttay nahin hain ke jinko committee wale maar dete hain itne Shaykh-ul-Hadees Pakistan mein ghoomte phir rahe hain... chhotu woh ek qabr-parast sahafii hai main naam nahin leta phir bilkul personal ho jayega chhotu woh chhotu jo qabr-parast ek sahafii hai"
+    summary_en: "Employs pejorative labels against contemporaries, calling Shaykh al-Hadith scholars 'rabid dogs killed by municipal committees' and labeling journalist Siddiq Jan 'chhotu' and 'grave-worshipper'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:10:16-00:13:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-38
+    move_type: turnabout
+    quote: "Jami at-Tirmidhi mein 2502 aur Sunan Abi Dawud ke andar 4875 number hadees hai... Hazrat Safiyyah Umm-ul-Momineen radiyallahu ta'ala anha ka tazkirah kiya to tazkirah karte karte maine isharatan jab unka zikr kiya to goya ke unko aapne qaseerah keh diya... to Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ne Hazrat Aisha Siddiqah radiyallahu ta'ala anha se irshad farmaya laqad qulti kalimatan law muzijat bi-ma'il-bahri la-mazajathu farmaya ke tumne aye Aisha woh kalimah kaha hai ke agar us kalimay ko darya ke pani ke sath mila diya jaye to ye kalimah us darya ke pani ki rangat tabdeel kar de ya usko karwa kar de"
+    summary_en: "Cites Jami at-Tirmidhi 2502 and Sunan Abi Dawud 4875 where the Prophet strictly rebuked Aisha for using a single factual physical descriptive word ('qaseerah' / short), stating it was potent enough to pollute the entire ocean, asking how an opponent claiming 'akhlaq-e-nabuwwat' justifies hurling vulgar slurs against scholars, Tabi'in, and critics."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 2502 / Sunan Abi Dawud 4875 (Prophetic reprimand on using 'qaseerah')"
+        timestamp: "00:10:25"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: AQ-EM-C06
+    side: ali-mirza
+    summary_en: "Claiming a share in prophetic moral character (akhlaq-e-nabuwwat) while defending the use of derogatory slurs (such as comparing opponents to rabid dogs, donkeys, or chaddo) as an educational right to administer polemical antivenom."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: AQ-EM-C06
+    text: "ye nabiyon wali jo akhlaq-e-nabuwwat hai na Allah Ta'ala ne uska kuch hissa mujhe diya hai... vulgar lafz koi nahin hoga"
+    timestamp: "00:00:05"
+  - maps_to: AQ-EM-C06
+    text: "Shaykh-ul-Hadees to ek mohallay mein itne pagal kuttay nahin hain ke jinko committee wale maar dete hain"
+    timestamp: "00:08:28"
