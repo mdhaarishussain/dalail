@@ -6,8 +6,14 @@ requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.7",
     "python-frontmatter>=1.1",
+    "pyyaml>=6",
+    "jsonschema>=4.22",
+    "sqlite-vec==0.1.7",
 ]
-# Phase 1 adds: llama-cpp-python (e5 GGUF embeddings, CPU-only), sqlite-vec.
+
+[project.optional-dependencies]
+# Needed only for `embed` / `build` with vectors. Compiles llama.cpp (CPU) on install.
+embed = ["llama-cpp-python==0.3.36"]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]
@@ -21,9 +27,11 @@ packages = ["src/dalail_pipeline"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = ["needs_model: requires models/ GGUF and the embed extra (skipped otherwise)"]
 
 [tool.ruff]
-line-length = 100
+line-length = 120
+extend-exclude = ["tools"]
 target-version = "py311"
 
 [tool.ruff.lint]
