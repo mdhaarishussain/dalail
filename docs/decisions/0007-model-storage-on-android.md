@@ -47,3 +47,8 @@ Removing the duplicate needs a small maintained patch to llama.rn (Android: pass
 build the context from that model), plus ensuring 32-byte alignment of the asset (or accepting a
 RAM load). Estimated 1–2 days plus re-testing on each llama.rn upgrade. Worth it only if storage
 becomes a real complaint on 4 GB / small-storage phones.
+
+## Verified on device (2026-11-04)
+
+First real-phone run: `model check: verified` (copy + SHA-256 OK), embeddings working, parity
+0.9999 (see `docs/device-tests.md`).

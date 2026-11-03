@@ -14,9 +14,6 @@ export default function Settings() {
   const translations: DalilTranslation[] = ['ur', 'en', 'both'];
   return (
     <Screen>
-      <T variant="title" accessibilityRole="header">
-        {t('settings.title')}
-      </T>
       <Section title={t('settings.language')}>
         <Row>
           <Chip

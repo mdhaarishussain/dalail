@@ -50,9 +50,6 @@ export default function Results() {
     return (
       <Screen>
         <Stack.Screen options={{ title: t('results.didYouMean') }} />
-        <T variant="title" accessibilityRole="header">
-          {t('results.didYouMean')}
-        </T>
         <T variant="muted">{t('results.ambiguousHelp')}</T>
         <View style={{ gap: space.m }}>
           {result.candidates.map((c) => (
@@ -74,9 +71,6 @@ export default function Results() {
   return (
     <Screen>
       <Stack.Screen options={{ title: t('results.noMatchTitle') }} />
-      <T variant="title" accessibilityRole="header">
-        {t('results.noMatchTitle')}
-      </T>
       <T>{t('results.noMatchBody')}</T>
       <Card>
         <T variant="muted">{t('results.yourQuestion')}</T>

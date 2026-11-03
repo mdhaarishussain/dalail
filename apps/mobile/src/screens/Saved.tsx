@@ -46,9 +46,6 @@ export default function Saved() {
 
   return (
     <Screen>
-      <T variant="title" accessibilityRole="header">
-        {t('saved.title')}
-      </T>
       <Section title={t('saved.bookmarks')}>
         {nodes.length === 0 && <T variant="muted">{t('saved.noBookmarks')}</T>}
         <View style={{ gap: space.m }}>

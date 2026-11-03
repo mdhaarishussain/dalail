@@ -45,3 +45,9 @@ BERT WordPiece tokenizer (`keisuke-miyako/…`), both wrong for this model.
   dominates), so they aren't worth the accuracy loss.
 - `models/` is gitignored; `python -m dalail_pipeline fetch-model` downloads and verifies it
   (developer machines only — the app never downloads it from here).
+
+## On-device parity (2026-11-04)
+
+Release APK on a real phone (llama.rn 0.13.0-rc.9, same GGUF): Diagnostics parity test **PASS,
+min 0.9999, mean 1.0000** over the 20 strings in `apps/mobile/src/diagnostics/parity.json`
+(pipeline vectors from llama-cpp-python 0.3.36). Recorded in `docs/device-tests.md`.

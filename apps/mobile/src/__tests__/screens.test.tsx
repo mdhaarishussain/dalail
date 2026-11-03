@@ -89,7 +89,9 @@ describe('Results', () => {
 
   it('asks "Did you mean…?" when two claims are close', async () => {
     await show(<Results />, { q: 'ghar' });
-    expect(await screen.findByText('Did you mean…?')).toBeTruthy();
+    expect(
+      await screen.findByText('A few claims are close. Pick the one they are making.'),
+    ).toBeTruthy();
     await fireEvent.press(screen.getByTestId('candidate-fixture-istighatha-004'));
     expect(replace).toHaveBeenCalledWith('/node/fixture-istighatha-004');
     expect(screen.getByTestId('candidate-fixture-tawassul-004')).toBeTruthy();
