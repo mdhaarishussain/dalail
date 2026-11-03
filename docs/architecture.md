@@ -77,3 +77,20 @@ Tables per brief §6, plus: `opponents`, `node_aliases.text_folded` / `kind`, `e
 one per topic name. `vec_aliases` is a plain BLOB table (ADR 0002). `meta` holds
 `schema_version, corpus_version, built_at, build_mode, embed_model, embed_model_sha256, embed_dims,
 query_prefix, normaliser_rules_version, sha`.
+
+## App (Phase 2: Lite mode)
+
+```
+app start → copy dalail.db (+ e5 GGUF on Android) out of the APK once per build
+          → op-sqlite open (FTS5 + sqlite-vec compiled in) → CorpusRepository
+          → user store (Zustand, persisted in dalail-user.sqlite)
+query → runSearch: e5 query embedding (llama.rn, ≤1.5 s, else keyword-only)
+      → @dalail/core retrieve() → match → Rebuttal | ambiguous → "Did you mean…?" | no_match → save
+```
+
+- Screens: `apps/mobile/src/screens/`; routes in `src/app/` re-export them (Expo Router, tabs:
+  Ask / Browse / Saved / Settings).
+- Visibility: prod DB → verified only; dev DB → dev setting, always with an UNVERIFIED banner.
+  Fixtures show a FIXTURE banner; sharing is limited to verified, non-fixture answers.
+- Arabic in Amiri, Urdu in Noto Nastaliq Urdu, both RTL (ADR 0006). Stored text is never rewritten.
+- Details and trade-offs: ADR 0005.
