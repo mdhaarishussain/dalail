@@ -1,6 +1,9 @@
 # Munazara research set (Gemini, unverified)
 
-Transcripts and argument maps of 46 YouTube videos: Mufti Rashid Mahmood Razvi's replies and munazaras, and Engineer Muhammad Ali Mirza's own lectures. Produced with Google Gemini in one long chat (export dated 2026-11-03), then split into one file per video.
+Transcripts and argument maps of 56 YouTube videos, produced with Google Gemini and split into one file per video:
+
+- **Videos 1–46** (first chat): Mufti Rashid Mahmood Razvi's replies and munazaras, and Engineer Muhammad Ali Mirza's own lectures.
+- **Videos 47–56** (second chat, "Batch Two Execution"): live munazaras on waseela/tawassul and istighatha, mostly Ahl-e-Sunnat vs Ahl-e-Hadith. Videos 51 and 56 are Ahl-e-Hadith vs Shia debates with no Ahl-e-Sunnat speaker.
 
 > **Status: unverified research material.** Gemini wrote every transcript, quote, timestamp and reference here from audio. None of it has been checked against the videos or reviewed by a scholar. It is **not** part of `corpus/`, the pipeline does not read it, and nothing here may be shown in the app. Use it to find claims, debate sequences and where in a video to look. Anything that becomes a node goes through the normal ingestion and scholar review (see `/CLAUDE.md`).
 
@@ -10,18 +13,19 @@ Transcripts and argument maps of 46 YouTube videos: Mufti Rashid Mahmood Razvi's
 | --- | --- |
 | `transcripts/<source_id>.md` | Frontmatter (url, channel, speakers, format, topics) + timestamped Roman Urdu transcript |
 | `extractions/<source_id>.yaml` | Moves (claim / response / counter-question), quotes, evidence as spoken, new claims, phrasings |
-| `registry/claims.yaml` | Gemini's final claim taxonomy (68 claims, from the last turn) |
+| `registry/claims.yaml` | Gemini's final claim taxonomy from the first chat (68 claims). Batch 2 extractions use the older seed IDs (TW-C01…TW-C08, IS-C01, IS-C03), which are not defined in this file |
 | `registry/counter-questions.yaml` | Gemini's counter-question catalogue (CQ-01 to CQ-40) |
 | `registry/snapshots/` | The master registries Gemini output along the way (batch 1 corrected, then at 10, 20, 30 and 40 videos) |
-| `notes/turn-NN.md` | Everything else Gemini wrote in each chat turn: batch summaries, extra arguments and clashes it found, counter-question themes, errata, video queue and skipped videos |
+| `notes/turn-NN.md`, `notes/batch2-turn-NN.md` | Everything else Gemini wrote in each chat turn: batch summaries, extra arguments and clashes it found, counter-question themes, errata, video queue and skipped videos |
 | `prompts/instructions.md` | The instructions and corrections given to Gemini during the chat |
-| `raw/gemini-chat-export-2026-11-03.md` | The full chat export, untouched (includes earlier drafts, the 10/20/30/40-video registries and queue notes) |
+| `raw/gemini-chat-export-2026-11-03.md`, `raw/gemini-chat-export-batch2-2026-11-03.md` | The full chat exports, untouched (includes earlier drafts, the 10/20/30/40-video registries and queue notes) |
 
 For videos 1 to 5 the files hold the corrected re-issue from turn 2, not the first draft.
 
 ## Checks done when splitting
 
 - All 46 video IDs resolve on YouTube, and each title matches the one Gemini recorded (checked via YouTube oEmbed on 2026-11-03). So the videos are real; the transcripts are still unchecked.
+- Batch 2: all 10 video IDs resolve on YouTube and their titles match (checked 2026-11-03).
 - Every extraction file parses as YAML. 299 moves in total.
 - Claim IDs used in extractions but missing from `registry/claims.yaml`: HN-EM-C04, IG-EM-C05, IG-WH-C01, KN-EM-C04, KR-EM-C04, KR-EM-C05, NB-EM-C02, QD-EM-C02, TW-EM-C08.
 - In the registry but not used in any extraction: IS-EM-C03, IS-EM-C07, IS-EM-C08, IS-EM-C09, TS-EM-C04, TW-EM-C02, TW-EM-C04.
@@ -136,3 +140,13 @@ Unmarked jumps: timestamp gaps over 2 minutes with no `[skipped …]` / `[not tr
 | 44 | [yt-qNxXG6_seps](transcripts/yt-qNxXG6_seps.md) · [yaml](extractions/yt-qNxXG6_seps.yaml) | [turn 33](notes/turn-33.md) | [Eng Muhammad Ali Mirza our Akhlaq e Nabuwat ka dawa exposed by MUFTI RASHID MAHMOOD RAZVI](https://www.youtube.com/watch?v=qNxXG6_seps) | munazara-transcript | debate | 6 | akhlaq-e-nabuwwat, vulgar-language, hypocrisy, derogatory-labels | near-full 1.06 |
 | 45 | [yt-eol43GtSS9E](transcripts/yt-eol43GtSS9E.md) · [yaml](extractions/yt-eol43GtSS9E.yaml) | [turn 34](notes/turn-34.md) | [Hazrat Ameer Muawiyah Bary Aqeedah E Ahle Sunnat vs DrTahir ul Qadri \| by Mufti Rashid Mahmood Razvi](https://www.youtube.com/watch?v=eol43GtSS9E) | munazara-transcript | debate | 6 | partial 0.65 |
 | 46 | [yt-dD66hGXISp0](transcripts/yt-dD66hGXISp0.md) · [yaml](extractions/yt-dD66hGXISp0.yaml) | [turn 35](notes/turn-35.md) | [Mola Ali Ki Fazilat Mein Ek Jhooti Riwayat Per Rafzi Qari Ahmad Hassan ko Jawab By MUFTI RASHID MAHMOOD RAZVI](https://www.youtube.com/watch?v=dD66hGXISp0) | munazara-transcript | debate | 6 | sahaba, afdaliyyat-e-sahaba, mola-ali-vs-abu-bakr, fabricated-hadith | near-full 1.17 |
+| 47 | [yt-sq2CPVTwIT0](transcripts/yt-sq2CPVTwIT0.md) · [yaml](extractions/yt-sq2CPVTwIT0.yaml) | [batch 2](notes/batch2-turn-01.md) | [وسیلہ کی شرعی حیثیت کیا ؟یاعلی مدد یا رسول مدد کہنا کیسا ہے ؟ لائیو پروگرام میں شدید بحث چھڑ گئی۔](https://www.youtube.com/watch?v=sq2CPVTwIT0) | munazara-transcript | debate | 16 | tawassul, istighatha |
+| 48 | [yt--Donk1omKUs](transcripts/yt--Donk1omKUs.md) · [yaml](extractions/yt--Donk1omKUs.yaml) | [batch 2](notes/batch2-turn-01.md) | [MUNAZRA ON ❤️❤️ YA RASOOLALLAHﷺ ❤️❤️  KEHNA KAISA](https://www.youtube.com/watch?v=-Donk1omKUs) | munazara-transcript | debate | 12 | istighatha, tawassul |
+| 49 | [yt-SvTDDbl1uYw](transcripts/yt-SvTDDbl1uYw.md) · [yaml](extractions/yt-SvTDDbl1uYw.yaml) | [batch 2](notes/batch2-turn-01.md) | [Barelvi Munazir se Ahle Hadees ulma ki Waseela pr debate \| munazra wasila in Islam ](https://www.youtube.com/watch?v=SvTDDbl1uYw) | munazara-transcript | debate | 9 | istighatha, tawassul |
+| 50 | [yt-VwfdF6s7SiY](transcripts/yt-VwfdF6s7SiY.md) · [yaml](extractions/yt-VwfdF6s7SiY.yaml) | [batch 2](notes/batch2-turn-01.md) | [Waseela Ahle Hadees VS Barelwi Munazra part-1](https://www.youtube.com/watch?v=VwfdF6s7SiY) | munazara-transcript | debate | 12 | tawassul, istighatha |
+| 51 | [yt-L1jmqPI02aE](transcripts/yt-L1jmqPI02aE.md) · [yaml](extractions/yt-L1jmqPI02aE.yaml) | [batch 2](notes/batch2-turn-01.md) | [BIG DEBATE on Istigatha & Tawasul (Part-1) \| Allama Khalil Ahmed vs Shaykh Hassan Allahyari \|](https://www.youtube.com/watch?v=L1jmqPI02aE) | munazara-transcript | debate | 11 | istighatha, tawassul |
+| 52 | [yt-KeGLJ5RdPGg](transcripts/yt-KeGLJ5RdPGg.md) · [yaml](extractions/yt-KeGLJ5RdPGg.yaml) | [batch 2](notes/batch2-turn-02.md) | [Waseela lena  biddat hain ya sunnah?Uthman bin hunaif Tahqeeq.Phone Debate ,Aman Ali Qadri vs Arman ](https://www.youtube.com/watch?v=KeGLJ5RdPGg) | munazara-transcript | debate | 9 | tawassul, istighatha |
+| 53 | [yt-LR_8xMq4YTw](transcripts/yt-LR_8xMq4YTw.md) · [yaml](extractions/yt-LR_8xMq4YTw.yaml) | [batch 2](notes/batch2-turn-02.md) | [ Barelwi ki tareekhi dhulai Munazra waseela](https://www.youtube.com/watch?v=LR_8xMq4YTw) | munazara-transcript | debate | 7 | tawassul, istighatha |
+| 54 | [yt-thm-cj4jOcM](transcripts/yt-thm-cj4jOcM.md) · [yaml](extractions/yt-thm-cj4jOcM.yaml) | [batch 2](notes/batch2-turn-02.md) | [Ghairullah se madad maangna kaisa. Call debate. Ahlehadees vs barelvi](https://www.youtube.com/watch?v=thm-cj4jOcM) | munazara-transcript | debate | 7 | istighatha, tawassul |
+| 55 | [yt-4Jdl8PZ1s10](transcripts/yt-4Jdl8PZ1s10.md) · [yaml](extractions/yt-4Jdl8PZ1s10.yaml) | [batch 2](notes/batch2-turn-02.md) | [\|\| MUNAZRA ON WASEELA AND KAFIR NAIK \|\|](https://www.youtube.com/watch?v=4Jdl8PZ1s10) | munazara-transcript | debate | 6 | tawassul, istighatha |
+| 56 | [yt-K-Nv0BQSHiw](transcripts/yt-K-Nv0BQSHiw.md) · [yaml](extractions/yt-K-Nv0BQSHiw.yaml) | [batch 2](notes/batch2-turn-02.md) | [Debate \| Munazra \| Ghair Allah Se Madad Mangana Shirk Ka ? \| Molvi Adnan VS Shaykh Hassan Allahyari](https://www.youtube.com/watch?v=K-Nv0BQSHiw) | munazara-transcript | debate | 8 | istighatha, tawassul |
