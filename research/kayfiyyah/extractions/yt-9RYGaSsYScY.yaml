@@ -1,0 +1,216 @@
+source_id: yt-9RYGaSsYScY
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:40"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: support-chain
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The Prophet, sallallahu 'alayhi wa sallam, did not object to him. Had what he done been shirk, the Prophet, sallallahu 'alayhi wa sallam, would have clarified that."
+    summary_en: "Cites Musnad Ahmad where a companion sought refuge with Allah and His Messenger without the Prophet objecting."
+    evidence_cited:
+      - as_said: "Imam Ahmad in his Musnad with a hasan chain: 'a'udhu billahi wa bi-rasulihi'"
+        timestamp: "00:00:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:48-00:04:15"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "How we know that the Wahhabis are misguided in this issue is that they would consider the one who seeks refuge with Allah and His Messenger, sallallahu 'alayhi wa sallam, a mushrik, even after knowing of a strong hadith in this issue."
+    summary_en: "Reports that opponents classify anyone seeking refuge with Allah and His Messenger as a polytheist."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:42-00:05:13"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IB-WH-K01
+    move_type: consistency
+    quote: "Had it been such obvious shirk, he would have realized that when documenting it. How is it that Imam Ahmad didn't realize that a blatant, explicit shirk is in his hadith?"
+    summary_en: "Argues that if seeking refuge with the Prophet were explicit shirk, Imam Ahmad and centuries of hadith scholars would not have recorded it without condemnation."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:59-00:06:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Worship is the ultimate submission, the extent of humility, and the maximum humbleness and fear for another."
+    summary_en: "Defines worship ('ibadah) as the ultimate degree of submission and humility, not ordinary submission."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:08:47-00:09:12"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "An act becomes worship when it's associated with this submission and humility. A person could walk and it's worship, or he could walk and it's not worship."
+    summary_en: "Explains that external physical actions (calling, asking, prostrating, seeking refuge) become worship only when coupled with ultimate humility and belief in divinity."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:10:14-00:10:45"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "Worship in the Arabic language is the special obedience with the ultimate humility. This does not mean that any obedience is worship, or any humility is worship, or else anyone who obeyed another, even his parent or employer, would be worshiping that one, and that's not true."
+    summary_en: "Quotes classical Arabic lexicographers establishing that worship requires the extremity of submission, refuting the conflation of mere obedience with worship."
+    evidence_cited:
+      - as_said: "ar-Raghib al-Isfahani conveying from classical linguists"
+        timestamp: "00:10:14"
+      - as_said: "Ibn Manzur in Lisan al-'Arab"
+        timestamp: "00:10:45"
+      - as_said: "al-Fayruzabadi in al-Qamus al-Muhit"
+        timestamp: "00:10:45"
+      - as_said: "al-Azhari in Tahdhib al-Lughah"
+        timestamp: "00:11:14"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:11:14-00:11:52"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: IB-WH-K02
+    move_type: definition
+    quote: "Hence, to refute the Wahhabi, you must understand firmly that worship is not merely calling upon someone, whether alive or dead."
+    summary_en: "Concludes that worship is not defined by merely calling upon an individual, whether alive or dead."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:11:52-00:12:38"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Nor merely seeking help from someone other than Allah, that's not worship. Nor fearing someone, being afraid of someone is not worship. Nor being hopeful of something from someone, that's not worship. Nor merely glorifying someone, that's not worship."
+    summary_en: "Delineates human emotions and interactions (fear, hope, glorification, seeking assistance) that do not constitute worship in themselves."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:12:38-00:13:06"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: support-chain
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Nor is it worship to request something from someone in an unusual way, because when the Children of Israel were searching for the body of Prophet Yusuf, a woman requested from Prophet Musa that she would be his companion in Paradise, and she did not request that from Allah."
+    summary_en: "Cites the narration of the elderly Israelite woman asking Musa directly for companionship in Paradise without Musa reproaching her for shirk."
+    evidence_cited:
+      - as_said: "Narration of the elderly woman asking Prophet Musa for Paradise"
+        timestamp: "00:12:38"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:14:30-00:14:59"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "According to him, a Wahhabi, whoever says \"Oh Prophet Muhammad\" has blasphemed for calling upon someone who has died."
+    summary_en: "Reports the opponent claim that addressing the deceased Prophet Muhammad is shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:14:59-00:15:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IB-WH-K03
+    move_type: turnabout
+    quote: "Then according to the Wahhabiyyah, the four imams, Abu Hanifah, Malik, ash-Shafi'i, and Ahmad, are all mushriks for confirming this as part of the prayer after the Prophet's death, encouraging millions and millions of Muslims to call upon the Prophet after his death in their prayer."
+    summary_en: "Shows that the opponent criterion of shirk would absurdly brand the four Sunni imams and companions as mushriks for codifying the Tashahhud."
+    evidence_cited:
+      - as_said: "Tashahhud formula: 'as-salamu 'alayka ayyuha an-nabiyyu'"
+        timestamp: "00:14:30"
+      - as_said: "Transmissions of Ibn 'Abbas and Ibn Mas'ud"
+        timestamp: "00:15:22"
+    responds_to: M10
+    confidence: high
+
+new_claims:
+  - id: IB-WH-K01
+    side: wahhabi
+    summary_en: "Claims that seeking refuge with other than Allah or saying 'I seek refuge with Allah and His Messenger' is blatant, explicit shirk."
+    move_type: charge
+    first_seen: M02
+
+  - id: IB-WH-K02
+    side: wahhabi
+    summary_en: "Defines worship as including mere calling, asking, fearing, hoping, or seeking help from another."
+    move_type: definition
+    first_seen: M07
+
+  - id: IB-WH-K03
+    side: wahhabi
+    summary_en: "Claims that calling upon someone who has died by saying 'Oh Prophet' is shirk."
+    move_type: charge
+    first_seen: M10
+
+counter_questions:
+  - id: CQ-K13
+    summary_en: "If seeking refuge with the Prophet were explicit shirk, why did the Prophet not object, and why did Imam Ahmad record it without censure?"
+    used_in: M03
+
+  - id: CQ-K14
+    summary_en: "If obedience or humility were worship, would obeying or humbling oneself to a parent or employer make one a worshiper of them?"
+    used_in: M06
+
+  - id: CQ-K15
+    summary_en: "If calling the deceased Prophet were shirk, are the four imams and the companions mushriks for teaching the Tashahhud in prayer?"
+    used_in: M11
+
+debate_tips:
+  - timestamp: "00:03:14"
+    quote: "The point is you're saying it's kufr, and it's not kufr. And the point is I'm giving you a hadith, and despite that, you're still not accepting. I don't have to do it, I don't have to say it. All I'm saying to you is don't have a wrong belief, and don't teach people wrong religion."
+    summary_en: "Refuse distractions regarding whether you personally practice an act; keep the debate strictly focused on refuting the opponent's false takfir and mischaracterization of shirk."
+
+  - timestamp: "00:09:36"
+    quote: "Take some of the quotes of the Sunni linguists for the true definition of worship. Of course we're going to back what we say with references, alhamdulillah."
+    summary_en: "Ground theological refutations of broad takfir in classical Arabic lexicography and authoritative Sunni linguistic definitions."
+
+  - timestamp: "00:11:14"
+    quote: "Hence, to refute the Wahhabi, you must understand firmly that worship is not merely calling upon someone, whether alive or dead."
+    summary_en: "Master the precise technical definition of worship to expose and dismantle the opponent's conflation of calling (nida') with worship ('ibadah)."

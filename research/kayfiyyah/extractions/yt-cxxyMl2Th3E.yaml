@@ -1,0 +1,302 @@
+source_id: yt-cxxyMl2Th3E
+moves:
+  - move_id: M01
+    timestamp: "00:00:58-00:01:21"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "This verse is not restricted, and therefore it is not valid for a Wahhabi to restrict it to particular conditions that he believes in, as will be made clear."
+    summary_en: "Argues that Surah al-Ma'idah 5:35 is unrestricted and cannot be subjected to fabricated conditions."
+    evidence_cited:
+      - as_said: "Surah al-Ma'idah 5:35: 'wabtaghu ilayhi al-wasilah'"
+        timestamp: "00:00:04"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:21-00:01:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Technically, tawassul is to seek from Allah the occurrence of a benefit or the repulsion of harm by mentioning the name of a prophet or a wali out of honor of the one by whom the tawassul is made."
+    summary_en: "Provides the technical definition of tawassul in Islamic jurisprudence."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:39-00:03:08"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: turnabout
+    quote: "And Muhammad was not alive when Adam was alive, so Adam made tawassul by one who's not alive."
+    summary_en: "Argues that Prophet Adam made tawassul through Prophet Muhammad before Muhammad was physically alive in the world."
+    evidence_cited:
+      - as_said: "Narration of Adam: 'Oh my Lord, I ask You by the status of Muhammad to forgive me'"
+        timestamp: "00:01:41"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:03:08-00:03:31"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "Our answer is: Yes, Allah can grant you what you seek without tawassul, but He made tawassul an optional resort."
+    summary_en: "Responds to the objection 'why make tawassul when Allah can grant without it' by explaining means and consequences."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:08-00:07:37"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "So that's the Wahhabi condition for tawassul: that the one you're making tawassul by is alive and present."
+    summary_en: "Identifies the core Taymiyyan/Wahhabi restriction that tawassul requires the intermediary to be alive and present."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:37-00:08:07"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: attack-chain
+    quote: "The condition of being alive and present is a fabrication, it's a daydream, as we will prove by first referring to the hadith of the blind man."
+    summary_en: "Rejects the condition of being alive and present as an unevidenced fabrication refuted by the hadith of the blind man."
+    evidence_cited:
+      - as_said: "Hadith: 'Every condition that is not in the Book of Allah is invalid...'"
+        timestamp: "00:07:08"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:35-00:09:02"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: definition
+    quote: "One: within it, within the hadith of the blind man, is evidence that calling on someone is not worship, because the blind man was personally ordered by the Prophet, sallallahu 'alayhi wa sallam, to call upon the Prophet, who would never order someone to worship him."
+    summary_en: "Deduces from the hadith of the blind man that calling upon the Prophet does not constitute worship."
+    evidence_cited:
+      - as_said: "Hadith of the blind man: 'Oh Muhammad, ya Muhammad...'"
+        timestamp: "00:09:02"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:10:02-00:10:39"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: support-chain
+    quote: "Two: there is also proof that calling upon someone in his absence is permissible, because the blind man, obeying the Prophet, sallallahu 'alayhi wa sallam, went away from the Prophet, sallallahu 'alayhi wa sallam, when he called upon him, as proven by the saying of Ibn Hunayf, the companion who narrated the hadith."
+    summary_en: "Proves that calling an intermediary in physical absence is permissible because the blind man supplicated away from the Prophet's gathering."
+    evidence_cited:
+      - as_said: "Narration of 'Uthman ibn Hunayf: 'we had not dispersed... when the man came to us sightful'"
+        timestamp: "00:10:39"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:11:10-00:11:37"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: practice-consensus
+    quote: "There's also proof that calling upon someone after his death is not worship, because the companions continued to teach this supplication after the Prophet's death, sallallahu 'alayhi wa sallam, as 'Uthman ibn Hunayf did."
+    summary_en: "Proves that calling upon the Prophet after his death is permissible based on companions continuing to teach the supplication."
+    evidence_cited:
+      - as_said: "Action of 'Uthman ibn Hunayf teaching the supplication during 'Uthman's caliphate"
+        timestamp: "00:11:10"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:11:37-00:12:11"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "Know that it is permissible and good to make tawassul, to seek help, and to seek intercession by the Prophet, sallallahu 'alayhi wa sallam, to one's Lord, the Glorified and Exalted."
+    summary_en: "Quotes Taqi ad-Din as-Subki's Shifa' as-Siqam establishing the historical consensus on tawassul, istighatha, and tashaffu'."
+    evidence_cited:
+      - as_said: "Taqi ad-Din as-Subki in The Cure for the Sick (Shifa' as-Siqam)"
+        timestamp: "00:11:37"
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:12:44-00:13:40"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "A man said to him: Mention the most beloved of people to you, and so he said: Ya Muhammad! And it was as if he was untied from a knot."
+    summary_en: "Cites Ibn Taymiyyah's Al-Kalim at-Tayyib documenting Ibn Umar calling 'Ya Muhammad' when afflicted with leg numbness."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah in Al-Kalim at-Tayyib (The Good Words)"
+        timestamp: "00:12:44"
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:13:56-00:14:10"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K02
+    move_type: restrict-evidence
+    quote: "One: if the Wahhabi says this hadith is weak, we tell him that is beside the point. Ibn Taymiyyah considered it a good practice, weak or not."
+    summary_en: "Argues that questioning the hadith's grading is irrelevant to the fact that Ibn Taymiyyah endorsed it in his book."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:14:32-00:14:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "So if he says that what is meant in the hadith is that Ibn 'Umar wanted to conjure up the remembrance of the Prophet in his heart, not to call on the Prophet, we tell him that it says ya Muhammad, which is calling."
+    summary_en: "Refutes the claim that Ibn Umar merely summoned remembrance in his heart, noting the vocative particle 'ya' explicitly denotes calling."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:15:12-00:15:44"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "The fact that a person told him to mention the most beloved to him is beside the point. He called the Prophet after his death, he said after the Prophet's death: Ya Muhammad."
+    summary_en: "Argues that being prompted to 'mention' the most beloved person does not alter the fact that Ibn Umar uttered an invocation to the deceased Prophet."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:18:06-00:18:25"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Ibn Kathir, who is trustworthy to them, narrated this and said immediately afterwards: This is an authentic chain of narration."
+    summary_en: "Cites Ibn Kathir's explicit authentication of the chain of Malik ad-Dar regarding the drought during Umar's caliphate."
+    evidence_cited:
+      - as_said: "Ibn Kathir authenticating the chain of Malik ad-Dar"
+        timestamp: "00:18:06"
+    responds_to: null
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:20:19-00:21:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "The evidence is not in the dream, it's in the doing of the companion while no one objected to him."
+    summary_en: "Clarifies that evidence resides in the companion visiting the grave and seeking rain without any companion objecting, not in the dream vision itself."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:23:27-00:24:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "We also tell them that objecting to the deed is by speaking up, not being silent. The Messenger of Allah, sallallahu 'alayhi wa sallam, said: Anyone of you who saw something forbidden, then let him change it by his hand, if unable then by his tongue, if unable then with his heart."
+    summary_en: "Refutes the claim that the companions' silence was an objection, citing the prophetic obligation to condemn evil verbally."
+    evidence_cited:
+      - as_said: "Hadith: 'Anyone of you who saw something forbidden, then let him change it...'"
+        timestamp: "00:23:27"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-WH-K01
+    side: wahhabi
+    summary_en: "Claims that tawassul is only valid if the intermediary is alive and physically present, and is shirk otherwise."
+    move_type: restrict-evidence
+    first_seen: M05
+
+  - id: TW-WH-K02
+    side: wahhabi
+    summary_en: "Claims that the narration of Ibn Umar's leg numbness in Al-Kalim at-Tayyib is weak."
+    move_type: restrict-evidence
+    first_seen: M12
+
+counter_questions:
+  - id: CQ-K10
+    summary_en: "Where is the condition in the Book of Allah or Sunnah stating that tawassul is invalid unless the person is alive and present?"
+    used_in: M03
+
+  - id: CQ-K11
+    summary_en: "Which Arabic grammarian states that saying 'ya so-and-so' is merely conjuring remembrance in one's heart rather than calling?"
+    used_in: M13
+
+  - id: CQ-K12
+    summary_en: "If silence constitutes religious objection, why do you not remain silent like the early scholars?"
+    used_in: M17
+
+debate_tips:
+  - timestamp: "00:06:14"
+    quote: "So when a Wahhabi says: \"But you made tawassul by someone who's not present,\" we say to them: So what? It's not permissible in our religion to make stuff up."
+    summary_en: "Directly reject newly invented conditions on worship by demanding scriptural proof rather than accepting baseless restrictions."
+
+  - timestamp: "00:15:44"
+    quote: "They play all of these word games. Those Wahhabis play all of these word games because they believe in Ibn Taymiyyah more than they believe in the Prophet, sallallahu 'alayhi wa sallam."
+    summary_en: "Highlight the double standard of opponents who excuse their own scholars for actions they declare to be shirk when practiced by common Muslims."
+
+  - timestamp: "00:20:19"
+    quote: "The evidence is not in the dream, it's in the doing of the companion while no one objected to him."
+    summary_en: "Prevent opponents from derailing Malik ad-Dar's report onto the validity of dreams; anchor the argument firmly to the companion's physical action and unanimous silent consensus."
+
+  - timestamp: "00:21:00"
+    quote: "Well, you claim to follow the Salaf, so stop talking, do like them and be silent."
+    summary_en: "Use an opponent's desperate claim that 'silence equals objection' against them to shut down their verbal objections."

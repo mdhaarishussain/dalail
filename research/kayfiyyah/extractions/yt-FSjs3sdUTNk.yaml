@@ -1,0 +1,278 @@
+source_id: yt-FSjs3sdUTNk
+moves:
+  - move_id: M01
+    timestamp: "00:00:03-00:00:32"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "The Wahhabi said that it is not permissible to call someone who is not alive or is absent because they do not hear."
+    summary_en: "Reports the opponent claim that calling the deceased or absent is forbidden because they cannot hear."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:32-00:00:53"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "He must have believed in the godhood of the dead or absent one to think that he, meaning to think that the dead or absent one can hear him, meaning hear that living person who's calling, and then help him."
+    summary_en: "Reports the opponent argument that believing the dead can hear and assist implies attributing divine attributes to them."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:58-00:02:53"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: IS-WH-K01
+    move_type: support-chain
+    quote: "Ibrahim stood upon the stone and said: Oh people, Hajj has been made obligatory upon you. He made those who were in the spines of the men as seminal fluid and the wombs of the women hear, and whoever was to believe and whoever was eternally known by Allah that he would perform until Judgment Day responded."
+    summary_en: "Cites the narration of Prophet Ibrahim calling mankind to Hajj, where Allah enabled the unborn souls in men's spines and women's wombs to hear."
+    evidence_cited:
+      - as_said: "Narration of Prophet Ibrahim calling to Hajj from the stone"
+        timestamp: "00:01:58"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:53-00:03:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "If the fluid in the spines of the men can hear, then by the will of Allah, then from where does he claim that a dead person cannot hear?"
+    summary_en: "Argues that if Allah creates hearing in unborn fluid across time, claiming the dead cannot hear by Allah's will contradicts scriptural precedent."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:03:53-00:04:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "If the Wahhabi says: \"He was a prophet, it's different,\" we say: Then you are going back on your invalid rule that those who are not alive or those who are far cannot hear. Is it a rule or it's not a rule? You did not say \"unless the one who calls them is a prophet.\""
+    summary_en: "Exposes the opponent's inconsistency in creating an unscripted exception for prophets when their general rule asserts hearing without life is impossible."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:43-00:08:32"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "It is confirmed that 'Umar, who is not a prophet, was in al-Madinah giving a speech, then interrupted himself to call out to Sariyah, the commander of the army in Persia: [ARABIC RECITATION: historical call] phrase_as_heard: \"ya sariyah al-jabal al-jabal\". Sariyah, take the mountain, take the mountain, he said."
+    summary_en: "Cites the authenticated historical event of Umar calling out from Medina to Sariyah in Persia across hundreds of miles, and Sariyah hearing his voice."
+    evidence_cited:
+      - as_said: "al-Bayhaqi in Dala'il an-Nubuwwah and others: 'ya sariyah al-jabal'"
+        timestamp: "00:07:43"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:32-00:09:06"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "So if calling someone depends on him being alive or present, or else it is shirk, then to the Wahhabis, along with Adam and Ibn 'Abbas and the four imams and Ibrahim, the messenger of Allah, 'Umar is a mushrik."
+    summary_en: "Shows that if calling an absent person were shirk, Umar would be branded a mushrik by the opponent's criteria."
+    evidence_cited: []
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:10:58-00:11:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "As for the dead hearing, we confirm this because we believe in the life of the Barzakh, the life in the grave. When the person is buried, his soul returns to him, and he returns to consciousness, but in a different state than the people who did not lose their souls yet."
+    summary_en: "Explains the Sunni belief in the life of the Barzakh where the soul returns to the body in the grave."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:11:30-00:12:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "There is not one of you that passes by the grave of his fellow believer that he knew in the dunya and gives him the salam, except that he, i.e. the dead one, would know him and return his salam."
+    summary_en: "Cites the hadith of Ibn Abbas establishing that deceased believers recognize and return greetings given at their graves."
+    evidence_cited:
+      - as_said: "hadith of Ibn 'Abbas authenticated by 'Abd al-Haqq al-Ishbili"
+        timestamp: "00:11:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:12:14-00:12:47"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Certainly the slave, if he is put in his grave and his companions turn away from him, he will surely hear the steps of their sandals as they leave."
+    summary_en: "Cites the hadith in Sahih al-Bukhari and Sahih Muslim that the deceased hears the footsteps of those leaving the grave."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari and Sahih Muslim from the route of Anas"
+        timestamp: "00:12:14"
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:12:47-00:13:31"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-WH-K02
+    move_type: restrict-evidence
+    quote: "As for the saying of Allah that the Wahhabis always use: Oh Muhammad, you cannot make the dead hear; it likens the blasphemers to the dead, as proven by the fact that the Prophet, sallallahu 'alayhi wa sallam, was calling living people to Islam, not dead people."
+    summary_en: "Refutes the misuse of Surah an-Naml 27:80, proving it metaphorically likens living disbelievers to the dead."
+    evidence_cited:
+      - as_said: "Surah an-Naml 27:80: 'innaka la tusmi'u al-mawta'"
+        timestamp: "00:04:34"
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:15:15-00:16:11"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: IS-WH-K02
+    move_type: support-chain
+    quote: "You do not hear better than they do, however they do not answer."
+    summary_en: "Cites the Prophet's address to the slain polytheists at the well of Badr affirming that the dead hear his words."
+    evidence_cited:
+      - as_said: "Hadith of the well of Badr in Sahih al-Bukhari and Muslim"
+        timestamp: "00:15:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:16:11-00:16:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The prophets are alive in their graves praying. Al-Bayhaqi deemed it authentic, and al-Albani agreed with him."
+    summary_en: "Cites the authenticated hadith of Anas proving that prophets are alive in their graves and praying."
+    evidence_cited:
+      - as_said: "Hadith of Anas: 'al-anbiya'u ahya'un fi quburihim yusallun'"
+        timestamp: "00:16:11"
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:18:15-00:19:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: IS-WH-K03
+    move_type: principle
+    quote: "We believe in the miracles of the prophets and the karamat of the awliya', and we believe that there is tasarruf after death."
+    summary_en: "Affirms that miracles and saintly assistance (tasarruf) can occur after death by Allah's divine power."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:19:16-00:19:45"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: support-chain
+    reported: false
+    answers: IS-WH-K03
+    move_type: support-chain
+    quote: "And Prophet Musa was the one who advised Muhammad to ask Allah to reduce the prayers to five. So what happened? A dead man came out of his grave and helped."
+    summary_en: "Cites Prophet Musa advising Prophet Muhammad on the night of al-Isra' wal-Mi'raj to reduce the daily prayers as proof of assistance after death."
+    evidence_cited:
+      - as_said: "Event of al-Isra' wal-Mi'raj"
+        timestamp: "00:19:16"
+      - as_said: "Story of 'Uzayr in the Qur'an"
+        timestamp: "00:20:15"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IS-WH-K01
+    side: wahhabi
+    summary_en: "Claims that calling someone who is dead or absent is impermissible and shirk because the dead and absent cannot hear."
+    move_type: charge
+    first_seen: M01
+
+  - id: IS-WH-K02
+    side: wahhabi
+    summary_en: "Claims that Surah an-Naml 27:80 establishes that the physically dead cannot hear under any circumstance."
+    move_type: restrict-evidence
+    first_seen: M11
+
+  - id: IS-WH-K03
+    side: wahhabi
+    summary_en: "Claims that even if the dead can hear, they cannot provide any help or benefit (no tasarruf after death)."
+    move_type: restrict-evidence
+    first_seen: M14
+
+counter_questions:
+  - id: CQ-K16
+    summary_en: "Is it an absolute condition that the one who hears must be physically alive and present?"
+    used_in: M05
+
+  - id: CQ-K17
+    summary_en: "If the fluid in the spines of men could hear Ibrahim's call, what makes it impossible for deceased or distant souls to hear by Allah's will?"
+    used_in: M04
+
+  - id: CQ-K18
+    summary_en: "If calling the absent were shirk, why did Umar call out to Sariyah across hundreds of miles without condemnation?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:06:07"
+    quote: "So we pose the question, wanting only a yes or no answer: Is it a condition that the one who hears be alive and present?"
+    summary_en: "Corner the interlocutor with a direct binary question on whether physical presence and earthly life are mandatory conditions for hearing."
+
+  - timestamp: "00:07:20"
+    quote: "If he says: \"Not if the caller is a prophet,\" we object, because statements without evidence are not accepted in our religion. Not if the caller is a prophet, then what happened to the ayah: Oh Muhammad, you do not make the dead hear? How do you explain it then, Wahhabi?"
+    summary_en: "Expose ad-hoc exceptions: if an opponent invents an unevidenced prophet-only exception, demand textual proof and demonstrate how it contradicts their own literalism on 27:80."
+
+  - timestamp: "00:17:13"
+    quote: "If you heard a Wahhabi calling the Prophet a corpse, tell him: Call Ibn Taymiyyah a corpse, say it right now, let me hear you say it, let's see if he'll say it."
+    summary_en: "Confront derogatory descriptions of the Prophet by demanding whether they would dare apply the same disrespect to their own scholars."
+
+  - timestamp: "00:21:08"
+    quote: "So who said, oh Wahhabi, who said there's no tasarruf after death? And who said that a dead person cannot help? Who said that the one who died, after his death cannot help anymore?"
+    summary_en: "Demand scriptural proof for the categorical claim that death terminates all saintly assistance (tasarruf) or miracles (karamat) granted by Allah."

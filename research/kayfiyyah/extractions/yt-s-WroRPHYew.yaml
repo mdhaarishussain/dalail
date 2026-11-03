@@ -1,0 +1,162 @@
+source_id: yt-s-WroRPHYew
+moves:
+  - move_id: M01
+    timestamp: "00:04:00-00:04:16"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "This hadith perfectly discredits the claims of the Taymiyyun, the followers of Ibn Taymiyyah, that making tawassul or calling upon someone is only permissible if that one were alive and present, or else it is shirk."
+    summary_en: "Reports the opponent claim that tawassul or calling upon an individual is only permissible if they are alive and physically present."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:04:16-00:04:50"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: definition
+    quote: "Number one: within it is evidence that calling on someone is not worship, because the blind man was ordered by the Prophet, sallallahu 'alayhi wa sallam, to call upon the Prophet, sallallahu 'alayhi wa sallam, who would never order someone to worship him."
+    summary_en: "Argues that calling upon the Prophet cannot be worship because the Prophet commanded the blind man to use that invocation."
+    evidence_cited:
+      - as_said: "Hadith of the blind man: 'say ya Muhammad'"
+        timestamp: "00:02:29"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:50-00:05:21"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: support-chain
+    quote: "Number two: there's also proof that calling upon someone in his absence is permissible, because the man went away from the Prophet, sallallahu 'alayhi wa sallam, when he called upon him, as proven by the saying of Ibn Hunayf."
+    summary_en: "Argues that calling someone in their absence is established because the blind man left the gathering to make wudu' and supplicate."
+    evidence_cited:
+      - as_said: "Narration of 'Uthman ibn Hunayf: 'we had not dispersed... when the man came to us sightful'"
+        timestamp: "00:02:59"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:21-00:05:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "This means that he went away from the Prophet, sallallahu 'alayhi wa sallam, as the Prophet, sallallahu 'alayhi wa sallam, ordered him, and then came back. So he said ya Muhammad in the absence of the Prophet."
+    summary_en: "Deduces from the chronology of the event that the supplication was recited while physically absent from the Prophet."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:05:42-00:05:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TW-WH-K01
+    move_type: practice-consensus
+    quote: "Three: there is also proof that calling upon someone after his death is not worship, because the companions continued to teach the supplication after the Prophet's death, as Ibn Hunayf did."
+    summary_en: "Argues that calling upon the Prophet after his death is valid based on Uthman ibn Hunayf teaching the same supplication during the caliphate of Uthman ibn Affan."
+    evidence_cited:
+      - as_said: "Story of 'Uthman ibn Hunayf teaching the supplication during the caliphate of 'Uthman"
+        timestamp: "00:00:30"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:05:59-00:06:07"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "Also, the hadith scholars continued to narrate this supplication without forbidding the people from applying it after the death of the Prophet, sallallahu 'alayhi wa sallam."
+    summary_en: "Cites unbroken scholarly transmission of the report without condemnation as evidence of its normative permissibility."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:06:58-00:07:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: TW-WH-K02
+    move_type: turnabout
+    quote: "So how does al-Albani weaken the hadith after at-Tabarani authenticated it and [unclear: scholar name] agreed with him?"
+    summary_en: "Challenges the validity of al-Albani's modern grading against early hadith masters who authenticated the report."
+    evidence_cited:
+      - as_said: "at-Tabarani authenticating the hadith in both of his books"
+        timestamp: "00:06:32"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:07:29-00:07:53"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "This means that the authentic hadith is known by a hafidh explicitly saying that it is authentic, or by the hadith being in a book dedicated to mention only authentic hadiths."
+    summary_en: "Cites hadith terminology rule establishing that authenticity is confirmed by a hafidh's explicit grading or inclusion in a dedicated sahih compendium."
+    evidence_cited:
+      - as_said: "Poem on hadith terminology: 'take it whenever a hafidh has documented its authenticity...'"
+        timestamp: "00:06:59"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:07:53-00:07:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Among what proves the validity of calling upon other than Allah without worshiping that one is what was narrated by al-Bazzar from the route of Ibn 'Abbas."
+    summary_en: "Cites the narration of al-Bazzar through Ibn Abbas as additional evidence that calling a creation is not worship."
+    evidence_cited:
+      - as_said: "al-Bazzar from the route of Ibn 'Abbas"
+        timestamp: "00:07:53"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-WH-K01
+    side: wahhabi
+    summary_en: "Claims that making tawassul or calling upon someone is only permissible if that person is alive and physically present, and constitutes shirk otherwise."
+    move_type: charge
+    first_seen: M01
+
+  - id: TW-WH-K02
+    side: wahhabi
+    summary_en: "Claims that the narration of Uthman ibn Hunayf during the caliphate of Uthman ibn Affan is weak."
+    move_type: restrict-evidence
+    first_seen: M07
+
+counter_questions:
+  - id: CQ-K09
+    summary_en: "How can a modern figure weaken a hadith authenticated by early hadith masters like at-Tabarani?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:06:07"
+    quote: "Now you're listening and understanding the lesson, that doesn't mean that if you get into a debate with a Wahhabi that you'll be able to produce all the evidence properly."
+    summary_en: "Passive understanding of a lesson is insufficient for debate; active study and memorization of textual proofs are required to present them effectively."

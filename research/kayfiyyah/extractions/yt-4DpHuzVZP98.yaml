@@ -1,0 +1,148 @@
+source_id: yt-4DpHuzVZP98
+moves:
+  - move_id: M01
+    timestamp: "00:02:05-00:02:31"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Why I'm saying so-called: because it's not permissible to refer to them as Salafis, because they don't follow the Salaf, not in their creed nor in their practice."
+    summary_en: "Rules that the label 'Salafi' should not be conceded to opponents without the qualifier 'so-called'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:47-00:03:30"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "That means the Wahhabi conviction that most of the nation of Muhammad, sallallahu 'alayhi wa sallam, is deviant. This is a firm conviction of the Wahhabi, even if he might not say it explicitly."
+    summary_en: "Reports the core opponent conviction that the vast historical majority of the Muslim Ummah is deviant."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:30-00:04:17"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "These four madhhabs in the fiqh and the rules and the detailed rules are all Ahlus-Sunnah because they share the same creed. Their creed is one, that's Ahlus-Sunnah wal-Jama'ah."
+    summary_en: "Explains that the four legal madhhabs (Hanafi, Maliki, Shafi'i, Hanbali) are unified upon a single orthodox creed."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:17-00:05:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "Number one: the majority of the nation always will be, always has been, and always will be."
+    summary_en: "Affirms the Sunni principle that truth resides with the vast historical majority (as-Sawad al-A'zam) from the Sahabah to the present."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:31-00:07:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: DM-WH-K05
+    move_type: support-chain
+    quote: "So never feel intimidated by a Wahhabi who asks you: \"Did the companions practice madhhabs?\" For sure they did. Among them were mujtahids, and among them were those who are not mujtahids."
+    summary_en: "Demonstrates that legal following (taqlid) was practiced by the Sahabah, as non-mujtahid companions followed the rulings of mujtahid companions."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:30-00:08:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "We also mentioned that there's two madhhabs in the 'aqidah: the Ash'ari school and the Maturidi school of Ahlus-Sunnah. And they have the same creed, but their terminology is different"
+    summary_en: "Identifies the Ash'ari and Maturidi schools as the two legitimate expressions of Sunni creed, sharing identical beliefs with minor terminological variations."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:16-00:09:18"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: DM-WH-K06
+    move_type: turnabout
+    quote: "That using the term Wahhabi is totally in compliance with the rules of nahw. So for a Wahhabi to say that is haram to use the name Wahhabi for someone who follows Muhammad ibn 'Abd al-Wahhab, then he's either ignorant or a liar."
+    summary_en: "Vindicates the linguistic attribution (nisbah) of the term 'Wahhabi' according to standard Arabic grammatical rules."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:09:38-00:10:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: charge
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "The Wahhabi will say: \"I don't attribute organs to Allah,\" and we're going to substantiate that inshallah ta'ala, that really they do believe that Allah is attributed with organs, but they just don't say that He's attributed with organs usually."
+    summary_en: "Exposes the opponent wordplay of affirming physical body parts for Allah while verbally disclaiming the label 'organs'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: DM-WH-K05
+    side: wahhabi
+    summary_en: "Questions the legitimacy of following legal madhhabs by asserting that the Sahabah did not practice madhhabs."
+    move_type: charge
+    first_seen: M05
+
+  - id: DM-WH-K06
+    side: wahhabi
+    summary_en: "Claims that calling followers of Muhammad ibn Abd al-Wahhab 'Wahhabis' is prohibited (haram) or linguistically invalid."
+    move_type: restrict-evidence
+    first_seen: M07
+
+counter_questions:
+  - id: CQ-K22
+    summary_en: "Did not the non-mujtahid companions follow the legal rulings of the mujtahid companions in the absence of the Prophet?"
+    used_in: M05
+
+  - id: CQ-K23
+    summary_en: "By what rule of Arabic grammar (nahw) is the nisbah 'Wahhabi' for followers of Muhammad ibn Abd al-Wahhab prohibited?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:02:05"
+    quote: "Why I'm saying so-called: because it's not permissible to refer to them as Salafis, because they don't follow the Salaf, not in their creed nor in their practice."
+    summary_en: "Do not concede orthodox titles to sectarian opponents; always qualify their claim to the Salaf as 'so-called'."
+
+  - timestamp: "00:06:31"
+    quote: "So never feel intimidated by a Wahhabi who asks you: \"Did the companions practice madhhabs?\" For sure they did. Among them were mujtahids, and among them were those who are not mujtahids."
+    summary_en: "Never allow opponents to intimidate you regarding following madhhabs; ground legal following directly in the companions' distinction between mujtahid and layperson."
+
+  - timestamp: "00:08:16"
+    quote: "That using the term Wahhabi is totally in compliance with the rules of nahw. So for a Wahhabi to say that is haram to use the name Wahhabi for someone who follows Muhammad ibn 'Abd al-Wahhab, then he's either ignorant or a liar."
+    summary_en: "Confidently employ the historically and grammatically accurate designation 'Wahhabi', rejecting false claims that the term is an unlawful insult."

@@ -1,0 +1,310 @@
+source_id: yt-iJgAsdXN8ZY
+moves:
+  - move_id: M01
+    timestamp: "00:00:09-00:00:33"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "However, if you are asking me if I go around calling myself a Salafi, the answer is emphatically, absolutely not. This is something new. The authorities of the Salaf called themselves Ahlus-Sunnah wal-Jama'ah, not the Salafis."
+    summary_en: "Distinguishes following the Salaf from adopting the modern sectarian label 'Salafi', establishing that early authorities identified as Ahlus-Sunnah wal-Jama'ah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:33-00:01:15"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "He was from the time of the Salaf, yani he didn't say this is a clarification of the creed of the Salafis, he said this is a clarification of the creed of Ahlus-Sunnah wal-Jama'ah."
+    summary_en: "Cites Imam at-Tahawi's creedal treatise as textual evidence that scholars of the Salaf formulated creed in the name of Ahlus-Sunnah wal-Jama'ah."
+    evidence_cited:
+      - as_said: "Imam at-Tahawi in al-Aqidah at-Tahawiyyah: 'hadha dhikru bayani 'aqidati ahlis-sunnah wal-jama'ah'"
+        timestamp: "00:00:33"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:24-00:01:55"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "The Salaf are the first three centuries after the Prophet's migration. They are the best centuries of Islam, as the Prophet, sallallahu 'alayhi wa sallam, said: [ARABIC RECITATION: hadith on the best generations] phrase_as_heard: \"khayru al-quruni qarni\"."
+    summary_en: "Defines the Salaf chronologically as the Muslims of the first three centuries based on the hadith of the best generations."
+    evidence_cited:
+      - as_said: "Hadith: 'khayru al-quruni qarni thumma alladhina yalunahum...'"
+        timestamp: "00:01:24"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:29-00:04:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "However, if what you mean by following the Salafi dawah is following Ibn Taymiyyah and Ibn al-Qayyim, and Ibn 'Abd al-Wahhab, and al-Albani, and Ibn Baz, and Ibn 'Uthaymeen, and that circle of individuals, then none of them are from the time of the Salaf, and the hadith does not command us to follow them."
+    summary_en: "Demonstrates that figures championed by the 'Salafi dawah' lived centuries after the Salaf and have no scriptural mandate of adherence."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:05:33-00:06:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "How could they be the Salaf when the earliest of all of these individuals is Ibn Taymiyyah, and he is from the late 7th century, born 661 after the Hijrah, almost 400 years after the Salaf?"
+    summary_en: "Highlights the historical gap of almost 400 years between the era of the Salaf and Ibn Taymiyyah's birth in 661 AH."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:08:29-00:08:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "We can show you abundant documents from the famous, undisputed authorities of the Salaf saying explicitly that Allah exists without a place or a direction, like Abu Hanifah and 'Ali ibn Abi Talib; explicitly that there are good innovations, like ash-Shafi'i; explicitly that tawassul is permissible, etc. This is the real manhaj of the Salaf, and it contradicts the foundation of what you call the Salafi dawah."
+    summary_en: "Cites undisputed early authorities confirming foundational Sunni positions that directly contradict modern Wahhabi doctrines."
+    evidence_cited:
+      - as_said: "Sayings of Abu Hanifah and 'Ali ibn Abi Talib on Allah existing without place"
+        timestamp: "00:08:29"
+      - as_said: "Saying of ash-Shafi'i on good innovations"
+        timestamp: "00:08:29"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:59-00:09:43"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "When you have a discussion with someone or a debate with someone, always remember a fundamental rule: You cannot debate based on a disagreement. You have to debate based on an agreement."
+    summary_en: "Formulates the debate principle that dialectic arguments must proceed from shared premises rather than contested partisan authorities."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:11:12-00:11:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "What is odd is that those people you think are modern scholars upholding the way of the Salaf have made it their business to correct the Salaf, to correct Imam at-Tahawi and al-Bukhari, to correct Imam Abu Hanifah and ash-Shafi'i, all of whom are authorities of the Salaf, but they didn't find any mistake to correct from Ibn 'Abd al-Wahhab."
+    summary_en: "Charges modern Wahhabi scholars with reversing the hierarchy of authority by correcting early Salaf while treating modern figures as infallible."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:13:14-00:13:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "In the same section where they took Abu Hanifah saying, according to them they translated it as we confess that Allah is over the Throne, he wasn't saying that. At the bottom of the paragraph he says: If Allah was in need of the Throne, then where was He before He created it?"
+    summary_en: "Exposes selective quotation of Abu Hanifah, pointing out that his complete text explicitly denies Allah's need for the Throne."
+    evidence_cited:
+      - as_said: "Abu Hanifah's al-Wasiyyah: 'If Allah was in need of the Throne...'"
+        timestamp: "00:13:14"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:15:53-00:16:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "By the way, the people who call themselves Salafis do not practice this matter that the Salaf practiced, which is to leave a person's belief between him and his Lord."
+    summary_en: "Contrasts the early Salaf's restraint in judging inner intentions with modern sectarian inquisitiveness over dress and secondary customs."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:18:29-00:18:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Rather, using the name Salafi dawah, or Salafiyyah, or Salafiyyun, or Salafi manhaj, etc., to describe following Ibn Taymiyyah and Ibn 'Abd al-Wahhab and al-Albani, etc., is a new idea, which makes it an innovation."
+    summary_en: "Classifies the institutional adoption of the name 'Salafi' to signify modern theological sectarianism as a historical innovation."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:19:53-00:20:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "I did not say that the Salaf is new. I said that calling oneself a Salafi or a Salafi Muslim is new. The Salaf didn't call themselves the Salafis. Even the 4th century, the generation directly after the first three, which are the Salaf, the 4th century, although they weren't following anyone but the Salaf, they didn't call themselves the Salafis."
+    summary_en: "Points out that even 4th-century scholars directly succeeding the Salaf never designated themselves with the sectarian title 'Salafi'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:20:30-00:21:18"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "Are you, coming more than a thousand years later, more deserving of the name than them? Are you following the first three generations more closely than the 4th? If they weren't Salafis, what makes you a Salafi?"
+    summary_en: "Challenges the opponent to explain why modern partisans claim a title not claimed by centuries of classical Sunni scholars."
+    evidence_cited: []
+    responds_to: M12
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:22:49-00:23:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: demand
+    reported: false
+    answers: null
+    move_type: burden
+    quote: "Then produce them! That's important there, brothers and sisters, don't ever be afraid to ask a person for his reference. Either he's going to give it to you or not."
+    summary_en: "Demands textual verification when an opponent claims classical scholars identified themselves as 'Salafis'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:26:04-00:26:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "No, what they said is that we must follow the Salaf, not that they are the Salafis. Those are two different things."
+    summary_en: "Distinguishes the general obligation to adhere to early consensus from adopting 'Salafi' as a distinct factional title."
+    evidence_cited: []
+    responds_to: M14
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:29:46-00:30:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Stick to the words I said, I'll defend those, I'm not going to defend your synopsis of what I said."
+    summary_en: "Establishes debate rule that debaters defend only explicit statements uttered, refusing to defend opponents' loaded inferences."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:46:11-00:47:02"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "You don't want to debate with a person who can't reason. That's the meaning of what the scholars said when they said: When I debate with an ignorant person I lose, and when I debate with a knowledgeable person I win."
+    summary_en: "Advises against debating interlocutors who lack basic rational consistency and refuse evidential deduction."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: DM-WH-K02
+    side: wahhabi
+    summary_en: "Claims that following the Salaf obligates adopting the sectarian label 'Salafi' and following the modern 'Salafi dawah'."
+    move_type: charge
+    first_seen: M01
+
+  - id: DM-WH-K03
+    side: wahhabi
+    summary_en: "Claims that modern figures (Ibn Taymiyyah, Ibn Abd al-Wahhab, al-Albani, Ibn Baz) embody the authentic manhaj of the Salaf."
+    move_type: support-chain
+    first_seen: M04
+
+  - id: DM-WH-K04
+    side: wahhabi
+    summary_en: "Asserts that classical scholars of old explicitly identified themselves with the sectarian title 'Salafis'."
+    move_type: charge
+    first_seen: M14
+
+counter_questions:
+  - id: CQ-K20
+    summary_en: "If the Salaf and the 4th through 13th centuries never called themselves 'Salafis', what justifies claiming this title today?"
+    used_in: M13
+
+  - id: CQ-K21
+    summary_en: "Where are the quotes of early scholars of old claiming they are 'Salafis' rather than Ahlus-Sunnah wal-Jama'ah?"
+    used_in: M14
+
+debate_tips:
+  - timestamp: "00:02:36"
+    quote: "Especially if it's a debate, he asks you a question, answer his question with a clear answer, period, stop."
+    summary_en: "Provide direct, concise answers without volunteered elaborations that give the opponent opportunities to deflect."
+
+  - timestamp: "00:08:59"
+    quote: "When you have a discussion with someone or a debate with someone, always remember a fundamental rule: You cannot debate based on a disagreement. You have to debate based on an agreement."
+    summary_en: "Anchor debate arguments in mutually acknowledged authorities and undisputed texts rather than disputed partisan figures."
+
+  - timestamp: "00:10:21"
+    quote: "So when you talk to him, you can't let him impose on you people that you don't accept as authorities."
+    summary_en: "Firmly reject attempts by an opponent to cite their sectarian figureheads as normative evidence against you."
+
+  - timestamp: "00:22:49"
+    quote: "Then produce them! That's important there, brothers and sisters, don't ever be afraid to ask a person for his reference. Either he's going to give it to you or not."
+    summary_en: "Immediately challenge confident broad assertions by demanding specific, verifiable citations on the spot."
+
+  - timestamp: "00:29:46"
+    quote: "Stick to the words I said, I'll defend those, I'm not going to defend your synopsis of what I said."
+    summary_en: "Refuse to be baited into defending an opponent's distorted paraphrase or inferred extrapolation of your position."
+
+  - timestamp: "00:31:33"
+    quote: "In the debate, he wants to bombard you from the beginning, he gives you everything, and you keep it simple at first. You just answer all his questions, and then you see all what he has, right?"
+    summary_en: "Absorb an opponent's initial aggressive barrage patiently, letting them exhaust their arguments before mounting a targeted counter-offensive."
+
+  - timestamp: "00:39:13"
+    quote: "Okay, so firstly, I'm not going to let my opponent get out of my question. First he has to submit first, and then we can move to the next point."
+    summary_en: "Do not permit interlocutors to transition to secondary points or deductive detours until they definitively resolve the pending question."
+
+  - timestamp: "00:46:11"
+    quote: "You don't want to debate with a person who can't reason. That's the meaning of what the scholars said when they said: When I debate with an ignorant person I lose, and when I debate with a knowledgeable person I win."
+    summary_en: "Recognize when an opponent lacks basic rational faculties and terminate fruitless exchanges with obstinate interlocutors."

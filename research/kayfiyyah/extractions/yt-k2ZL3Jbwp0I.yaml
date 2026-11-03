@@ -1,0 +1,260 @@
+source_id: yt-k2ZL3Jbwp0I
+moves:
+  - move_id: M01
+    timestamp: "00:00:31-00:01:07"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "They say to the unsuspecting person: \"Do you worship the graves? Do you worship the prophets? Do you call upon the dead?\""
+    summary_en: "Describes the rhetorical strategy of opponents who challenge unsuspecting Muslims with loaded questions equating veneration and calling with worship."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:36-00:03:11"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Whoever wants to proficiently refute Wahhabis in the topic of tawassul must know that the key to refuting them here is textual evidence: Qur'anic verses, hadiths, and traditions from the companions, the athar."
+    summary_en: "Establishes that the methodology for debating tawassul relies strictly on textual proofs (Qur'an, hadith, and athar of the companions)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:11-00:03:44"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "An essential mistake of the Wahhabi in this topic is rejection of confirmed religious passages for his opinion, what he thinks makes sense. Thus you must show him the flaw of his reasoning by imposing the texts on him, and prove to him that he has a misconception, that he confused tawassul for something else and mixed issues."
+    summary_en: "Identifies the opponent's core methodological defect as prioritizing subjective reasoning over confirmed texts, requiring debaters to impose textual evidence."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:12-00:04:37"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "The first thing one must do to protect himself and others is understand the meaning of 'ibadah, worship, and give priority to the Arabic word 'ibadah."
+    summary_en: "Mandates using the classical Arabic term 'ibadah rather than general English translations when debating the definition of worship."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:25-00:07:56"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "So that hadith has in it tawassul, because we are asking Allah by the walking, that's not worshiping other than Allah."
+    summary_en: "Cites the hadith on walking to the masjid ('by the right of this walking of mine') as evidence of tawassul through righteous actions without worshiping other than Allah."
+    evidence_cited:
+      - as_said: "Hadith on walking to the masjid: 'wa as'aluka bi-haqqi mamshaya hadha'"
+        timestamp: "00:05:43"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:10:11-00:10:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Do not do that. Had I ordered anyone to prostrate to anyone, I would have ordered the woman to prostrate to her husband. He didn't say to him: That's kufr, that's shirk, take your shahadah, you are a mushrik. He told him: Don't do that."
+    summary_en: "Cites Mu'adh ibn Jabal prostrating to the Prophet; the Prophet forbade it as a legal prohibition without declaring Mu'adh a mushrik or ordering a retaking of the shahadah."
+    evidence_cited:
+      - as_said: "Hadith of Mu'adh ibn Jabal in Ibn Hibban, Ibn Majah"
+        timestamp: "00:10:11"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:11:06-00:11:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "Prostration is a greater indication of humility and servitude than calling out to someone. So how is calling the Prophet worshiping him, while prostrating to him is not?"
+    summary_en: "Asks how merely calling upon the Prophet could be worship when physical prostration to him did not constitute worship."
+    evidence_cited: []
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:12:14-00:12:47"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The Prophet, sallallahu 'alayhi wa sallam, did not object to him. Had what he done been shirk, the Prophet, sallallahu 'alayhi wa sallam, would have clarified that."
+    summary_en: "Cites Musnad Ahmad where al-Harith ibn Hassan sought refuge with Allah and His Messenger without the Prophet objecting."
+    evidence_cited:
+      - as_said: "Musnad Ahmad with a hasan chain: 'a'udhu billahi wa bi-rasulihi'"
+        timestamp: "00:11:22"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:15:35-00:15:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: reconciliation
+    quote: "So also he might seek refuge with someone, so it might be a worship or it might not be a worship, it depends on what their intentions were."
+    summary_en: "Explains Surah al-Jinn 72:6 by noting that seeking refuge becomes worship only when accompanied by belief in the entity's independent divinity."
+    evidence_cited:
+      - as_said: "Surah al-Jinn 72:6"
+        timestamp: "00:14:37"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:17:42-00:18:09"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Worship is the ultimate submission, the extent of humility, and the maximum humbleness and fear for another, not calling and asking."
+    summary_en: "Defines worship as the ultimate extremity of humility and submission, excluding mere calling and requesting."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:21:46-00:22:49"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "The meaning of 'ibadah, worship, in the Arabic language is the special obedience with the ultimate humility. We got that from the alif-lam: al-khudu', humility."
+    summary_en: "Cites lexicographer az-Zajjaj (via Abu Mansur al-Azhari) showing that the definite article alif-lam in classical definitions signifies specific, ultimate humility."
+    evidence_cited:
+      - as_said: "az-Zajjaj via Abu Mansur al-Azhari"
+        timestamp: "00:20:26"
+      - as_said: "Muhammad Murtada az-Zabidi"
+        timestamp: "00:20:26"
+      - as_said: "Ibn Manzur in Lisan al-'Arab"
+        timestamp: "00:23:16"
+      - as_said: "al-Fayyumi in al-Misbah al-Munir"
+        timestamp: "00:23:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:24:47-00:25:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Hence, to refute the Wahhabi, you must understand firmly that worship is not merely calling upon someone, whether alive or dead, nor merely seeking help from someone other than Allah, nor fearing someone, nor being hopeful of something from someone, nor merely glorifying someone, nor merely going to the grave of a wali to seek blessings from there, just as it is not merely prostrating, nor merely seeking refuge."
+    summary_en: "Delineates actions that opponents misclassify as shirk, demonstrating that none meet the linguistic or religious threshold of 'ibadah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:26:05-00:26:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: support-chain
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Had she done an act of shirk by requesting something in a way that is not usual, then Musa, the messenger of Allah, sallallahu 'alayhi wa sallam, would have clarified that."
+    summary_en: "Cites the elderly woman asking Prophet Musa directly for companionship in Paradise without Musa rebuking her for polytheism."
+    evidence_cited:
+      - as_said: "Story of the woman asking Prophet Musa for Paradise"
+        timestamp: "00:25:22"
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:27:01-00:27:48"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "Take for example a person who goes to the grave of his dead parent, falls to his knees crying, and says: \"Oh Father\", or someone went to the grave of their dead child and they cried and they talked to their child at the grave. It is not normally thought that this person has worshiped his dead parent or his dead child, except by a Wahhabi."
+    summary_en: "Shows that addressing a deceased parent or child at a grave is universally recognized as grief and calling, not worship."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:28:28-00:29:02"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "Not only is this calling on the Prophet, sallallahu 'alayhi wa sallam, after his death, but it is part of the prayer, it is in the worship, it's in the salah, it's calling on the Prophet as an integral of the prayer, and it's still not counted as worshiping the Prophet, sallallahu 'alayhi wa sallam."
+    summary_en: "Demonstrates that the Tashahhud directly calls upon the deceased Prophet as an integral part of ritual prayer without constituting worship of him."
+    evidence_cited:
+      - as_said: "Tashahhud formula: 'as-salamu 'alayka ayyuha an-nabiyyu'"
+        timestamp: "00:27:48"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-WH-K03
+    side: wahhabi
+    summary_en: "Claims that calling upon prophets, asking for their intercession, or rubbing oneself on graves constitutes worship of creatures and shirk."
+    move_type: charge
+    first_seen: M01
+
+counter_questions:
+  - id: CQ-K19
+    summary_en: "How can calling the Prophet be worship while prostrating to him, as Mu'adh did, was not classified as worship by the Prophet?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:03:44"
+    quote: "Consequently, to thoroughly refute them in this topic, it is imperative that you know the documentary references, and that you enforce those references on them, meaning do not allow them to ignore them, do not allow them to ignore the proofs, make them respond."
+    summary_en: "Master documentary references and firmly enforce them during debate, preventing the opponent from deflecting or ignoring textual evidence."
+
+  - timestamp: "00:04:37"
+    quote: "You can use the word worship in English, but be mindful to always keep the word 'ibadah on deck, as they say, because that's really the word you want to go back to, because it's going to be a matter of defining it."
+    summary_en: "Anchor debate definitions to the Arabic term 'ibadah rather than English dictionary entries to avoid linguistic confusion."
+
+  - timestamp: "00:10:41"
+    quote: "Always be aware of the Wahhabi reaching for something beside the point. The point is the great companion prostrated to the Prophet, sallallahu 'alayhi wa sallam, and the Prophet did not accuse him of shirk."
+    summary_en: "Keep focus strictly on the core theological issue when opponents attempt to change the subject to secondary legal prohibitions."
+
+  - timestamp: "00:24:47"
+    quote: "Hence, to refute the Wahhabi, you must understand firmly that worship is not merely calling upon someone, whether alive or dead, nor merely seeking help from someone other than Allah, nor fearing someone, nor being hopeful of something from someone, nor merely glorifying someone, nor merely going to the grave of a wali to seek blessings from there, just as it is not merely prostrating, nor merely seeking refuge."
+    summary_en: "Dismantle false accusations of shirk by holding opponents to the classical definition of worship, disallowing the equation of common emotions or supplications with 'ibadah."

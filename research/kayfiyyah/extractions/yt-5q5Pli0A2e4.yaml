@@ -1,0 +1,272 @@
+source_id: yt-5q5Pli0A2e4
+moves:
+  - move_id: M01
+    timestamp: "00:00:37-00:00:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "You always want to get out of the debate quickly because it's not our goal to debate, right? But if we're going to, we're going to be good at it. That's what we're doing here."
+    summary_en: "States that the goal is to resolve debates quickly and with proficiency rather than prolonging them."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:54-00:01:23"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "The first is that we ask the Wahhabi what he says about the verse [ARABIC RECITATION: Surah al-Hadid 57:4] phrase_as_heard: \"wa huwa ma'akum ayna ma kuntum\". It apparently means He is with you wherever you are. He will either take it literally or not."
+    summary_en: "Describes the two possible stances of an opponent regarding the apparent meaning of Surah al-Hadid 57:4."
+    evidence_cited:
+      - as_said: "Surah al-Hadid 57:4"
+        timestamp: "00:00:54"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:23-00:01:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SF-WH-K01
+    move_type: consistency
+    quote: "If he takes it literally, he contradicted their creed of confirming the direction of highness for Allah. If he says that it means that Allah knows about everything everywhere, then just as he saw fit to interpret the verse in a way different from the apparent meaning to escape contradiction, we also make ta'wil for every verse and hadith that apparently implies that Allah is in a direction, for that is necessary for escaping contradiction."
+    summary_en: "Argues that if the opponent interprets 57:4 non-literally to mean knowledge, they concede the validity of ta'wil to avoid contradiction, whereas their literalism on direction verses contradicts 42:11."
+    evidence_cited:
+      - as_said: "Surah ash-Shura 42:11"
+        timestamp: "00:01:54"
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:10-00:02:37"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "It may be said to him: What made it permissible for you to make ta'wil and made it forbidden for us? It may also be said to him: Based on what rule did you make ta'wil for one verse and leave it for the other? That's because there's an obvious inconsistency, isn't there?"
+    summary_en: "Asks the opponent to explain the objective rule allowing them to make ta'wil for 57:4 while forbidding it for others."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:03:22-00:03:52"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: charge
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "This deed of the Wahhabiyyah is called in Arabic tahakkum, being arbitrary, picking and choosing. In other words, it is saying something without evidence. Do not let him move to another subject until he answers the question or submits to Ahlus-Sunnah."
+    summary_en: "Labels the opponent's selective application of non-literal interpretation as arbitrary assertion (tahakkum)."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:04:47-00:05:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The second is to immediately refer to the aforementioned hadith of 'Imran ibn Husayn. That's the name of this hadith: [ARABIC RECITATION: Sahih al-Bukhari, Kitab at-Tawhid] phrase_as_heard: \"kana Allahu wa lam yakun shay'un ghayruh\". You should have memorized that one already. Allah existed and there was nothing other than Him."
+    summary_en: "Cites the hadith of Imran ibn Husayn as direct evidence establishing that Allah existed without any place, direction, or creation."
+    evidence_cited:
+      - as_said: "hadith of 'Imran ibn Husayn: 'kana Allahu wa lam yakun shay'un ghayruh'"
+        timestamp: "00:04:47"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:05:14-00:05:39"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "From the great strength of this hadith, you may refer to it before you mention any verse from the Qur'an. We talked about that. It's easier to debate with the Wahhabi with this hadith than with the ayah laysa ka-mithlihi shay', because when it comes to laysa ka-mithlihi, which means nothing is like Him in any way, the Wahhabi says nothing is like Allah, he just doesn't understand what that means."
+    summary_en: "Advises opening debate with the hadith of Imran ibn Husayn rather than 42:11 because opponents nominally concede 42:11 while redefining its terms."
+    evidence_cited:
+      - as_said: "Surah ash-Shura 42:11"
+        timestamp: "00:05:14"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:06:53-00:07:18"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "If he claims that it is weak, it is very sahih, narrated by al-Bukhari in the chapter of Tawhid. And add that he should not talk without knowledge. He would dare to say that the hadith is weak even if he knows it's not weak. He might dare to say it, we know how they do, out of desperation."
+    summary_en: "Describes the opponent potentially claiming the hadith is weak despite its inclusion in Sahih al-Bukhari."
+    evidence_cited:
+      - as_said: "al-Bukhari in the chapter of Tawhid"
+        timestamp: "00:06:53"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:07:18-00:07:32"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "He may claim that this hadith does not prove that Allah exists without a place or direction as a simple claim, meaning you tell him this hadith and he'll say: Oh, that doesn't prove that Allah exists without a place."
+    summary_en: "Reports the opponent claiming the hadith does not prove Allah exists without a place or direction."
+    evidence_cited: []
+    responds_to: M06
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:07:32-00:07:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SF-WH-K02
+    move_type: support-chain
+    quote: "If so, tell him that it is not permissible to shut off his mind on purpose. The hadith is as clear as daybreak in negating the existence of anything with Allah eternally, and that includes places and directions. Allah existed and there was nothing other than Him."
+    summary_en: "Responds that negating all creations eternally with Allah necessarily negates created places and directions."
+    evidence_cited: []
+    responds_to: M09
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:07:54-00:08:38"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: burden
+    quote: "The third way is to pose this question: Must the Muslim creed be built on something definitive or zanni, speculative or supposed? Should the evidence for Muslim belief be definitive or speculated and supposed, thought to be right but not definitive?"
+    summary_en: "Presents a dilemma asking whether Islamic creed requires definitive evidence or speculative supposition."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:09:04-00:09:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "If he says that the creed must be built upon something definitive and not merely supposed, then we agree. But then say to him: How many meanings can istawa have? If he says that it can only have one meaning, then he is either a ruthless liar or a pathetic ignoramus."
+    summary_en: "Argues that if creed requires definitive proof, selecting one linguistic possibility of istawa among multiple candidates without conclusive text is speculative."
+    evidence_cited: []
+    responds_to: M11
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:09:27-00:10:11"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "The secret of this point is in clarifying that speculation comes into play when there is more than one possibility for something. The rule the scholars used was: [ARABIC RECITATION: usul principle] phrase_as_heard: \"idha warada al-ihtimal batala al-istidlal\". If more than one possibility is confirmed, then the certainty of the evidence is dropped."
+    summary_en: "Cites the legal and usuli principle that the emergence of multiple plausible meanings precludes definitive deduction."
+    evidence_cited:
+      - as_said: "usul rule: 'idha warada al-ihtimal batala al-istidlal'"
+        timestamp: "00:09:27"
+    responds_to: M12
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:11:13-00:11:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SF-WH-K03
+    move_type: reconciliation
+    quote: "The scholars of the Salaf, they said as is the verse: Nothing resembles Him in any way. It can only have one meaning, so it is definitive, and thus the creed is built upon it."
+    summary_en: "States that early scholars affirmed istawa without specifying a physical or speculative modality, grounding creed in unambiguous texts like 42:11."
+    evidence_cited:
+      - as_said: "Surah ash-Shura 42:11"
+        timestamp: "00:11:13"
+    responds_to: M12
+    confidence: high
+
+new_claims:
+  - id: SF-WH-K01
+    side: wahhabi
+    summary_en: "Affirms literal physical direction for Allah while interpreting verses of coexistence (such as 57:4) non-literally as knowledge."
+    move_type: consistency
+    first_seen: M02
+
+  - id: SF-WH-K02
+    side: wahhabi
+    summary_en: "Claims the hadith 'Allah existed and there was nothing other than Him' does not demonstrate Allah's existence without place or direction."
+    move_type: restrict-evidence
+    first_seen: M09
+
+  - id: SF-WH-K03
+    side: wahhabi
+    summary_en: "Claims that istawa in the Qur'an has only one meaning (literal rising above)."
+    move_type: definition
+    first_seen: M12
+
+counter_questions:
+  - id: CQ-K01
+    summary_en: "What made it permissible for you to make ta'wil for 57:4 while forbidding it for others?"
+    used_in: M04
+
+  - id: CQ-K02
+    summary_en: "Based on what objective rule did you apply ta'wil to one verse and reject it for another?"
+    used_in: M04
+
+  - id: CQ-K03
+    summary_en: "Must Islamic creed be established by definitive evidence or speculative supposition?"
+    used_in: M11
+
+  - id: CQ-K04
+    summary_en: "How many possible linguistic meanings can the word istawa have in Arabic?"
+    used_in: M12
+
+debate_tips:
+  - timestamp: "00:00:37"
+    quote: "You always want to get out of the debate quickly because it's not our goal to debate, right? But if we're going to, we're going to be good at it."
+    summary_en: "Aim to conclude debates efficiently rather than prolonging them; prioritize precision and control."
+
+  - timestamp: "00:02:37"
+    quote: "Impose that inconsistency on him, and don't be nervous about that."
+    summary_en: "Firmly press the opponent's inconsistencies (tahakkum) without hesitation, adjusting firmness to context."
+
+  - timestamp: "00:03:22"
+    quote: "Do not let him move to another subject until he answers the question or submits to Ahlus-Sunnah."
+    summary_en: "Maintain strict control of the discussion topic; do not allow subject changes until the opponent answers."
+
+  - timestamp: "00:05:14"
+    quote: "From the great strength of this hadith, you may refer to it before you mention any verse from the Qur'an."
+    summary_en: "Open with the hadith 'Allah existed and there was nothing other than Him' rather than 42:11 to prevent verbal deflection."
+
+  - timestamp: "00:06:17"
+    quote: "If it were me and he said to me I don't know that hadith, I would say to him: So what? And I would just stop."
+    summary_en: "Dismiss an opponent's feigned or real ignorance of a cited text with a neutral dead-stop rather than yielding the point."
+
+  - timestamp: "00:07:54"
+    quote: "The third way, and this is the last of these three ways, because even though it really is straight to the point, but you might not be able to use it with everyone because it's a little bit technical."
+    summary_en: "Reserve technical usuli epistemological arguments for situations where the interlocutor understands foundational terms."

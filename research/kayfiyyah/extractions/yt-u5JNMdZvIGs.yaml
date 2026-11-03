@@ -1,0 +1,344 @@
+source_id: yt-u5JNMdZvIGs
+moves:
+  - move_id: M01
+    timestamp: "00:04:50-00:05:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "What I'm saying is if your brother or your friend actually did an explicit kufr, then you confirm the charge of kufr."
+    summary_en: "Argues that personal friendship or kinship cannot compromise theological duty to confirm explicit kufr."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:06:06-00:06:31"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "Some people refuse to call a person a kafir, claiming that judging others is forbidden, which is not true. We do judge by the rules of Allah."
+    summary_en: "Reports the opponent argument that judging others as non-Muslims is categorically prohibited."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:06:31-00:07:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TK-WH-K01
+    move_type: consistency
+    quote: "Then why would this person refuse to judge the one who blasphemes as a blasphemer? If he committed kufr, then he's a kafir. If he stole, then he's a sariq, a thief. If he lied, then he's a kadhdhab, a liar. If he did Islam, then he's a Muslim. If he did kufr, then he's a kafir."
+    summary_en: "Argues that classifying actions and people by revealed legal statuses is fundamental to Islam, just as confessing the shahada makes someone Muslim and theft makes someone a thief."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:07:16-00:08:13"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "We do not testify about any of them, that is, any of those who were believed to be Muslims, any of those who were attributed to Islam, we do not testify about any of them, not one of them, that he committed blasphemy or shirk or hypocrisy as long as nothing of that sort appears from them."
+    summary_en: "Explains the Sunni creedal principle: Muslims are presumed upon faith until explicit kufr outwardly appears."
+    evidence_cited:
+      - as_said: "creedal statement: 'la nash-hadu 'ala ahadin minhum bi-kufri'"
+        timestamp: "00:07:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:11:21-00:12:13"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "This means that if a person calls someone else a kafir, that he had better be correct, or else he will become a kafir for labeling a Muslim with kufr without evidence."
+    summary_en: "Clarifies that the hadith penalizing false takfir applies specifically when accusing a Muslim without valid evidence or basis."
+    evidence_cited:
+      - as_said: "Sahih Muslim: 'Whoever says to his brother Oh kafir...'"
+        timestamp: "00:08:32"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:15:11-00:15:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "So when would a person commit kufr for calling another kafir? When he has no reason for that. He didn't misunderstand. For example, easy example: he got in an argument with the person and he was so mad at him, he called him a kafir, and he didn't mean you act like a kafir, he meant you're not a Muslim, but he was mad at him. This is kufr, he made takfir on the Muslim, he went out of Islam."
+    summary_en: "Differentiates between mistaken takfir based on misconception/ta'wil (which is sinful but not kufr) and baseless takfir in anger denying a Muslim's Islam (which constitutes kufr)."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:16:01-00:16:28"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "He didn't say that you can't know if someone committed kufr, there's no hadith like that, there's no ayah like that. Anyone who claims that you can't know if someone committed kufr, then he's challenged with bringing the evidence. The burden of evidence is on the claimer, that's what the Prophet said, sallallahu 'alayhi wa sallam."
+    summary_en: "Reports the argument that kufr cannot be determined by observers unless the individual explicitly testifies against themselves."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:16:28-00:16:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: TK-WH-K02
+    move_type: burden
+    quote: "Bring us an ayah or a hadith in which it is stated that you cannot know if a person committed kufr, or bring us an ayah or a hadith in which it is stated that you can only say a person committed kufr if he says about himself that he's a kafir and he chooses to leave Islam willingly."
+    summary_en: "Demands textual proof from the Qur'an or hadith establishing that external judgment of kufr is impossible without self-testimony."
+    evidence_cited: []
+    responds_to: M07
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:17:17-00:18:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "They swear by God that they did not say it, and by God they actually did say the word of blasphemy, and they blasphemed after their Islam."
+    summary_en: "Cites Surah at-Tawbah 9:74 proving that individuals previously judged as Muslims are judged as non-Muslims when uttering words of kufr."
+    evidence_cited:
+      - as_said: "Surah at-Tawbah 9:74"
+        timestamp: "00:17:17"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:20:38-00:21:00"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "If someone says: This verse you just quoted was revealed about the hypocrites who used to pretend to be Muslims, so it does not pertain to the Muslims; respond by saying: But before it became clear that those people were hypocrites, how were they treated, as Muslims or not?"
+    summary_en: "Reports the objection that 9:74 was revealed specifically concerning hypocrites and cannot be applied to Muslims."
+    evidence_cited: []
+    responds_to: M09
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:21:00-00:21:40"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: TK-WH-K03
+    move_type: turnabout
+    quote: "Who's the munafiq? He's the one who hides his kufr and shows Islam. So even if this ayah is revealed about the hypocrites, before it was known that they were hypocrites, how were they treated? As Muslims. Then why were they treated as non-Muslims? Because they committed kufr. So the ayah is still applicable to whoever showed Islam, whoever was judged as a Muslim and then showed kufr, and so he was charged with kufr."
+    summary_en: "Argues that hypocrites were outwardly judged as Muslims until they uttered kufr, proving the rule that outward display of kufr alters external legal judgment."
+    evidence_cited:
+      - as_said: "Surah at-Tawbah 9:74"
+        timestamp: "00:21:00"
+    responds_to: M10
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:24:38-00:25:20"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: principle
+    quote: "Do not debate with the mere intention of arguing, nor just to show that you are right and the other person is wrong, or to show off your knowledge, to show your muscles. Instead, debate with the intention to show the truth. This is the noble debate."
+    summary_en: "Defines the noble debate as one entered strictly to manifest truth rather than for vanity, pride, or argumentative sport."
+    evidence_cited:
+      - as_said: "Hadith: 'I guarantee a house in the middle parts of Paradise for the one who refrains from debate...'"
+        timestamp: "00:25:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:28:33-00:28:52"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "If you believe that a deviant person will not accept what you are saying and will only continue committing blasphemy, then it is not permissible to keep debating with him. You stop."
+    summary_en: "Instructs debaters to terminate discussions when opponents stubbornly commit blasphemy, shifting focus entirely to educating and safeguarding listeners."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:29:19-00:30:03"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "Refrain from purposefully leading a person to say kufr, blasphemy. Also refrain from asking questions that lead the deviant person to commit kufr. For instance, do not ask a Wahhabi: \"Do you believe that Allah has a real face?\" or \"Do you believe that Allah is in a place above His 'Arsh?\" The Wahhabi will predictably answer yes to those questions, and then commit blasphemy as a result of that answer, because he is admitting that he believes in blasphemy."
+    summary_en: "Formulates the strict rule forbidding asking questions designed or expected to elicit blasphemous affirmations from opponents."
+    evidence_cited:
+      - as_said: "Surah al-Ma'idah 5:2"
+        timestamp: "00:30:03"
+      - as_said: "Hadith of Abu Dawud, Ibn Majah, Ahmad, al-Hakim on 10 cursed regarding wine"
+        timestamp: "00:36:22"
+      - as_said: "Hadith on usury (riba)"
+        timestamp: "00:37:07"
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:41:25-00:42:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Do not bring up a detail without having further evidence or references for support. Any detail you pull up, then you better have something behind it. If you don't have anything behind it, don't bring it up, because as soon as you bring it up, he can ask you for your proof."
+    summary_en: "Advises never introducing claims or details without verified, immediate textual backing ready to present."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:43:10-00:43:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: DM-WH-K01
+    move_type: burden
+    quote: "Tell him: The burden of proof is upon whoever made the claim. Do not ask me to prove that you are wrong, prove that you are correct. I have not made a claim yet, I have only asked you for your proof."
+    summary_en: "Establishes that the claimant bears the burden of proof, prohibiting acceptance of reversed demands like 'Prove me wrong'."
+    evidence_cited:
+      - as_said: "Hadith principle: 'al-bayyinatu 'ala al-mudda'i'"
+        timestamp: "00:42:36"
+    responds_to: null
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:44:48-00:45:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "Also, do not forget that the Wahhabis are masters at dodging questions. So do not ask a second question until your first question is answered, even if it means repeating it ten times. Tell your opponent to either answer the question or to say: \"I do not know.\""
+    summary_en: "Mandates holding opponents to answering initial questions before posing subsequent ones, rejecting counter-interrogations and topic shifts."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TK-WH-K01
+    side: wahhabi
+    summary_en: "Claims that judging any individual as a kafir is forbidden in Islam."
+    move_type: charge
+    first_seen: M02
+
+  - id: TK-WH-K02
+    side: wahhabi
+    summary_en: "Claims that kufr cannot be determined by an outside observer unless the individual explicitly testifies against themselves."
+    move_type: restrict-evidence
+    first_seen: M07
+
+  - id: TK-WH-K03
+    side: wahhabi
+    summary_en: "Claims that Surah at-Tawbah 9:74 applies exclusively to the historical hypocrites and cannot serve as legal precedent for judging someone who displayed Islam."
+    move_type: restrict-evidence
+    first_seen: M10
+
+  - id: DM-WH-K01
+    side: wahhabi
+    summary_en: "Evades the burden of proof when challenged by demanding that the interlocutor 'prove me wrong'."
+    move_type: burden
+    first_seen: M16
+
+counter_questions:
+  - id: CQ-K05
+    summary_en: "How do you judge a person who utters the shahadah or one who steals or lies, if judging by Allah's rules is forbidden?"
+    used_in: M03
+
+  - id: CQ-K06
+    summary_en: "Where is the text from the Qur'an or Sunnah stating that kufr cannot be known or only applies upon self-testimony?"
+    used_in: M08
+
+  - id: CQ-K07
+    summary_en: "Before it became known that the hypocrites mentioned in 9:74 were hypocrites, how were they treated by the Muslims?"
+    used_in: M11
+
+  - id: CQ-K08
+    summary_en: "What is your proof for your claim?" (Demanding proof rather than accepting the inverted burden 'prove me wrong').
+    used_in: M16
+
+debate_tips:
+  - timestamp: "00:04:50"
+    quote: "What I'm saying is if your brother or your friend actually did an explicit kufr, then you confirm the charge of kufr."
+    summary_en: "Never compromise theological principles or fail to acknowledge explicit kufr out of personal attachment, kinship, or friendship."
+
+  - timestamp: "00:24:38"
+    quote: "Do not debate with the mere intention of arguing, nor just to show that you are right and the other person is wrong, or to show off your knowledge, to show your muscles. Instead, debate with the intention to show the truth."
+    summary_en: "Enter debates solely with the intention of clarifying and demonstrating the truth, never for personal ego or displaying intellect."
+
+  - timestamp: "00:28:33"
+    quote: "If you believe that a deviant person will not accept what you are saying and will only continue committing blasphemy, then it is not permissible to keep debating with him. You stop."
+    summary_en: "Cease debating an obstinate opponent who persists in blasphemy; pivot speech entirely to safeguarding and instructing the audience."
+
+  - timestamp: "00:29:19"
+    quote: "Refrain from purposefully leading a person to say kufr, blasphemy. Also refrain from asking questions that lead the deviant person to commit kufr."
+    summary_en: "Strictly avoid posing questions that prompt, lead, or expect an interlocutor to voice explicit blasphemy, as assisting in blasphemy is unlawful."
+
+  - timestamp: "00:35:03"
+    quote: "Just talk to him about Islam. Tell him that Allah exists and He doesn't resemble the creation. You don't have to ask him what his religion is."
+    summary_en: "Circumvent potentially blasphemous inquiries by directly presenting Islamic fundamentals rather than probing the specifics of an opponent's unbelief."
+
+  - timestamp: "00:39:13"
+    quote: "The one who engages in a debate must learn the proofs and strategies explained by the scholars, learn the Islamic rules pertaining to debate, and avoid sinful matters such as missing the prayers and asking blasphemous questions."
+    summary_en: "Rely exclusively on established Sunni evidentiary frameworks and methodologies rather than improvising unstudied arguments."
+
+  - timestamp: "00:39:58"
+    quote: "Do not forget to maintain good manners, and very importantly to stay calm. Do not let your frustration show, and do not let it lead you to shouting, etc."
+    summary_en: "Maintain emotional control, calmness, and dignified speech; never allow frustration to produce shouting or loss of composure."
+
+  - timestamp: "00:41:25"
+    quote: "Do not bring up a detail without having further evidence or references for support. Any detail you pull up, then you better have something behind it. If you don't have anything behind it, don't bring it up, because as soon as you bring it up, he can ask you for your proof."
+    summary_en: "Never introduce a claim or textual citation unless you have the supporting references and verification immediately at hand."
+
+  - timestamp: "00:43:10"
+    quote: "Tell him: The burden of proof is upon whoever made the claim. Do not ask me to prove that you are wrong, prove that you are correct. I have not made a claim yet, I have only asked you for your proof."
+    summary_en: "Enforce the rule that the positive claimant bears the burden of proof; firmly refuse inverted demands to disprove their assertion."
+
+  - timestamp: "00:44:32"
+    quote: "So remember, when debating, as long as you do not make a claim, you do not have to produce evidence. Once you make your claim, you are the one who has to prove it. It's a universal rule."
+    summary_en: "Preserve the debater's advantage by interrogating the opponent's claims rather than making unprompted assertions that transfer the evidentiary burden."
+
+  - timestamp: "00:44:48"
+    quote: "So do not ask a second question until your first question is answered, even if it means repeating it ten times. Tell your opponent to either answer the question or to say: \"I do not know.\""
+    summary_en: "Prevent topic evasion by refusing to ask or answer secondary questions until your initial question is directly answered or conceded."
