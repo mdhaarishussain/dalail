@@ -8,13 +8,6 @@ echo "::group::JS install"
 pnpm install --frozen-lockfile
 echo "::endgroup::"
 
-echo "::group::JS lint / format / typecheck / test"
-pnpm lint
-pnpm format:check
-pnpm typecheck
-pnpm test
-echo "::endgroup::"
-
 echo "::group::Python pipeline"
 (
   cd pipeline
@@ -30,6 +23,7 @@ echo "::group::Corpus: validate, build, prod refusal"
 (
   cd pipeline
   uv run python -m dalail_pipeline validate
+  # dist/ci/dalail.db is also the fixture DB the mobile Jest tests read.
   uv run python -m dalail_pipeline build --dev --no-embed --out ../dist/ci
   if uv run python -m dalail_pipeline build --prod --no-embed --out ../dist/ci-prod; then
     echo "ERROR: build --prod must refuse a corpus that only has fixtures" >&2
@@ -37,6 +31,13 @@ echo "::group::Corpus: validate, build, prod refusal"
   fi
   echo "ok: build --prod refused the fixture-only corpus"
 )
+echo "::endgroup::"
+
+echo "::group::JS lint / format / typecheck / test"
+pnpm lint
+pnpm format:check
+pnpm typecheck
+pnpm test
 echo "::endgroup::"
 
 echo "::group::Eval (keyword-only)"
