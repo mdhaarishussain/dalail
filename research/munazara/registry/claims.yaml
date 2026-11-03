@@ -1,0 +1,89 @@
+version: "4.0"
+total_claims: 68
+
+claims:
+  # Tawassul (TW)
+  TW-EM-C01: { topic: "Tawassul", opponent: "ali-mirza", title: "5 Forms of Waseela", summary: "Restricting waseela to five forms and banning tawassul through persons after death." }
+  TW-EM-C02: { topic: "Tawassul", opponent: "ali-mirza", title: "Umar through Abbas", summary: "Claiming Umar seeking rain through Abbas proves tawassul through deceased was abandoned." }
+  TW-EM-C03: { topic: "Tawassul", opponent: "ali-mirza", title: "Single-Narrator Shabib b. Sa'id", summary: "Attacking the post-death blind man narration via Shabib b. Sa'id." }
+  TW-EM-C04: { topic: "Tawassul", opponent: "ali-mirza", title: "Weak Hadith Standard", summary: "Asserting da'eef hadith cannot establish theological permissibility." }
+  TW-EM-C05: { topic: "Tawassul", opponent: "ali-mirza", title: "Grave Supplication Absence", summary: "Claiming Sahaba never supplicated at the Prophet's grave." }
+  TW-EM-C06: { topic: "Tawassul", opponent: "ali-mirza", title: "Du'a is Pure Worship", summary: "Invoking a deceased person's name in du'a without text is impermissible." }
+  TW-EM-C07: { topic: "Tawassul", opponent: "ali-mirza", title: "Absence of Begging Cup at Graves", summary: "Ridiculing physical visitation and seeking barakah from shrines." }
+
+  # Istighatha (IS)
+  IS-EM-C01: { topic: "Istighatha", opponent: "ali-mirza", title: "Du'a Equals Worship Absolute", summary: "Equating every invocation of an absent person to worship." }
+  IS-EM-C02: { topic: "Istighatha", opponent: "ali-mirza", title: "Surah Al-Ahqaf 46:5 Idols = Saints", summary: "Equating verses revealed regarding stone idols to righteous saints." }
+  IS-EM-C03: { topic: "Istighatha", opponent: "ali-mirza", title: "Ya Ibad Allah A'inuni Chain Critique", summary: "Attacking all routes of 'Help me, O servants of Allah' as da'eef." }
+  IS-EM-C04: { topic: "Istighatha", opponent: "ali-mirza", title: "Fath al-Aziz Misquotation", summary: "Claiming Shah Abdul Aziz branded seeking help from awliya as shirk." }
+  IS-EM-C05: { topic: "Istighatha", opponent: "ali-mirza", title: "Calling the Unseen / Beyond Means as Shirk", summary: "Asserting calling someone absent (ghayb) or beyond physical means is shirk akbar." }
+  IS-EM-C06: { topic: "Istighatha", opponent: "ali-mirza", title: "Physical Death Terminates Agency", summary: "Claiming death terminates any hearing, assistance, or interaction." }
+  IS-EM-C07: { topic: "Istighatha", opponent: "ali-mirza", title: "Calling 'Ya Ali Madad' is Polytheism", summary: "Branding the formula 'Ya Ali Madad' as explicit polytheistic shirk." }
+  IS-EM-C08: { topic: "Istighatha", opponent: "ali-mirza", title: "Medicine Analogy Denial", summary: "Denying that seeking help from doctors or means is analogous to istighatha." }
+  IS-EM-C09: { topic: "Istighatha", opponent: "ali-mirza", title: "Ali's Testament on Supplicating Allah Alone", summary: "Citing Nahj al-Balaghah to argue Ali forbade calling upon creation." }
+
+  # Ilm-e-Ghaib (IG) & Hazir-o-Nazir (HN)
+  IG-EM-C01: { topic: "Ilm-e-Ghaib", opponent: "ali-mirza", title: "Mi'raj Sight Localized", summary: "Claiming the Prophet's vision was localized and excluded detailed foreknowledge." }
+  IG-EM-C02: { topic: "Ilm-e-Ghaib", opponent: "ali-mirza", title: "Hudhayfah Unspoken Need in Tirmidhi", summary: "Arguing foreknowledge of unspoken needs is an exaggeration." }
+  IG-EM-C03: { topic: "Ilm-e-Ghaib", opponent: "ali-mirza", title: "Surah Luqman 31:34 Absolute Five Keys", summary: "Denying comprehensive bestowed unseen knowledge via the five keys." }
+  IG-EM-C04: { topic: "Ilm-e-Ghaib", opponent: "ali-mirza", title: "Treating Bestowed Knowledge as Divinity", summary: "Asserting attributing knowledge of the unseen blurs creator-creation lines." }
+  HN-EM-C01: { topic: "Hazir-o-Nazir", opponent: "ali-mirza", title: "Omnipresence Exclusively Divine", summary: "Claiming observing multiple locations is strictly divine." }
+  HN-EM-C02: { topic: "Hazir-o-Nazir", opponent: "ali-mirza", title: "Angels Delivering Salawat Proves Distance", summary: "Citing angels delivering salawat as proof Prophet cannot witness directly." }
+  HN-EM-C03: { topic: "Hazir-o-Nazir", opponent: "ali-mirza", title: "Tashahhud Address Merely Symbolic", summary: "Claiming 'As-salamu alayka ayyuhan-Nabiyyu' is an abstract mental invocation." }
+
+  # Ikhtiyarat (IK), Karamat (KR), Nur-o-Bashar (NB)
+  IK-EM-C01: { topic: "Ikhtiyarat", opponent: "ali-mirza", title: "Surah Al-Jinn 72:21 Negative Proof", summary: "Citing 'I possess no harm or benefit' to strip Prophet of dispositive power." }
+  KR-EM-C01: { topic: "Karamat", opponent: "ali-mirza", title: "Khalid bin Waleed Poison Story", summary: "Rejecting Khalid consuming poison as suicide contrary to Shariah." }
+  KR-EM-C02: { topic: "Karamat", opponent: "ali-mirza", title: "Bayhaqi Karamat Chain Attacks", summary: "Attacking classical saintly miracles in al-Bayhaqi as fabrications." }
+  KR-EM-C03: { topic: "Karamat", opponent: "ali-mirza", title: "Khariq-e-Aadat vs Khilaf-e-Aql", summary: "Conflating miracles breaking empirical norms with rational impossibilities." }
+  NB-EM-C01: { topic: "Nur-o-Bashar", opponent: "ali-mirza", title: "Hadith Nur Musannaf Forgery Claim", summary: "Declaring the hadith of Jabir on the primordial Light to be a modern forgery." }
+
+  # Tasawwuf & Shathiyat (TS)
+  TS-EM-C01: { topic: "Tasawwuf", opponent: "ali-mirza", title: "Chishti Rasool Allah Takfir Attack", summary: "Accusing the Chishti order of kufr for ecstatic utterances (shathiyat)." }
+  TS-EM-C02: { topic: "Tasawwuf", opponent: "ali-mirza", title: "Fatawa Razawiyyah Defense Distortion", summary: "Claiming Imam Ahmad Raza Khan endorsed saying 'Chishti Rasool Allah'." }
+  TS-EM-C03: { topic: "Tasawwuf", opponent: "ali-mirza", title: "Takfir on Interpreting Sufi Shathiyat", summary: "Issuing blanket takfir on anyone interpreting or printing ecstatic phrases." }
+  TS-EM-C04: { topic: "Tasawwuf", opponent: "ali-mirza", title: "Equating Hagiographies with Sunni Creed", summary: "Treating unverified commercial hagiographies as normative Sunni doctrine." }
+
+  # Khatam-e-Nabuwwat (KN) & Qadianiyat (QD)
+  KN-EM-C01: { topic: "Khatam-e-Nabuwwat", opponent: "ali-mirza", title: "Equating Sufi Kashf with Prophethood", summary: "Claiming belief in ongoing inspiration (kashf/ilham) violates finality." }
+  KN-EM-C02: { topic: "Khatam-e-Nabuwwat", opponent: "ali-mirza", title: "Mukhtar al-Thaqafi Soft Wahi Re-framing", summary: "Softening Mukhtar's false claims to wahi while attacking orthodox Sufis." }
+  KN-EM-C03: { topic: "Khatam-e-Nabuwwat", opponent: "ali-mirza", title: "Mukhtar Positive View & Ibn Umar Prayer", summary: "Denying Mukhtar's false prophethood based on Ibn Umar praying behind his followers." }
+  QD-EM-C01: { topic: "Qadianiyat", opponent: "ali-mirza", title: "Qadianis as Ahl-e-Qibla / Non-Takfir", summary: "Excusing takfir of Qadianis who claim the Kalimah based on facing Qibla." }
+
+  # Sahaba (SB)
+  SB-EM-C01: { topic: "Sahaba", opponent: "ali-mirza", title: "Ali vs Muawiyah Kaff al-Lisan Denial", summary: "Rejecting Sunni consensus of withholding speech (kaff al-lisan) on civil strife." }
+  SB-SH-C01: { topic: "Sahaba", opponent: "shia", title: "Umar Hiding in Fear (Kha'ifan) Allegation", summary: "Shia claim citing Bukhari 3864 that Umar hid in fear upon converting." }
+  SB-EM-C02: { topic: "Sahaba", opponent: "ali-mirza", title: "Endorsing Allahyari Reading of Bukhari 3864", summary: "Conceding the Shia reading of Bukhari 3864 and dismissing Umar's open Hijrah." }
+  SB-TQ-C01: { topic: "Sahaba", opponent: "opponent-scholar", title: "Tahir-ul-Qadri Sukoot on Muawiyah", summary: "Claiming Muawiyah was merely of the Tulaqa and classical Sunnis never compiled his virtues." }
+  SB-SH-C02: { topic: "Sahaba", opponent: "shia", title: "Aliyyun Khayru al-Bashar Takfir Claim", summary: "Shia claim that anyone not declaring Ali superior to all creation is a kafir." }
+
+  # Fiqh & Usul (FQ / MS)
+  MS-EM-C01: { topic: "Fiqh", opponent: "ali-mirza", title: "Raf al-Yadayn Mandatory Continuous Sunnah", summary: "Asserting raising hands before/after ruku is permanent Sunnah via Bukhari 737." }
+  MS-EM-C02: { topic: "Fiqh", opponent: "ali-mirza", title: "Ali Continuously Performing Raf al-Yadayn", summary: "Claiming Ali and the Khulafa practiced continuous raf al-yadayn." }
+  MS-EM-C03: { topic: "Fiqh", opponent: "ali-mirza", title: "Ghunyat al-Talibeen on Prayer", summary: "Using Jilani's name to dispute Hanafi prayer posture." }
+  MS-EM-C04: { topic: "Fiqh", opponent: "ali-mirza", title: "Ibn al-Mubarak Jarh in Tirmidhi 256", summary: "Claiming Ibn al-Mubarak declared Ibn Mas'ud's hadith unestablished (lam yathbut)." }
+  MS-EM-C05: { topic: "Fiqh", opponent: "ali-mirza", title: "Denying Ibn Mubarak in Nasa'i 1026", summary: "Denying Ibn al-Mubarak in Nasa'i 1026, claiming narrating does not imply authenticity." }
+  MS-EM-C06: { topic: "Fiqh", opponent: "ali-mirza", title: "Juz Raf al-Yadayn Abu Hanifa Debate", summary: "Citing an unsourced report in Juz Raf al-Yadayn regarding Abu Hanifa." }
+  MS-EM-C07: { topic: "Fiqh", opponent: "ali-mirza", title: "Compilers Concealing Hadith Words", summary: "Claiming Bukhari, Abu Dawud, and Darimi suppressed words due to ruling pressure." }
+  FQ-EM-C01: { topic: "Fiqh", opponent: "ali-mirza", title: "Abu Hanifa Prioritizing Qiyas", summary: "Alleging Abu Hanifa gave precedence to analogical deduction over hadith." }
+  FQ-EM-C02: { topic: "Fiqh", opponent: "ali-mirza", title: "Unrestricted Jam' Haqiqi Without Excuse", summary: "Claiming combining prayers in one time slot without journey/rain is Sunnah." }
+  FQ-EM-C03: { topic: "Fiqh", opponent: "ali-mirza", title: "Hands Before Knees Sujud Obligation", summary: "Claiming descending hands-first into sujud is mandatory based on camel hadith." }
+  FQ-EM-C04: { topic: "Fiqh", opponent: "ali-mirza", title: "Abu Hanifa Notorious Personality in Hadith", summary: "Claiming muhaddithin multiplied Abu Hanifa by zero as a notorious opponent of Sunnah." }
+  FQ-EM-C05: { topic: "Fiqh", opponent: "ali-mirza", title: "Bukhari-Muslim Exclusivity Filter", summary: "Demanding that authentic prayer be proven exclusively from Bukhari and Muslim." }
+  FQ-EM-C06: { topic: "Fiqh", opponent: "ali-mirza", title: "Accusing Sahaba/Tabi'in of Laziness in Prayer", summary: "Claiming Sahaba and Tabi'in abandoned raf al-yadayn out of physical laziness." }
+  FQ-EM-C07: { topic: "Fiqh", opponent: "ali-mirza", title: "Compilers Narration Exclusively for Weakening", summary: "Claiming compilers only narrated Ibn Mas'ud's hadith to expose it as weak." }
+  FQ-EM-C08: { topic: "Fiqh", opponent: "ali-mirza", title: "Discretionary Termination of Fast After Vomiting", summary: "Granting Muslims an option to terminate an obligatory Ramadan fast after involuntary vomiting." }
+  FQ-WH-C01: { topic: "Fiqh", opponent: "wahhabi", title: "Wahhabi Turnabout on Jilani's Raf al-Yadayn", summary: "Challenging Barelvis why they do not practice raf al-yadayn like Abdul Qadir Jilani." }
+
+  # Aqeedah & Contradictions (AQ / TZ / TH)
+  AQ-EM-C01: { topic: "Aqeedah", opponent: "ali-mirza", title: "Golra Declaration & Creation of Actions", summary: "Misinterpreting theological declarations on human kasb vs divine creation of actions." }
+  AQ-EM-C02: { topic: "Aqeedah", opponent: "ali-mirza", title: "Theological Distinctions as Fabrications", summary: "Denouncing Zati vs Ata'i and Haqiqi vs Majazi as innovations rationalizing shirk." }
+  AQ-EM-C03: { topic: "Aqeedah", opponent: "ali-mirza", title: "Mini God Doctrine in Paradise", summary: "Promising believers that Allah will make them 'mini gods' in Paradise sharing divine attributes." }
+  AQ-EM-C04: { topic: "Aqeedah", opponent: "ali-mirza", title: "Durood-e-Ibrahimi in Tafsir Na'eemi", summary: "Claiming Barelvis consider reciting Durood-e-Ibrahimi outside prayer to be a sin." }
+  AQ-EM-C05: { topic: "Aqeedah", opponent: "ali-mirza", title: "Equating Commercial Anecdotes with Sunni Doctrine", summary: "Using unverified malfuzat to misrepresent orthodox Sunni creed." }
+  AQ-EM-C06: { topic: "Aqeedah", opponent: "ali-mirza", title: "Akhlaq-e-Nabuwwat Claim vs Vulgar Slurs", summary: "Claiming prophetic moral character while justifying abusive slurs as polemical antivenom." }
+  TZ-EM-C01: { topic: "Contradictions", opponent: "ali-mirza", title: "Contradictory Rulings on Zakat Non-Payers", summary: "Declaring zakat deniers apostates in one lecture, and denying takfir was ever applied in another." }
+  TZ-EM-C02: { topic: "Contradictions", opponent: "ali-mirza", title: "Contradictions on Prophetic Word Choice", summary: "Demanding caution in word choice for prophets in 2024 after denouncing linguistic refinement." }
+  TZ-EM-C03: { topic: "Contradictions", opponent: "ali-mirza", title: "Kitab at-Tawheed 24-Carat Gold vs Adam's Shirk", summary: "Praising Kitab at-Tawheed as 24-carat gold in 2018, then admitting in 2024 it has blasphemy against Adam." }
+  TZ-EM-C04: { topic: "Contradictions", opponent: "ali-mirza", title: "Ghamidi: 5th Imam vs Rafzi Ignoramus", summary: "Elevating Ghamidi to the 5th Imam of Ahl al-Sunnah after branding him an illiterate Rafzi animal." }
+  TH-EM-C01: { topic: "Tawheed", opponent: "ali-mirza", title: "Dual Pronouns for Allah and Prophet as Shirk", summary: "Branding the use of dual pronouns (huma/hima) for Allah and His Messenger as shirk." }

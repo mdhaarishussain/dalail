@@ -1,0 +1,203 @@
+version: "4.0"
+total_counter_questions: 40
+
+counter_questions:
+  CQ-01:
+    title: "Haqiqi vs Majazi Attribution"
+    category: "theology"
+    summary: "Forces opponent to accept figurative agency in creation (Surah Az-Zumar 39:42 vs As-Sajdah 32:11; Ash-Shura 42:49 vs Maryam 19:19) or deny everyday scriptural usage."
+
+  CQ-02:
+    title: "Zati vs Ata'i Distinction"
+    category: "theology"
+    summary: "Demands opponent explain why granted help or bestowed knowledge is shirk if all creation operates exclusively via bestowed divine power."
+
+  CQ-03:
+    title: "Ma Taht al-Asbab vs Ma Fawq al-Asbab"
+    category: "theology"
+    summary: "Demands explicit scriptural text proving that seeking assistance beyond normal physical means, figuratively, constitutes polytheism."
+
+  CQ-04:
+    title: "Kasb vs Khalq in Miracles"
+    category: "theology"
+    summary: "Forces opponent to take a stance on classical Ash'ari/Maturidi doctrine regarding prophets acquiring (kasb) miracles while Allah creates them."
+
+  CQ-05:
+    title: "Surah an-Naml (27:38-40) - Asif ibn Barkhiya"
+    category: "theology"
+    summary: "Explains Prophet Sulayman asking his court to miraculously transport Bilqis's throne beyond physical causality, fulfilled by a righteous servant."
+
+  CQ-06:
+    title: "Linguistic & Quranic Scope of Root d-'-w"
+    category: "linguistics"
+    summary: "Highlights that the Quran uses du'a for secular calling/summoning (Surah 3:153, 24:63, 2:260), not exclusively for divine worship."
+
+  CQ-07:
+    title: "Physical Posture Analogy & Hadith Jibril"
+    category: "theology"
+    summary: "Contrasts physical respect (standing before parents/teachers, hands on thighs in Hadith Jibril) with namaz worship, proving intention governs posture."
+
+  CQ-08:
+    title: "Geographic Consistency on Shirk"
+    category: "theology"
+    summary: "Questions why calling 'Ya Ibad Allah A'inuni' is permitted in the wilderness but branded as polytheistic shirk in a populated city."
+
+  CQ-09:
+    title: "Physical Causality in Miracles"
+    category: "theology"
+    summary: "Forces opponent to explain bodily transportations of saints across distances without spatial traversal."
+
+  CQ-10:
+    title: "Bukhari Intercession Using Root gh-w-th"
+    category: "istighatha"
+    summary: "Shows Sahih Bukhari explicitly uses the term 'istaghathoo bi-Adama' (they made istighatha to Adam, then Moses) on the Day of Judgment."
+
+  CQ-11:
+    title: "Cessation of Granted Power After Barzakh"
+    category: "barzakh"
+    summary: "Demands explicit text proving Allah strips away bestowed spiritual rank or miracles from prophets upon bodily death."
+
+  CQ-12:
+    title: "Consistency on Sahaba Actions"
+    category: "sahaba"
+    summary: "Forces consistency on Sahaba actions contrary to general rules (Khalid drinking poison) without labeling them sinful."
+
+  CQ-13:
+    title: "Desert Traveler Ecstatic Speech vs Takfir"
+    category: "tasawwuf"
+    summary: "Shows Sahih Muslim desert traveler making an ecstatic error without takfir, applied to Sufi shathiyat."
+
+  CQ-14:
+    title: "Conflicting Attributions in Malfuzat"
+    category: "tasawwuf"
+    summary: "Proves historical interpolation when the same controversial anecdote is attributed to multiple unrelated saints."
+
+  CQ-15:
+    title: "Wahi to Isa upon Descent (Muslim 7373)"
+    category: "khatam-e-nabuwwat"
+    summary: "Cites divine inspiration granted to Isa upon descent, refuting absolute cessation of non-legislative wahi."
+
+  CQ-16:
+    title: "Selective Adherence on Malik b. Huwayrith"
+    category: "fiqh"
+    summary: "Asks why opponent enforces ruku raf al-yadayn from Malik b. Huwayrith while abandoning sujud raf al-yadayn in Sunan an-Nasa'i 1086."
+
+  CQ-17:
+    title: "Turnabout on Ghunyat al-Talibeen"
+    category: "fiqh"
+    summary: "Demands why opponent appeals to Abdul Qadir Jilani while rejecting his Hanbali ruling of placing hands below the navel (tahta al-surrah)."
+
+  CQ-18:
+    title: "Turnabout on Abu Hanifa vs Ibn Mubarak"
+    category: "fiqh"
+    summary: "Shows Abu Hanifa in Kitab al-Sunnah censured raising hands at every movement, asking if opponents practice that."
+
+  CQ-19:
+    title: "Burden on Abandoning Sujud Raf al-Yadayn"
+    category: "fiqh"
+    summary: "Demands scriptural text proving the Prophet abandoned sujud raf al-yadayn while preserving ruku raf al-yadayn."
+
+  CQ-20:
+    title: "Consistency on Khatam-e-Nabuwwat"
+    category: "khatam-e-nabuwwat"
+    summary: "Asks why opponent condemns Sufis over kashf while defending Mukhtar al-Thaqafi who explicitly claimed angelic wahi."
+
+  CQ-21:
+    title: "Abu Hanifa's Hierarchy of Usul"
+    category: "usul-al-fiqh"
+    summary: "Cites primary sources (al-Intiqa', Umdat al-Qari) ordering Abu Hanifa's usul: Quran -> Sunnah -> Sahaba -> Qiyas."
+
+  CQ-22:
+    title: "Contradiction on 'Mini God' vs Zati-Ata'i"
+    category: "theology"
+    summary: "Asks why opponent ridicules Zati/Ata'i when used by Sunnis, yet uses those exact terms to defend calling humans 'mini gods'."
+
+  CQ-23:
+    title: "Dual Pronouns for Allah and Prophet"
+    category: "theology"
+    summary: "Cites the Prophet using dual pronouns (huma/hima) in Sunan Abi Dawud 1097 and Bukhari 16, refuting the shirk charge."
+
+  CQ-24:
+    title: "Turnabout on Takfir of Shathiyat"
+    category: "tasawwuf"
+    summary: "Asks why opponent does takfir over shathiyat when his mentors Molvi Ishaq and Ghamidi both excused them as tamtheel."
+
+  CQ-25:
+    title: "Turnabout on Tribal Protection (Jiwar)"
+    category: "sahaba"
+    summary: "Rebuts cowardice charges on Umar via the Prophet's acceptance of pagan protection from Mut'im bin Adi (Bukhari 3139)."
+
+  CQ-26:
+    title: "Natural Precaution (Khawf Tabi'i) in Quran"
+    category: "sahaba"
+    summary: "Proves the Quran attributes natural caution to noble prophets (Musa, Ya'qub, Ibrahim) facing armed threat."
+
+  CQ-27:
+    title: "Hypocrisy on Taqleed of Ghaus-e-Pak"
+    category: "usul-al-fiqh"
+    summary: "Asks why opponents appeal to Abdul Qadir Jilani's prayer while branding his legal methodology (taqleed) as shirk."
+
+  CQ-28:
+    title: "Jam' Soori vs Jam' Haqiqi (Hamnah bint Jahsh)"
+    category: "fiqh"
+    summary: "Shows the Prophet commanded a chronically ill woman to Jam' Soori, disproving unrestricted Jam' Haqiqi for healthy people."
+
+  CQ-29:
+    title: "Chronological Trap on Kitab at-Tawheed"
+    category: "theology"
+    summary: "Asks why opponent praised Kitab at-Tawheed as '24-carat gold' in 2018 after being told in 2013 of blasphemy against Adam."
+
+  CQ-30:
+    title: "Prostration Posture & Camel Inversion"
+    category: "fiqh"
+    summary: "Cites Ibn al-Qayyim grading hands-first hadith Maqloob, Sa'd proving naskh, and camel anatomy placing front limbs first."
+
+  CQ-31:
+    title: "Fuqaha as Physicians vs Muhaddithin as Pharmacists"
+    category: "usul-al-fiqh"
+    summary: "Cites Imam al-A'mash testifying that jurists are physicians and hadith compilers are pharmacists."
+
+  CQ-32:
+    title: "Turnabout on Ghamidi: 5th Imam vs Rafzi"
+    category: "theology"
+    summary: "Asks how opponent can flip from calling Ghamidi a Rafzi animal to the 5th Imam, despite Ghamidi's refusal of takfir on Qadianis."
+
+  CQ-33:
+    title: "Bukhari-Muslim Exclusivity Fallacy"
+    category: "usul-al-fiqh"
+    summary: "Shows Bukhari has 4 narrations of urinating standing and zero sitting, proving text presence alone does not equal Sunnah."
+
+  CQ-34:
+    title: "Turnabout on Imam Malik in al-Mudawwanah"
+    category: "fiqh"
+    summary: "Cites Imam Malik in al-Mudawwanah (1/118) explicitly ruling that raf al-yadayn outside opening takbeer is unknown and weak."
+
+  CQ-35:
+    title: "Narration Counting vs Naskh (Mut'ah Hadiths)"
+    category: "usul-al-fiqh"
+    summary: "Shows Sahih Muslim has 26 hadiths permitting Mut'ah and fewer forbidding it, proving naskh governs rulings, not counts."
+
+  CQ-36:
+    title: "Conflation of Farz and Nafl Fasts"
+    category: "fiqh"
+    summary: "Rebuts granting an open option to terminate Ramadan fasts after vomiting, showing the hadith was strictly a nafl fast."
+
+  CQ-37:
+    title: "Subordination of Tasawwuf to Fiqh & Hadith"
+    category: "tasawwuf"
+    summary: "Reaffirms that Sunni orthodoxy subordinates all Sufi malfuzat to Quran and Sunnah, rejecting unverified commercial interpolations."
+
+  CQ-38:
+    title: "Prophetic Reprimand on Diminutives vs Slurs"
+    category: "akhlaq"
+    summary: "Contrasts the Prophet's rebuke over the word 'qaseerah' with opponent's routine use of vulgar slurs against scholars."
+
+  CQ-39:
+    title: "Sunni Stance on Ameer Muawiyah"
+    category: "sahaba"
+    summary: "Proves classical imams (Ahmad, Tirmidhi, Lalaka'i, Jilani) compiled virtues and mandated their broadcast while silencing disputes."
+
+  CQ-40:
+    title: "Fabrication on Ali vs Ali's Testimony in Bukhari"
+    category: "sahaba"
+    summary: "Refutes 'Aliyyun khayru al-bashar' fabrication using Ali's own testimony in Bukhari (3671) that Abu Bakr and Umar are best."
