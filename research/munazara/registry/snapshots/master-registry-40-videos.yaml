@@ -1,0 +1,328 @@
+version: "4.0"
+milestone: 40-videos-processed
+corpus_summary:
+  total_videos: 40
+  topics_covered:
+    - tawassul
+    - istighatha
+    - ilm-e-ghaib
+    - hazir-o-nazir
+    - ikhtiyarat
+    - karamat
+    - nur-o-bashar
+    - kalimat-tasawwuf
+    - khatam-e-nabuwwat
+    - sahaba-disputes
+    - fiqh-masail-raf-al-yadayn
+    - fiqh-masail-qiyas-sujud-jam
+    - usul-al-fiqh-and-jarh-wa-tadeel
+    - theological-contradictions-tazadat
+
+videos:
+  - id: yt-hqDt_1BwzLc
+    index: 1
+    side: ahl-e-sunnat
+    format: qa
+    key_claims: [IS-EM-C01, IS-EM-C02]
+    key_counter_questions: [CQ-06, CQ-07]
+
+  - id: yt-3-tML7NbATk
+    index: 2
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [IS-EM-C03]
+    key_counter_questions: [CQ-08]
+
+  - id: yt-vMA-Vcng63I
+    index: 3
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [IS-EM-C04]
+    key_counter_questions: [CQ-01, CQ-02]
+
+  - id: yt-sAVly9evIpA
+    index: 4
+    side: ali-mirza
+    format: lecture
+    key_claims: [TW-EM-C01, TW-EM-C02, TW-EM-C03, TW-EM-C04]
+
+  - id: yt-0LqCS-zvCxY
+    index: 5
+    side: ali-mirza
+    format: lecture
+    key_claims: [IS-EM-C05, IS-EM-C06, IS-EM-C07]
+
+  - id: yt-Fu25DYUAts8
+    index: 6
+    side: ali-mirza
+    format: lecture
+    key_claims: [TW-EM-C05, TW-EM-C06, TW-EM-C07]
+
+  - id: yt-f5D6zj2Kr6Y
+    index: 7
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [IS-EM-C01, IS-EM-C05]
+    key_counter_questions: [CQ-06, CQ-09]
+
+  - id: yt-j8HMKqpDamg
+    index: 8
+    side: both
+    format: debate
+    key_claims: [IS-EM-C05, IS-EM-C08]
+    key_counter_questions: [CQ-10]
+
+  - id: yt-oS54i85RCtc
+    index: 9
+    side: ahl-e-sunnat
+    format: qa
+    key_claims: [IS-EM-C06, IS-EM-C09]
+    key_counter_questions: [CQ-02, CQ-11]
+
+  - id: yt-QTDHnYqPnmc
+    index: 10
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [IG-EM-C01]
+    key_counter_questions: [CQ-02]
+
+  - id: yt-hcrjteJMx9c
+    index: 11
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [IG-EM-C02]
+    key_counter_questions: [CQ-02]
+
+  - id: yt-BdmkNIt2AWw
+    index: 12
+    side: ali-mirza
+    format: lecture
+    key_claims: [IG-EM-C03, IG-EM-C04]
+
+  - id: yt-QiwVYfUcIEk
+    index: 13
+    side: ahl-e-sunnat
+    format: qa
+    key_claims: [IK-EM-C01]
+    key_counter_questions: [CQ-01, CQ-02]
+
+  - id: yt-7BGzswtPMFA
+    index: 14
+    side: ali-mirza
+    format: lecture
+    key_claims: [HN-EM-C01, HN-EM-C02]
+
+  - id: yt-od6Z207INRw
+    index: 15
+    side: ali-mirza
+    format: lecture
+    key_claims: [HN-EM-C03]
+
+  - id: yt-jhP_dOsZ2g4
+    index: 16
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KR-EM-C01]
+    key_counter_questions: [CQ-12]
+
+  - id: yt-z3ttIQXgAxY
+    index: 17
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KR-EM-C02]
+    key_counter_questions: [CQ-12]
+
+  - id: yt-6wVuqbC2cu0
+    index: 18
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KR-EM-C03]
+    key_counter_questions: [CQ-04]
+
+  - id: yt-qiyNKbLsWEU
+    index: 19
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [NB-EM-C01]
+    key_counter_questions: [CQ-02]
+
+  - id: yt-knUP0hRf7tk
+    index: 20
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TS-EM-C01]
+    key_counter_questions: [CQ-13]
+
+  - id: yt-j8Cj9nOfY3M
+    index: 21
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TS-EM-C02]
+    key_counter_questions: [CQ-14]
+
+  - id: yt-C-p_33jtEFA
+    index: 22
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KN-EM-C01]
+    key_counter_questions: [CQ-15]
+
+  - id: yt-dUOeaVky6s0
+    index: 23
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [QD-EM-C01]
+    key_counter_questions: [CQ-15]
+
+  - id: yt-kkgQeZR2GwQ
+    index: 24
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KN-EM-C02]
+    key_counter_questions: [CQ-15]
+
+  - id: yt-2NrUrJqrOyE
+    index: 25
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [SB-EM-C01]
+    key_counter_questions: [CQ-12]
+
+  - id: yt-tXXxl8cwG8s
+    index: 26
+    side: ahl-e-sunnat
+    format: lecture
+    key_claims: [AQ-EM-C01]
+    key_counter_questions: [CQ-01]
+
+  - id: yt-0AHz5FBIBB8
+    index: 27
+    side: both
+    format: debate
+    key_claims: [MS-EM-C01, MS-EM-C02, MS-EM-C03]
+    key_counter_questions: [CQ-16, CQ-17]
+
+  - id: yt-yKVfjqJAMBk
+    index: 28
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [MS-EM-C04, MS-EM-C05, MS-EM-C06]
+    key_counter_questions: [CQ-18]
+
+  - id: yt-ECCSYkVnpa4
+    index: 29
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [MS-EM-C01, MS-EM-C07]
+    key_counter_questions: [CQ-16, CQ-19]
+
+  - id: yt-YHV-xUS4UEQ
+    index: 30
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [KN-EM-C03]
+    key_counter_questions: [CQ-20]
+
+  - id: yt-RedTD9XEVIc
+    index: 31
+    side: ahl-e-sunnat
+    format: clip
+    key_claims: [FQ-EM-C01]
+    key_counter_questions: [CQ-21]
+
+  - id: yt-Sie_vGnC_kg
+    index: 32
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [AQ-EM-C02, AQ-EM-C03]
+    key_counter_questions: [CQ-22]
+
+  - id: yt-5qcl3CRo6x8
+    index: 33
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TH-EM-C01]
+    key_counter_questions: [CQ-23]
+
+  - id: yt-gPL2u_-SL7Y
+    index: 34
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TS-EM-C03]
+    key_counter_questions: [CQ-24]
+
+  - id: yt-PjouX01pp28
+    index: 35
+    side: both
+    format: debate
+    key_claims: [SB-SH-C01, SB-EM-C02]
+    key_counter_questions: [CQ-25, CQ-26]
+
+  - id: yt-5ehWHkYA_rs
+    index: 36
+    side: ahl-e-sunnat
+    format: qa
+    key_claims: [FQ-WH-C01, FQ-EM-C02, AQ-EM-C04]
+    key_counter_questions: [CQ-27, CQ-28]
+
+  - id: yt-E1DQoXfwn_E
+    index: 37
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TZ-EM-C01, TZ-EM-C02, TZ-EM-C03]
+    key_counter_questions: [CQ-29]
+
+  - id: yt-KIY0lKVFzw4
+    index: 38
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [FQ-EM-C03]
+    key_counter_questions: [CQ-30]
+
+  - id: yt-a1oLH4yNJDs
+    index: 39
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [FQ-EM-C04]
+    key_counter_questions: [CQ-31]
+
+  - id: yt-w9v2LUn2Kjo
+    index: 40
+    side: ahl-e-sunnat
+    format: debate
+    key_claims: [TZ-EM-C04, QD-EM-C01]
+    key_counter_questions: [CQ-32]
+
+registered_counter_questions:
+  CQ-01: "Haqiqi vs Majazi attribution"
+  CQ-02: "Zati vs Ata'i distinction"
+  CQ-03: "Ma taht al-asbab vs Ma fawq al-asbab scriptural demarcation"
+  CQ-04: "Kasb vs Khalq in Mu'jizat and Karamat"
+  CQ-05: "Surah an-Naml 27:38-40 (Asif ibn Barkhiya transporting throne)"
+  CQ-06: "Linguistic and Quranic scope of root d-'-w (Surah 3:153, 24:63, 2:260)"
+  CQ-07: "Physical posture and gesture analogy (Hadith Jibril vs Shirk)"
+  CQ-08: "Geographic consistency on Shirk (Wilderness vs Populated city)"
+  CQ-09: "Physical causality in miracles (Transportation without spatial travel)"
+  CQ-10: "Bukhari Intercession Hadith using explicit root gh-w-th to Prophets"
+  CQ-11: "Cessation of granted spiritual power after barzakh passing"
+  CQ-12: "Consistency on Sahaba committing actions contrary to Shariah norms"
+  CQ-13: "Desert traveler ecstatic speech (akhta'a min shiddatil-farah) vs Takfir"
+  CQ-14: "Conflicting historical attributions across Chishti malfuzat literature"
+  CQ-15: "Divine communication vs Finality: Wahi to Isa upon descent (Muslim 7373)"
+  CQ-16: "Selective adherence to Malik bin al-Huwayrith (Ruku vs Sujud Raf al-Yadayn)"
+  CQ-17: "Turnabout on Ghunyat al-Talibeen (Hands below navel in Hanbali fiqh)"
+  CQ-18: "Turnabout on Abu Hanifa vs Ibn Mubarak (Raf al-Yadayn at every takbeer)"
+  CQ-19: "Burden of proof for abandoning Sujud Raf al-Yadayn while retaining Ruku"
+  CQ-20: "Consistency on Khatam-e-Nabuwwat (Condemning Sufi kashf vs Defending Mukhtar al-Thaqafi)"
+  CQ-21: "Hierarchy of Juristic Sources / Abu Hanifa on Qiyas vs Hadith"
+  CQ-22: "Contradiction on Theological Distinctions / 'Mini God' vs Zati-Ata'i"
+  CQ-23: "Turnabout on 'Bi'sa al-Khateebu Anta' / Dual Pronouns for Allah and the Prophet"
+  CQ-24: "Turnabout on Takfir for Ta'weel of Shathiyat / Molvi Ishaq and Ghamidi"
+  CQ-25: "Turnabout on Tribal Protection / Jiwar of Mut'im bin Adi vs As bin Wa'il"
+  CQ-26: "Natural Human Precaution / Khawf Tabi'i in the Quran"
+  CQ-27: "Hypocrisy on Taqleed of Ghaus-e-Pak vs Calling Taqleed Shirk"
+  CQ-28: "Jam' Soori vs Jam' Haqiqi / The Concession to Hamnah bint Jahsh"
+  CQ-29: "Chronological Contradiction on Kitab at-Tawheed & Disrespect to Adam"
+  CQ-30: "Prostration Posture / Camel Knee Inversion & Ibn al-Qayyim's Maqloob Grading"
+  CQ-31: "Fuqaha as Physicians vs Muhaddithin as Pharmacists / Ibn Abi Shaybah & Layth vs Abu Hanifa & Malik"
+  CQ-32: "Turnabout on Javed Ahmad Ghamidi / The '5th Imam' vs 'Rafzi/Nasibi Ignoramus'"

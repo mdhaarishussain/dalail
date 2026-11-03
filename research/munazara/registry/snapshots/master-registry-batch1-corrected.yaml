@@ -1,0 +1,186 @@
+claims:
+  - id: TW-EM-C01
+    legacy_id: TW-C01
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that the Hadith of the Blind Man applies strictly to the Prophet's lifetime and physical presence."
+    move_type: restrict-evidence
+    stated_in:
+      - "yt-sAVly9evIpA@00:18:15"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C02
+    legacy_id: TW-C02
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that the post-death version of the blind man's supplication in Uthman's era is unreliable due to criticism of narrator Shabib bin Sa'id."
+    move_type: attack-chain
+    stated_in:
+      - "yt-sAVly9evIpA@00:20:10"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C03
+    legacy_id: TW-C03
+    topic: TW
+    opponent: EM
+    summary_en: "Argues from Bukhari 1010 that Umar seeking rain through Abbas shows that tawassul through deceased persons was abandoned."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-sAVly9evIpA@00:10:45"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C05
+    legacy_id: EM-C03
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that waseela is restricted to five scriptural forms (living person's du'a, righteous deeds, Divine Names, physical relics, and praying for the rank Al-Waseela); post-mortem waseela of personal status is excluded."
+    move_type: definition
+    stated_in:
+      - "yt-sAVly9evIpA@00:13:55"
+    reported_in: []
+    answered_in:
+      - "yt-hqDt_1BwzLc#M02"
+    counter_questions: []
+
+  - id: IS-EM-C01
+    legacy_id: EM-C01
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that du'a is worship exclusive to Allah; therefore, any direct vocative call to other than Allah ('Ya Rasool Allah madad', 'Ya Ali madad') is worship directed to creation, which is shirk."
+    move_type: principle
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:00:40"
+    reported_in:
+      - "yt-hqDt_1BwzLc@00:04:36"
+    answered_in:
+      - "yt-hqDt_1BwzLc#M06"
+      - "yt-hqDt_1BwzLc#M08"
+      - "yt-hqDt_1BwzLc#M11"
+    counter_questions:
+      - "CQ-06"
+      - "CQ-07"
+
+  - id: IS-EM-C02
+    legacy_id: EM-C02
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that the hadith of calling unseen beings ('Ya Ibad Allah A'inuni') applies strictly to lost travelers in desolated wilderness/jungles (referring to terrestrial angels) and cannot justify istighatha in cities."
+    move_type: restrict-evidence
+    stated_in: []
+    reported_in:
+      - "yt-3-tML7NbATk@00:26:29"
+    answered_in:
+      - "yt-3-tML7NbATk#M13"
+    counter_questions:
+      - "CQ-08"
+
+  - id: IS-EM-C04
+    legacy_id: EM-C04
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that even if Allah had granted authority (ikhtiyar) to prophets or saints, calling on them for help remains impermissible shirk, because righteous figures never directed invocations to other than Allah."
+    move_type: principle
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:02:15"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IS-EM-C05
+    legacy_id: EM-C05
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that calling upon someone in the unseen (ghaib) or beyond normal physical causality (ma fawq al-asbab) is worship and shirk, whereas asking someone present within normal causality (ma taht al-asbab) is permissible."
+    move_type: definition
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:00:48"
+    reported_in:
+      - "yt-3-tML7NbATk@00:08:08"
+    answered_in:
+      - "yt-hqDt_1BwzLc#M03"
+      - "yt-3-tML7NbATk#M03"
+      - "yt-3-tML7NbATk#M04"
+      - "yt-3-tML7NbATk#M05"
+      - "yt-vMA-Vcng63I#M01"
+      - "yt-vMA-Vcng63I#M02"
+    counter_questions:
+      - "CQ-09"
+
+counter_questions:
+  - id: CQ-06
+    topic: IS
+    summary_en: "Asks how the opponent reconciles equating every vocative call with worship when the Quran uses the root d-'-w for the Prophet calling believers (3:153), believers calling each other (24:63), and Ibrahim calling dead birds (2:260)."
+    used_in:
+      - "yt-hqDt_1BwzLc#M07"
+      - "yt-hqDt_1BwzLc#M09"
+
+  - id: CQ-07
+    topic: IS
+    summary_en: "Asks why physical postures (standing, sitting on knees) are evaluated by intention and relationship (worship in namaz vs respect for parents or teachers), but verbal calling is treated as intrinsic worship regardless of belief."
+    used_in:
+      - "yt-hqDt_1BwzLc#M12"
+
+  - id: CQ-08
+    topic: IS
+    summary_en: "Asks how calling unseen beings for assistance can be permitted in a wilderness/desert but classified as shirk in a town or city, asking whether location can alter the theological status of an action."
+    used_in:
+      - "yt-3-tML7NbATk#M13"
+
+  - id: CQ-09
+    topic: IS
+    summary_en: "Asks whether Asif ibn Barkhiya bringing the throne of Bilqis before the blink of an eye was accomplished through physical means (ma taht al-asbab) or spiritual power granted by Allah (ma fawq al-asbab)."
+    used_in:
+      - "yt-hqDt_1BwzLc#M04"
+      - "yt-vMA-Vcng63I#M03"
+
+sequences:
+  - topic: IS
+    order: "IS-EM-C01 -> Quranic root d-'-w scope (CQ-06) -> al-du'a specified as du'a-ullah with uluhiyyah -> Sahaba precedent (Umar calling Sariyah, Ibn Umar calling Ya Muhammad) -> Posture analogy (CQ-07)"
+  - topic: IS
+    order: "IS-EM-C05 -> Asif ibn Barkhiya beyond causes (CQ-09) -> Hadith Ya Ibad Allah A'inuni -> Restriction to jungles (IS-EM-C02) -> Geographic consistency counter-question (CQ-08) -> Turnabout citations (Ahmad, Nawawi, Ibn Taymiyyah, Nawab Siddiq Hasan Khan)"
+  - topic: TW
+    order: "TW-EM-C05 -> Blind man hadith restricted to lifetime (TW-EM-C01) -> Chain criticism on post-death narration (TW-EM-C02) -> Umar seeking rain through Abbas (TW-EM-C03)"
+
+queue:
+  done:
+    - "yt-hqDt_1BwzLc: Anbia Wa Ouliya Say Madad//EITZRAT and JAWABAT//!!Reply To Eng Mirza Jhelumi!!"
+    - "yt-3-tML7NbATk: Anbiya Our Auliya Se Madad Mangne Ki Daleel | Hadees 'Ya IbadAllah A'inuni'"
+    - "yt-vMA-Vcng63I: Anbiya Auliya Se Madad Mangna Hadees Pr kalam Reply To Mirza Eng & WAHABI Ahle Hadees"
+    - "yt-sAVly9evIpA: Waseela in Quran | Waseela se Dua mangna kaisa hai ??"
+    - "yt-0LqCS-zvCxY: Kya Ya ALI Madad kehna Shirk hai ?? | Ghair ALLAH se Madad mangna !"
+  remaining:
+    - "yt-Fu25DYUAts8: 43-Mas'alah: WASEELAH aur TAWASSUL kay Saheh Ahkam-o-Masa'il (Surah Al Ma'idah Ayat 35)"
+    - "yt-f5D6zj2Kr6Y: Anbiya Or Oliya Se Madad Mangny Ki Haqiqat & Dua Ka Mafhom Alesunnat Ka Aqeeda By Mufti Rashid Razvi"
+    - "yt-zHrRIzdvFb4: WASEELAH kay zarya Dhooka ??? ALLAH عزوجل ki TAOHEED aur SHIRK ??? By Engineer Muhammad Ali Mirza"
+    - "yt-j8HMKqpDamg: Ghairullah Say Mangna | Auliya Say Madad Mangna | Waseela o Tawassul | Engineer Muhammad Ali Mirza"
+    - "yt-oS54i85RCtc: Waliyon Se Madad Maangna Kaisa By Mufti Rashid Mahmood Razvi"
+    - "yt-QTDHnYqPnmc: Kya Huzoor ﷺ Ilm-e-Ghaib jaante hain? || Mufti Rashid Mahmood Rizvi"
+    - "yt-hcrjteJMx9c: Mufti Rashid Mahmood Rizvi | New bayan | ilm e ghaib"
+    - "yt-MAIUEDSVrGY: 6-a-Mas'alah & [ 97-Lecture ] : ILM-ul-GHAIB say Motalliq FIRQAWARANA NAZRIYAAT ka TAHQEEQI Jaizah !"
+    - "yt-BdmkNIt2AWw: Nabi ﷺ ka ilm e ghaib | A complete Lecture on ilm ul Ghaib | By Engineer Muhammad Ali Mirza"
+    - "yt-7BGzswtPMFA: HAZIR-o-NAZIR kay AQEEDAY ka Haqeeqi BANI kon hai ? (By Engineer Muhammad Ali Mirza)"
+    - "yt-od6Z207INRw: Ya_RasooLALLAH | یا رسول اللہ ﷺ ??? Hazir-o-Nazir & Ilm-e-Ghaib ??? By Engineer Muhammad Ali Mirza"
+    - "yt-QiwVYfUcIEk: Kaya RASOOL ALLAH(Ap Par Salam)Apnay Nafaa K b Maalik Nhe?Mufti Rashid Mahmood Rizvi"
+    - "yt-jhP_dOsZ2g4: Hazrat Khalid bin Waleed Ki Karamat Quran O Sunnat Ki Toheen? Reply to Eng Ali Mirza By Mufti Rashid"
+    - "yt-z3ttIQXgAxY: Mufti Rashid Mahmood Razvi vs Eng Ali Mirza About Karamat Oliya ,Reply to Eng Ali Mirza"
+    - "yt-6wVuqbC2cu0: Mojza Karamat Khilaf e Shariat Khilaf Aqal Khilaf Adat? Eng Ali Mirza Exposed by Mufti Rashid Rzvi"
+    - "yt-qiyNKbLsWEU: Nabi Khuda Ke Noor Ka Tukra Hein(Naozbillah)?Reply To Eng Ali Mirza And Sahil Adeem By Mufti Rashid"
+    - "yt-knUP0hRf7tk: Munazra Mai chishti RasoolAllah Kay Difa Par Aitraaz Ka Jawab Reply To Eng Ali Mirza By Mufti Rashid"
+    - "yt-j8Cj9nOfY3M: Chishti Rasool Allah kalma (NauzuBillah) ka jawab? Reply by Mufti Rashid Razvi"
+    - "yt-C-p_33jtEFA: Kashf Or Ilham Vs Khatam e Nabuwat Par Dhokon Ka Jawab Reply To Eng Ali Mirza By Mufti Rashid Razvi"
+    - "yt-dUOeaVky6s0: Qadiani Ahl-e-Qibla & Kalma-go Hain Eng Ali Mirza Ka New Daawa Exposed BY MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-kkgQeZR2GwQ: Mukhtar Saqfi Ko Bchane Ke Ley Muslim Ulama Ko Jhota Kah Dia! Eng Ali Mirza Exposed By Mufti rashid"
+    - "yt-2NrUrJqrOyE: Mola Ali Aur Hazrat Muawiya Ka Asal Ikhtelaf Aur Mirza Ke Jhoot Reply To Mirza Eng By Mufti Rashid"
+    - "yt-tXXxl8cwG8s: Golra Sharif Kay Ellamiya Per Eng Ali Mirza Ki Baungiya Exposed By Mufti Rashid Mahmood Razvi"
+    - "yt-0AHz5FBIBB8: Eng Ali Mirza Kay Student Sa Raf-Ul-Yadain Ki Hadees Par Ilmi Mubahasa By MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-yKVfjqJAMBk: Rafa-ul-Yadain Kay Tark Ki Hadees Par Eng Ali Mirza Phans Gaya By MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-ECCSYkVnpa4: Bukhari Main Raful yadain Malik Bin Huwaris Ki Hadees Reply To Eng Ali Mirza By Mufti Rashid Razvi"
+  skipped:
+    - "yt-qZpI5qcZBqA: General seasonal Ramadan transmission; lacks debate arguments."
+    - "yt-Dr06CzfWRJc: Short praise compilation; lacks debate claims."

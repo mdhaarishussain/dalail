@@ -1,0 +1,570 @@
+claims:
+  - id: TW-EM-C01
+    legacy_id: TW-C01
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that the Hadith of the Blind Man applies strictly to the Prophet's lifetime and physical presence."
+    move_type: restrict-evidence
+    stated_in:
+      - "yt-sAVly9evIpA@00:18:15"
+      - "yt-j8HMKqpDamg@00:07:25"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C02
+    legacy_id: TW-C02
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that the post-death version of the blind man's supplication in Uthman's era is unreliable due to criticism of narrator Shabib bin Sa'id."
+    move_type: attack-chain
+    stated_in:
+      - "yt-sAVly9evIpA@00:20:10"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C03
+    legacy_id: TW-C03
+    topic: TW
+    opponent: EM
+    summary_en: "Argues from Bukhari 1010 that Umar seeking rain through Abbas shows that tawassul through deceased persons was abandoned."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-sAVly9evIpA@00:10:45"
+      - "yt-Fu25DYUAts8@00:53:20"
+      - "yt-j8HMKqpDamg@00:09:40"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C05
+    legacy_id: EM-C03
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that waseela is restricted to five scriptural forms (living person's du'a, righteous deeds, Divine Names, physical relics, and praying for the rank Al-Waseela); post-mortem waseela of personal status is excluded."
+    move_type: definition
+    stated_in:
+      - "yt-sAVly9evIpA@00:13:55"
+      - "yt-Fu25DYUAts8@01:26:45"
+    reported_in: []
+    answered_in:
+      - "yt-hqDt_1BwzLc#M02"
+    counter_questions: []
+
+  - id: TW-EM-C06
+    legacy_id: null
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that the report of Malik al-Dar regarding a man seeking rain at the Prophet's grave during Umar's caliphate is unauthentic due to the tadlees of Abu Muawiyah and al-A'mash."
+    move_type: attack-chain
+    stated_in:
+      - "yt-Fu25DYUAts8@00:48:26"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C07
+    legacy_id: null
+    topic: TW
+    opponent: EM
+    summary_en: "Argues that if post-mortem miraculous assistance from the Prophet were possible, Umar would have brought a cup to his grave during drought to obtain water from his fingers as witnessed during Hudaybiyyah."
+    move_type: consistency
+    stated_in:
+      - "yt-Fu25DYUAts8@00:54:10"
+      - "yt-j8HMKqpDamg@00:08:40"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: TW-EM-C08
+    legacy_id: null
+    topic: TW
+    opponent: EM
+    summary_en: "Direct vocative address ('Assalamu alayka ya Rasool Allah') practiced by Ibn Umar at the grave in Madina or by Abu Bakr over the deceased body is strictly a graveside greeting, which cannot justify distant vocative istighatha ('Ya Rasool Allah madad')."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-od6Z207INRw@00:09:26"
+      - "yt-od6Z207INRw@00:10:14"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IS-EM-C01
+    legacy_id: EM-C01
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that du'a is worship exclusive to Allah; therefore, any direct vocative call to other than Allah ('Ya Rasool Allah madad', 'Ya Ali madad') is worship directed to creation, which is shirk."
+    move_type: principle
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:00:40"
+      - "yt-Fu25DYUAts8@00:02:43"
+    reported_in:
+      - "yt-hqDt_1BwzLc@00:04:36"
+      - "yt-f5D6zj2Kr6Y@00:25:39"
+      - "yt-oS54i85RCtc@00:00:00"
+    answered_in:
+      - "yt-hqDt_1BwzLc#M06"
+      - "yt-hqDt_1BwzLc#M08"
+      - "yt-hqDt_1BwzLc#M11"
+      - "yt-f5D6zj2Kr6Y#M08"
+      - "yt-f5D6zj2Kr6Y#M09"
+      - "yt-oS54i85RCtc#M02"
+    counter_questions:
+      - "CQ-06"
+      - "CQ-07"
+      - "CQ-10"
+
+  - id: IS-EM-C02
+    legacy_id: EM-C02
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that the hadith of calling unseen beings ('Ya Ibad Allah A'inuni') applies strictly to lost travelers in desolated wilderness/jungles (referring to terrestrial angels) and cannot justify istighatha in cities."
+    move_type: restrict-evidence
+    stated_in: []
+    reported_in:
+      - "yt-3-tML7NbATk@00:26:29"
+    answered_in:
+      - "yt-3-tML7NbATk#M13"
+    counter_questions:
+      - "CQ-08"
+
+  - id: IS-EM-C04
+    legacy_id: EM-C04
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that even if Allah had granted authority (ikhtiyar) to prophets or saints, calling on them for help remains impermissible shirk, because righteous figures never directed invocations to other than Allah."
+    move_type: principle
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:02:15"
+      - "yt-Fu25DYUAts8@00:03:33"
+      - "yt-j8HMKqpDamg@00:14:06"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IS-EM-C05
+    legacy_id: EM-C05
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that calling upon someone in the unseen (ghaib) or beyond normal physical causality (ma fawq al-asbab) is worship and shirk, whereas asking someone present within normal causality (ma taht al-asbab) is permissible."
+    move_type: definition
+    stated_in:
+      - "yt-0LqCS-zvCxY@00:00:48"
+      - "yt-Fu25DYUAts8@00:01:25"
+      - "yt-j8HMKqpDamg@00:04:33"
+    reported_in:
+      - "yt-3-tML7NbATk@00:08:08"
+      - "yt-f5D6zj2Kr6Y@00:16:53"
+    answered_in:
+      - "yt-hqDt_1BwzLc#M03"
+      - "yt-3-tML7NbATk#M03"
+      - "yt-3-tML7NbATk#M04"
+      - "yt-3-tML7NbATk#M05"
+      - "yt-vMA-Vcng63I#M01"
+      - "yt-vMA-Vcng63I#M02"
+      - "yt-f5D6zj2Kr6Y#M01"
+      - "yt-f5D6zj2Kr6Y#M02"
+      - "yt-f5D6zj2Kr6Y#M04"
+      - "yt-oS54i85RCtc#M03"
+    counter_questions:
+      - "CQ-09"
+
+  - id: IS-EM-C06
+    legacy_id: null
+    topic: IS
+    opponent: EM
+    summary_en: "Argues that at the Battle of Khaybar, the Prophet called upon the living Ali for assistance rather than summoning the deceased martyr Hamza, showing calling deceased martyrs was not practiced."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-j8HMKqpDamg@00:05:15"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IG-WH-C01
+    legacy_id: null
+    topic: IG
+    opponent: WH
+    summary_en: "Opponents claim that the Prophet did not possess knowledge of the unseen, lacking even knowledge of what is behind a wall or knowledge of the morrow."
+    move_type: principle
+    stated_in: []
+    reported_in:
+      - "yt-QTDHnYqPnmc@00:00:00"
+      - "yt-hcrjteJMx9c@00:00:00"
+    answered_in:
+      - "yt-QTDHnYqPnmc#M02"
+      - "yt-QTDHnYqPnmc#M03"
+      - "yt-hcrjteJMx9c#M02"
+    counter_questions: []
+
+  - id: IG-EM-C01
+    legacy_id: null
+    topic: IG
+    opponent: EM
+    summary_en: "The Prophet explicitly denied possessing knowledge of the unseen (Quran 6:50, 7:188), refuting the doctrine that he possessed comprehensive knowledge of all past and future events (ma kaana wa ma yakoon)."
+    move_type: principle
+    stated_in:
+      - "yt-BdmkNIt2AWw@00:03:20"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IG-EM-C02
+    legacy_id: null
+    topic: IG
+    opponent: EM
+    summary_en: "Aisha confirmed in Sahih Muslim and Bukhari that whoever claims the Prophet knew the unseen has fabricated a lie against Allah, citing Quran 27:65."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-BdmkNIt2AWw@00:15:10"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IG-EM-C03
+    legacy_id: null
+    topic: IG
+    opponent: EM
+    summary_en: "The tragedy of Bi'r Ma'oonah in Sahih Bukhari proves that neither the martyred companions nor the Prophet knew of the impending betrayal until informed by Jibril."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-BdmkNIt2AWw@00:15:50"
+      - "yt-od6Z207INRw@00:32:07"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IG-EM-C04
+    legacy_id: null
+    topic: IG
+    opponent: EM
+    summary_en: "In Surah At-Tahrim 3, when asked who told him of a disclosed secret, the Prophet attributed it to Allah informing him ('nabba'aniyal 'aleemul khabeer'), not to personal ghaib."
+    move_type: consistency
+    stated_in:
+      - "yt-BdmkNIt2AWw@00:29:40"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IG-EM-C05
+    legacy_id: null
+    topic: IG
+    opponent: EM
+    summary_en: "The Prophet was perturbed by detailed questions regarding Bayt al-Maqdis after Mi'raj until Allah displayed the building before him, proving detailed knowledge was granted occasionally by direct vision rather than held permanently."
+    move_type: practice-consensus
+    stated_in:
+      - "yt-BdmkNIt2AWw@00:35:40"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: IK-EM-C01
+    legacy_id: null
+    topic: IK
+    opponent: EM
+    summary_en: "The Prophet stated in Surah Al-Jinn 21 and Surah Al-A'raf 188 that he has no power to benefit or harm anyone, which opponents argue negates all delegated authority or intercession."
+    move_type: principle
+    stated_in: []
+    reported_in:
+      - "yt-QiwVYfUcIEk@00:00:00"
+    answered_in:
+      - "yt-QiwVYfUcIEk#M02"
+      - "yt-QiwVYfUcIEk#M03"
+    counter_questions:
+      - "CQ-11"
+
+  - id: HN-EM-C01
+    legacy_id: null
+    topic: HN
+    opponent: EM
+    summary_en: "The term and concept of Hazir-o-Nazir are absent from the Quran and Sunnah, representing an unlegislated Sufi concept that attributes omnipresence to created beings."
+    move_type: definition
+    stated_in:
+      - "yt-7BGzswtPMFA@00:00:40"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: HN-EM-C02
+    legacy_id: null
+    topic: HN
+    opponent: EM
+    summary_en: "The doctrine attributing omnipresence to the Prophet in every particle (haqeeqat-e-Muhammadiyyah in Madarij al-Nubuwwah) was popularized in the Subcontinent without scriptural evidence."
+    move_type: charge
+    stated_in:
+      - "yt-7BGzswtPMFA@00:05:07"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: HN-EM-C03
+    legacy_id: null
+    topic: HN
+    opponent: EM
+    summary_en: "Visualizing the spiritual master as omnipresent (fana fish-sheikh in Imdad al-Suluk and Malfuzat) amounts to taking created beings as rivals to Allah in love and devotion under Quran 2:165."
+    move_type: charge
+    stated_in:
+      - "yt-7BGzswtPMFA@00:08:48"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: HN-EM-C04
+    legacy_id: null
+    topic: HN
+    opponent: EM
+    summary_en: "The direct address in Tashahhud ('Assalamu alayka ayyuhan-nabiyyu') does not imply Hazir-o-Nazir, because the parallel greeting to all righteous servants in heavens and earth is conveyed by Allah, and companions outside Madina recited it without believing the Prophet was omnipresent."
+    move_type: consistency
+    stated_in:
+      - "yt-od6Z207INRw@00:00:00"
+      - "yt-od6Z207INRw@00:02:10"
+    reported_in: []
+    answered_in: []
+    counter_questions: []
+
+  - id: KR-EM-C01
+    legacy_id: null
+    topic: KR
+    opponent: EM
+    summary_en: "Consuming poison is prohibited suicide under Sahih Bukhari, and true karamat is contrary to regular habit/reason (khilaf-e-aql) but never contrary to Sacred Law (khilaf-e-shara); therefore, the incident of Khalid bin Waleed drinking poison is fabricated."
+    move_type: principle
+    stated_in:
+      - "yt-jhP_dOsZ2g4@00:00:20"
+    reported_in: []
+    answered_in:
+      - "yt-jhP_dOsZ2g4#M03"
+      - "yt-jhP_dOsZ2g4#M05"
+      - "yt-jhP_dOsZ2g4#M06"
+      - "yt-6wVuqbC2cu0#M05"
+    counter_questions:
+      - "CQ-12"
+
+  - id: KR-EM-C02
+    legacy_id: null
+    topic: KR
+    opponent: EM
+    summary_en: "The narration of Khalid bin Waleed drinking poison in Tabarani is criticized and rejected as weak/unauthentic by Haythami in Majma al-Zawa'id."
+    move_type: attack-chain
+    stated_in:
+      - "yt-jhP_dOsZ2g4@00:00:32"
+    reported_in: []
+    answered_in:
+      - "yt-jhP_dOsZ2g4#M04"
+    counter_questions: []
+
+  - id: KR-EM-C03
+    legacy_id: null
+    topic: KR
+    opponent: EM
+    summary_en: "Extraordinary miracles (karamat) after the passing of the Prophet are restricted strictly to answered supplications; saints cannot perform physical extraordinary actions beyond natural causality."
+    move_type: definition
+    stated_in:
+      - "yt-z3ttIQXgAxY@00:00:00"
+    reported_in: []
+    answered_in:
+      - "yt-z3ttIQXgAxY#M02"
+    counter_questions: []
+
+  - id: KR-EM-C04
+    legacy_id: null
+    topic: KR
+    opponent: EM
+    summary_en: "Physical phenomena of nature are unbroken laws that cannot be breached by saints; therefore, saintly miracles breaking natural laws (khariq-e-aadat) are physically impossible."
+    move_type: principle
+    stated_in:
+      - "yt-6wVuqbC2cu0@00:00:26"
+    reported_in: []
+    answered_in:
+      - "yt-6wVuqbC2cu0#M03"
+      - "yt-6wVuqbC2cu0#M04"
+    counter_questions: []
+
+  - id: KR-EM-C05
+    legacy_id: null
+    topic: KR
+    opponent: EM
+    summary_en: "Equates contrary to habit (khariq-e-aadat) with contrary to intellect (khilaf-e-aql), claiming any breach of physical laws represents an irrational impossibility."
+    move_type: definition
+    stated_in:
+      - "yt-6wVuqbC2cu0@00:00:00"
+    reported_in: []
+    answered_in:
+      - "yt-6wVuqbC2cu0#M03"
+      - "yt-6wVuqbC2cu0#M04"
+    counter_questions: []
+
+  - id: NB-EM-C01
+    legacy_id: null
+    topic: NB
+    opponent: EM
+    summary_en: "The doctrine of the Prophet being created from light (nur) implies that a piece of Allah separated and descended to earth, which contradicts Surah Al-Ikhlas."
+    move_type: charge
+    stated_in:
+      - "yt-qiyNKbLsWEU@00:01:16"
+    reported_in: []
+    answered_in:
+      - "yt-qiyNKbLsWEU#M02"
+      - "yt-qiyNKbLsWEU#M03"
+    counter_questions: []
+
+  - id: NB-EM-C02
+    legacy_id: null
+    topic: NB
+    opponent: EM
+    summary_en: "The narration of Jabir regarding the creation of the Prophet's light in Musannaf Abdur Razzaq is a modern fabrication absent from historical complete manuscripts of the work."
+    move_type: attack-chain
+    stated_in:
+      - "yt-qiyNKbLsWEU@00:00:30"
+    reported_in: []
+    answered_in:
+      - "yt-qiyNKbLsWEU#M04"
+      - "yt-qiyNKbLsWEU#M05"
+    counter_questions: []
+
+  - id: TS-EM-C01
+    legacy_id: null
+    topic: TS
+    opponent: EM
+    summary_en: "Barelvi scholars defend the utterance 'Chishti Rasool Allah' and consider it acceptable, prioritizing the defense of Sufi masters over orthodox Islamic monotheism."
+    move_type: charge
+    stated_in:
+      - "yt-knUP0hRf7tk@00:00:06"
+    reported_in: []
+    answered_in:
+      - "yt-knUP0hRf7tk#M02"
+      - "yt-knUP0hRf7tk#M03"
+    counter_questions:
+      - "CQ-13"
+
+  - id: TS-EM-C02
+    legacy_id: null
+    topic: TS
+    opponent: EM
+    summary_en: "Because classical Chishti Sufi texts contain phrases like 'Chishti Rasool Allah' and were praised by later scholars, the Barelvi school formally endorses these utterances."
+    move_type: charge
+    stated_in:
+      - "yt-knUP0hRf7tk@00:00:06"
+    reported_in: []
+    answered_in:
+      - "yt-knUP0hRf7tk#M05"
+      - "yt-knUP0hRf7tk#M06"
+    counter_questions:
+      - "CQ-14"
+
+counter_questions:
+  - id: CQ-06
+    topic: IS
+    summary_en: "Asks how the opponent reconciles equating every vocative call with worship when the Quran uses the root d-'-w for the Prophet calling believers (3:153), believers calling each other (24:63), and Ibrahim calling dead birds (2:260)."
+    used_in:
+      - "yt-hqDt_1BwzLc#M07"
+      - "yt-hqDt_1BwzLc#M09"
+      - "yt-f5D6zj2Kr6Y#M07"
+
+  - id: CQ-07
+    topic: IS
+    summary_en: "Asks why physical postures (standing, sitting on knees) are evaluated by intention and relationship (worship in namaz vs respect for parents or teachers), but verbal calling is treated as intrinsic worship regardless of belief."
+    used_in:
+      - "yt-hqDt_1BwzLc#M12"
+
+  - id: CQ-08
+    topic: IS
+    summary_en: "Asks how calling unseen beings for assistance can be permitted in a wilderness/desert but classified as shirk in a town or city, asking whether location can alter the theological status of an action."
+    used_in:
+      - "yt-3-tML7NbATk#M13"
+
+  - id: CQ-09
+    topic: IS
+    summary_en: "Asks whether Asif ibn Barkhiya bringing the throne of Bilqis before the blink of an eye was accomplished through physical means (ma taht al-asbab) or spiritual power granted by Allah (ma fawq al-asbab)."
+    used_in:
+      - "yt-hqDt_1BwzLc#M04"
+      - "yt-vMA-Vcng63I#M03"
+      - "yt-f5D6zj2Kr6Y#M05"
+
+  - id: CQ-10
+    topic: IS
+    summary_en: "Asks why the Sahih Bukhari Hadith of Intercession uses the exact term istighatha for all mankind going to Adam, then Musa, then Muhammad in distress if calling upon created beings for aid were inherently shirk."
+    used_in:
+      - "yt-f5D6zj2Kr6Y#M06"
+
+  - id: CQ-11
+    topic: IK
+    summary_en: "Asks opponents to produce any textual proof from the Quran or Sunnah demonstrating that the spiritual authority, control (tasarruf), and miracles granted to prophets during their earthly lives were revoked or stripped away by Allah after their passing into barzakh."
+    used_in:
+      - "yt-QiwVYfUcIEk#M04"
+
+  - id: CQ-12
+    topic: KR
+    summary_en: "Asks how the opponent can argue on one hand that Khalid bin Waleed could never perform an action alleged to be contrary to Shariah to dismiss a sound karamat, while simultaneously accusing other Sahaba (such as Muawiyah and Amr ibn al-Aas) of actions contrary to Shariah in historical conflicts."
+    used_in:
+      - "yt-jhP_dOsZ2g4#M07"
+
+  - id: CQ-13
+    topic: TS
+    summary_en: "Asks whether the traveler who in extreme joy mistakenly declared 'Allahumma anta 'abdi wa ana rabbuka' (Sahih Muslim) was declared a kafir by the Prophet, and why classical jurists withhold takfir from words uttered during loss of cognitive control (shiddat-e-farah or sukr)."
+    used_in:
+      - "yt-knUP0hRf7tk#M04"
+
+  - id: CQ-14
+    topic: TS
+    summary_en: "Asks how an ecstatic story can be used for takfir when different historical malfuzat attribute the exact same incident to three different people (Moinuddin Chishti, Bakhtiar Kaki, and Yusuf Chishti), demonstrating manuscript unreliability and interpolation (ilhaq)."
+    used_in:
+      - "yt-knUP0hRf7tk#M05"
+
+sequences:
+  - topic: IS
+    order: "IS-EM-C01 -> Quranic root d-'-w scope (CQ-06) -> al-du'a specified as du'a-ullah with uluhiyyah -> Sahaba precedent (Umar calling Sariyah, Ibn Umar calling Ya Muhammad) -> Posture analogy (CQ-07) -> Day of Judgment istighatha in Bukhari (CQ-10)"
+  - topic: IS
+    order: "IS-EM-C05 -> Zati vs Ata'i / Haqeeqi vs Majazi in Quran (Maryam 19, Nazi'at 5, Zumar 42) -> Asif ibn Barkhiya beyond causes (CQ-09) -> Hawazin seeking help through Prophet in Sunan an-Nasa'i -> Hadith Ya Ibad Allah A'inuni -> Restriction to jungles (IS-EM-C02) -> Geographic consistency counter-question (CQ-08) -> Turnabout citations (Ahmad, Nawawi, Ibn Taymiyyah, Nawab Siddiq Hasan Khan)"
+  - topic: TW
+    order: "TW-EM-C05 -> Blind man hadith restricted to lifetime (TW-EM-C01) -> Chain criticism on post-death narration (TW-EM-C02) -> Chain criticism on Malik al-Dar (TW-EM-C06) -> Umar seeking rain through Abbas (TW-EM-C03) -> Argument from absence of cup at grave (TW-EM-C07) -> Argument from Khaybar vs Hamza (IS-EM-C06) -> Graveside greeting vs distant calling (TW-EM-C08)"
+  - topic: IG
+    order: "IG-WH-C01 / IG-EM-C01 -> Negation of absolute unseen knowledge (6:50, 7:188) -> Five keys of unseen (31:34) (IG-EM-C02) -> Bi'r Ma'oonah lack of foreknowledge (IG-EM-C03) -> Surah At-Tahrim 3 attribution to divine reporting (IG-EM-C04) -> Vision of Bayt al-Maqdis (IG-EM-C05) -> Sunni counter from Hadith of Mi'raj (alimtu ma fis-samawat) and reading unspoken hearts (Tabarani, Ahmad, Tirmidhi)"
+  - topic: IK
+    order: "IK-EM-C01 (Quran 72:21, 7:188 negation of benefit/harm) -> Sunni distinguishes Zaati vs Ata'i (wind for Sulayman, healing for Isa) -> Opponent restricts authority to physical lifetime -> Sunni counter-question: Did Allah strip away granted powers after passing? (CQ-11)"
+  - topic: KR
+    order: "KR-EM-C01 / KR-EM-C02 (Khalid poison suicide charge & Haythami attack) -> Sunni cites Fath al-Bari, Umdat al-Qari, Siyar A'lam al-Nubala -> Sunni proves continuous chain through Qays ibn Abi Hazim -> Opponent claims karamat is khilaf-e-aql / laws unbroken (KR-EM-C04, KR-EM-C05) -> Sunni defines khariq-e-aadat vs muhal aqli (Lalaka'i, Baqillani, Ibn Taymiyyah) -> Sunni consistency counter-question on Sahaba (CQ-12)"
+  - topic: NB
+    order: "NB-EM-C01 (Accusation of God-chunk heresy) -> Sunni cites Fatawa Razawiyyah ruling God-chunk belief and bashariyyat denial as kufr -> NB-EM-C02 (Musannaf Abdur Razzaq manuscript attack) -> Sunni reads Habib al-Rahman al-A'zami preface confirming missing opening chapter -> Pre-print citations (Qastallani, Thanvi, Halabi, Ibn al-Jawzi)"
+  - topic: TS
+    order: "TS-EM-C01 / TS-EM-C02 (Chishti Rasool Allah takfir charge) -> Sunni rejects phrase correctness -> Turnabout: Mirza excused Khwaja on same historical ground -> Shathiyyat rule: desert traveler in Sahih Muslim (CQ-13) -> Conflicting attributions in malfuzat (CQ-14) -> Fatawa Razawiyyah ruling on ilhaqaat and takfir for claiming prophethood"
+
+queue:
+  done:
+    - "yt-hqDt_1BwzLc: Anbia Wa Ouliya Say Madad//EITZRAT and JAWABAT//!!Reply To Eng Mirza Jhelumi!!"
+    - "yt-3-tML7NbATk: Anbiya Our Auliya Se Madad Mangne Ki Daleel | Hadees 'Ya IbadAllah A'inuni'"
+    - "yt-vMA-Vcng63I: Anbiya Auliya Se Madad Mangna Hadees Pr kalam Reply To Mirza Eng & WAHABI Ahle Hadees"
+    - "yt-sAVly9evIpA: Waseela in Quran | Waseela se Dua mangna kaisa hai ??"
+    - "yt-0LqCS-zvCxY: Kya Ya ALI Madad kehna Shirk hai ?? | Ghair ALLAH se Madad mangna !"
+    - "yt-Fu25DYUAts8: 43-Mas'alah: WASEELAH aur TAWASSUL kay Saheh Ahkam-o-Masa'il (Surah Al Ma'idah Ayat 35)"
+    - "yt-f5D6zj2Kr6Y: Anbiya Or Oliya Se Madad Mangny Ki Haqiqat & Dua Ka Mafhom Alesunnat Ka Aqeeda By Mufti Rashid Razvi"
+    - "yt-j8HMKqpDamg: Ghairullah Say Mangna | Auliya Say Madad Mangna | Waseela o Tawassul | Engineer Muhammad Ali Mirza"
+    - "yt-oS54i85RCtc: Waliyon Se Madad Maangna Kaisa By Mufti Rashid Mahmood Razvi"
+    - "yt-QTDHnYqPnmc: Kya Huzoor ﷺ Ilm-e-Ghaib jaante hain? || Mufti Rashid Mahmood Rizvi"
+    - "yt-hcrjteJMx9c: Mufti Rashid Mahmood Rizvi | New bayan | ilm e ghaib"
+    - "yt-BdmkNIt2AWw: Nabi ﷺ ka ilm e ghaib | A complete Lecture on ilm ul Ghaib | By Engineer Muhammad Ali Mirza"
+    - "yt-QiwVYfUcIEk: Kaya RASOOL ALLAH(Ap Par Salam)Apnay Nafaa K b Maalik Nhe?Mufti Rashid Mahmood Rizvi"
+    - "yt-7BGzswtPMFA: HAZIR-o-NAZIR kay AQEEDAY ka Haqeeqi BANI kon hai ? (By Engineer Muhammad Ali Mirza)"
+    - "yt-od6Z207INRw: Ya_RasooLALLAH | یا رسول اللہ ﷺ ??? Hazir-o-Nazir & Ilm-e-Ghaib ??? By Engineer Muhammad Ali Mirza"
+    - "yt-jhP_dOsZ2g4: Hazrat Khalid bin Waleed Ki Karamat Quran O Sunnat Ki Toheen? Reply to Eng Ali Mirza By Mufti Rashid"
+    - "yt-z3ttIQXgAxY: Mufti Rashid Mahmood Razvi vs Eng Ali Mirza About Karamat Oliya ,Reply to Eng Ali Mirza"
+    - "yt-6wVuqbC2cu0: Mojza Karamat Khilaf e Shariat Khilaf Aqal Khilaf Adat? Eng Ali Mirza Exposed by Mufti Rashid Rzvi"
+    - "yt-qiyNKbLsWEU: Nabi Khuda Ke Noor Ka Tukra Hein(Naozbillah)?Reply To Eng Ali Mirza And Sahil Adeem By Mufti Rashid"
+    - "yt-knUP0hRf7tk: Munazra Mai chishti RasoolAllah Kay Difa Par Aitraaz Ka Jawab Reply To Eng Ali Mirza By Mufti Rashid"
+  remaining:
+    - "yt-j8Cj9nOfY3M: Chishti Rasool Allah kalma (NauzuBillah) ka jawab? Reply by Mufti Rashid Razvi"
+    - "yt-C-p_33jtEFA: Kashf Or Ilham Vs Khatam e Nabuwat Par Dhokon Ka Jawab Reply To Eng Ali Mirza By Mufti Rashid Razvi"
+    - "yt-dUOeaVky6s0: Qadiani Ahl-e-Qibla & Kalma-go Hain Eng Ali Mirza Ka New Daawa Exposed BY MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-kkgQeZR2GwQ: Mukhtar Saqfi Ko Bchane Ke Ley Muslim Ulama Ko Jhota Kah Dia! Eng Ali Mirza Exposed By Mufti rashid"
+    - "yt-2NrUrJqrOyE: Mola Ali Aur Hazrat Muawiya Ka Asal Ikhtelaf Aur Mirza Ke Jhoot Reply To Mirza Eng By Mufti Rashid"
+    - "yt-tXXxl8cwG8s: Golra Sharif Kay Ellamiya Per Eng Ali Mirza Ki Baungiya Exposed By Mufti Rashid Mahmood Razvi"
+    - "yt-0AHz5FBIBB8: Eng Ali Mirza Kay Student Sa Raf-Ul-Yadain Ki Hadees Par Ilmi Mubahasa By MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-yKVfjqJAMBk: Rafa-ul-Yadain Kay Tark Ki Hadees Par Eng Ali Mirza Phans Gaya By MUFTI RASHID MAHMOOD RAZVI"
+    - "yt-ECCSYkVnpa4: Bukhari Main Raful yadain Malik Bin Huwaris Ki Hadees Reply To Eng Ali Mirza By Mufti Rashid Razvi"
+    - "yt-MAIUEDSVrGY: 6-a-Mas'alah & [ 97-Lecture ] : ILM-ul-GHAIB say Motalliq FIRQAWARANA NAZRIYAAT ka TAHQEEQI Jaizah !"
+    - "yt-YHV-xUS4UEQ: Munkir-e-Khatam-e-Nabuwat Mukhtar Saqafi Ka Difa Eng Ali Mirza Ki Zabani Reply By MUFTI RASHID RAZVI"
+    - "yt-RedTD9XEVIc: Kaya IMAM E AZAM ABU HANIFA Qayas Ko Hadith Par Tarjeeh Dety Thy? Mufti Rashid Mahmood Rizvi"
+  skipped:
+    - "yt-qZpI5qcZBqA: General seasonal Ramadan transmission; lacks debate arguments."
+    - "yt-Dr06CzfWRJc: Short praise compilation; lacks debate claims."
+    - "yt-zHrRIzdvFb4: Audio track lacks available captions/transcription on YouTube."
