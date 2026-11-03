@@ -10,7 +10,12 @@ export interface Services {
   embedQuery: ((text: string, prefix?: string) => Promise<number[] | null>) | null;
   detectedTier: Tier;
   /** Dev-only diagnostics hooks. */
-  diagnostics?: { vecVersion: string | null; modelPath: string | null; initMs: number };
+  diagnostics?: {
+    vecVersion: string | null;
+    modelPath: string | null;
+    modelStatus: string;
+    initMs: number;
+  };
 }
 
 const Ctx = createContext<Services | null>(null);

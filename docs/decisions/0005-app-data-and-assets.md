@@ -13,7 +13,7 @@
   `config/models.json`.
 - **First launch.** op-sqlite `moveAssetsDatabase` copies both files to the app's databases folder,
   again whenever the app version/build changes (so a new release replaces the corpus).
-- **Model path on Android.** llama.rn's `is_model_asset` is implemented for iOS only (checked in
+- **Model path on Android** (decision and integrity check: ADR 0007). llama.rn's `is_model_asset` is implemented for iOS only (checked in
   `cpp/jsi/RNLlamaJSI.cpp`), and llama.cpp needs a real file path, so the GGUF is copied out of the
   APK. Cost: ~126 MiB more storage on the phone (APK copy + extracted copy). Revisit if storage
   complaints appear (e.g. ship the model as an install-time asset pack and copy-then-delete is not

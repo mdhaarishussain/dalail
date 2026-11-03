@@ -38,8 +38,11 @@ export default function Diagnostics() {
     }
     const min = Math.min(...scores);
     const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
-    setParity(
-      `${min >= parity.threshold ? 'PASS' : 'FAIL'} — min ${min.toFixed(4)}, mean ${mean.toFixed(4)} (n=${scores.length})`,
+    const line = `${min >= parity.threshold ? 'PASS' : 'FAIL'} — min ${min.toFixed(4)}, mean ${mean.toFixed(4)} (n=${scores.length})`;
+    setParity(line);
+    // Also readable over USB: adb logcat -s ReactNativeJS | grep dalail-parity
+    console.log(
+      `[dalail-parity] ${line} model=${parity.embed_model} per-item=${scores.map((x) => x.toFixed(4)).join(',')}`,
     );
   };
 
@@ -61,6 +64,7 @@ export default function Diagnostics() {
       <Card>
         <T>sqlite-vec: {d?.vecVersion ?? '—'}</T>
         <T>model: {d?.modelPath ?? '—'}</T>
+        <T testID="model-status">model check: {d?.modelStatus ?? '—'}</T>
         <T>embed_model (DB): {services.meta.embedModel}</T>
         <T>init: {d?.initMs ?? '—'} ms</T>
       </Card>

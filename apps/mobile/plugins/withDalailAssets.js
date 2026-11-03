@@ -11,9 +11,14 @@
 const nodeCrypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
-const { withDangerousMod, withAppBuildGradle } = require('expo/config-plugins');
+const {
+  withDangerousMod,
+  withAppBuildGradle,
+  withGradleProperties,
+} = require('expo/config-plugins');
 
 const repoRoot = path.resolve(__dirname, '..', '..', '..');
+const RNLLAMA_VARIANTS = 'rnllama,rnllama_v8_2_dotprod,rnllama_v8_2_dotprod_i8mm';
 
 function readMeta(dbPath) {
   const { DatabaseSync } = require('node:sqlite');
@@ -99,6 +104,13 @@ const withDalailAssets = (config) => {
     if (!c.modResults.contents.includes(marker)) {
       c.modResults.contents += `\n${marker}\nandroid {\n    androidResources {\n        noCompress += ['db', 'gguf']\n    }\n}\n`;
     }
+    return c;
+  });
+  // Build only the llama.rn CPU variants we ship (ADR 0007): generic fallback + dot-product variants.
+  config = withGradleProperties(config, (c) => {
+    const key = 'rnllamaVariants';
+    c.modResults = c.modResults.filter((p) => !(p.type === 'property' && p.key === key));
+    c.modResults.push({ type: 'property', key, value: RNLLAMA_VARIANTS });
     return c;
   });
   return config;
