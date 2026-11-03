@@ -6,9 +6,10 @@ mid-range matrix.
 
 ## Builds tested
 
-| Build                                            | sha256                                                             | Contents                                                                                                              |
-| ------------------------------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| `dalail-dev-fixtures-arm64-v8a.apk` (2026-11-03) | `167f4f429d7d567879a2a89bfc991e17c8398a372eaeb8c8acee6f78cc3053d0` | release build type, arm64-v8a, **dev corpus** (fixtures + drafts, with embeddings), signed with the debug key; 207 MB |
+| Build                                                  | sha256                                                             | Contents                                                                                                                                                             |
+| ------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dalail-dev-fixtures-arm64-v8a.apk` (2026-11-03)       | `167f4f429d7d567879a2a89bfc991e17c8398a372eaeb8c8acee6f78cc3053d0` | release build type, arm64-v8a, **dev corpus** (fixtures + drafts, with embeddings), signed with the debug key; 207 MB                                                |
+| `dalail-dev-research-1.0.1-arm64-v8a.apk` (2026-11-04) | `dbb703556a2b4ac913992c59b96ed12561e8942625ae4fff377613c3538c0a45` | release build type, arm64-v8a, version 1.0.1 (versionCode 2), **dev corpus + Gemini research import** (82 claims, 41 counter-questions; ADR 0008), debug key; 209 MB |
 
 ## Results
 
