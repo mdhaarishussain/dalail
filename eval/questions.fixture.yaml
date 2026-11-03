@@ -1,0 +1,67 @@
+# Fixture eval set. Queries use the same neutral vocabulary as corpus/fixtures (no religious text).
+# style: en | roman-urdu | variant (misspellings / alternative spellings) | mixed | ambiguous | offtopic | edge
+# expect: node ids that count as correct. expect_status (optional): match | ambiguous | no_match.
+questions:
+  # fixture-tawassul-001 — pen and book
+  - { q: 'qalam aur kitaab', expect: [fixture-tawassul-001], style: roman-urdu }
+  - { q: 'kalam kitab', expect: [fixture-tawassul-001], style: variant }
+  - { q: 'pen and book', expect: [fixture-tawassul-001], style: en }
+  - { q: 'qalm aur kitab', expect: [fixture-tawassul-001], style: variant }
+  # fixture-tawassul-002 — window and door
+  - { q: 'khidki aur darwaza', expect: [fixture-tawassul-002], style: roman-urdu }
+  - { q: 'kidki darvaza', expect: [fixture-tawassul-002], style: variant }
+  - { q: 'window and door', expect: [fixture-tawassul-002], style: en }
+  - { q: 'khidkee band karo, darwaza bhi', expect: [fixture-tawassul-002], style: mixed }
+  # fixture-tawassul-003 — sunlight on the ground
+  - { q: 'dhoop mein zameen', expect: [fixture-tawassul-003], style: roman-urdu }
+  - { q: 'sunlight on the ground', expect: [fixture-tawassul-003], style: en }
+  - { q: 'dhup zamin garam hai', expect: [fixture-tawassul-003], style: variant }
+  # fixture-tawassul-004 — the way home
+  - { q: 'ghar ka rasta', expect: [fixture-tawassul-004], style: roman-urdu }
+  - { q: 'the way home', expect: [fixture-tawassul-004], style: en }
+  - { q: 'gar ka raasta kahan hai', expect: [fixture-tawassul-004], style: variant }
+  # fixture-tawassul-005 — flowers in the garden
+  - { q: 'phool aur bagh', expect: [fixture-tawassul-005], style: roman-urdu }
+  - { q: 'flowers in the garden', expect: [fixture-tawassul-005], style: en }
+  - { q: 'phul baag', expect: [fixture-tawassul-005], style: variant }
+  # fixture-tawassul-006 — tea and milk
+  - { q: 'chai aur doodh', expect: [fixture-tawassul-006], style: roman-urdu }
+  - { q: 'tea and milk', expect: [fixture-tawassul-006], style: en }
+  - { q: 'chaye dudh wali', expect: [fixture-tawassul-006], style: variant }
+  # fixture-istighatha-001 — rain and clouds
+  - { q: 'barish aur badal', expect: [fixture-istighatha-001], style: roman-urdu }
+  - { q: 'rain and clouds', expect: [fixture-istighatha-001], style: en }
+  - { q: 'baarish baadal', expect: [fixture-istighatha-001], style: variant }
+  # fixture-istighatha-002 — train ticket
+  - { q: 'railgadi ka ticket', expect: [fixture-istighatha-002], style: roman-urdu }
+  - { q: 'train ticket', expect: [fixture-istighatha-002], style: en }
+  - { q: 'tren ka tikat chahiye', expect: [fixture-istighatha-002], style: variant }
+  # fixture-istighatha-003 — vegetables at the market
+  - { q: 'bazaar mein sabzi', expect: [fixture-istighatha-003], style: roman-urdu }
+  - { q: 'vegetables at the market', expect: [fixture-istighatha-003], style: en }
+  - { q: 'bajaar sabji', expect: [fixture-istighatha-003], style: variant }
+  # fixture-istighatha-004 — the clock on the house wall
+  - { q: 'deewaar ki ghadi', expect: [fixture-istighatha-004], style: roman-urdu }
+  - { q: 'the clock on the wall', expect: [fixture-istighatha-004], style: en }
+  - { q: 'divar gadi', expect: [fixture-istighatha-004], style: variant }
+  # fixture-istighatha-005 — mountain and river
+  - { q: 'pahaad aur darya', expect: [fixture-istighatha-005], style: roman-urdu }
+  - { q: 'mountain and river', expect: [fixture-istighatha-005], style: en }
+  - { q: 'pahar dariya', expect: [fixture-istighatha-005], style: variant }
+  # fixture-istighatha-006 — moon and stars
+  - { q: 'chaand aur sitaare', expect: [fixture-istighatha-006], style: roman-urdu }
+  - { q: 'moon and stars', expect: [fixture-istighatha-006], style: en }
+  - { q: 'chand taare', expect: [fixture-istighatha-006], style: variant }
+  # ambiguous on purpose: both nodes are about a "ghar"
+  - {
+      q: 'ghar',
+      expect: [fixture-tawassul-004, fixture-istighatha-004],
+      expect_status: ambiguous,
+      style: ambiguous,
+    }
+  # nothing in the corpus
+  - { q: 'cricket match ka score', expect_status: no_match, style: offtopic }
+  - { q: 'best biryani recipe', expect_status: no_match, style: offtopic }
+  - { q: 'how do I fix my laptop', expect_status: no_match, style: offtopic }
+  - { q: 'kal mausam kaisa hoga', expect_status: no_match, style: offtopic }
+  - { q: 'aur ke ki', expect_status: no_match, style: edge }

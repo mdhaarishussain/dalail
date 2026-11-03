@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "eval": "tsx src/run.ts"
   },
   "dependencies": {
-    "@dalail/core": "workspace:*"
+    "@dalail/core": "workspace:*",
+    "yaml": "^2.9.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
     "vitest": "^5.1.0"
   }
 }
