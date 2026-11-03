@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One row of corpus/fixtures/dalil.jsonl (dev/test only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ref", "text_ar", "translation", "reference"],
+  "properties": {
+    "ref": { "type": "string", "pattern": "^fixture:(quran|hadith):[0-9]+$" },
+    "text_ar": { "type": "string", "pattern": "^FIXTURE:" },
+    "translation": { "type": "string", "pattern": "^FIXTURE:" },
+    "reference": { "type": "string", "pattern": "^FIXTURE:" },
+    "grading": { "type": "string", "pattern": "^FIXTURE:" }
+  }
+}

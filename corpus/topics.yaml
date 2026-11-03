@@ -1,0 +1,9 @@
+# Topics shown in the app. Adding a topic here (plus nodes) needs no code changes.
+- id: tawassul
+  name_en: Tawassul
+  name_roman_urdu: Tawassul
+  sort: 1
+- id: istighatha
+  name_en: Istighatha
+  name_roman_urdu: Istighatha
+  sort: 2

@@ -1,0 +1,7 @@
+# Opponent groups a node can be tagged with. Extend here; no code changes needed.
+- id: wahhabi
+  name_en: Wahhabi
+  name_roman_urdu: Wahhabi
+- id: rawafidh
+  name_en: Rawafidh
+  name_roman_urdu: Rawafidh

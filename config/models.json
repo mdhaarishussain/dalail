@@ -1,0 +1,20 @@
+{
+  "_doc": "Single model registry (brief \u00a73). Embedding model is used identically by the pipeline and the app. LLM candidates are added in Phase 5. runtime_n_ctx is what llama.cpp is given: the model's trained length is 511, and n_ctx=511 trips a GGML assert, so 512 is used (inputs are truncated).",
+  "embedding": {
+    "id": "multilingual-e5-small-q8_0",
+    "base_model": "intfloat/multilingual-e5-small",
+    "repo": "TwinSunsLLC/multilingual-e5-small-gguf",
+    "revision": "b6cac9615d4ecce28d7f22539b7322d695fc2886",
+    "file": "multilingual-e5-small-q8_0.gguf",
+    "url": "https://huggingface.co/TwinSunsLLC/multilingual-e5-small-gguf/resolve/b6cac9615d4ecce28d7f22539b7322d695fc2886/multilingual-e5-small-q8_0.gguf",
+    "size_bytes": 132439008,
+    "sha256": "e011debc1208e31bf7b6aebee2d9fc8bd2ca11694a77ed66ac9d0c9d0a877c93",
+    "license": "MIT",
+    "dims": 384,
+    "context_length": 511,
+    "runtime_n_ctx": 512,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: "
+  },
+  "llm": []
+}

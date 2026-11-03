@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dalail.local/schema/hadith.schema.json",
+  "title": "Hadith as quoted in a scholar's article (frontmatter)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "translation", "reference", "cited_in", "source", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^h-[0-9]{4,}$" },
+    "text_ar": { "type": "string" },
+    "translation": { "type": "string", "minLength": 1 },
+    "reference": { "type": "string", "minLength": 1 },
+    "grading": { "type": "string", "minLength": 1, "description": "Only if the scholar states one. Never inferred." },
+    "cited_in": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" } },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": { "scholar": { "type": "string" }, "work": { "type": "string" }, "url": { "type": "string" } }
+    },
+    "source_id": { "type": "string" },
+    "source_spans": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text_ar": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 },
+        "translation": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 },
+        "reference": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 },
+        "grading": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 }
+      }
+    },
+    "status": { "enum": ["draft", "under_review", "verified"] }
+  }
+}

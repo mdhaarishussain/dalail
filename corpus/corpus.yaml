@@ -1,0 +1,2 @@
+# Bump corpus_version whenever content changes in a way that should reach users.
+corpus_version: 0.1.0
