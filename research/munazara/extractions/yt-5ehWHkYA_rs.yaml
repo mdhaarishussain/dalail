@@ -1,0 +1,168 @@
+source_id: yt-5ehWHkYA_rs
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:19"
+    speaker: D
+    side: moderator
+    kind: claim
+    maps_to: FQ-WH-C01
+    move_type: charge
+    quote: "Aitraaz kiya jaata hai ke tum log gyarhween to Ghaus-e-Pak ki manate ho lekin unke tareeqe se namaz nahin parhte woh to raf-ul-yadain karte the lekin tum nahin karte kya unke pesh-e-nazar tark-e-raf-ul-yadain ki hadees nahin thi"
+    summary_en: "Presents the Wahhabi objection questioning why Barelvis celebrate the commemorations of Abdul Qadir Jilani but do not follow his Hanbali practice of raf al-yadayn."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:20-00:03:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-27
+    move_type: turnabout
+    quote: "Huzoor Ghaus-e-Pak Sheikh Abdul Qadir Jilani radiyallahu ta'ala anhu ne apni kitab Ghunyat al-Talibeen ke safha 116 pehli jild pe likhi aur farmate hain wa mimma saga fil-ijtihadi ka-shurbi nabidhit-tamri li-muqallidi Abi Hanifah farmate hain ke jo jis imam ka muqallid aur pairokar hai jaise Imam Abu Hanifa ka muqallid woh Imam Abu Hanifa ka muqallid nabidh-e-tamr peeta hai to kisi Shafi'i aur Hanbali ko inkar karne ki ijazat nahin... woh to Imam Ahmad bin Hanbal ke muqallid the unke fatwe par amal karte the aur tum taqleed ko shirk fir-risalat keh ke Musalmanon ko mushrik kehte ho tumhare nazdeek to Ghaus-e-Pak Sarkar bhi na'udhubillah mushrik hain"
+    summary_en: "Exposes the inconsistency of opponents appealing to Jilani's fiqh while condemning taqleed as shirk, citing Ghunyat al-Talibeen (1/116) where Jilani defends following the rulings of one's own mujtahid imam (such as Abu Hanifa) and confirms his own adherence to Imam Ahmad ibn Hanbal."
+    evidence_cited:
+      - as_said: "Ghunyat al-Talibeen by Abdul Qadir Jilani Vol 1 p. 116"
+        timestamp: "00:02:50"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:10-00:06:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-WH-C01
+    move_type: definition
+    quote: "hum kehte hain deen ke uloom mukhtalif hain deen ka ek ilm fiqh hai deen ka doosra ilm tasawwuf hai hum jab baat karte hain us subject ki jiska ta'alluq tasawwuf ke sath hai to hum tasawwuf mein masla Huzoor Sheikh Abdul Qadir Jilani se poochte hain aur agar fiqh ki baat aati hai to fiqh mein hum rehnumayi Imam Abu Hanifa se lete hain"
+    summary_en: "Explains the functional division of Islamic sciences through the analogy of academic specialization: jurisprudence is derived from Imam Abu Hanifa, while spiritual wayfaring and tasawwuf are derived from Sheikh Abdul Qadir Jilani."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:06:08-00:06:27"
+    speaker: D
+    side: moderator
+    kind: claim
+    maps_to: FQ-EM-C02
+    move_type: charge
+    quote: "Maghrib aur Isha ko mila kar parhte hain to mera sawal ye hai ke is baare mein rehnumayi farma dein ke kya ye durust hai kyunke jab unse poocha jaye to ye kehte hain ke Bukhari shareef ka hawala pesh karte hain ke Bukhari shareef mein hadees hai ke Nabi-e-Pak sallallahu alayhi wa sallam ne do namazon ko mila kar parha baghair kisi wajah ke"
+    summary_en: "Inquirer raises the objection regarding combining Zuhr-Asr or Maghrib-Isha without excuse (fear/rain) based on narrations in Bukhari and Muslim."
+    evidence_cited:
+      - as_said: "Sahih Bukhari / Sahih Muslim (combining prayers without fear or rain)"
+        timestamp: "00:06:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:28-00:09:21"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C02
+    move_type: support-chain
+    quote: "Quran-e-Majeed mein jab namaz parhne ka zikr aaya to Allah Rabbul Aalameen ne farmaya inna as-salata kanat alal-mu'mineena kitaban mawqoota... Sahih Bukhari ke andar 1682 number Sahih Bukhari ki hadees hai aur yahi hadees jo hai iska tareeq Sunan an-Nasa'i ke andar hai... ke Nabi-e-Pak alayhis salatu was salam har namaz ko waqt-e-muqarrarah pe ada farmate the siwaye do namazon ke yani jo Hajj ke mauqe par ada ki gayi hain uske alawa Nabi-e-Pak alayhis salatu was salam ne namazon ko jama nahin kiya"
+    summary_en: "Establishes the foundational Quranic rule that prayers are fixed at specific appointed times (Surah An-Nisa 4:103), supported by Ibn Mas'ud in Sahih Bukhari 1682 / Sunan an-Nasa'i stating the Prophet never combined prayers outside Hajj."
+    evidence_cited:
+      - as_said: "Surah An-Nisa 4:103 (kitaban mawqoota)"
+        timestamp: "00:07:20"
+      - as_said: "Sahih Bukhari 1682 / Sunan an-Nasa'i (Ibn Mas'ud on prayer times)"
+        timestamp: "00:07:48"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:09:22-00:13:16"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C02
+    move_type: definition
+    quote: "ek hai Jam' Haqiqi aur ek hai Jam' Soori... Jam' Soori ka matlab soorat se hai yani bazahir dekhne mein sooratan woh jama hai lekin haqeeqatan jama nahin hai har namaz apne waqt pe hai jaise Zuhr ki namaz Zuhr ke waqt mein is tarah ke Zuhr ki namaz ko uske aakhiri waqt mein bilkul end waqt mein parh liya Zuhr ka waqt khatam hone se pehle aur jyun hi Zuhr ki namaz ko parha waqt khatam hua aur sath hi Asr ki namaz ka waqt shuru hua to Asr ki namaz ko Asr ke waqt mein parh liya... Sunan Abi Dawud se 1212 number hadees hai Sayyiduna Abdullah ibn Umar radiyallahu ta'ala anhuma farmate hain"
+    summary_en: "Defines Jam' Soori (apparent combining) vs Jam' Haqiqi (combining actual time slots), proving Jam' Soori through Abdullah ibn Umar in Sunan Abi Dawud 1212 (delaying Maghrib to the end of twilight and performing Isha at its inception)."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud 1212 (Abdullah ibn Umar performing Jam' Soori)"
+        timestamp: "00:11:12"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:13:17-00:15:52"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C02
+    move_type: support-chain
+    quote: "Jami at-Tirmidhi ke andar hadees maujood hai sahih hadees hai Nabi-e-Pak sallallahu alayhi wa sallam ki bargah-e-aqdas mein Hazrat Hamnah bint Jahsh radiyallahu ta'ala anha sahabiyah hazir huin... Nabi-e-Pak alayhis salatu was salam ne farmaya akhkhiridh-Zuhra wa 'ajjilil-Asra Zuhr ki namaz ko mu'akhkhar karo aur Asr ki namaz ko mu'ajjal karo... agar Jam' Haqiqi do namazon ko ek waqt mein parhna baghair uzr ke bhi ja'iz hota to ye to ma'zoorah theen inka to uzr tha inke liye to ba-darjah-e-awla ja'iz hona chahiye tha"
+    summary_en: "Cites Jami at-Tirmidhi where the Prophet commanded the chronically ill Hamnah bint Jahsh to perform Jam' Soori ('delay Zuhr and hasten Asr'), proving that if true combining (Jam' Haqiqi) were permissible for people without excuse, a chronically ill woman would have been granted that concession a fortiori."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi (Hadith of Hamnah bint Jahsh: 'akhkhir al-Zuhra wa 'ajjil al-Asr')"
+        timestamp: "00:14:55"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:15:53-00:19:54"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C02
+    move_type: reconciliation
+    quote: "Imam Tirmidhi ne Jami at-Tirmidhi ke aakhir mein jo apni Kitab al-Ilal likhi hai Kitab al-Ilal ke andar farmate hain ke meri kitab Jami at-Tirmidhi ke andar jitni ahadees hain woh saari ahadees aisi hain jin par ummat ke kisi na kisi ahl-e-ilm tabqay ne amal kiya hai ma khala hadeethayn farmate hain siwaye do hadeeson ke un mein se ek hadees ye hai... Sunan an-Nasa'i se nikal ke 506 ya 507 number dekh lein... khud Abdullah ibn Abbas farmate hain ke Nabi-e-Pak alayhis salatu was salam ne jo do namazein jama ki hain woh kis tarah ki hain akhkhara al-Zuhra wa 'ajjala al-Asra"
+    summary_en: "Reconciles the Ibn Abbas report: Tirmidhi in Kitab al-Ilal notes scholars abandoned literal implementation of this text; furthermore, Sunan an-Nasa'i (506-507) and Sahih Muslim via primary narrator Abu ash-Sha'tha Jabir bin Zayd explicitly clarify that Ibn Abbas meant Jam' Soori (delaying Zuhr and hastening Asr)."
+    evidence_cited:
+      - as_said: "Kitab al-Ilal by Imam at-Tirmidhi (ma khala hadeethayn)"
+        timestamp: "00:16:30"
+      - as_said: "Sunan an-Nasa'i 506 / 507 (Ibn Abbas: 'akhkhara al-Zuhra wa 'ajjala al-Asr')"
+        timestamp: "00:17:15"
+      - as_said: "Sahih Muslim via Jabir bin Zayd Abu ash-Sha'tha"
+        timestamp: "00:18:20"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:23:50-00:25:29"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C04
+    move_type: attack-chain
+    quote: "Tafsir Na'eemi ka ye wala portion aur ye wala hissa jis maqaam pe ye baat likhi hai woh hissa Mufti Ahmad Yar Khan Na'eemi sahab ka nahin hai balki baad mein unke betay ne woh baat likhi hai Mufti Ahmad Yar Khan Na'eemi sahab ne ye baat nahin likhi aur doosri baat ye hai ke ye baat sahih bhi nahin hai hum is baat ko own nahin karte... Aala Hazrat Imam Ahmad Raza Khan Muhaddith Barelvi rahmatullahi ta'ala alayh ne Fatawa Razawiyyah ki chhati jild ke andar likha hai ke sab duroodon se afzal durood Durood-e-Ibrahimi hai"
+    summary_en: "Refutes Mirza's allegation regarding Durood-e-Ibrahimi in Tafsir Na'eemi, clarifying that the cited volume was written post-humously by Na'eemi's son, is explicitly rejected by Sunni scholars, and contradicts Imam Ahmad Raza Khan's ruling in Fatawa Razawiyyah (Vol 6) that Durood-e-Ibrahimi is the most superior salawat."
+    evidence_cited:
+      - as_said: "Fatawa Razawiyyah by Imam Ahmad Raza Khan Vol 6"
+        timestamp: "00:25:06"
+      - as_said: "Tafsir Na'eemi (posthumous additions by son)"
+        timestamp: "00:24:43"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: FQ-WH-C01
+    side: wahhabi
+    summary_en: "Barelvis celebrate the commemoration of Abdul Qadir Jilani, but they refuse to adopt his practice of prayer, specifically Raf al-Yadayn."
+    move_type: charge
+    first_seen: M01
+  - id: FQ-EM-C02
+    side: ali-mirza
+    summary_en: "Combining two prayers (Jam' bayn al-Salatayn) without fear, rain, or journey in a single time slot (Jam' Haqiqi) is Sunnah based on Bukhari and Muslim."
+    move_type: practice-consensus
+    first_seen: M04
+  - id: AQ-EM-C04
+    side: ali-mirza
+    summary_en: "Barelvis consider reciting Durood-e-Ibrahimi outside of formal prayer to be a sin, based on Tafsir Na'eemi under Surah Al-Kahf."
+    move_type: charge
+    first_seen: M09
+
+phrasings:
+  - maps_to: FQ-WH-C01
+    text: "tum log gyarhween to Ghaus-e-Pak ki manate ho lekin unke tareeqe se namaz nahin parhte woh to raf-ul-yadain karte the"
+    timestamp: "00:00:04"
+  - maps_to: FQ-EM-C02
+    text: "Bukhari shareef mein hadees hai ke Nabi-e-Pak sallallahu alayhi wa sallam ne do namazon ko mila kar parha baghair kisi wajah ke"
+    timestamp: "00:06:20"
+  - maps_to: AQ-EM-C04
+    text: "Tafsir Na'eemi mein Surah Kahf ke tehat Mufti Ahmad Yar Khan Na'eemi sahab ne likha hai ke Durood-e-Ibrahimi namaz ke alawa parhna gunah hai"
+    timestamp: "00:24:08"

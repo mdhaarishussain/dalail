@@ -1,0 +1,95 @@
+source_id: yt-E1DQoXfwn_E
+moves:
+  - move_id: M01
+    timestamp: "00:00:30-00:01:33"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TZ-EM-C01
+    move_type: charge
+    quote: "zakat ka inkari utna hi bara kafir hai jitna namaz ka zakat ke munkireen ke khilaf Hazrat Abu Bakr ne qital kiya hai woh murtad the jinhone zakat ka inkar kar diya to aise log to aap samjhein kafir ho chuke hain... kya munkireen-e-zakat kafir the? Nahin un par takfeer nahin hui takfeer nahin hui"
+    summary_en: "Demonstrates an explicit contradiction in Mirza's rulings on zakat deniers: in one clip declaring them apostates/kafir fought by Abu Bakr, and in another denying that takfir was ever applied to them."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:35-00:02:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TZ-EM-C01
+    move_type: support-chain
+    quote: "Sahih Bukhari ki 6924 aur 6925 dono ahadees nikal lein jab Sayyiduna Umar Farooq radiyallahu ta'ala anhu ne Hazrat Abu Bakr Siddiq radiyallahu ta'ala anhu se kaha ke aap un logon ke sath qital kareinge jo namaz parhte hain to phir Abu Bakr Siddiq radiyallahu ta'ala anhu ne Hazrat Umar ko kaha tha wallahi la-uqatilanna man farraqa baynas-salati waz-zakat... Siddiq-e-Akbar radiyallahu ta'ala anhu ne aise logon ke khilaf jo talwar uthayi hai qital kiya hai isi bunyad pe ke woh zakat ka inkar karke murtad ho chuke the aur unki takfeer hui hai"
+    summary_en: "Cites Sahih Bukhari 6924-6925 proving that Abu Bakr fought those refusing zakat on the basis of apostasy and collective takfir by the Sahaba."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 6924, 6925 (Abu Bakr's oath to fight whoever differentiates between prayer and zakat)"
+        timestamp: "00:01:48"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:48-00:05:06"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TZ-EM-C02
+    move_type: charge
+    quote: "Yaqeenan Muhammad bin Abdul Wahhab sahab agar agar zindah hote aur hum unke samne ye muqaddamah rakhte ke aap ke alfaz ka chunao jo hai woh durust nahin hai... Ambiya ke liye alfaz ka chunao ahtiyat se karna chahiye... Apne alfaz ka chunao zara behtar rakhein to theek nahin hoga? Nahin koi zaroorat nahin hai alfaz ka chunao behtar karne ki alfaz ke chunao ki behtari ne to ummat mein gumrahi ka darwaza khola hai"
+    summary_en: "Demonstrates an explicit contradiction regarding word choice: in 2024 advising caution in word choice for prophets to excuse Ibn Abd al-Wahhab, while previously aggressively stating that improving word choice opened the door to deviance in the Ummah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:11-00:07:22"
+    speaker: B
+    side: ali-mirza
+    kind: concession
+    maps_to: TZ-EM-C03
+    move_type: charge
+    quote: "Kitab at-Tawheed to 24-carat sona hai aap parh ke to woh dekhein... lekin in khataon ko gunah kehna ya unke liye shirk ka lafz bolna mere nazdeek sarahatan gustakhi hai ismein koi shak nahin lekin jin logon ne gustakhi ki unke paas apni daleel maujood thi"
+    summary_en: "Contradiction on Muhammad bin Abd al-Wahhab's Kitab at-Tawheed: proclaimed in 2018 to be '24-carat pure gold' with nothing un-Islamic, then admitted in 2024 that attributing shirk to Prophet Adam on page 361 is 'sarahatan gustakhi' (blatant disrespect/blasphemy)."
+    evidence_cited:
+      - as_said: "Kitab at-Tawheed by Muhammad bin Abd al-Wahhab p. 361"
+        timestamp: "00:07:22"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:23-00:10:03"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-29
+    move_type: turnabout
+    quote: "Sawal ye paida hota hai ke 2013 mein agar tumhare ustaad ya 2013 se pehle tumhare ustaad Wahabi molvi Zubair Ali Zai ne jab bata diya tha ke Kitab at-Tawheed ke andar ye ibarat ghalat hai aur ye gustakhi ki category mein aa rahi hai to 2018 mein tumne kis munh se ye kaha ke ye 24-carat sona hai Kitab at-Tawheed"
+    summary_en: "Catches the opponent in a chronological trap: if his mentor Zubair Ali Zai (died 2013) told him before 2013 that Kitab at-Tawheed contained blatant disrespect against Adam, why did Mirza declare the book '24-carat gold' in 2018 and hail Ibn Abd al-Wahhab as an unblemished reformer?"
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+new_claims:
+  - id: TZ-EM-C01
+    side: ali-mirza
+    summary_en: "Contradictory positions on zakat non-payers: declared apostates/kafir fought in riddah wars in one lecture, and declared never subjected to takfir in another."
+    move_type: charge
+    first_seen: M01
+  - id: TZ-EM-C02
+    side: ali-mirza
+    summary_en: "Contradictory stances on word choice (alfaz ka chunao) when referencing prophets: demanding strict caution in 2024, after previously denouncing linguistic refinement as opening the doors of heresy."
+    move_type: charge
+    first_seen: M03
+  - id: TZ-EM-C03
+    side: ali-mirza
+    summary_en: "Contradictory assessments of Kitab at-Tawheed: proclaimed as 24-carat gold in 2018, then admitted in 2024 that page 361 contains explicit disrespect/blasphemy (sarahatan gustakhi) against Prophet Adam."
+    move_type: charge
+    first_seen: M04
+
+phrasings:
+  - maps_to: TZ-EM-C01
+    text: "zakat ka inkari utna hi bara kafir hai jitna namaz ka... un par takfeer nahin hui"
+    timestamp: "00:00:36"
+  - maps_to: TZ-EM-C03
+    text: "Kitab at-Tawheed to 24-carat sona hai... in khataon ko gunah kehna ya unke liye shirk ka lafz bolna mere nazdeek sarahatan gustakhi hai"
+    timestamp: "00:05:11"

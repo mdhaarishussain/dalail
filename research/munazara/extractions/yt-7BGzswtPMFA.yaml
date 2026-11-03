@@ -1,0 +1,106 @@
+source_id: yt-7BGzswtPMFA
+moves:
+  - move_id: M01
+    timestamp: "00:00:40-00:01:30"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: definition
+    quote: "Hazir-o-Nazir ka aqeedah Quran aur Sunnah mein kahin bhi is naam se maujood nahi hai, ye khalisatan Soofiya ki istilah hai. Aur Soofiya ka manna ye hai ke Imam-e-Kainat... jab is duniya mein maujood the us waqt bhi aur is duniya se tashreef le jane ke baad bhi qayamat tak ke liye poori ummat ke halat se waqif hain. Aur Aap sallallahu alayhi wa sallam ka jism-e-mubarak agarchay Madina shareef ki qabr mein hai lekin roohani taur par Aap sallallahu alayhi wa sallam poori kainat ke andar maujood hain."
+    summary_en: "Argues that the term and doctrine of Hazir-o-Nazir are absent from the Quran and Sunnah, originating as a Sufi concept attributing universal omnipresence to the Prophet."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:05:07-00:06:44"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: charge
+    quote: "Uski jild ek safha 135 aur paanchvein chapter mein jis ka naam hai 'Zikr Fazl-e-Aanhazrat sallallahu alayhi wa sallam', us mein unhone Kitab-o-Sunnat ke dalail ke baghair ye aqeedah ummat ke andar inject kar diya. Us mein Abdul Haq Muhaddith Dehlawi sahab kya likhte hain: baaz aarifeen farmate hain ke namaz mein 'Assalamu alayka ayyuhan-nabiyyu' ka khitab isliye hai ke haqeeqat-e-Muhammadiyyah sallallahu alayhi wa sallam mawjoodat aur mumkinat ke zarre zarre mein maujood hai... Likhte hain: isliye namazion ki zaat mein bhi maujood aur hazir hai, lihaaza namazi is ma'ana se aagah rahein aur is shuhood se ghafil na hon taake qurb ke noor aur ma'rifat ke asraar se kamyab ho jayein."
+    summary_en: "Cites Madarij al-Nubuwwah by Shah Abdul Haq Dehlawi as the source attributing omnipresence (haqeeqat-e-Muhammadiyyah in every particle) to explain the address in Tashahhud without scriptural proof."
+    evidence_cited:
+      - as_said: "Madarij al-Nubuwwah Vol 1 p. 135"
+        timestamp: "00:05:07"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M03
+    timestamp: "00:08:48-00:09:35"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: charge
+    quote: "Imdad al-Suluk, uske safha number 10 par likhte hain fana fish-sheikh ka aqeedah... Wo kehte hain mureed ye yaqeen rakhe ke sheikh ki rooh ek jagah mein mahdood nahi hai, mureed door ho ya ke nazdeek, agarchay peer ke jism se door hai lekin roohaniyat se door nahi. Mureed ko chahiye ke har waqt peer ka tasawwur rakhe aur dili ta'alluq zahir bhi ho, dil mein sheikh ko hazir karke dil mein apne peer se madad mange, Allah ke hukm se rooh-e-peer us par ilqa kar degi."
+    summary_en: "Cites Imdad al-Suluk by Rasheed Ahmad Gangohi attributing spiritual omnipresence and responsiveness to Sufi masters, arguing this fabricates lies against Allah under Surah Az-Zumar 32."
+    evidence_cited:
+      - as_said: "Imdad al-Suluk p. 10"
+        timestamp: "00:08:48"
+      - as_said: "Surah Az-Zumar ayat 32"
+        timestamp: "00:09:35"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M04
+    timestamp: "00:11:46-00:12:30"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: charge
+    quote: "Toh farmate hain: irshad, ye khayal rahe ke mera sheikh mere samne hai aur apne qalb ko uske qalb ke neeche tasawwur karke samjhe ke Sarkar sallallahu alayhi wa sallam ke qalb-e-anwar se anwaaraat chhalak kar mere sheikh ke qalb par aur wahan se mere dil par aa rahe hain. Phir kuch arsa baad ye haalat ho jayegi ke shajar-o-hajar yani darakhton mein aur pattharon mein hatta ke deewaron par bhi sheikh ki surat nazar aayegi, har jagah aapko sheikh nazar aana shuru ho jayein ge, yahan tak ke namaz mein bhi juda nahi hogi"
+    summary_en: "Cites Malfuzat-e-Ala Hazrat describing visualization of the Sufi master to the extent of perceiving his form in physical objects and prayer, citing Quran 2:165."
+    evidence_cited:
+      - as_said: "Malfuzat-e-Ala Hazrat Part 2 p. 122"
+        timestamp: "00:10:20"
+      - as_said: "Surah Al-Baqarah ayat 165"
+        timestamp: "00:13:52"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:15:05-00:16:15"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: definition
+    quote: "Aalim-o-Nazir, ilm wala aur dekhne wala. Hazir ka lafz istemal karein ge toh is mein phir wo bad-aqeedagi ki boo aati hai jo hama-oost ka aqeedah hai, pantheism ka aqeedah, wahdat-ul-wujood ka aqeedah... Allah Ta'ala apni shaan ke la'iq apne Arsh par mustawi hai aur wahan hote hue bhi hamari rag-e-jaan se zyada qareeb hai, isliye Aalim-o-Nazir lafz istemal kiya jaye."
+    summary_en: "Argues that even for Allah, the term 'Hazir' should not be used because it suggests physical presence in every particle (pantheism/wahdat-ul-wujud), advocating 'Aalim-o-Nazir' instead since Allah is established over the Throne."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: HN-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The term and concept of Hazir-o-Nazir are absent from the Quran and Sunnah, representing an unlegislated Sufi concept that attributes omnipresence to created beings."
+    move_type: definition
+    first_seen: M01
+
+  - id: HN-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The doctrine attributing omnipresence to the Prophet in every particle (haqeeqat-e-Muhammadiyyah in Madarij al-Nubuwwah) was popularized in the Subcontinent without scriptural evidence."
+    move_type: charge
+    first_seen: M02
+
+  - id: HN-EM-C03
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Visualizing the spiritual master as omnipresent (fana fish-sheikh in Imdad al-Suluk and Malfuzat) amounts to taking created beings as rivals to Allah in love and devotion under Quran 2:165."
+    move_type: charge
+    first_seen: M03
+
+phrasings:
+  - maps_to: HN-EM-C01
+    text: "Hazir-o-Nazir ka aqeedah Quran aur Sunnah mein kahin bhi is naam se maujood nahi hai, ye khalisatan Soofiya ki istilah hai"
+    timestamp: "00:00:40"
+  - maps_to: HN-EM-C02
+    text: "haqeeqat-e-Muhammadiyyah sallallahu alayhi wa sallam mawjoodat aur mumkinat ke zarre zarre mein maujood hai... ye unhone aqeedah diya"
+    timestamp: "00:05:35"

@@ -1,0 +1,76 @@
+source_id: yt-QiwVYfUcIEk
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:14"
+    speaker: Q
+    side: host
+    kind: claim
+    reported: true
+    reported_by: Q
+    similar_to: IK-EM-C01
+    move_type: principle
+    quote: "Assalamu alaykum jee Mufti sahab, main thoda sa poochna chahta hoon: 'Qul innee la amliku lakum darran wa la rashada' (Surah Al-Jinn ayat number 21), iska zara mafhoom wazeh kar dijiye."
+    summary_en: "Relays the objection based on Surah Al-Jinn 21 questioning whether the Prophet possesses power to harm or benefit others."
+    evidence_cited:
+      - as_said: "Surah Al-Jinn ayat 21"
+        timestamp: "00:00:05"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:15-00:00:47"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IK-EM-C01
+    move_type: definition
+    quote: "Iska bilkul wazeh hai ke Nabi Paak sallallahu alayhi wa sallam se Allah Rabbul Izzat ne kahlwaya ke aap keh dijiye ke main zaati taur par nafe ka maalik nahi hoon. Toh ye bilkul wazeh hai ke maine toh ye bar-ha maratib baat kitni baar dohra di hai ke koi nabi, wali, paighambar, rasool zaati taur par kisi tasarruf aur ikhtiyar ke maalik nahi hain. Mas'ala hai Allah Rabbul Izzat ne unhein jo ikhtiyaraat ata farmaye."
+    summary_en: "Explains that Quranic negations of power refer to intrinsic independent capability (zaati), whereas prophets exercise delegated capability granted by Allah (ata'i)."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:00:58-00:01:34"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IK-EM-C01
+    move_type: practice-consensus
+    quote: "Sulayman alayhis salam ka ikhtiyar hai, Allah farmata hai... Ke humne hawa ko Sulayman alayhis salam ke tabe mein de diya, control mein de diya ke wo Sulayman ke hukm se chalti hai. Isa alayhis salam farmate hain ke main tumhare liye mitti se surat banata hoon aur us mein phoonk marta hoon toh Allah ke izn se parinda ban jati hai, aur main madarzaad andhon ko korhiyon ko shifa deta hoon. Ab ye jo tasarruf ki taqat hai Isa alayhis salam ke paas ye kisne di? Allah ne di."
+    summary_en: "Cites the wind subjugated to Sulayman's command (Quran 38:36) and Isa fashioning birds and healing the blind (Quran 3:49) as proofs of delegated physical and metaphysical authority."
+    evidence_cited:
+      - as_said: "Surah Saad ayat 36"
+        timestamp: "00:01:00"
+      - as_said: "Surah Aal-e-Imran ayat 49"
+        timestamp: "00:01:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:27-00:02:58"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: burden
+    quote: "Ab sawal ye hai ke jo zahiri zindagi mein Allah Ta'ala ne unko ata kiye the, jo Allah ne unko zindagi mein diye the, wo kya chheen liye hain? Unse chheen lene ki koi daleel in logon ke paas maujood hai? Ke agar zindagi mein maante hain ke zindagi mein the unke paas ye ikhtiyarat, ab sawal ye hai ke duniya se parda kar jane ke baad Allah ne chheen liye hain? Agar chheen liye hain toh daleel pesh karein! Agar Allah ne nahi chheene, is par daleel nahi hai, toh phir wo ikhtiyar unke paas unke duniya se parda kar jane ke baad bhi maujood hai."
+    summary_en: "Challenges opponents to produce textual evidence that the miracles and authority granted by Allah to prophets during earthly life were stripped away after their passing."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: IK-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The Prophet stated in Surah Al-Jinn 21 and Surah Al-A'raf 188 that he has no power to benefit or harm anyone, which opponents argue negates all delegated authority or intercession."
+    move_type: principle
+    first_seen: M01
+
+phrasings:
+  - maps_to: IK-EM-C01
+    text: "Qul innee la amliku lakum darran wa la rashada... kya Rasool Allah apne nafa ke bhi maalik nahi?"
+    timestamp: "00:00:05"

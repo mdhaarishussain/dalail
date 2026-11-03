@@ -1,0 +1,182 @@
+source_id: yt-PjouX01pp28
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:55"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: SB-SH-C01
+    move_type: charge
+    quote: "Maslan woh Bukhari se woh jo ghali Rafzi baar baar pesh kar raha hai ke Hazrat Umar ne jab Islam qabool kiya to woh chup gaye the kyunke unke qatl ke fatwe jari ho gaye the unke qabeelay ke log bahar aake baith gaye... to Hazrat Umar apne ghar se darr ke maare nahin nikal rahe the to ab Sunniyon ko ye baat kaise hazam ho unhein to ek jhooti kahani karayi gayi hai ke jab Islam qabool kiya to woh talwar leke bahar aa gaye... inko pata hai ke jab ye uske khilaf jawab record karwayenge to inko maanna parega ke kuch baatein uski sahih hain"
+    summary_en: "Adopts the Shia polemical premise (promoted by Hassan Allahyari) citing Sahih Bukhari 3864 ('kha'ifan') that Umar hid inside his house out of fear upon converting, asserting that traditional Sunni accounts of brandishing a sword or publicly declaring Islam and Hijrah are fabricated myths."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3864 ('kha'ifan')"
+        timestamp: "00:00:26"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:05:21-00:06:43"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "Rasoolullah sallallahu alayhi wa aalihi wa sallam ne bil-khusoos Hazrat Umar ibn al-Khattab radiyallahu ta'ala anhu ka naam leke Allah Rabbul Izzat ki bargah mein dua ki hai Allahumma a'izzal-Islama bi-Umara bnil-Khattab... Sahih Bukhari ke andar 3684 number hadees hai Hazrat Abdullah ibn Mas'ud radiyallahu ta'ala anhu farmate hain ma zilna a'izzatan mundhu aslama Umar farmate hain jab se Umar ne Islam qabool kiya tab se hum izzat wale hain quwwat Allah ne hamein ata ki hai"
+    summary_en: "Cites the Prophet's supplication for Umar (Mustadrak al-Hakim, Ibn Majah, Ibn Hibban) and Ibn Mas'ud's testimony in Sahih Bukhari 3684 that Muslims continually possessed strength and honor from the moment Umar embraced Islam."
+    evidence_cited:
+      - as_said: "Mustadrak al-Hakim, Sunan Ibn Majah, Sahih Ibn Hibban ('Allahumma a'izz al-Islam bi-Umar')"
+        timestamp: "00:05:40"
+      - as_said: "Sahih Bukhari 3684 (Ibn Mas'ud: 'Ma zilna a'izzatan mundhu aslama Umar')"
+        timestamp: "00:06:12"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:06:44-00:09:20"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "Sayyiduna Abdullah ibn Abbas radiyallahu ta'ala anhuma Hazrat Sayyiduna Farooq-e-Azam radiyallahu ta'ala anhu ki shahadat ke mauqe par Hazrat Umar se kehte hain... aye Umar jab aapne Islam qabool kiya to aapka Islam qabool karna izzat aur taqat hua aur Islam ghalib hua... aur aapne Madinah ki taraf hijrat ki aur aapki hijrat fatah bani aur jis jis jang mein Rasoolullah sallallahu alayhi wa aalihi wa sallam shareek hue aap bhi us jang mein shareek hue kisi bhi jang mein aap ghaib nahin rahe"
+    summary_en: "Cites al-Mu'jam al-Awsat (Majma' al-Zawa'id 9/78-79, isnad hasan) where Ibn Abbas affirmed Umar's unwavering presence in every battle and the triumph of his Islam and migration."
+    evidence_cited:
+      - as_said: "al-Mu'jam al-Awsat by Imam al-Tabarani (Majma' al-Zawa'id 9/78-79, isnad hasan)"
+        timestamp: "00:07:05"
+      - as_said: "Fath al-Bari by Ibn Hajar al-Asqalani Vol 7 p. 59"
+        timestamp: "00:09:18"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:11:24-00:13:19"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "al-Mu'jam al-Awsat mein Imam Tabarani hadees leke aaye 1293 number hadees leke aaye Sayyiduna Umar Farooq radiyallahu ta'ala anhu khud farmate hain ke woh Nabi-e-Pak alayhis salatu was salam ki bargah-e-aqdas mein aaye aur aake arz ki ya Rasoolullah main jab bhi kisi majlis mein gaya yani kafir jab baithe hote the jab bhi main kisi majlis mein gaya aur jaake wahan baitha maine wahan Islam ka ailan kiya"
+    summary_en: "Cites al-Mu'jam al-Awsat 1293 (Majma' al-Zawa'id 9/61, rijaluhu thiqat) documenting Umar's immediate public proclamation of Islam and monotheism before the pagan assemblies in the sanctuary of the Ka'bah."
+    evidence_cited:
+      - as_said: "al-Mu'jam al-Awsat 1293 (Majma' al-Zawa'id 9/61 hadith 14415, rijaluhu thiqat)"
+        timestamp: "00:12:45"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:13:20-00:17:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "Usd al-Ghabah mein Imam Ibn al-Athir Jazari riwayat leke aaye Abdullah ibn Abbas kehte hain qala Ali Ali ibn Abi Talib ke Hazrat Ali ibn Abi Talib ne mujhe kaha main kisi muhajir ko main nahin jaanta ke jisne a'laniyah taur par hijrat ki ho siwaye Umar ibn al-Khattab ke jab Umar ibn al-Khattab ne hijrat ka iradah kiya to apni talwar ko unhone apne galay mein latkaya aur apni jo kaman hai usko liya aur chand teer apne hath mein liye... tum mein se jo chahta hai ke uski maa use roye aur woh apni aulad ko yateem karke jaye aur woh apni biwi ko bewa karke jaye to is waadi ke peeche aake mujhe milay"
+    summary_en: "Presents the narration in Usd al-Ghabah transmitted by Ali ibn Abi Talib testifying that Umar migrated openly with his sword, bow, and arrows, challenging the Quraysh pagan circles to face him in battle behind the valley."
+    evidence_cited:
+      - as_said: "Usd al-Ghabah fi Ma'rifat al-Sahaba by Ibn al-Athir (narration from Ali ibn Abi Talib)"
+        timestamp: "00:14:50"
+      - as_said: "Tareekh Dimashq by Ibn Asakir"
+        timestamp: "00:13:30"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:18:12-00:20:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "Sahih Bukhari ke andar 3294 number hadees hai ke Rasoolullah sallallahu alayhi wa aalihi wa sallam farmate hain us zaat ki qasam jis ke dast-e-qudrat mein meri jaan hai ma laqiyakash-shaytanu salikan fajjan illa salaka fajjan ghayra fajjik... aur Jami at-Tirmidhi ke andar 3690 number hadees hai Nabi-e-Pak sallallahu alayhi wa sallam ne farmaya inna ash-shaytana la-yakhafu minka ya Umar"
+    summary_en: "Cites Sahih Bukhari 3294 and Tirmidhi 3690 on Satan fleeing from Umar's path in fear, along with Umar's fearless challenge at Hudaybiyyah (Bukhari 3182)."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3294 ('Satan takes another path')"
+        timestamp: "00:18:20"
+      - as_said: "Jami at-Tirmidhi 3690 ('Satan fears you, O Umar')"
+        timestamp: "00:18:50"
+      - as_said: "Sahih Bukhari 3182 (Umar at Hudaybiyyah)"
+        timestamp: "00:19:40"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:20:38-00:26:50"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: SB-SH-C01
+    move_type: support-chain
+    quote: "Musnad Ahmad ibn Hanbal ki 1591 number hadees hai Jabir ibn Abdillah Ansari radiyallahu ta'ala anhu farmate hain wa feeman thabata ma'ahu Abu Bakrin wa Umar jo Sahaba Nabi-e-Pak alayhis salatu was salam ke sath sabit-qadam rahe Abu Bakr aur Umar the... Sahih Bukhari ke andar 4043 number hadees hai jab Nabi-e-Pak alayhis salatu was salam ki bargah mein Hazrat Umar bhi maujood the... Abu Sufyan ne ye kaha ke ye saare qatl ho chuke hain... to us mauqe par wazeh taur par Hazrat Umar ne ailan kiya aur kaha ke aye Allah ke dushman Allah ne tumhein ruswa karne ke liye hamein zindah rakha"
+    summary_en: "Refutes allegations of fleeing battles: Musnad Ahmad 1591 proves Umar was among those steadfast at Hunayn; Sahih Bukhari 4043 proves he was steadfast beside the Prophet at Uhud, answering Abu Sufyan's taunt. Corroborates via Shia source Tafsir al-Ayyashi 1/225 (Hayat al-Qulub) that Ali's temporary physical separation in battle did not mean flight, applying the same standard to Umar."
+    evidence_cited:
+      - as_said: "Musnad Ahmad ibn Hanbal 1591 (steadfast at Hunayn: Abu Bakr, Umar, Ali, Abbas)"
+        timestamp: "00:21:20"
+      - as_said: "Sahih Bukhari 4043 (steadfast at Uhud, confronting Abu Sufyan)"
+        timestamp: "00:22:30"
+      - as_said: "Tafsir al-Ayyashi Vol 1 p. 225 / Hayat al-Qulub by Baqir Majlisi ('ya Ali ayna kunta')"
+        timestamp: "00:25:25"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:28:50-00:33:07"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-25
+    move_type: turnabout
+    quote: "Rasoolullah sallallahu alayhi wa aalihi wa sallam ki zaat-e-aqdas ne bhi Mut'im bin Adi ki panah li jab Huzoor alayhis salatu was salam Ta'if se Makkah al-Mukarramah wapas tashreef laye Sahih Bukhari ke andar ek riwayat maujood hai hadees ka number hai 3139 Badr ke mauqe par Rasoolullah sallallahu alayhi wa sallam ne Mut'im bin Adi ka tazkirah kiya... Mullah Baqir Majlisi ki Bihar al-Anwar uski jild number 19 aur uske safha number 7 aur 8 pe ye waqia maujood hai aur ye Shia ka bohot bara aalim hai Allama Tabarsi uski A'lam al-Wara uske andar safha number 72 pe ye poora tafseeli waqia maujood hai ke Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam jab Ta'if se wapas lautay... apne ghulam Zayd ke sath Huzoor maqaam-e-Hira ki ghaatiyon mein Rasoolullah alayhis salatu was salam chupe hue the... Mut'im bin Adi ne Nabi-e-Pak alayhis salatu was salam ko panah di"
+    summary_en: "Refutes the claim that accepting tribal protection (jiwar) from As bin Wa'il indicates cowardice, proving from Sahih Bukhari 3139 and Shia classical texts (Bihar al-Anwar 19/7-8, A'lam al-Wara p. 72) that the Prophet himself hid in the passes of Hira and entered Makkah under the protection of the pagan Mut'im bin Adi."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3139 (Prophet on Mut'im bin Adi)"
+        timestamp: "00:29:35"
+      - as_said: "Bihar al-Anwar by Mullah Baqir Majlisi Vol 19 pp. 7-8"
+        timestamp: "00:30:25"
+      - as_said: "A'lam al-Wara bi-A'lam al-Huda by Allama al-Tabarsi p. 72"
+        timestamp: "00:30:35"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:33:08-00:36:00"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-26
+    move_type: consistency
+    quote: "Quran-e-Majeed ke andar Allah Ta'ala ne ambiya alayhimus salatu wat-tasleemat ki taraf khauf ki nisbat ki hai to wahan kya kahoge... Ya'qub alayhis salatu was salam farmate hain mujhe khauf hai ke Yusuf ko bheriya kha jaye... Musa alayhis salam Allah ki bargah mein arz karte hain Rabbi inni akhafu an yukadhdhiboon... wa lahum alayya dhanbun fa-akhafu an yaqtuloon... Surah al-Qasas ki aayat number 18 utha lein fa-asbaha fil-madeenati kha'ifan yataraqqab... tamam un ambiya alayhimus salatu wat-tasleemat ki taraf khauf ki nisbat ki gayi hai to yahan kya kaheinge"
+    summary_en: "Demonstrates that natural precautionary concern (khawf tabi'i) is explicitly attributed by Allah in the Quran to prophets including Ya'qub (12:13), Musa (26:12, 26:14, 20:45, 28:18: 'kha'ifan yataraqqab'), and Ibrahim (11:70, 51:28), questioning why opponents equate natural caution in Umar during an armed ambush to cowardice."
+    evidence_cited:
+      - as_said: "Surah Yusuf 12:13 (Ya'qub: 'akhafu an ya'kulahu al-dhi'b')"
+        timestamp: "00:33:45"
+      - as_said: "Surah Ash-Shu'ara 26:12, 26:14 (Musa: 'akhafu an yukadhdhiboon', 'fa-akhafu an yaqtuloon')"
+        timestamp: "00:34:02"
+      - as_said: "Surah Ta-Ha 20:45 (Musa and Harun: 'inna nakhafu an yafruta alayna')"
+        timestamp: "00:34:45"
+      - as_said: "Surah Al-Qasas 28:18 (Musa: 'fa-asbaha fil-madeenati kha'ifan yataraqqab')"
+        timestamp: "00:35:05"
+      - as_said: "Surah Hud 11:70, Surah Adh-Dhariyat 51:28 (Ibrahim)"
+        timestamp: "00:35:10"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: SB-SH-C01
+    side: shia
+    summary_en: "Umar ibn al-Khattab was fearful and cowardly upon converting to Islam, hiding in his house (kha'ifan) in Bukhari 3864 and accepting pagan protection from As bin Wa'il, proving traditional accounts of his boldness are myths."
+    move_type: charge
+    first_seen: M01
+  - id: SB-EM-C02
+    side: ali-mirza
+    summary_en: "Endorsing the Shia polemical reading of Bukhari 3864 that Umar was hiding in fear and asserting that traditional Sunni accounts of Umar's public defiance, drawing a sword, and announcing his migration are unhistorical fictions."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: SB-SH-C01
+    text: "Hazrat Umar apne ghar se darr ke maare nahin nikal rahe the to ab Sunniyon ko ye baat kaise hazam ho"
+    timestamp: "00:00:42"
+  - maps_to: SB-EM-C02
+    text: "unhein to ek jhooti kahani karayi gayi hai ke jab Islam qabool kiya to woh talwar leke bahar aa gaye... o kithe bhi nahin likha hua hai"
+    timestamp: "00:00:46"

@@ -1,0 +1,64 @@
+source_id: yt-QTDHnYqPnmc
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:06"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    move_type: principle
+    quote: "Wo kehte hain deewar ke peeche ka ilm nahi, kal ki khabar nahi, deewar ke peeche ka ilm nahi."
+    summary_en: "Relays the opponent claim that the Prophet had no knowledge of what lay behind a wall and no knowledge of the morrow."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:56-00:02:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IG-WH-C01
+    move_type: practice-consensus
+    quote: "Nabi Paak ne Mi'raj ka zikr kiya aur farmaya: Allah Rabbul Izzat ne apna dast-e-qudrat mere shaano ke darmiyan rakha. Farmaya... Har shay mujh par roshan ho gayi, 'alimtu ma fis-samawati wa ma fil-ard', jo kuch aasmano mein jo kuch zameen mein tha main jaan bhi gaya pehchan bhi gaya. Shaykh Abdul Haq Muhaddith Dehlawi rahmatullahi ta'ala alayh Mishkat ki Farsi mein sharh iska tarjuma karte hain: pas daanistam har che dar aasmaan wa har che dar zameen. Farmate hain iska ma'ana ye hai: Huzoor farmate hain jo kuch aasmano mein jo kuch zameen mein tha sab kuch jaan gaya pehchan gaya aur tamaam juzwi-o-kulli ilm par Allah ne mujhe itla ata farma di."
+    summary_en: "Cites the Hadith of Mi'raj and Shaykh Abdul Haq Dehlawi's commentary on Mishkat affirming comprehensive knowledge of heavens and earth granted to the Prophet."
+    evidence_cited:
+      - as_said: "Hadith of Mi'raj (alimtu ma fis-samawati wa ma fil-ard)"
+        timestamp: "00:01:14"
+      - as_said: "Shaykh Abdul Haq Muhaddith Dehlawi Ashi'at al-Lam'at"
+        timestamp: "00:01:30"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:28-00:07:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IG-WH-C01
+    move_type: practice-consensus
+    quote: "Sahih hadith hai Tabarani par, Musnad Ahmad ibn Hanbal par... Abhi wo sawal karne ke liye sa'il jo Madina ke bahar se dil mein sawal leke aaye the... Huzoor ki bargah mein abhi sawal karne ke liye khade hue hi the: Imam-ul-Ambiya alayhis salam ne farmaya: aane wale, agar tu chahe toh sawal tu na kar, sawal bhi main khud karke jawab bhi main tujhe ata farma doon... Nabi Paak ne sawal kiya phir jawab diya... Huzoor jo main dil mein sawal leke aaya tha kuch bhi aapne ghalat nahi kaha, saare sawal durust farmaye hain jawab bhi aapne ata farma diye."
+    summary_en: "Cites Musnad Ahmad and Tabarani reporting the Prophet articulating the unspoken thoughts and questions of a visitor before he spoke."
+    evidence_cited:
+      - as_said: "Al-Mu'jam al-Kabir li-Tabarani"
+        timestamp: "00:04:28"
+      - as_said: "Musnad Ahmad ibn Hanbal"
+        timestamp: "00:04:30"
+    responds_to: M01
+    confidence: medium
+
+new_claims:
+  - id: IG-WH-C01
+    legacy_id: null
+    side: wahhabi
+    summary_en: "Opponents claim that the Prophet did not possess knowledge of the unseen, lacking even knowledge of what is behind a wall or knowledge of the morrow."
+    move_type: principle
+    first_seen: M01
+
+phrasings:
+  - maps_to: IG-WH-C01
+    text: "deewar ke peeche ka ilm nahi, kal ki khabar nahi"
+    timestamp: "00:00:00"

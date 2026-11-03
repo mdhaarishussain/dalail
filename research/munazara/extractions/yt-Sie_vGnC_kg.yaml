@@ -1,0 +1,124 @@
+source_id: yt-Sie_vGnC_kg
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:12"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: AQ-EM-C02
+    move_type: charge
+    quote: "Kyunke us zamane mein aqayed nahin hua karte ye aaj ke jhagray hain jee ata'i zati mustaqil bi-zatihi ghair-mustaqil bi-zatihi pata nahin kya kya kahaniyan banayi hui hain"
+    summary_en: "Argues that distinctions such as zati vs ata'i and mustaqil vs ghair-mustaqil are post-Sahaba fabrications invented by Barelvi scholars to justify shirk, unknown to the Prophet's companions."
+    evidence_cited:
+      - as_said: "Hadith: a-ja'altani lillahi niddan"
+        timestamp: "00:00:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:13-00:02:46"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: AQ-EM-C02
+    move_type: definition
+    quote: "Quran aur Sunnat ke dalail ko samajhne ke liye zati ata'i haqiqi majazi mustaqil ghair-mustaqil in cheezon ka farq karna zaroori hai aur in cheezon ka farq kiye baghair jo Quran aur Sunnat ke dalail ke andar bazahir aapas mein ta'aruz nazar aata hai us ta'aruz ko door nahin kiya ja sakta"
+    summary_en: "Maintains that theological distinctions between inherent vs bestowed, literal vs figurative, and independent vs dependent are indispensable for resolving apparent contradictions in Quranic and Hadith texts."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:02-00:03:30"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: AQ-EM-C03
+    move_type: principle
+    quote: "Ek Khuda jo saari qudraton ka malik hai aur woh akela aur yakta hai beshak woh aapko ye offer deta hai ke sirf ye 60 saal ki zindagi mujhe de do tumhein bhi main ek mini Khuda bana doonga kis hawale se woh rahega makhluq hi lekin jo quality god ke paas hai sir woh aapko ek mini Khuda banane wala hai"
+    summary_en: "Propounds in recorded clip that Allah promises believers that in return for 60 years of worldly devotion, He will make them 'mini gods' in Paradise endowed with divine qualities while remaining created beings."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:00-00:05:15"
+    speaker: B
+    side: ali-mirza
+    kind: response
+    maps_to: AQ-EM-C03
+    move_type: reconciliation
+    quote: "Quran mein bhi maujood hai ke jab makhluq ke liye koi lafz bola jaata hai woh un tamam sharait ke sath hota hai zati aur ata'i ke farq ke sath mahdood aur ghair-mahdood ke farq ke sath ye saari cheezein usmein imply hoti hain aur khaliq aur makhluq ke farq ke sath"
+    summary_en: "Defends his 'mini god' terminology by appealing to the creator-creation distinction, inherent vs bestowed (zati vs ata'i), finite vs infinite (mahdood vs ghair-mahdood), and contingent vs eternal (hadith vs qadeem)."
+    evidence_cited:
+      - as_said: "Surah At-Tawbah 9:128 (bil-mu'mineena ra'oofun raheem applied to the Prophet)"
+        timestamp: "00:04:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:05:16-00:05:58"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-22
+    move_type: turnabout
+    quote: "Jab apni baat aati hai to ye ta'weelein karta hai aur jab hamari baat aati hai aur hamara muqaddamah hum jab Quran o Sunnat se sabit karte hain ke zati ata'i haqiqi majazi aur jo hai woh mustaqil ghair-mustaqil iska farq Quran aur Sunnat ki roshni mein hamein karna parega iska farq kiye baghair dalail ko nahin samjha ja sakta"
+    summary_en: "Demonstrates the opponent's intellectual inconsistency: ridiculing theological distinctions when used by Ahl al-Sunnah, yet adopting those exact distinctions to defend his own 'mini god' terminology."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:05:59-00:07:26"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: CQ-01
+    move_type: support-chain
+    quote: "Allah hai jo jaanon ko mawt deta hai jaanon ko mawt kaun deta hai Allah yahan jaanon ko mawt dene ki nisbat Allah Ta'ala ki taraf aur ye nisbat haqiqi hai ke haqeeqat mein mumeet Allah ki zaat hai zinda karna aur marna ye Allah Rabbul Izzat ka kaam hai mumeet haqeeqat mein Allah Ta'ala hai lekin is fe'l ki nisbat Allah Ta'ala ne Janab-e-Sayyiduna Malak al-Mawt alayhis salatu was salam ki taraf Quran-e-Majeed mein farmayi qul yatawaffakum malakul-mawt"
+    summary_en: "Proves the necessity of Haqiqi vs Majazi: Surah Az-Zumar 39:42 attributes taking souls literally to Allah, while Surah As-Sajdah 32:11 attributes taking souls figuratively to the Angel of Death."
+    evidence_cited:
+      - as_said: "Surah Az-Zumar 39:42 (Allahu yatawaffal-anfus)"
+        timestamp: "00:06:17"
+      - as_said: "Surah As-Sajdah 32:11 (qul yatawaffakum malakul-mawt)"
+        timestamp: "00:06:55"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:07:27-00:08:52"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: CQ-01
+    move_type: support-chain
+    quote: "jise chahta hai Allah betay ata farmata hai jise chahta hai Allah Rabbul Izzat betiyan ata farmata hai wahaba yahabu hibatan kisi ko dena ab hiba ki nisbat yahan Allah ki taraf hai ke Allah Ta'ala deta hai betiyan bhi betay bhi yahan nisbat haqiqi hai aur doosre maqaam par jab Sayyiduna Jibreel alayhis salam Sayyidah Maryam ke paas aaye to aake kehte hain innama ana rasoolu Rabbiki li-ahaba laki ghulaman zakiyya"
+    summary_en: "Provides further scriptural proof: Surah Ash-Shura 42:49 states Allah bestows sons and daughters (haqiqi), while in Surah Maryam 19:19 Gabriel explicitly states 'that I may give you a pure son' (majazi)."
+    evidence_cited:
+      - as_said: "Surah Ash-Shura 42:49 (yahabu liman yasha'u inathan wa yahabu liman yasha'udh-dhukoor)"
+        timestamp: "00:07:33"
+      - as_said: "Surah Maryam 19:19 (li-ahaba laki ghulaman zakiyya spoken by Gabriel)"
+        timestamp: "00:08:08"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: AQ-EM-C02
+    side: ali-mirza
+    summary_en: "Theological distinctions such as Zati vs Ata'i, Haqiqi vs Majazi, and Mustaqil vs Ghair-Mustaqil are fabricated innovations unknown to the Sahaba, formulated to rationalize shirk."
+    move_type: charge
+    first_seen: M01
+  - id: AQ-EM-C03
+    side: ali-mirza
+    summary_en: "Allah offers believers that in exchange for 60 years of devotion, He will make them 'mini gods' in Paradise endowed with divine-like qualities while maintaining the creator-creation distinction."
+    move_type: principle
+    first_seen: M03
+
+phrasings:
+  - maps_to: AQ-EM-C02
+    text: "ye aaj ke jhagray hain jee ata'i zati mustaqil bi-zatihi ghair-mustaqil bi-zatihi pata nahin kya kya kahaniyan banayi hui hain"
+    timestamp: "00:00:06"
+  - maps_to: AQ-EM-C03
+    text: "sirf ye 60 saal ki zindagi mujhe de do tumhein bhi main ek mini Khuda bana doonga"
+    timestamp: "00:03:10"

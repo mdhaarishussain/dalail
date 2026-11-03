@@ -1,0 +1,142 @@
+source_id: yt-0LqCS-zvCxY
+moves:
+  - move_id: M01
+    timestamp: "00:00:40-00:00:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: IS-C03
+    move_type: principle
+    quote: "Du'a sirf Allah hi se, aur kisi ke liye nahi."
+    summary_en: "States that supplication (du'a) belongs exclusively to Allah and may not be directed to anyone else."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:48-00:01:12"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: IS-C03
+    move_type: definition
+    quote: "Ma taht al-asbab mein toh aap jo marzi karein, kisi ko paani pila dein, kisi ka bojh uthwa dein, wo toh theek hai... Lekin jo ghaib mein madad ke liye pukaarna hai, dua kar rahe hain, wo Allah Ta'ala ke sath khaas hai."
+    summary_en: "Differentiates between seeking assistance within physical means versus calling upon an entity in the unseen, classifying the latter as exclusive to Allah."
+    evidence_cited:
+      - as_said: "Surah Al-Ma'idah ayat 2"
+        timestamp: "00:00:54"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:45-00:02:05"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: IS-C03
+    move_type: charge
+    quote: "Aap Baghdad mein dafan hain aur main yahan se baith kar kahoon 'mujhe paani pila dein', toh shirk hai!"
+    summary_en: "Asserts that asking someone deceased or buried far away across distance for water or aid constitutes shirk."
+    evidence_cited:
+      - as_said: "Surah An-Naml ayat 62"
+        timestamp: "00:01:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:15-00:02:35"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C06
+    move_type: principle
+    quote: "Ye ladai nahi hai ke Maula Ali alayhis salam ko ikhtiyar hai ya nahi. Maula Ali ko agar Allah ne ikhtiyar diya bhi ho tab bhi Maula Ali ko aap pukaar nahi sakte madad ke liye, kyunke Maula Ali bhi Allah ko pukaarte the!"
+    summary_en: "Argues that even if authority were granted to Ali, invoking him remains impermissible because he himself supplicated only to Allah."
+    evidence_cited:
+      - as_said: "Surah Al-Fatiha (Iyyaaka Na'budu wa Iyyaaka Nasta'een)"
+        timestamp: "00:02:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:05-00:07:25"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: IS-C01
+    move_type: consistency
+    quote: "Maine kaha waseela ka matlab hota hai 'Aye Allah hamari madad kar Ali ke waseele se', aap toh direct alfaaz istemal karte hain: 'Ya Ali Madad' ya 'Al-Madad Ya Ghous'."
+    summary_en: "Argues that saying 'Ya Ali Madad' or 'Al-Madad Ya Ghous' is direct invocation rather than supplicating Allah through a means."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:35-00:08:00"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C07
+    move_type: consistency
+    quote: "Sabr aur namaz ke zariye madad chaho. Maine kaha iska matlab kya hai? Sabr aur namaz ke zariye Allah se madad chaho, ya koi kehta hai 'Al-Madad Ya Namaz'?"
+    summary_en: "Argues that Quran 2:45 means seeking Allah's help through patience and prayer, not calling upon patience or prayer for help."
+    evidence_cited:
+      - as_said: "Surah Al-Baqarah ayat 45"
+        timestamp: "00:07:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:20-00:08:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    similar_to: TW-C08
+    move_type: charge
+    quote: "Surah An-Naml ki ayat padhein: jo Allah ke ilawa kisi aur ko dua ke liye pukaarna samajhta hai na, wo usey khuda banaye hue hai, ma'bud banaye hue hai! Kyunke aage farmaya: 'a-ilahun ma'allah' — kya Allah ke sath koi aur ilah hai? Maine kaha ye wazeh saboot hai ke ye shirk hai."
+    summary_en: "Cites Quran 27:62 to argue that calling upon other than Allah in du'a treats the entity as an Ilah alongside Allah."
+    evidence_cited:
+      - as_said: "Surah An-Naml ayat 62"
+        timestamp: "00:08:20"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IS-EM-C01
+    legacy_id: EM-C01
+    side: ali-mirza
+    summary_en: "Du'a is worship exclusive to Allah; therefore, any direct vocative call to other than Allah ('Ya Rasool Allah madad', 'Ya Ali madad') is an act of worship directed to creation, which is shirk."
+    move_type: principle
+    first_seen: M01
+
+  - id: IS-EM-C04
+    legacy_id: EM-C04
+    side: ali-mirza
+    summary_en: "Even if Allah had granted authority (ikhtiyar) to prophets or saints, calling on them for help remains impermissible shirk, because righteous figures never directed invocations to other than Allah."
+    move_type: principle
+    first_seen: M04
+
+  - id: IS-EM-C05
+    legacy_id: EM-C05
+    side: ali-mirza
+    summary_en: "Calling upon someone in the unseen (ghaib) or beyond normal physical causality (ma fawq al-asbab) is worship and shirk, whereas asking someone present within normal causality (ma taht al-asbab) is permissible."
+    move_type: definition
+    first_seen: M02
+
+phrasings:
+  - maps_to: IS-EM-C01
+    text: "Du'a sirf Allah hi se, aur kisi ke liye nahi"
+    timestamp: "00:00:40"
+  - maps_to: IS-EM-C05
+    text: "Lekin jo ghaib mein madad ke liye pukaarna hai, dua kar rahe hain, wo Allah Ta'ala ke sath khaas hai"
+    timestamp: "00:01:08"
+  - maps_to: IS-EM-C04
+    text: "Maula Ali ko agar Allah ne ikhtiyar diya bhi ho tab bhi Maula Ali ko aap pukaar nahi sakte madad ke liye"
+    timestamp: "00:02:20"

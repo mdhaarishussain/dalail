@@ -1,0 +1,218 @@
+source_id: yt-3-tML7NbATk
+moves:
+  - move_id: M01
+    timestamp: "00:08:08-00:08:22"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    similar_to: IS-EM-C05
+    move_type: definition
+    quote: "Hum jab kehte hain ke bhai Allah Rabbul Izzat ke bandon ko pukaarna mutlaqan shirk nahi hai, toh phir mukhalifeen aur bilkhusoos Jhelumi aur uske followers wo kehte hain: nahi jee, ghaib se pukaarna shirk hai!"
+    summary_en: "Relays Mirza's argument that invoking someone in the unseen (ghaib) is shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:08:32-00:08:44"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    similar_to: IS-EM-C05
+    move_type: definition
+    quote: "kabhi kehte hain ke hazir se maangna shirk nahi ghaib se maangna shirk hai; kabhi kehte hain ke ma taht al-asbab maangna shirk nahi ma fawq al-asbab maangna shirk hai."
+    summary_en: "Relays Mirza's criteria differentiating between asking present persons within means versus asking the unseen beyond means."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:08:48-00:09:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: principle
+    quote: "Hum kehte hain ke bhai shirk tab hoga kisi se madad maangna, istimdad karna, istighatha karna jab kisi ko apna ilah samajh kar, ma'bud samajh kar aur usey apna ma'bud-e-barhaq samajh kar us se istimdad aur istighatha kiya jaye tab shirk hai!"
+    summary_en: "States that shirk occurs when the entity called upon is regarded as Ilah or Ma'bud, not because of calling beyond physical means."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:10:43-00:11:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Wo hadith Musannaf Ibn Abi Shaybah ke andar Imam Abu Bakr Ibn Abi Shaybah 30339 number le ke aaye: Sayyiduna Abdullah ibn Abbas radiyallahu ta'ala anhu farmate hain... fal-yunadi a'eenu 'ibadAllah rahimakumullah. Toh phir wo nida de, usey chahiye ke wo pukaare: Aye Allah ke bandon meri madad karo, rahimakumullah Allah tum par rahm farmaye."
+    summary_en: "Cites Musannaf Ibn Abi Shaybah 30339 as textual evidence where believers are told to call upon unseen servants of Allah for help."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah 30339"
+        timestamp: "00:10:43"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:11:35-00:12:00"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: attack-chain
+    quote: "Isi hadith ko Imam Haythami apni kitab Majma al-Zawa'id ki jild number 10 ke safha number 188 pe 17104 number hadith le ke aaye. Rawaahu al-Bazzar wa rijaaluhu thiqaat — is hadith ko Imam Bazzar ne apni Musnad mein zikr kiya aur kehte hain ke iske rijaal thiqah hain, saare rijaal iske thiqah hain."
+    summary_en: "Cites Majma al-Zawa'id citing Musnad al-Bazzar confirming all narrators of this hadith are trustworthy (thiqah)."
+    evidence_cited:
+      - as_said: "Majma al-Zawa'id Vol 10 p. 188 no. 17104"
+        timestamp: "00:11:35"
+      - as_said: "Musnad al-Bazzar (rijaaluhu thiqaat)"
+        timestamp: "00:11:50"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M06
+    timestamp: "00:13:25-00:13:55"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: turnabout
+    quote: "Aur phir aakhir mein result aur nateeja ke taur par Nasiruddin Albani ne kaha: 'qultu wa haadha isnaduhu hasan kama qaloo'. Main kehta hoon ke is hadith ki sanad hasan hai jaise ke muhadditheen ne kaha, jaise ke Imam Sakhawi ne kaha, jaise ke Imam Ibn Hajar Asqalani ne kaha"
+    summary_en: "Cites Nasiruddin Albani's grading of the isnad as hasan in As-Silsilah al-Da'ifah."
+    evidence_cited:
+      - as_said: "Nasiruddin Albani As-Silsilat al-Ahadith al-Da'ifah wal-Mawdu'ah"
+        timestamp: "00:12:55"
+      - as_said: "Imam Sakhawi Al-Ibtihaj"
+        timestamp: "00:13:20"
+      - as_said: "Imam Ibn Hajar Asqalani"
+        timestamp: "00:13:10"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M07
+    timestamp: "00:14:02-00:15:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Imam Tabarani ne apni kitab Al-Mu'jam al-Kabir mein mere paas jo Darul Kutub al-Ilmiyyah Beirut Lebanon se nuskha chhapa hai is mein 13737 number hadith bayan ki: Hazrat Utba bin Ghazwan radiyallahu ta'ala anhu se marfoo'an ke Rasoolullah sallallahu alayhi wa sallam ne farmaya... fal-yaqul toh usey chahiye: ya 'IbadAllah agheesoonee... Imam Tabarani is hadith ko bayan karne ke baad farmate hain: 'wa qad jurriba dhalik' — iska tajarba kiya gaya hai"
+    summary_en: "Cites Tabarani's Mu'jam al-Kabir 13737 from Utba bin Ghazwan and Tabarani's statement that this invocation was tested in practice."
+    evidence_cited:
+      - as_said: "Al-Mu'jam al-Kabir Tabarani 13737"
+        timestamp: "00:14:15"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M08
+    timestamp: "00:18:35-00:19:50"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Masa'il Ahmad ibn Hanbal bi-riwayati Abdillah ibn Ahmad ibn Hanbal. Is mein mere paas jild number do hai, safha number iska 816 hai. Aur isi baat ko Imam Bayhaqi ne apni kitab Shu'ab al-Iman ke andar jild number 6 safha number 128 aur safha number 129 par bayan kiya... Imam Ahmad ibn Hanbal rahmatullahi ta'ala farmate hain maine paanch haj kiye hain... toh maine pukaara: ya 'IbadAllah dulluna 'alat-tareeq."
+    summary_en: "Cites Ahmad bin Hanbal's personal practice of calling upon unseen servants of Allah when losing his way during pilgrimage."
+    evidence_cited:
+      - as_said: "Masa'il Ahmad ibn Hanbal bi-riwayati Abdillah Vol 2 p. 816"
+        timestamp: "00:18:48"
+      - as_said: "Imam Bayhaqi Shu'ab al-Iman Vol 6 p. 128-129"
+        timestamp: "00:18:55"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M09
+    timestamp: "00:20:20-00:21:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: practice-consensus
+    quote: "Ye shareh Sahih Muslim Imam Nawawi rahmatullahi alayh ki kitab hai Kitabul Adhkar, is mein safha number 225 pe Imam Nawawi ne baab bandha hai... farmate hain ek dafa main bhi ek jama'at ke sath maujood tha aur unki sawari gum ho gayi aur wo usko pakadne se aajiz aa gaye, toh maine yehi kaha ke aye Allah ke bandon hamari madad karo, toh baghair kisi sabab ke wo sawari thehar gayi aur hamein mil gayi."
+    summary_en: "Cites Imam Nawawi's chapter heading and personal experience in Kitab al-Adhkar using the invocation."
+    evidence_cited:
+      - as_said: "Imam Nawawi Kitabul Adhkar p. 225"
+        timestamp: "00:20:20"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M10
+    timestamp: "00:21:51-00:22:05"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: turnabout
+    quote: "Aur Ibn Taymiyyah ne Al-Kalim al-Tayyib ke andar jo tayyib aur pakeeza kalmaat hain us kitab ke andar Ibn Taymiyyah ne is hadith ko zikr kiya."
+    summary_en: "Cites Ibn Taymiyyah including the narration among wholesome invocations in Al-Kalim al-Tayyib."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah Al-Kalim al-Tayyib"
+        timestamp: "00:21:51"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:25:12-00:25:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: IS-EM-C05
+    move_type: turnabout
+    quote: "Nawab Siddiq Hasan Khan Bhopali ki kitab hai Nuzul al-Abrar, safha number 657 pe unhon ne zikr kiya aur apna amal likha ke main Mirzapur se Jabalpur ja raha tha aur meri kashti bhanwar mein phans gayi, toh mujhe ye hadith yaad thi aur maine is par amal kiya aur Allah ke karam se main gharq hone se bach gaya."
+    summary_en: "Cites Nawab Siddiq Hasan Khan in Nuzul al-Abrar recording his personal use of this hadith during a river vortex crisis."
+    evidence_cited:
+      - as_said: "Nawab Siddiq Hasan Khan Bhopali Nuzul al-Abrar p. 657"
+        timestamp: "00:25:12"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M12
+    timestamp: "00:26:29-00:26:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    similar_to: IS-EM-C02
+    move_type: restrict-evidence
+    quote: "Achha is maqaam pe Jhelumi ne ek baat ki aur kaha ke ye riwayatein jo hain na wo theek hai kitabon ke andar maujood hain, toh phir aap jo hai na wo sirf isko jangalon tak rakhein, shahron tak na leke aayein!"
+    summary_en: "Relays Mirza's argument restricting the hadith 'Ya Ibad Allah A'inuni' to unpopulated wilderness/jungles."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:26:42-00:27:00"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Ab ek aur condition badh gayi: pehle kaha tha ke ghaib mein pukaarna shirk hai, aur phir ye keh diya ke yani iska khulasa ye nikla ke shehr mein pukaarna shirk hai, jangal mein pukaarna shirk nahi!"
+    summary_en: "Asks how an action can be characterized as shirk in a city if the same action is permitted in a wilderness."
+    evidence_cited: []
+    responds_to: M12
+    confidence: high
+
+new_claims: []
+phrasings:
+  - maps_to: IS-EM-C05
+    text: "nahi jee, ghaib se pukaarna shirk hai... kabhi kehte hain ke hazir se maangna shirk nahi ghaib se maangna shirk hai"
+    timestamp: "00:08:15"
+  - maps_to: IS-EM-C02
+    text: "ye riwayatein jo hain na wo theek hai kitabon ke andar maujood hain, toh phir aap jo hai na wo sirf isko jangalon tak rakhein, shahron tak na leke aayein"
+    timestamp: "00:26:30"

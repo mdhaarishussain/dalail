@@ -1,0 +1,212 @@
+source_id: yt-0AHz5FBIBB8
+moves:
+  - move_id: M01
+    timestamp: "00:00:29-00:01:09"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C01
+    move_type: practice-consensus
+    quote: "aur hum inhi hadees par amal kar rahe hain jo Malik bin Huwayrith wali hai aur 1535 Muslim ki hai"
+    summary_en: "Argues that practitioners follow Malik bin al-Huwayrith's narration in Bukhari and Muslim 1535 for raf al-yadayn before and after ruku and at the third rak'ah."
+    evidence_cited:
+      - as_said: "Malik bin Huwayrith wali hadees aur 1535 Muslim"
+        timestamp: "00:00:40"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:10-00:02:12"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: demand
+    maps_to: MS-EM-C01
+    move_type: restrict-evidence
+    quote: "Malik bin Huwayrith ki hadees mein teesri rakat ke baad ka zikr hai"
+    summary_en: "Challenges the opponent to cite where Malik bin al-Huwayrith's narration mentions raising hands at the start of the third rak'ah."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:14-00:01:19"
+    speaker: B
+    side: ali-mirza
+    kind: concession
+    maps_to: MS-EM-C01
+    move_type: restrict-evidence
+    quote: "Number kisi aur hadees mein hoga lekin hai sahih"
+    summary_en: "Concedes that the mention of the third rak'ah is not found in Malik bin al-Huwayrith's narration but from another narration."
+    evidence_cited: []
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:42-00:08:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-16
+    move_type: consistency
+    quote: "Nabi-e-Pak alayhis salam ne namaz mein apne haathon ko namaz ke shuru mein bhi kaanon tak uthaya phir ruku jaate waqt bhi kaanon tak uthaya ruku se uthte waqt bhi kaanon tak uthaya sajde jaate waqt bhi kaanon tak uthaya sajde se uthte waqt bhi kaanon tak uthaya ye hai poori Malik bin Huwayrith"
+    summary_en: "Presents Sunan an-Nasa'i 1086 (authenticated by Albani) demonstrating that Malik bin al-Huwayrith's narration includes raising hands for prostrations, questioning why opponent followers omit sujud raf al-yadayn while claiming strict adherence."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 737"
+        timestamp: "00:04:49"
+      - as_said: "Sahih Muslim 865"
+        timestamp: "00:05:58"
+      - as_said: "Sunan an-Nasa'i 1086 (tahqeeq Nasiruddin Albani, sahih)"
+        timestamp: "00:07:03"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:08:26-00:08:32"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C01
+    move_type: consistency
+    quote: "Hadees sahih hai phir to ye sabit ho gaya sajdon mein bhi aapne raf-ul-yadain karna hai to aap to poora nahin kar rahe na"
+    summary_en: "Argues that if the narration is authentic, raising hands in prostrations is established, challenging why Hanafis do not practice it."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:09:44-00:10:20"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: principle
+    quote: "Hum kehte hain ke Allah ke Rasool sallallahu alayhi wa sallam ne jaise sajdon wala chor diya aise ruku wala bhi chor diya"
+    summary_en: "Explains that just as raising hands for prostrations was abandoned by consensus, raising hands for ruku was likewise discontinued."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:11:30-00:13:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: practice-consensus
+    quote: "Abdullah ibn Mas'ud radiyallahu anhu farmate hain logo kya main tumhe Rasoolullah ki namaz parh ke dikhaoon Huzoor kis tarah namaz parhte the to aapne namaz parh ke dikhayi sirf awwal martaba sirf yani sirf awwal martaba"
+    summary_en: "Cites Abdullah ibn Mas'ud's superior jurisprudential status (Bukhari 3762, 4999, 5000) and his demonstration in Tirmidhi 257 and Nasa'i 1026 raising hands only at the opening takbeer."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 3762 (Hudhayfah on Ibn Mas'ud)"
+        timestamp: "00:11:35"
+      - as_said: "Sahih Bukhari 4999 (take Quran from four, first Ibn Mas'ud)"
+        timestamp: "00:12:08"
+      - as_said: "Sahih Bukhari 5000 (Ibn Mas'ud learned 70 surahs directly)"
+        timestamp: "00:12:22"
+      - as_said: "Jami at-Tirmidhi 257"
+        timestamp: "00:12:44"
+      - as_said: "Sunan an-Nasa'i 1026"
+        timestamp: "00:12:54"
+      - as_said: "Musannaf Ibn Abi Shaybah"
+        timestamp: "00:13:02"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:13:58-00:14:17"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C02
+    move_type: practice-consensus
+    quote: "unhone kaha ke Abdullah ibn Mas'ud ke alawa jitne baqi Sahabi hain aur Khulafa-e-Rashideen hain unse sabit hai ke raf-ul-yadain kiya Maula Ali alayhis salam se bhi sabit hai"
+    summary_en: "Claims that other Sahaba and Khulafa-e-Rashideen, specifically Ali ibn Abi Talib, are proven to have practiced raf al-yadayn."
+    evidence_cited: []
+    responds_to: M07
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:14:18-00:16:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: demand
+    maps_to: MS-EM-C02
+    move_type: burden
+    quote: "inko bhi agar ye Maula Ali radiyallahu ta'ala anhu se namaz ke andar raf-ul-yadain karna sanad-e-sahih se sabit kar dein ke Maula Ali ne namaz mein raf-ul-yadain kiya main ek lakh rupay inko pesh karoonga"
+    summary_en: "Issues a public challenge with a 100,000 PKR prize to produce any authentic chain showing Ali practiced continuous raf al-yadayn in prayer."
+    evidence_cited: []
+    responds_to: M08
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:16:11-00:17:33"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C02
+    move_type: support-chain
+    quote: "Maula Ali jab namaz shuru karte to apne haathon ko uthate phir poori namaz mein Maula Ali raf-ul-yadain nahin karte the"
+    summary_en: "Cites Musannaf Ibn Abi Shaybah 2457 with an authentic chain from Ali through Kulayb bin Shihab, verified by Badruddin Ayni and Zayla'i, proving Ali only raised hands at the initial takbeer."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah 2457 (chain: Ibn Abi Shaybah -> Waki -> Abu Bakr al-Nahshali -> Asim bin Kulayb -> Kulayb bin Shihab -> Ali)"
+        timestamp: "00:16:25"
+      - as_said: "Umdat al-Qari Sharh Sahih al-Bukhari by Badruddin Ayni"
+        timestamp: "00:17:15"
+      - as_said: "Nasb al-Raya by Imam Zayla'i"
+        timestamp: "00:17:22"
+    responds_to: M08
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:17:34-00:17:46"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C03
+    move_type: turnabout
+    quote: "acha Sheikh Abdul Qadir Jilani"
+    summary_en: "Appeals to the authority and practice of Sheikh Abdul Qadir Jilani."
+    evidence_cited: []
+    responds_to: M10
+    confidence: medium
+
+  - move_id: M12
+    timestamp: "00:17:47-00:22:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-17
+    move_type: turnabout
+    quote: "Ghunyat al-Talibeen ismein Sheikh Abdul Qadir Jilani rahmatullah ne namaz ka tareeqa likha hai ab woh kehte hain ye namaz ki jo hai na woh hai hayaat bayan ho rahi ke namaz ki kaifiyat woh kehte hain yada'u al-yamina alash-shimale tahtas-surrah jab namaz parhni hai to dayein hath ko bayein hath par naaf ke neeche rakhna hai"
+    summary_en: "Reads the Arabic text and Urdu translation of Ghunyat al-Talibeen, showing Jilani followed Imam Ahmad ibn Hanbal in jurisprudence and explicitly prescribed placing hands below the navel in prayer, turning the opponent's appeal back on him."
+    evidence_cited:
+      - as_said: "Ghunyat al-Talibeen (Urdu trans. by Wahhabi scholar Musharraf, p. 26 on Hanbali affiliation)"
+        timestamp: "00:19:56"
+      - as_said: "Ghunyat al-Talibeen (Arabic text and p. 40, yada'u al-yamina ala al-shimale tahta al-surrah)"
+        timestamp: "00:21:26"
+    responds_to: M11
+    confidence: high
+
+new_claims:
+  - id: MS-EM-C01
+    side: ali-mirza
+    summary_en: "Raf al-Yadayn before and after ruku is an established, non-abrogated Sunnah based on Bukhari 737 and Muslim 865/1535 (Malik bin al-Huwayrith)."
+    move_type: practice-consensus
+    first_seen: M01
+  - id: MS-EM-C02
+    side: ali-mirza
+    summary_en: "Ali ibn Abi Talib and the Khulafa-e-Rashideen practiced continuous raf al-yadayn in prayer."
+    move_type: practice-consensus
+    first_seen: M08
+  - id: MS-EM-C03
+    side: ali-mirza
+    summary_en: "Appealing to Sufi authority Abdul Qadir Jilani regarding prayer practices to argue against Ahl-e-Sunnat Hanafi positions."
+    move_type: turnabout
+    first_seen: M11
+
+phrasings:
+  - maps_to: MS-EM-C01
+    text: "aur hum inhi hadees par amal kar rahe hain jo Malik bin Huwayrith wali hai aur 1535 Muslim ki hai"
+    timestamp: "00:00:40"
+  - maps_to: MS-EM-C02
+    text: "unse sabit hai ke raf-ul-yadain kiya Maula Ali alayhis salam se bhi sabit hai"
+    timestamp: "00:14:14"

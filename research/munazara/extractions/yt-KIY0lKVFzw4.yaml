@@ -1,0 +1,124 @@
+source_id: yt-KIY0lKVFzw4
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: claim
+    maps_to: FQ-EM-C03
+    move_type: charge
+    quote: "Nabi alayhis salam ne farmaya ke jab tum sajday ki taraf jhuko to aise na baitho jaise oonth baithta hai... balki pehle apne hath lagao aur phir apne ghutnay lagao... lihaza tumhari Hanafiyon ki namaz sunnat ke mutabiq nahin hai hadees ke mutabiq nahin hai"
+    summary_en: "Summarizes the opponent objection (based on Sunan Abi Dawud) that one must place hands before knees when descending into sujud, accusing Hanafis who place knees first of praying contrary to the Sunnah."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud ('la yabruk kama yabruku al-ba'eer')"
+        timestamp: "00:00:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:06-00:02:46"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-30
+    move_type: consistency
+    quote: "oonth baithte waqt kaise baithta hai woh pehle apne aagay wale taangein jis ko dasti ya hath kaha jaata hai woh pehle lagata hai peeche wali jo ghutnay baad mein lagata hai... to hadees mein to ye kaha gaya hai ke aise na baitho jaise oonth baithta hai to iske mutabiq to Google ke mutabiq tumhari ustaad aur tumhari rahbar-o-rehnuma... oonth aise baithta hai lihaza ye hadees to tumhare khilaf ja rahi hai"
+    summary_en: "Examines the physical anatomy and kneeling posture of a camel: a camel naturally places its front limbs (hands) down first and its hind knees second; therefore, descending hands-first actually replicates the kneeling of a camel."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:33-00:03:55"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: FQ-EM-C03
+    move_type: practice-consensus
+    quote: "Sajday mein jaana hai aur uske liye sunnat ye hai ke aapne pehle hath lagane hain uske baad ghutnay lagane hain aur Nabi alayhis salam ki hadees Abu Dawud mein maujood hai aap sallallahu alayhi wa aalihi wa sallam ne farmaya ke oonth ki tarah mat baitho aur baaz log kehte hain jee oonth to baithta hi is tarah ke pehle hath lagata hai phir ghutnay to main aksar kehta hoon ke Nabi alayhis salam ne oonth ultaya hua hai usmein alfaz maujood hain pehle hath lagao baad mein ghutnay"
+    summary_en: "Asserts in clip that placing hands before knees is the Sunnah based on Abu Dawud, responding to the biological observation by claiming that the Prophet deliberately defined the camel's anatomy in reverse."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud (Hadith on placing hands before knees)"
+        timestamp: "00:03:40"
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:03:56-00:05:50"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C03
+    move_type: attack-chain
+    quote: "Ibn Qayyim al-Jawziyyah ne is hadees par tabsirah karte hue ba-qa'idah poori tafseel ke sath kayi safhaat par is hadees par behas ki hai aur likha ke ye hadees maqloob hai... Zad al-Ma'ad ke andar kaha ke ye hadees maqloob hai kisi rawi se hadees ka jo matn hai woh bayan karne mein garbar ho gayi hai aur upar neeche usne kar diya aage peeche... jabke yahi hadees Imam Tahawi Sharh Ma'ani al-Athar mein leke aaye to usmein yahi lafz hai ke pehle apne ghutnay lagao baad mein hath lagao aur oonth ki tarah na baitho"
+    summary_en: "Cites Ibn al-Qayyim al-Jawziyyah in Zad al-Ma'ad who classified the Abu Dawud narration as 'Maqloob' (inverted text due to narrator transposition), noting that Imam al-Tahawi in Sharh Ma'ani al-Athar transmitted the narration with the correct wording: place knees before hands and do not kneel as a camel kneels."
+    evidence_cited:
+      - as_said: "Zad al-Ma'ad by Ibn al-Qayyim al-Jawziyyah (classification as Hadith Maqloob)"
+        timestamp: "00:04:30"
+      - as_said: "Sharh Ma'ani al-Athar by Imam al-Tahawi"
+        timestamp: "00:05:22"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:00-00:07:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C03
+    move_type: support-chain
+    quote: "Sayyiduna Wa'il ibn Hujr farmate hain ke Rasoolullah sallallahu alayhi wa aalihi wa sallam ko unhone namaz parhte dekha Huzoor ne jab namaz parhi aur sajday ke liye jhukay to Nabi-e-Pak alayhis salatu was salam ne pehle apne ghutnay zameen par lagaye aur Huzoor ne baad mein apne haathon ko zameen par lagaya... Doosri hadees al-Mustadrak alas-Sahihayn mein 822 number hadees hai... Sayyiduna Anas bin Malik farmate hain... hatta sabaqat rukbatuhu yadayh Huzoor jab sajday ke liye jhukay to aapke ghutnay aapke haathon se sabqat le gaye"
+    summary_en: "Presents authentic hadiths establishing knees before hands: Wa'il ibn Hujr in Jami at-Tirmidhi 268 (upon which Imam Tirmidhi noted the majority of scholars act), and Anas ibn Malik in al-Mustadrak 822 (sahih, stating the Prophet's knees preceded his hands)."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 268 (Wa'il ibn Hujr: knees before hands; 'alayhi al-amal inda akthar ahl al-ilm')"
+        timestamp: "00:06:05"
+      - as_said: "al-Mustadrak alas-Sahihayn by al-Hakim 822 (Anas ibn Malik, sahih: 'hatta sabaqat rukbatuhu yadayh')"
+        timestamp: "00:06:40"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:07:11-00:08:03"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C03
+    move_type: support-chain
+    quote: "Sahih Ibn Khuzaymah ke andar poora chapter aur baab qayam karke muhaddith Imam Ibn Khuzaymah leke aaye aur Imam Ibn Khuzaymah ne Hazrat Sa'd bin Abi Waqqas radiyallahu ta'ala anhu se hadees ko bayan kiya... farmate hain ye hadees mansookh hai aur nasikh hadees ye hai ke Sa'd ibn Abi Waqqas radiyallahu ta'ala anhu farmate hain hamein pehle ye hukum diya jaata tha ke haathon ko pehle lagao aur ghutnay baad mein lagao farmate hain baad mein hamein hukum ye diya gaya ke pehle apne ghutnay lagao baad mein apne haathon ko lagao"
+    summary_en: "Cites Sahih Ibn Khuzaymah where Imam Ibn Khuzaymah established that placing hands before knees was abrogated (mansookh) by the narration of Sa'd ibn Abi Waqqas, which explicitly states Muslims were initially commanded to place hands first, and subsequently commanded to place knees first."
+    evidence_cited:
+      - as_said: "Sahih Ibn Khuzaymah (narration of Sa'd ibn Abi Waqqas on naskh of hands-first)"
+        timestamp: "00:07:25"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:04-00:11:49"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C03
+    move_type: practice-consensus
+    quote: "yahi sunnat tareeqa hai yahi Salih al-Fawzan ka ba-qa'idah clip social media pe internet pe maujood hai aur aaj bhi aap namaz nikal ke dekh lein wahan ke imamon ki Haram ke woh bhi isi tareeqe se pehle ghutnay lagate hain aur baad mein haathon ko lagate hain... Imam Khattabi farmate hain ye ahsan aur athbat bohot khoobsurat aur pyara tareeqa hai"
+    summary_en: "Corroborates knees before hands through contemporary Salafi scholarship (Shaykh Salih al-Fawzan confirming the camel puts hands down first), the continuous practice of the Imams of the Haramain in Makkah and Madinah, and Imam al-Khattabi's ruling in Ma'alim al-Sunan that knees-first is the more dignified, stable, and established posture."
+    evidence_cited:
+      - as_said: "Fatwa of Shaykh Salih al-Fawzan"
+        timestamp: "00:08:35"
+      - as_said: "Practice of the Imams of the Two Holy Mosques (Haramain)"
+        timestamp: "00:09:50"
+      - as_said: "Ma'alim al-Sunan by Imam al-Khattabi ('ahsan wa athbat')"
+        timestamp: "00:10:30"
+    responds_to: M03
+    confidence: high
+
+new_claims:
+  - id: FQ-EM-C03
+    side: ali-mirza
+    summary_en: "When descending into prostration (sujud), it is obligatory/Sunnah to place the hands down before the knees, and placing knees first imitates a camel as prohibited in Sunan Abi Dawud."
+    move_type: practice-consensus
+    first_seen: M01
+
+phrasings:
+  - maps_to: FQ-EM-C03
+    text: "Sajday mein jaana hai aur uske liye sunnat ye hai ke aapne pehle hath lagane hain uske baad ghutnay lagane hain"
+    timestamp: "00:03:35"

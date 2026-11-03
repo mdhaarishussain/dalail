@@ -1,0 +1,146 @@
+source_id: yt-C-p_33jtEFA
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:40"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: charge
+    quote: "Lekin ye kehna ke kashf aur ilham Allah Ta'ala guarantee ke sath qaim karega ya uske dil mein wahi ke taur par koi cheez daalega, na'uzubillahi ta'ala ye Khatam-e-Nabuwwat ke upar daka hai chahe iske liye ummati nabi ka zikr karein ya na koi karein... Qadiani ne sharaab keh ke pee liya badnam ho gaya, soofiya ne babon ne isko angooron ka juice keh ke peeya rehmatullahi alayh ho gaye"
+    summary_en: "Argues that affirming kashf and ilham as guaranteed divine inspiration is an attack on Khatam-e-Nabuwwat, comparing Sufi belief in ilham to Qadianism."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:06-00:03:48"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KN-EM-C01
+    move_type: practice-consensus
+    quote: "Quran-e-Majeed mein sabqa ummaton ke hawale se Sayyiduna Musa alayhis salam ki walidah par ilham ka zikr Surah Al-Qasas ki ayat number 7 mein maujood hai. Hazrat Isa alayhis salam ke hawariyyeen ki taraf ilham ka zikr Surah Al-Ma'idah ayat number 111 mein maujood hai. Sayyidah Maryam radiyallahu anha ke sath farishtoon ka kalam karna Surah Aal-e-Imran ayat 42 mein maujood hai."
+    summary_en: "Cites Quranic instances of divine inspiration and angelic communication with non-prophets (Musa's mother in 28:7, Isa's disciples in 5:111, Maryam in 3:42) to establish that inspiration to non-prophets is not prophethood."
+    evidence_cited:
+      - as_said: "Surah Al-Qasas ayat 7"
+        timestamp: "00:03:06"
+      - as_said: "Surah Al-Ma'idah ayat 111"
+        timestamp: "00:03:20"
+      - as_said: "Surah Aal-e-Imran ayat 42"
+        timestamp: "00:03:27"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:29-00:05:25"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KN-EM-C01
+    move_type: practice-consensus
+    quote: "Sahih Bukhari ki hadith number 3689 mein nabi alayhis salam ne farmaya... 'Qad kaana fee-man kaana qablakum minal-umami rijaalun yukallamoon'. Tumse pehli jo ummatein theen un mein aise rijal the jin ke sath kalam kiya jata tha farishte unse kalam karte the min ghayri an yakoonoo ambiyaa — bawajood iske ke wo nabi nahi the! Jab wo nabi nahi the aur unko kashf-o-ilham ho raha hai toh pata chala ke mehaz kashf-o-ilham nabuwwat nahi hai. Jab kashf-o-ilham nabuwwat nahi hai toh phir ye Khatam-e-Nabuwwat ke mukhalif kaise ho gaya?"
+    summary_en: "Cites Sahih Bukhari 3689 stating that non-prophets in previous nations were spoken to by angels, proving that inspiration to saints does not constitute prophethood and cannot breach Khatam-e-Nabuwwat."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 3689"
+        timestamp: "00:04:29"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:07:07-00:08:20"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KN-EM-C01
+    move_type: practice-consensus
+    quote: "Sahih Bukhari hadith 3469, Sahih Muslim 6204, Jami' Tirmidhi 3693: Nabi Paak sallallahu alayhi wa sallam ne farmaya... 'Fa-in yaku fee ummati ahadun fa-innahu Umar'. Agar meri ummat mein koi hai toh wo Umar ibn al-Khattab radiyallahu ta'ala anhu hain. Sahih Bukhari 3689 ke alfaz hain: agar is ummat mein un mein se koi hai jinke sath farishte kalam karte the toh wo Umar hain."
+    summary_en: "Cites Bukhari, Muslim, and Tirmidhi where the Prophet confirmed that Umar is the recipient of inspiration (muhaddath) in this ummah."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 3469 and 3689"
+        timestamp: "00:07:07"
+      - as_said: "Sahih Muslim hadith 6204"
+        timestamp: "00:07:07"
+      - as_said: "Jami' Tirmidhi hadith 3693"
+        timestamp: "00:07:07"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:12:30-00:13:50"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KN-EM-C02
+    move_type: definition
+    quote: "Lekin is hadith mein 'in' hai: 'in yaku fee ummati'. Yahan 'in' shak ke liye nahi balkay ta'keed aur kamal-e-sifat ke liye hai, jaise Arabi mein kehte hain: in kaana lee sadeequn fa-Khalid... Sahih Bukhari hadith 5683 mein Nabi alayhis salam ne farmaya: 'in kaana fee shay'in min adwiyatikum khayrun' — agar tumhari dawaon mein koi khayr hai toh pachna lagwane mein aur shehad peene mein hai. Yahan shifa ki nafi maqsood nahi balkay afzal-tareen dawa bayan karna maqsood hai."
+    summary_en: "Analyzes the Arabic particle 'in' in the hadith as denoting confirmation and superlative excellence rather than negation or doubt, comparing it with the hadith on medicine in Bukhari 5683."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 5683"
+        timestamp: "00:13:36"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M06
+    timestamp: "00:26:00-00:27:35"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KN-EM-C01
+    move_type: support-chain
+    quote: "Aur Nabi alayhis salam ke wisal ke baad Hazrat Umar radiyallahu anhu ka waqia: minbar par baithe hue pukaara: 'Ya Sariyah al-jabal'... Madina shareef mein minbar par baith kar Nahawand Iraq mein ladne wale lashkar ko pukaara... Ye hadith Imam Ahmad ibn Hanbal Fada'il al-Sahaba mein, Imam Bayhaqi Dala'il al-Nubuwwah mein le ke aaye, aur Nasiruddin Albani ne Silsilah al-Ahadith al-Sahihah mein hadith 3738 aur 3740 ke tehat sahih qarar diya! Hafiz Ibn Hajar Asqalani ne Al-Isabah safha 675 par sanad ko hasan qarar diya, Ibn Kathir ne Al-Bidayah wan-Nihayah mein hasan qarar diya. Aur Ibn Taymiyyah ne Majmu' Fatawa mein Sayyiduna Umar Farooq ko sayyid-ul-muhaddatheen qarar diya."
+    summary_en: "Cites the 'Ya Sariyah al-jabal' incident authenticated by Albani, Ibn Hajar, Ibn Kathir, and Ibn Taymiyyah as definitive evidence of kashf and telepathic address after the Prophet's passing."
+    evidence_cited:
+      - as_said: "Fada'il al-Sahaba by Ahmad bin Hanbal"
+        timestamp: "00:26:49"
+      - as_said: "Dala'il al-Nubuwwah by al-Bayhaqi"
+        timestamp: "00:26:49"
+      - as_said: "Silsilah al-Ahadith al-Sahihah by Albani hadith 3738"
+        timestamp: "00:26:49"
+      - as_said: "Al-Isabah by Ibn Hajar p. 675"
+        timestamp: "00:27:14"
+      - as_said: "Majmu' al-Fatawa by Ibn Taymiyyah"
+        timestamp: "00:27:20"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M07
+    timestamp: "00:32:45-00:33:25"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    move_type: consistency
+    quote: "Sahih Muslim hadith 7373 mein Hazrat Isa alayhis salam ke nuzool ke baare mein aaya: 'idh awha Allahu ila Isa' — jab Allah Isa ki taraf wahi farmaye ga. Mirza Jhelumi jawab de ke Isa alayhis salam par qurb-e-qayamat nuzool ke waqt jo wahi hogi kya wo wahi-e-nabuwwat hogi ya ilham hoga? Agar kashf-o-ilham Khatam-e-Nabuwwat ke khilaf hai toh phir wahan kya jawab dega?"
+    summary_en: "Asks how Mirza reconciles his claim that all non-sensory divine communication violates Khatam-e-Nabuwwat with Sahih Muslim 7373 stating Allah will reveal (awha) instructions to Isa during his descent."
+    evidence_cited:
+      - as_said: "Sahih Muslim hadith 7373 (revelation to Isa upon descent)"
+        timestamp: "00:32:45"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: KN-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Believing in kashf and ilham as divine inspiration to the heart constitutes a breach of Khatam-e-Nabuwwat, functioning as an indirect claim to continuing revelation."
+    move_type: charge
+    first_seen: M01
+
+  - id: KN-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The hadith on Umar ('in yaku fee ummati ahadun') is conditional and negates the ongoing presence of inspired individuals (muhaddathoon) in the ummah."
+    move_type: restrict-evidence
+    first_seen: M01
+
+phrasings:
+  - maps_to: KN-EM-C01
+    text: "ye kehna ke kashf aur ilham Allah Ta'ala guarantee ke sath qaim karega... ye Khatam-e-Nabuwwat ke upar daka hai"
+    timestamp: "00:00:00"

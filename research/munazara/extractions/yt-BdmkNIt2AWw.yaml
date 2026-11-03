@@ -1,0 +1,171 @@
+source_id: yt-BdmkNIt2AWw
+moves:
+  - move_id: M01
+    timestamp: "00:03:20-00:03:56"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: principle
+    quote: "Toh kaha ja raha hai ke aap farma dein mere paas koi khazana nahi hai... Aur na main ghaib jaanta hoon, bilkul wazeh. Aam Barelvi sahab baqi log iska tarjuma karte hue likh dete hain: na main khud se ghaib jaanta hoon. Theek hai, ye bhi koi ghalat nahi hai lekin jab aap ye kahein ge ke Allah ke Nabi alayhis salam ko ma kaana wa ma yakoon, jo kuch ho chuka jo kuch hone wala hai iska ilm hai, phir hum aapse poochein ge ke ye aapko kisne bataya? Quran mein toh hai ke main ghaib nahi jaanta."
+    summary_en: "Cites Surah Al-An'am 50 to argue that the Prophet explicitly denied knowing the unseen, rejecting the doctrine that he possessed comprehensive knowledge of all past and future events."
+    evidence_cited:
+      - as_said: "Surah Al-An'am ayat 50"
+        timestamp: "00:03:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:06:35-00:06:55"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: principle
+    quote: "Bukhari Muslim mein hadith hai ke paanch cheezein jo Surah Luqman ke end mein aayi hain wo Allah ke sath khaas hain, unko Allah ke siwa koi nahi jaanta, wo Allah ke ghaib ki kunjiyaan hain."
+    summary_en: "Cites the closing verse of Surah Luqman and Bukhari/Muslim regarding the five keys of the unseen, arguing these remain exclusive to Allah."
+    evidence_cited:
+      - as_said: "Surah Luqman ayat 34"
+        timestamp: "00:06:35"
+      - as_said: "Bukhari Muslim (Mafatih al-Ghayb)"
+        timestamp: "00:06:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:08:30-00:09:20"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: practice-consensus
+    quote: "Bukhari mein hadith hai: Umm al-'Ala ek budhi sahabi Uthman bin Maz'oon ki khidmat kiya karti theen, wo faut ho gaye. Allah ke Nabi jab mayyat par aaye toh unhone Nabi alayhis salam ki maujoodgi mein keh diya: aye Uthman, tere liye Allah ke huzoor jannatein hain. Toh Allah ke Nabi paas khade the, aapne farmaya: tumhe kisne bata diya? Halankay main Allah ka rasool hoon lekin main nahi jaanta ke iske sath, tumhare sath aur khud mere sath kya hoga."
+    summary_en: "Cites Bukhari regarding Uthman bin Maz'oon's demise where the Prophet stated he did not know what would be done with him or others in the unseen future."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (Umm al-'Ala on Uthman bin Maz'oon)"
+        timestamp: "00:08:30"
+      - as_said: "Surah Al-Ahqaf ayat 9"
+        timestamp: "00:10:10"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:15:10-00:15:30"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: practice-consensus
+    quote: "Aur teesri baat Amma Aisha ne farmayi ke jo koi kehta hai na ke Allah ke Nabi alayhis salam ghaib jaan lete the usne Allah par jhoot baandha, kyunke Allah farmata hai: 'qul la ya'lamu man fis-samawati wal-ardi al-ghaiba illallah'."
+    summary_en: "Cites Aisha in Sahih Muslim and Bukhari stating that whoever claims the Prophet knew the unseen has fabricated a lie against Allah."
+    evidence_cited:
+      - as_said: "Sahih Muslim and Sahih Bukhari (statement of Aisha)"
+        timestamp: "00:10:50"
+      - as_said: "Surah An-Naml ayat 65"
+        timestamp: "00:15:10"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:15:50-00:16:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: practice-consensus
+    quote: "Sahih Bukhari mein aata hai Bi'r Ma'oonah par 70 qariyon ko dhokay se shaheed kiya gaya, toh unhone marte waqt kaha: hamare Nabi ko hamari khabar kar de ke hum apne Rabb se razi hain aur Rabb humse razi hai. Aur Rasoolullah farmate hain Bukhari ke alfaz hain: mujhe abhi Jibril ne khabar di hai ke tumhare saathiyon ko dhokay se shaheed kar diya gaya. Ye ek hadith Bukhari aur Muslim dono mein teen aqeedon ki nafi karti hai: number one, aqeeda-e-ilm-ul-ghaib ke Sahaba ka yaqeen tha ke Allah khabar karega toh pata chalega warna nahi."
+    summary_en: "Argues from the tragedy of Bi'r Ma'oonah in Sahih Bukhari that neither the martyred companions nor the Prophet possessed prior knowledge of the tragedy until Jibril brought revelation."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (Bi'r Ma'oonah incident)"
+        timestamp: "00:15:50"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:23:40-00:24:55"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: principle
+    quote: "Surah Al-A'raf ayat number 188... Aye Nabi tum farmao main toh apni jaan ke liye bhi na kisi nafe ka maalik hoon na kisi nuqsan ka, illa ma sha'Allah. Aur agar main khud se ghaib jaan leta toh main khair-e-kaseer jama kar leta, wa ma massaniyas-soo' aur mujhe koi takleef na pohnchti. Agar Allah ke Nabi alayhis salam ghaib jaante hote toh Uhud ke mauqa par aapko ye takleef na aati ke dandaan-e-mubarak shaheed hue aur 70 se zyada Sahaba shaheed hue."
+    summary_en: "Cites Surah Al-A'raf 188 and the injuries at Uhud to argue that lack of foreknowledge of harm proves absence of inherent knowledge of the unseen."
+    evidence_cited:
+      - as_said: "Surah Al-A'raf ayat 188"
+        timestamp: "00:23:40"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:29:40-00:32:10"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: consistency
+    quote: "Surah At-Tahrim ayat number 3... Jab Rasoolullah ne unko khabar di toh unhone poocha: 'man anba'aka haadha'. Aapko kisne bataya? Toh Nabi ne farmaya: 'nabba'aniyal 'aleemul khabeer'. Mujhe khabar di hai Ilm wale ne aur khabar rakhne wale ne. Aapne ye nahi farmaya ke main ghaib jaanta hoon ya ma kaana wa ma yakoon ka ilm mere paas hai, balkay farmaya Allah ne mujhe bataya."
+    summary_en: "Cites Surah At-Tahrim 3 where the Prophet explained that Allah informed him of a disclosed secret rather than claiming intrinsic knowledge."
+    evidence_cited:
+      - as_said: "Surah At-Tahrim ayat 3"
+        timestamp: "00:29:40"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:35:40-00:37:15"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: practice-consensus
+    quote: "Bukhari aur Muslim dono mein hadith hai: jab main Mi'raj se wapas aaya toh Quraish ne mujhe jhutlana shuru kiya aur mujhse Bayt al-Maqdis ke baare mein sawalat kiye jin ke jawab mujhe maloom nahi the, main itna pareshan hua ke main Quraish ke samne jhoota na pad jaoon. Muslim shareef ke alfaz hain: Allah ne Bayt al-Maqdis ko utha kar meri nigahon ke samne kar diya, jo wo mujhse poochte the main dekh kar batata tha. Iska matlab hai ke us waqt aapko nahi pata tha, jab unhone poocha toh us waqt Allah ne samne kiya aur dikha diya."
+    summary_en: "Cites the interrogation regarding Bayt al-Maqdis after Mi'raj in Bukhari and Muslim, arguing the Prophet was shown the structure in vision at that moment rather than possessing prior detailed knowledge."
+    evidence_cited:
+      - as_said: "Sahih Bukhari and Sahih Muslim (Bayt al-Maqdis vision after Mi'raj)"
+        timestamp: "00:35:40"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IG-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The Prophet explicitly denied possessing knowledge of the unseen (Quran 6:50, 7:188), refuting the doctrine that he possessed comprehensive knowledge of all past and future events (ma kaana wa ma yakoon)."
+    move_type: principle
+    first_seen: M01
+
+  - id: IG-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Aisha confirmed in Sahih Muslim and Bukhari that whoever claims the Prophet knew the unseen has fabricated a lie against Allah, citing Quran 27:65."
+    move_type: practice-consensus
+    first_seen: M04
+
+  - id: IG-EM-C03
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The tragedy of Bi'r Ma'oonah in Sahih Bukhari proves that neither the martyred companions nor the Prophet knew of the impending betrayal until informed by Jibril."
+    move_type: practice-consensus
+    first_seen: M05
+
+  - id: IG-EM-C04
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "In Surah At-Tahrim 3, when asked who told him of a disclosed secret, the Prophet attributed it to Allah informing him ('nabba'aniyal 'aleemul khabeer'), not to personal ghaib."
+    move_type: consistency
+    first_seen: M07
+
+  - id: IG-EM-C05
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The Prophet was perturbed by detailed questions regarding Bayt al-Maqdis after Mi'raj until Allah displayed the building before him, proving detailed knowledge was granted occasionally by direct vision rather than held permanently."
+    move_type: practice-consensus
+    first_seen: M08
+
+phrasings:
+  - maps_to: IG-EM-C01
+    text: "Quran mein toh hai ke main ghaib nahi jaanta... jab aap ye kahein ge ke Allah ke Nabi alayhis salam ko ma kaana wa ma yakoon ka ilm hai, toh ye ghalat hai"
+    timestamp: "00:03:50"
+  - maps_to: IG-EM-C02
+    text: "Amma Aisha ne farmayi ke jo koi kehta hai na ke Allah ke Nabi alayhis salam ghaib jaan lete the usne Allah par jhoot baandha"
+    timestamp: "00:15:10"

@@ -1,0 +1,162 @@
+source_id: yt-2sI73wlBbmk
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:23"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: FQ-EM-C05
+    move_type: charge
+    quote: "Pakistan mein 90% log us tareeqe par namaz nahin parhte jo Bukhari Muslim mein likha hai... aap apni namaz ka tareeqa Bukhari Muslim se sabit karein aapko to aapka to tareeqa-e-namaz Bukhari Muslim se sabit nahin hai"
+    summary_en: "Argues that valid Sunnah prayer must be proven exclusively from Sahih Bukhari and Sahih Muslim, asserting that 90% of Pakistani Muslims pray contrary to the authentic Sunnah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:24-00:04:44"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C05
+    move_type: restrict-evidence
+    quote: "Huzoor ne ye to nahin farmaya ke main Kitabullah aur Bukhari Muslim chhor ke ja raha hoon... ye jo hadees hai ye khud hadees Bukhari Muslim mein maujood nahin hai... ye hadees Imam Malik ki al-Muwatta mein balaghatan Imam Malik se aur al-Mustadrak alas-Sahihayn Imam Hakim ne hadees number 320... ab ye hadees khud Sahih Bukhari Muslim mein maujood nahin Kutub-e-Sittah mein maujood nahin hai jo ke hujjiat-e-hadees ki ek daleel hai"
+    summary_en: "Refutes restricting the Sunnah to Bukhari and Muslim: points out that the Prophet's farewell command ('Kitabullah and my Sunnah' in Muwatta and Mustadrak 318) is itself not in Bukhari or Muslim, and that pre-Bukhari compilations (Muwatta, Musannaf Abd al-Razzaq, Musannaf Ibn Abi Shaybah) held the Sunnah prior to Bukhari."
+    evidence_cited:
+      - as_said: "Muwatta Imam Malik (Kitabullah wa Sunnatan-Nabi)"
+        timestamp: "00:02:15"
+      - as_said: "al-Mustadrak alas-Sahihayn by al-Hakim 318 / 320"
+        timestamp: "00:02:25"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:45-00:10:04"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-33
+    move_type: consistency
+    quote: "Sahih Bukhari mein Imam Bukhari ne chaar maqamaat pe do Sahaba se hadees ko bayan kiya hai 224, 225, 226 aur 2471 number ahadees hain... ke Nabi alayhis salatu was salam ne kharay hoke peshab farmaya... na Bukhari mein na Muslim mein baith ke peshab karne ki ek bhi hadees maujood nahin... jab hum deegar ahadees ko utha kar dekhte hain to Jami at-Tirmidhi mein Imam Tirmidhi rahimahullah hadees number 12 leke aaye Sayyidah Aisha Siddiqah radiyallahu ta'ala anha se... uski tasdeeq na karna Huzoor ne hamesha baith kar peshab farmaya"
+    summary_en: "Demonstrates that texts in Bukhari/Muslim do not automatically define operative Sunnah: Bukhari contains 4 narrations of urinating standing and zero of sitting, yet the Ummah follows Aisha's narration in Tirmidhi 12 (sitting); similarly, Bukhari has 3 narrations of drinking water standing, while Muslim (5275-5279) strictly forbids it."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 224, 225, 226, 2471 (urinating standing)"
+        timestamp: "00:05:05"
+      - as_said: "Jami at-Tirmidhi 12 (Aisha: 'never urinated except sitting')"
+        timestamp: "00:05:55"
+      - as_said: "Sahih Bukhari 5615, 5616, 5617 (drinking water standing)"
+        timestamp: "00:08:05"
+      - as_said: "Sahih Muslim 5275-5279 (prohibition of drinking standing)"
+        timestamp: "00:08:45"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:11:28-00:12:14"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: FQ-EM-C06
+    move_type: charge
+    quote: "ye jo tark-e-raf-ul-yadain karne wale hain unhone jo raf-ul-yadain chhorha tha woh sust ho chuke the susteen ki wajah se unhone chhorha tha"
+    summary_en: "Claims in recorded lecture that the Sahaba and Tabi'in who abandoned raf al-yadayn did so merely out of physical laziness (susti)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:12:15-00:17:48"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C06
+    move_type: support-chain
+    quote: "Musannaf Ibn Abi Shaybah 2469... Aswad tabi'i kehte hain sallaytu ma'a Umara fa-lam yarfa yadayhi maine Hazrat Umar ke peeche namaz parhi Hazrat Umar namaz ke shuru ke alawa baqi maqam par raf-ul-yadain nahin karte the... Musannaf Ibn Abi Shaybah mein 2457 number... Kulayb bin Shihab kehte hain ke Maula Ali jab namaz parhte to namaz ke shuru mein to apne haathon ko uthate the thumma la ya'oodu phir poori namaz mein dobara raf-ul-yadain nahin karte the... Nasb al-Raya ki pehli jild safha 408 pe likhte hain wa huwa atharun sahihun... Mujahid tabi'i jo ke Abdullah bin Umar ke shagird hain... Umdat al-Qari Sharh Sahih al-Bukhari jild number 5 safha number 399 pe likhte hain rawahu bi-isnadin sahihin"
+    summary_en: "Refutes the laziness slur by providing unbroken authentic chains of Sahaba and major Tabi'in: Umar (Musannaf 2469, sahih Tahawi), Ali (Musannaf 2457, sahih Zayla'i), Ibn Umar (Musannaf 2467, sahih Ayni), Sha'bi (Musannaf 2459), and the collective disciples of Ali and Ibn Mas'ud (Musannaf 2461), proving they abandoned it deliberately as established Sunnah."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah 2469 (Umar, sahih Tahawi)"
+        timestamp: "00:13:30"
+      - as_said: "Musannaf Ibn Abi Shaybah 2457 (Ali, sahih Zayla'i in Nasb al-Raya 1/408)"
+        timestamp: "00:14:40"
+      - as_said: "Musannaf Ibn Abi Shaybah 2467 (Ibn Umar via Mujahid, sahih Ayni in Umdat al-Qari 5/399)"
+        timestamp: "00:15:40"
+      - as_said: "Musannaf Ibn Abi Shaybah 2459 (al-Sha'bi)"
+        timestamp: "00:16:45"
+      - as_said: "Musannaf Ibn Abi Shaybah 2461 (disciples of Ali and Ibn Mas'ud)"
+        timestamp: "00:17:10"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:27:04-00:30:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-34
+    move_type: turnabout
+    quote: "Mirza Jhelumi ek aur dhoka ye deta hai ke siwaye Hanafiyon ke baqi saari ummat unka mauqif yahi hai ke namaz mein raf-ul-yadain karna hai jabke Mirza Jhelumi ka ye bilkul jhoot hai... Imam Malik rahmatullahi ta'ala alayh ka mauqif unki fiqh ki jo mo'tabar kitab jisko Mirza Jhelumi mo'tabar aur mustanad tasleem kar chuka hai ye al-Mudawwanah al-Kubra... pehli jild ke safha 118 mein maujood hai la a'rifu raf'al-yadayni fee shay'in min takbeeris-salat illa fee iftitahis-salat... wa ra'ful-yadayni inda Malikin da'eefun illa fee takbeeratil-ihram"
+    summary_en: "Dismantles Mirza's claim that all madhhabs agree on 4 raf al-yadayn except Hanafis, citing Imam Malik's foundational text al-Mudawwanah al-Kubra (1/118) where Malik explicitly declared raf al-yadayn outside opening takbeer to be unknown and weak."
+    evidence_cited:
+      - as_said: "al-Mudawwanah al-Kubra by Imam Malik Vol 1 p. 118"
+        timestamp: "00:29:10"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:30:36-00:32:40"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C07
+    move_type: attack-chain
+    quote: "ye kehte hain ke ahadees to hamari bhi hain lekin inko ye pata nahin inki ahadees ko bayan karke neeche likh diya ke ye hadees za'eef hai... Imam Tirmidhi rahmatullah ne Sayyiduna Abdullah bin Mas'ud ki hadees bayan ki 257 number hadees ke neeche ye likha hai ke hadithu Ibn Mas'ud hadithun hasan... Nasiruddin Albani ne is hadees ko sahih qarar diya aur ye Sunan Abi Dawud hai 748 number hadees Nasiruddin Albani ne is hadees ko sahih qarar diya"
+    summary_en: "Refutes Mirza's assertion that imams cited Ibn Mas'ud's narration only to declare it da'eef: shows Tirmidhi explicitly graded 257 as 'hasan', and Nasiruddin Albani graded Tirmidhi 257, Abu Dawud 748, and Nasa'i 1026 as 'sahih'."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 257 ('hadithun hasan')"
+        timestamp: "00:31:15"
+      - as_said: "Sunan Abi Dawud 748 (sahih Albani)"
+        timestamp: "00:31:55"
+      - as_said: "Sunan an-Nasa'i 1026 (sahih Albani)"
+        timestamp: "00:32:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:32:41-00:34:53"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-35
+    move_type: principle
+    quote: "ek aam dhoka jo log usko qabool kar lete hain woh ye hai ke raf-ul-yadain karne ki jo ahadees hain woh zyada hain aur na karne ki kam hain... Sahih Muslim mein Imam Muslim 3410 number hadees se lekar 3435 number hadees tak Mut'ah ke hawale se ahadees leke aaye hain taqreeban 26 ahadees Imam Muslim ne Sahih Muslim mein zikr ki hain... zyada karne ki jawaz ki hain aur kam na karne ki hain to kya zyada karne ki hain to karna shuru kar dein? Hargiz nahin humne dekhna hai ke rajih kaun si ahadees hain matrook aur mansookh kaun si hain"
+    summary_en: "Refutes deciding fiqh by sheer counting of narrations: Sahih Muslim records 26 narrations permitting Mut'ah and far fewer prohibiting it, yet the Ummah practices the prohibiting narrations because they are nasikh (abrogating); similarly, naskh and tarjeeh govern the cessation of raf al-yadayn."
+    evidence_cited:
+      - as_said: "Sahih Muslim 3410-3435 (26 narrations on Mut'ah)"
+        timestamp: "00:33:10"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: FQ-EM-C05
+    side: ali-mirza
+    summary_en: "Authentic Sunnah prayer must be proven exclusively from Sahih Bukhari and Sahih Muslim, and prayers not found in them are invalid or contrary to Sunnah."
+    move_type: charge
+    first_seen: M01
+  - id: FQ-EM-C06
+    side: ali-mirza
+    summary_en: "The Sahaba and Tabi'in who abandoned raf al-yadayn did so because they became physically lazy (sust)."
+    move_type: charge
+    first_seen: M04
+  - id: FQ-EM-C07
+    side: ali-mirza
+    summary_en: "Hadith compilers only narrated the hadith of Ibn Mas'ud on abandoning raf al-yadayn in order to expose it as weak (da'eef)."
+    move_type: attack-chain
+    first_seen: M07
+
+phrasings:
+  - maps_to: FQ-EM-C05
+    text: "Pakistan mein 90% log us tareeqe par namaz nahin parhte jo Bukhari Muslim mein likha hai"
+    timestamp: "00:00:15"
+  - maps_to: FQ-EM-C06
+    text: "unhone jo raf-ul-yadain chhorha tha woh sust ho chuke the susteen ki wajah se unhone chhorha tha"
+    timestamp: "00:11:35"

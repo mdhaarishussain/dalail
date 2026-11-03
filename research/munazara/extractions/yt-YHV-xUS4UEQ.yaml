@@ -1,0 +1,172 @@
+source_id: yt-YHV-xUS4UEQ
+moves:
+  - move_id: M01
+    timestamp: "00:00:07-00:00:58"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: KN-EM-C03
+    move_type: charge
+    quote: "mera to mauqif ye hai ke main Mukhtar Thaqafi ke baare mein positive nazriyah rakhta hoon uski wajah ye hai ke Mukhtar Thaqafi ke maanne walon ke peeche Sunan al-Kubra al-Bayhaqi mein aata hai ke Abdullah ibn Umar namazein parha karte the agar usne da'wa-e-nabuwwat kiya tha to uske peeche namazein kyun parhte the"
+    summary_en: "Adopts a positive stance toward Mukhtar al-Thaqafi, arguing that Abdullah ibn Umar prayed behind his followers in Sunan al-Kubra al-Bayhaqi, and equating reports of Mukhtar's claims of wahi to ambiguous Sufi expressions."
+    evidence_cited:
+      - as_said: "Sunan al-Kubra al-Bayhaqi (Ibn Umar praying behind Mukhtar's followers)"
+        timestamp: "00:00:32"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:40-00:03:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: definition
+    quote: "Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ne irshad farmaya qiyamat us waqt tak qayam nahin hogi jis waqt tak dajjal aur kazzab paida na ho jayein un mein se har ek ye da'wa karega ke woh Allah ka Rasool hai ana khatamun-nabiyyeen la nabiyya ba'di"
+    summary_en: "Contrasts the opponent's self-proclaimed status as a defender of Khatam-e-Nabuwwat with his defense of Mukhtar al-Thaqafi, citing prophetic warnings across Bukhari, Muslim, Abu Dawud, and Tirmidhi about 30 false claimants to prophethood."
+    evidence_cited:
+      - as_said: "Sahih Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami at-Tirmidhi (30 Dajjals/Kazzabs claiming prophethood)"
+        timestamp: "00:02:48"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:26-00:05:15"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: support-chain
+    quote: "Musnad al-Humaydi ki jild number 1 ke safha number 157 pe hadees number 326 bayan karte hain aur uske andar lafz hain fa-ammal-kazzabu fa-qad ra'aynahu yani al-Mukhtar pas woh jo kazzab hai us kazzab ko yani Mukhtar ko hum dekh chuke hain"
+    summary_en: "Cites Sahih Muslim 6496 and Musnad al-Humaydi 326 where Asma bint Abi Bakr identified Mukhtar al-Thaqafi as the kazzab foretold by the Prophet."
+    evidence_cited:
+      - as_said: "Sahih Muslim 6496"
+        timestamp: "00:03:28"
+      - as_said: "Musnad al-Humaydi Vol 1 p. 157 hadith 326 (explicit identification of Mukhtar)"
+        timestamp: "00:04:30"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:37-00:05:48"
+    speaker: B
+    side: ali-mirza
+    kind: concession
+    maps_to: KN-EM-C03
+    move_type: restrict-evidence
+    quote: "Asma bint Abi Bakr ka qaul to Sahih Muslim ke andar maujood hai lekin woh isharatan tanhan hai baqi Musnad al-Humaydi wali riwayat ka mujhe nahin pata ke usmein unhone kya kiya"
+    summary_en: "Concedes in clip that Asma bint Abi Bakr's statement is in Sahih Muslim but claims it is only an indirect allusion, admitting lack of knowledge regarding Musnad al-Humaydi's explicit text."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:06:17-00:07:59"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: practice-consensus
+    quote: "Sharh Sahih Muslim jild number 16 safha number 100 pe likha wa-ttafaqal-ulama'u ala annal-murada bil-kazzabi huna al-Mukhtar ibn Abi Ubayd ke yahan jis kazzab ka zikr ho raha hai ulama ka is baat par ittifaq hai ke woh kazzab Mukhtar ibn Abi Ubayd Thaqafi hai"
+    summary_en: "Cites Imam an-Nawawi in Sharh Sahih Muslim transmitting scholarly consensus (ittifaq/ijma) that the kazzab is Mukhtar, supported by Bayhaqi's Dala'il al-Nubuwwah 6/425."
+    evidence_cited:
+      - as_said: "Sharh Sahih Muslim by Imam an-Nawawi Vol 16 p. 100"
+        timestamp: "00:06:38"
+      - as_said: "Dala'il an-Nubuwwah by Imam al-Bayhaqi Vol 6 p. 425"
+        timestamp: "00:07:15"
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:08:00-00:09:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: attack-chain
+    quote: "usmein Yunus bin Ubayd ka Nafi se hadees sunna sabit hi nahin hai maine 7 muhadditheen ke hawalajaat pesh kiye Imam Bukhari Imam Abu Dawud aur bare bare muhadditheen ne is baat ko wazeh kiya hai ke Yunus bin Ubayd ka Nafi se hadees sunna siray se sabit hi nahin hai lihaza ye riwayat munqati' za'eef riwayat hai"
+    summary_en: "Dismantles the report in Sunan al-Kubra al-Bayhaqi of Ibn Umar praying behind Mukhtar's followers, proving it is broken (munqati') because Yunus bin Ubayd never heard narrations from Nafi', as confirmed by Bukhari and Abu Dawud."
+    evidence_cited:
+      - as_said: "Sunan al-Kubra al-Bayhaqi (broken chain: Yunus bin Ubayd -> Nafi')"
+        timestamp: "00:08:30"
+      - as_said: "Statements of Imam Bukhari and Imam Abu Dawud on disconnection"
+        timestamp: "00:09:00"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:09:26-00:10:44"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: support-chain
+    quote: "Musnad Ahmad ibn Hanbal ki jo hadees main aapke samne rakhne laga hoon 5985 Mirza Jhelumi ke baba Zubair Ali Zai ke ustaad Ahmad Shakir ne is riwayat ko sahih li-ghayrihi qarar diya hai aur woh riwayat ye hai ke ek shakhs ahl-e-Kufa mein se Hazrat Abdullah bin Umar ke paas maujood tha woh Mukhtar Thaqafi ke baare mein Hazrat Abdullah bin Umar ko bata raha tha to Abdullah ibn Umar ne us shakhs ko suna aur sunke kaha jo tum Mukhtar Thaqafi ke baare mein keh rahe ho agar aisa hi hai to maine khud Nabi-e-Pak alayhis salatu was salam se suna Huzoor farmate hain ke qiyamat se pehle 30 dajjal aur kazzab log aayeinge"
+    summary_en: "Cites Musnad Ahmad 5985 (authenticated by Ahmad Shakir) where Abdullah ibn Umar identified Mukhtar as one of the 30 false claimants to prophethood."
+    evidence_cited:
+      - as_said: "Musnad Ahmad ibn Hanbal 5985 (tahqeeq Ahmad Shakir, sahih li-ghayrihi)"
+        timestamp: "00:09:36"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:10:45-00:12:55"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: support-chain
+    quote: "al-Mu'jam al-Awsat ke andar Imam Tabarani leke aaye jis ka number hai 924 Abu Ishaq tabi'i kehte hain maine Abdullah ibn Umar se kaha ke Mukhtar Thaqafi ye da'wa karta hai guman karta hai ke uski taraf wahi ki jaati hai to Abdullah ibn Umar ne farmaya haan Mukhtar Thaqafi ne sach kaha kyunke shayateen apne dosto ki taraf wahi karte hain"
+    summary_en: "Cites al-Mu'jam al-Awsat 924 (Majma' al-Zawa'id 7/643, Hadith 12488, authentic isnad) where Ibn Umar confirmed Mukhtar claimed wahi, applying Surah Al-An'am 6:121 that devils inspire their allies."
+    evidence_cited:
+      - as_said: "al-Mu'jam al-Awsat by Imam al-Tabarani 924"
+        timestamp: "00:10:50"
+      - as_said: "Majma' al-Zawa'id by Imam al-Haythami Vol 7 p. 643 hadith 12488 (rijaluhu rijal al-sahih)"
+        timestamp: "00:11:45"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:12:56-00:14:30"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: KN-EM-C03
+    move_type: practice-consensus
+    quote: "al-Tabaqat al-Kubra ki jild number 5 safha number 109 pe leke aaye ke Imam Zayn al-Abidin Ka'batullah ke darwaze par khare hue aur khare hoke Mukhtar Thaqafi par aapne la'nat farmayi to ek shakhs ne kaha ke aap Mukhtar Thaqafi par la'nat farma rahe hain jabke woh aapki wajah se zabah kiya gaya to Sayyiduna Imam Zayn al-Abidin ne farmaya Mukhtar Thaqafi kazzab hai woh Allah aur uske Rasool par jhoot bandhta hai"
+    summary_en: "Cites Ibn Sa'd's al-Tabaqat al-Kubra (5/109) with an authentic chain that Imam Zayn al-Abidin cursed Mukhtar at the door of the Ka'bah, declaring him a kazzab who lied against Allah and His Messenger."
+    evidence_cited:
+      - as_said: "al-Tabaqat al-Kubra by Ibn Sa'd Vol 5 p. 109"
+        timestamp: "00:13:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:14:31-00:15:59"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-20
+    move_type: turnabout
+    quote: "ek taraf jab kashf-o-ilham ki baat aaye to kehta hai jo kashf-o-ilham ko maante hain woh bhi Khatam-e-Nabuwwat ke daku hain aur ek taraf jo sarahatan apne liye wahi ka iqrar kar raha hai aur kehta hai mere paas Jibreel aate hain aur jis ke nabuwwat ka da'wa karne par ulama ittifaq kar rahe hain ke usne nabuwwat ka da'wa kiya ye kazzab tha uske baare mein kehta hai ke nahin jee uske baare mein jo kaha jaata hai ke nabuwwat ka da'wa kiya ye sabit nahin hai"
+    summary_en: "Highlights the opponent's double standard: condemning orthodox Sufis as 'thieves of Khatam-e-Nabuwwat' for accepting kashf/ilham, while excusing Mukhtar al-Thaqafi who explicitly claimed angelic wahi and was unanimously declared a false prophet by Sahaba, Ahl al-Bayt, and Muhaddithin."
+    evidence_cited:
+      - as_said: "al-Thiqat by Ibn Hibban (al-Mukhtar al-mutanabbi bil-Iraq)"
+        timestamp: "00:14:40"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: KN-EM-C03
+    side: ali-mirza
+    summary_en: "Adopting a positive view of Mukhtar al-Thaqafi, denying his claim to prophethood based on Ibn Umar praying behind his followers in Sunan al-Kubra al-Bayhaqi, and equating reports of his wahi claims to ambiguous Sufi utterances."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: KN-EM-C03
+    text: "mera to mauqif ye hai ke main Mukhtar Thaqafi ke baare mein positive nazriyah rakhta hoon"
+    timestamp: "00:00:22"
+  - maps_to: KN-EM-C03
+    text: "agar usne da'wa-e-nabuwwat kiya tha to uske peeche namazein kyun parhte the"
+    timestamp: "00:00:36"

@@ -1,0 +1,88 @@
+source_id: yt-5qcl3CRo6x8
+moves:
+  - move_id: M01
+    timestamp: "00:00:15-00:01:27"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: TH-EM-C01
+    move_type: charge
+    quote: "Sahih Muslim mein hadees hai ek sahabi ne Huzoor ke samne khutbah dete hue kaha jo Allah Rasool ki ita'at kare woh kamyab hua aur jisne un dono ki nafarmani ki woh gumrah hua ho gaya aapne farmaya kitna bura khateeb hai tu to tu ne ye kyun kaha un dono ki halanke jumla context ke sath durust tha... Abu Dawud mein aage alfaz hain aapne farmaya uth nikal idhar se tu ne mujhe Allah ke sath shamil kar diya"
+    summary_en: "Argues in recorded lecture that combining Allah and the Prophet under a single dual pronoun (tasniyah zameer 'hima') was censured as shirk by the Prophet, claiming this proves theological excuses like zati/ata'i did not exist among the Sahaba."
+    evidence_cited:
+      - as_said: "Sahih Muslim 870 ('bi'sa al-khateebu anta')"
+        timestamp: "00:00:17"
+      - as_said: "Sunan Abi Dawud 1098 ('qum izhab')"
+        timestamp: "00:01:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:06:28-00:08:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-23
+    move_type: turnabout
+    quote: "Mirza Jhelumi ne is riwayat ko bayan karke ta'assur ye diya hai goya ke us shakhs ne shirk ka irtikab kiya tha halanke ye shirk hargiz nahin tha agar ye shirk hota to sawal ye paida hota hai ke agar yahi kalimaat Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ne apne khutbah ke andar irshad farmaye hon to phir jawab kya hoga"
+    summary_en: "Challenges the opponent's premise that using the dual pronoun is shirk, questioning what judgment would follow if the Prophet himself used the exact same wording in his own khutbah."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:09:07-00:10:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TH-EM-C01
+    move_type: support-chain
+    quote: "Sunan Abi Dawud ke andar 1097 number hadees hai Sayyiduna Abdullah ibn Mas'ud radiyallahu ta'ala anhu Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam se ye bayan kar rahe hain ke Rasoolullah sallallahu alayhi wa aalihi wa sallam jab tashahhud yani shahadat dete jab Allah Rabbul Izzat ki tawheed ki gawahi dete aur Huzoor ka khutbah bayan kiya aur usmein ye alfaz maujood hain ke jisne Allah aur uske Rasool ki ita'at ki pas woh hidayat pa gaya aur jisne un dono ki nafarmani ki"
+    summary_en: "Cites Sunan Abi Dawud 1097 (Ibn Mas'ud) and the succeeding narration from al-Zuhri, showing the Prophet himself delivered the khutbah using the dual pronoun 'wa man ya'sihima'."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud 1097 (Khutbah of the Prophet via Abdullah ibn Mas'ud: 'wa man ya'sihima')"
+        timestamp: "00:09:15"
+      - as_said: "Sunan Abi Dawud (mursal narration from Ibn Shihab al-Zuhri)"
+        timestamp: "00:10:09"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:10:46-00:11:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TH-EM-C01
+    move_type: support-chain
+    quote: "Sahih Bukhari ke andar 16 number hadees hai Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ne farmaya jis ke andar teen cheezein hon to woh iman ki halawat pa lega an yakoona Allahu wa Rasooluhu ahabba ilayhi mimma siwahuma yahan bhi huma zameer Sahih Bukhari ke andar hadees number 16 ke andar Nabi-e-Pak alayhis salatu was salam ne khud Allah aur uske Rasool ki taraf lautayi hai"
+    summary_en: "Cites Sahih Bukhari 16 on the sweetness of faith, where the Prophet explicitly used the dual pronoun referring to Allah and Himself together ('mimma siwahuma')."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 16 ('an yakoona Allahu wa Rasooluhu ahabba ilayhi mimma siwahuma')"
+        timestamp: "00:10:48"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:11:46-00:12:30"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: TH-EM-C01
+    move_type: definition
+    quote: "ye shirk nahin tha bhai ye tasniyah ki zameer lautana shirk nahin tha balki Nabi Kareem sallallahu alayhi wa aalihi wa sallam ne us sahabi ko adab sikhaane ke liye ye bayan farmaya ke tumne tasniyah ki zameer nahin lautani thi balki ye khutbe ka maqaam hai aur khutbah ke maqaam ke andar tumne bilkul wazeh karke Allah aur uske Rasool ka naam lena tha"
+    summary_en: "Explains the classical consensus on the illat of the narration: it was an instruction in oratorical decorum (adab al-khitabah) and distinct mention of the divine and prophetic names in a formal sermon, completely unrelated to shirk or theological compromise."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: TH-EM-C01
+    side: ali-mirza
+    summary_en: "Combining Allah and the Prophet under a single dual pronoun (tasniyah zameer 'hima/huma') in speech was condemned by the Prophet as shirk in the hadith of 'Bi'sa al-khateebu anta'."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: TH-EM-C01
+    text: "tu ne ye kyun kaha un dono ki... tu ne mujhe Allah ke sath shamil kar diya"
+    timestamp: "00:00:33"

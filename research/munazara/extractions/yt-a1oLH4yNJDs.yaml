@@ -1,0 +1,158 @@
+source_id: yt-a1oLH4yNJDs
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:01:21"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: FQ-EM-C04
+    move_type: charge
+    quote: "Ye haqeeqat baat hai specifically Imam Hanifa muhadditheen ke haan ek notorious personality hai unko achha nahin samjha jaata to ye saare a'immah in logon ke khilaf the theek hai nafrat ki hadd tak... ye woh log hain jin ke baare mein muhadditheen ka ye mauqif hai ke inko hadeesein pohanchi bhi hain na tab bhi ye log apni is rawish ko chhorne par aamada nahin hue... muhadditheen unko apni field mein to bilkul aap samajh lein zero se multiply kiye hue the"
+    summary_en: "Alleges in recorded clip that Imam Abu Hanifa is a 'notorious personality' among hadith scholars who obstinately rejected authentic hadiths out of arrogance and hatred for the Sunnah, claiming Bukhari and Ibn al-Mubarak multiplied him by zero."
+    evidence_cited:
+      - as_said: "Juz Raf al-Yadayn by Imam Bukhari"
+        timestamp: "00:00:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:22-00:02:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: definition
+    quote: "Imam Abu Hanifa ke khilaf to Imam Abu Bakr ibn Abi Shaybah ne apni kitab Musannaf Ibn Abi Shaybah ke andar poora ek baab aur chapter qayam kiya hai Kitab al-Radd ala Abi Hanifa... in tamam aitrazaat ke turki-ba-turki dalail ki roshni mein jawabaat par ek kitab muhaddith Zahid al-Kawthari ne likhi hai al-Nukat al-Tarifah fi al-Tahadduth an Rudud Ibn Abi Shaybah ala Abi Hanifah"
+    summary_en: "Addresses the reliance on Ibn Abi Shaybah's 'Kitab al-Radd ala Abi Hanifa' (~125 issues out of 100,000 rulings), citing Imam Zahid al-Kawthari's scholarly rebuttal in al-Nukat al-Tarifah demonstrating that each ruling is grounded in authentic hadiths and athar."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah Vol 11 (Kitab al-Radd ala Abi Hanifa)"
+        timestamp: "00:02:20"
+      - as_said: "al-Nukat al-Tarifah by Muhaddith Muhammad Zahid al-Kawthari"
+        timestamp: "00:02:52"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:04:20-00:06:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: support-chain
+    quote: "Imam Sulayman ibn Mihran jo ke bohot bare azeem muhaddith the unhone Imam-e-Azam Abu Hanifa rahmatullahi ta'ala alayh se poocha ke ye masail tumne kahan kahan se liye to aapne jawab diya ke ye masail maine unhi ahadees se akhaz kiye hain jo ahadees maine aap se suni hain to Imam A'mash kehne lage ya ma'sharal-fuqaha'i antumul-atibba'u wa nahnus-sayadilah aye ma'shar-e-fuqaha tum tabeeb ho aur hum pansari hain"
+    summary_en: "Cites the historical dialogue documented across 7 classical works (al-Khatib, al-Saymari, Ibn Adi, Ibn Abd al-Barr, Ibn Hibban, Abu Nu'aym, al-Dhahabi) where premier muhaddith al-A'mash testified: 'O jurists, you are the physicians, and we (muhaddithin) are the pharmacists'."
+    evidence_cited:
+      - as_said: "al-Faqih wal-Mutafaqqih by al-Khatib al-Baghdadi"
+        timestamp: "00:05:15"
+      - as_said: "Akhbar Abi Hanifa wa Ashabihi by al-Saymari"
+        timestamp: "00:05:18"
+      - as_said: "al-Kamil fi Du'afa al-Rijal by Ibn Adi"
+        timestamp: "00:05:22"
+      - as_said: "Jami' Bayan al-Ilm wa Fadlihi by Ibn Abd al-Barr"
+        timestamp: "00:05:28"
+      - as_said: "Kitab al-Thiqat by Ibn Hibban"
+        timestamp: "00:05:32"
+      - as_said: "Musnad Abi Hanifa by Abu Nu'aym al-Isfahani"
+        timestamp: "00:05:38"
+      - as_said: "Manaqib Abi Hanifa by Imam al-Dhahabi"
+        timestamp: "00:05:42"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:07:06-00:11:25"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: consistency
+    quote: "Imam Layth ibn Sa'd ne Imam Malik ko khat likha... kehte hain ke maine Imam Malik ke 70 masail woh ikathay kiye hain kulluha mukhalifatun li-Sunnati Rasulillah woh saare ke saare maslay woh hain jo Rasoolullah sallallahu alayhi wa aalihi wa sallam ki sunnat ke khilaf hain... Hafiz Ibn Abd al-Barr Andalusi kehte hain... kisi Musalmanon ke imam se aisa tasawwur nahin kiya ja sakta ke koi hadees us imam ke samne Rasoolullah sallallahu alayhi wa aalihi wa sallam ki zaat-e-aqdas se sabit ho phir woh baghair kisi illat ke usko radd kar de"
+    summary_en: "Provides the historical parallel of Imam Layth ibn Sa'd compiling 70 rulings of Imam Malik alleging they contradicted the Sunnah, citing Ibn Abd al-Barr's explanation that Layth misunderstood Malik's usul (Amal Ahl al-Madinah), establishing that differing with a muhaddith does not constitute opposing the Sunnah."
+    evidence_cited:
+      - as_said: "Tarikh Ibn Ma'in (Letter of Layth ibn Sa'd to Imam Malik)"
+        timestamp: "00:07:45"
+      - as_said: "Jami' Bayan al-Ilm wa Fadlihi by Ibn Abd al-Barr Vol 2 p. 240"
+        timestamp: "00:07:54"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:12:26-00:15:45"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: consistency
+    quote: "Imam Muslim rahmatullahi ta'ala alayh ne Sahih Muslim ke bilkul aaghaz mein riwayat number 92 ke tehat ek masla bayan kiya hai... Imam Muslim rahmatullah alayh ne woh masla bayan karte hue Imam Bukhari rahmatullahi ta'ala alayh par tanqeed ki aur itni sakht aur itni karri tanqeed ki... Imam Dhahabi Siyar A'lam al-Nubala ki jild number 12 ke safha number 181 pe likhte hain inharrafa Muslimun anil-Bukhari li-hiddati tab'ihi... to ab isi bunyad pe Imam Bukhari rahmatullah alayh ko na'udhubillah munkir-e-hadees aur sunnat ka mukhalif kaheinge"
+    summary_en: "Presents the clash between Imam Muslim and Imam Bukhari in Muqaddimah Sahih Muslim regarding the condition of meeting (thuboot al-liqaa), where Muslim labeled the position an invented heresy and shunned Bukhari (Siyar A'lam al-Nubala 12/181), demonstrating that methodological disputes between classical authorities do not warrant charges of deviance."
+    evidence_cited:
+      - as_said: "Muqaddimah Sahih Muslim (under report 92)"
+        timestamp: "00:12:31"
+      - as_said: "Siyar A'lam al-Nubala by Imam al-Dhahabi Vol 12 p. 181"
+        timestamp: "00:13:54"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:16:09-00:18:10"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: principle
+    quote: "Hafiz Ibn Abd al-Barr Andalusi ne apni kitab Jami' Bayan al-Ilm wa Fadlihi mein ek bari baat ki safha 270 pe kaha law qubila qawlu thiqatin fi thiqatin kehte hain agar thiqah a'immah ne kisi doosre thiqah imam ke baare mein jo qaul kiya hai koi shakhs un aqwal ko qabool kar leta hai to phir jo humne Sahaba ke ek doosre ke baare mein aqwal zikr kiye unko bhi qabool kare... kalamu al-aqrani yutwa wa la yurwa"
+    summary_en: "Articulates the recognized principle of Jarh wa Ta'deel: mutual criticism among contemporary upright authorities (kalamu al-aqran) is disregarded, because accepting peer animosity would invalidate even the Sahaba."
+    evidence_cited:
+      - as_said: "Jami' Bayan al-Ilm wa Fadlihi by Ibn Abd al-Barr p. 270"
+        timestamp: "00:16:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:18:11-00:22:38"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-31
+    move_type: turnabout
+    quote: "Hafiz Abdur Rahman ibn Abi Dhi'b muhaddith unhone Imam Malik rahmatullahi ta'ala alayh ke khilaf qatl ka fatwa jari kar diya... Abdur Rahman ibn Abi Dhi'b muhaddith ko ye baat pohanchi ke Imam Malik ye hadees al-bayyi'ani bil-khiyar is hadees ko woh nahin lete qabool nahin karte to Abdur Rahman ibn Abi Dhi'b jo ke Madinah ke qazi bhi the unhone kaha ke unse tawbah karwayi jaye warna Imam Malik ki gardan ura di jaye... Imam Dhahabi ne Imam Abdur Rahman ibn Abi Dhi'b par tanqeed kar di sakht lafzon ke andar tanqeed ki ke aisa qabeeh kalam aise azeem imam ke baare mein jabke woh hadees ke andar Imam Malik rahmatullah alayh woh ijtihad kar rahe the"
+    summary_en: "Cites al-Jami' fi al-Ilal of Ahmad and Siyar A'lam al-Nubala (6/563) where muhaddith Ibn Abi Dhi'b issued a death fatwa against Imam Malik for not applying khiyar al-majlis literally, showing that al-Dhahabi censured the literalist muhaddith and defended the jurist's interpretive ijtihad, turning this directly against Mirza's attacks on Abu Hanifa."
+    evidence_cited:
+      - as_said: "al-Jami' fi al-Ilal wa Ma'rifat al-Rijal by Imam Ahmad ibn Hanbal"
+        timestamp: "00:18:41"
+      - as_said: "Siyar A'lam al-Nubala by Imam al-Dhahabi Vol 6 p. 563"
+        timestamp: "00:19:03"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:22:39-00:25:24"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C04
+    move_type: support-chain
+    quote: "Imam Yahya ibn Ma'in kehte hain hamare ashab yani baaz muhadditheen unhone Imam Abu Hanifa aur unke ashab ke baare mein zyadati ki hai ifraat se kaam liya hai zyadati ki hai aur ek aur maqaam pe Imam Abdullah ibn al-Mubarak aur Imam Yahya ibn Ma'in ke hawale se mukhtalif maqamaat pe ye qaul milta hai woh kehte hain hasada al-fata idh lam yanaloo fadlahu logon ne us naujawan se hasad kiya jab uske maqaam tak nahin pohanch sake"
+    summary_en: "Cites Yahya ibn Ma'in and Abdullah ibn al-Mubarak in Jami' Bayan al-Ilm confirming that certain muhaddithin treated Abu Hanifa with excessive injustice out of envy when they could not rival his juristic brilliance."
+    evidence_cited:
+      - as_said: "Jami' Bayan al-Ilm wa Fadlihi by Ibn Abd al-Barr (statements of Yahya ibn Ma'in and Ibn al-Mubarak)"
+        timestamp: "00:23:56"
+      - as_said: "al-Intiqa' fi Fada'il al-Thalathah al-A'immah al-Fuqaha by Ibn Abd al-Barr"
+        timestamp: "00:22:50"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: FQ-EM-C04
+    side: ali-mirza
+    summary_en: "Imam Abu Hanifa is a 'notorious personality' among muhaddithin who obstinately rejected sahih hadiths out of arrogance and hatred for the Sunnah, as evidenced by Ibn Abi Shaybah's Kitab al-Radd and Bukhari's criticisms."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: FQ-EM-C04
+    text: "specifically Imam Hanifa muhadditheen ke haan ek notorious personality hai unko achha nahin samjha jaata"
+    timestamp: "00:00:02"
+  - maps_to: FQ-EM-C04
+    text: "muhadditheen unko apni field mein to bilkul aap samajh lein zero se multiply kiye hue the"
+    timestamp: "00:01:15"

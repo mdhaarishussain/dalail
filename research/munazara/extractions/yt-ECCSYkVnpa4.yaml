@@ -1,0 +1,161 @@
+source_id: yt-ECCSYkVnpa4
+moves:
+  - move_id: M01
+    timestamp: "00:00:12-00:03:00"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: definition
+    quote: "Muhadditheen ka kutub-e-ahadees mein riwayat aur ahadees ko zikr karne ke hawale se ek tareeqa ye hai ke woh ek hi hadees ko baaz maqamaat par mukhtasar aur ijmali zikr kar dete hain aur ek hadees ko doosre muhadditheen tafseel ke sath bayan kar dete hain"
+    summary_en: "Explains the methodology of hadith compilers: Bukhari 737 records Malik bin al-Huwayrith's narration concisely without details of hand height or sujud, whereas Muslim 865 provides additional detail (up to the ears)."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 737"
+        timestamp: "00:01:46"
+      - as_said: "Sahih Muslim 865"
+        timestamp: "00:02:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:03:01-00:05:44"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: support-chain
+    quote: "Sunan an-Nasa'i ke andar Imam Nasa'i is hadees ka ek tareeq leke uske andar maujood hai 1085 number ye mere paas Saudi Arab Riyadh se chhapa hua nuskha hai Nasiruddin Albani ki tehqeeq ke sath ismein 1085 number hai baaz nuskho mein 1082 number aur baaz mein 1086 number is riwayat ka hai Hazrat Malik ibn al-Huwayrith radiyallahu ta'ala anhu se jo hadees marwi hai Nasiruddin Albani ne isko sahih qarar diya hai"
+    summary_en: "Presents Sunan an-Nasa'i 1085 (authenticated by Albani), detailing that Malik bin al-Huwayrith recorded the Prophet raising hands to earlobes when going down into sujud and when rising from sujud."
+    evidence_cited:
+      - as_said: "Sunan an-Nasa'i 1085 / 1082 / 1086 (tahqeeq Nasiruddin Albani, sahih)"
+        timestamp: "00:03:28"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:06:28-00:08:03"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: MS-EM-C07
+    move_type: charge
+    quote: "jab maine Bukhari Muslim ki hadees ko critically watch kiya to mujhe nazar aaya ke waqayi yaar kahin na kahin kisi na kisi jagah par kamzori dikhayi hai sab ne chahe woh hikmat ki wajah se dikhayi chahe unhone us waqt hakoomati zabar se bachne ke liye dikhayi ya unhone public pressure ki wajah se dikhayi wallahu a'lam hum unki niyat ke upar shak nahin karte lekin behrahal kaam to dheela hai"
+    summary_en: "Claims in recorded clip that classical muhaddithin (including Bukhari, Abu Dawud, and Darimi) suppressed words, omitted names as 'fulan', or showed weakness due to state tyranny, public pressure, or shy temperament."
+    evidence_cited:
+      - as_said: "Sahih Bukhari (incident of Abdur Rahman bin Abi Bakr)"
+        timestamp: "00:06:33"
+      - as_said: "Sunan Abi Dawud and Sunan al-Darimi ('fulan fulan' entries)"
+        timestamp: "00:08:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:08:04-00:10:23"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-16
+    move_type: consistency
+    quote: "Mirza Jhelumi ruku ke waqt raf-ul-yadain na karne walon ko Nabi Kareem sallallahu alayhi wa aalihi wa sallam ki zaat-e-aqdas ka na'udhubillah dushman qarar deta hai aur najane Hanafiyon ke khilaf kis tarah ki zaban istemal karta hai ab sawal ye paida hota hai ke jo sajde ke waqt raf-ul-yadain nahin karte Mirza Jhelumi kya unko bhi Rasoolullah sallallahu alayhi wa sallam ka dushman qarar dega na'udhubillahi ta'ala"
+    summary_en: "Defends the integrity of muhaddithin against allegations of concealment, and questions why the opponent accuses non-performers of ruku raf al-yadayn of animosity toward the Prophet when his own followers omit sujud raf al-yadayn."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:10:24-00:10:55"
+    speaker: B
+    side: ali-mirza
+    kind: concession
+    maps_to: MS-EM-C01
+    move_type: practice-consensus
+    quote: "lekin ye raf-ul-yadain jo hai ye Nabi alayhis salam ka hamesha wala nahin hai kabhi aapne kiya kabhi chor diya aur hum bhi kabhi-kabhar karte hain aur kabhi-kabhar chor dete hain to isliye is raf-ul-yadain ke upar woh sakhti nahin hai sakhti wale woh char raf-ul-yadain hain jo Bukhari Muslim mein hain"
+    summary_en: "Concedes in recorded clip that raising hands in sujud is proven from the Prophet but claims it was not constant and therefore occasionally performed, whereas the four positions in Bukhari/Muslim are strictly mandatory/continuous."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:10:56-00:12:20"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-19
+    move_type: burden
+    quote: "jab ye kehta hai na ke raf-ul-yadain ka dawam sabit hai Nabi alayhis salato was salam se aakhiri waqt tak sabit hai aakhiri waqt tak saboot kahan se pesh karta hai Hazrat Malik ibn al-Huwayrith ki hadees se to Malik ibn al-Huwayrith ki hadees se to sajdon ke waqt bhi sabit hai to iska matlab ye hua ke sajdon ke mauqe par bhi aakhiri waqt tak sabit hua to ab Mirza Jhelumi ye kis bunyad par kehta hai ke karna bhi sabit hai na karna bhi sabit hai jo na karne wala masla hai na woh Mirza Jhelumi ne sabit karna hai ke na karne ka saboot Mirza Jhelumi ke paas kaun sa hai"
+    summary_en: "Challenges the opponent on evidentiary burden: if Malik bin al-Huwayrith represents the Prophet's final perpetual practice, it establishes continuous sujud raf al-yadayn; demands proof showing the Prophet abandoned sujud raf al-yadayn while preserving ruku raf al-yadayn."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:12:21-00:14:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: support-chain
+    quote: "Sayyiduna Abdullah ibn Mas'ud radiyallahu ta'ala anhu farmate hain ala usalli bikum salata Rasulillah fa-salla fa-lam yarfa illa awwala marrah aap farmate hain kya main tumhe Rasoolullah sallallahu alayhi wa sallam ki namaz parh ke dikhaoon ke Huzoor ne kis tarah namaz parhi to aapne namaz parh ke dikhayi namaz ke awwal martaba Allahu Akbar kehke apne haathon ko uthaya baqi poori namaz mein Hazrat Abdullah ibn Mas'ud radiyallahu ta'ala anhu ne raf-ul-yadain nahin farmaya"
+    summary_en: "Cites Abdullah ibn Mas'ud in Tirmidhi 257, Nasa'i 1026, and Abu Dawud 748 (all authenticated by Albani) demonstrating the Prophet raised hands only once at the beginning, supported by Ibn Mas'ud's status in Bukhari 3762, 4999, 5000."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi 257 (sahih Albani)"
+        timestamp: "00:12:25"
+      - as_said: "Sunan an-Nasa'i 1026 (sahih Albani)"
+        timestamp: "00:12:29"
+      - as_said: "Sunan Abi Dawud 748 (sahih Albani)"
+        timestamp: "00:12:40"
+      - as_said: "Sahih Bukhari 3762, 4999, 5000"
+        timestamp: "00:13:30"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:14:36-00:15:56"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: principle
+    quote: "Imam Ibrahim an-Nakha'i rahmatullah farmate hain agar Wa'il ibn Hujr ne ek dafa Nabi-e-Pak sallallahu alayhi wa sallam ko raf-ul-yadain karte dekha hai to Abdullah bin Mas'ud ne 50 martaba Nabi Kareem alayhis salato was salam ko raf-ul-yadain na karte hue dekha"
+    summary_en: "Explains Hanafi juristic preference prioritizing senior jurist Sahaba (Khulafa and Ibn Mas'ud) over transient observers like Wa'il bin Hujr and Malik bin al-Huwayrith, citing Ibrahim an-Nakha'i in Daraqutni and Tahawi's Sharh Ma'ani al-Athar."
+    evidence_cited:
+      - as_said: "Sunan al-Daraqutni and Sharh Ma'ani al-Athar by Imam al-Tahawi"
+        timestamp: "00:15:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:15:57-00:18:44"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: MS-EM-C01
+    move_type: practice-consensus
+    quote: "al-Musannaf Ibn Abi Shaybah ke andar 2461 number riwayat maujood hai Abu Ishaq kehte hain ke Sayyiduna Maula Ali ke shagird aur Abdullah bin Mas'ud ke shagird woh namaz ke shuru ke alawa baqi maqam par raf-ul-yadain nahin kiya karte the"
+    summary_en: "Cites Musannaf Ibn Abi Shaybah: 2461 (students of Ali and Ibn Mas'ud), 2457 (Ali raising hands only at opening), and 2469 (Umar raising hands only at opening), corroborated by Tirmidhi's note that a multitude of learned Sahaba practiced this, forming the position of Abu Hanifa and Malik."
+    evidence_cited:
+      - as_said: "Musannaf Ibn Abi Shaybah 2461"
+        timestamp: "00:16:16"
+      - as_said: "Musannaf Ibn Abi Shaybah 2457 (Ali)"
+        timestamp: "00:16:42"
+      - as_said: "Musannaf Ibn Abi Shaybah 2469 (Umar)"
+        timestamp: "00:17:08"
+      - as_said: "Jami at-Tirmidhi commentary under 257 ('wa-bihi yaqulu ghayru wahidin min ahli ilmi min ashabi-n-Nabi')"
+        timestamp: "00:17:35"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: MS-EM-C07
+    side: ali-mirza
+    summary_en: "Classical hadith compilers (Bukhari, Abu Dawud, al-Darimi) concealed hadith wordings, replaced names with 'fulan', or softened narrations due to fear of ruling powers, public pressure, or personal temperament."
+    move_type: charge
+    first_seen: M03
+
+phrasings:
+  - maps_to: MS-EM-C07
+    text: "jab maine Bukhari Muslim ki hadees ko critically watch kiya to mujhe nazar aaya ke waqayi yaar kahin na kahin kisi na kisi jagah par kamzori dikhayi hai sab ne"
+    timestamp: "00:07:34"
+  - maps_to: MS-EM-C01
+    text: "ye raf-ul-yadain jo hai ye Nabi alayhis salam ka hamesha wala nahin hai kabhi aapne kiya kabhi chor diya"
+    timestamp: "00:10:30"

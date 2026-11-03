@@ -1,0 +1,92 @@
+source_id: yt-La8vJVIL3Zs
+moves:
+  - move_id: M01
+    timestamp: "00:00:42-00:01:22"
+    speaker: B
+    side: ali-mirza
+    kind: claim
+    maps_to: FQ-EM-C08
+    move_type: charge
+    quote: "kisi shakhs ko Fajr ke baad qay aa gayi hai aur jo kuch khaya tha bahar nikal gaya hai aur abhi 14, 15 ghantay ka roza baqi hai to nibha to nahin sakta to uske liye Abu Dawud mein hadees maujood hai ke Nabi alayhis salam ke sath ek dafa ye qay wala mamla hua to aapne apne rozay ko iftar kar liya to agar aapko ye khadshah ho ke main khali pait rozay ko nahin nibha sakta to chahe khud-ba-khud bhi qay aayi hai aapke paas option hai chahe to us rozay ko continue karein khwah us rozay ko khatam kar dein aur baad mein ek rozay ki qaza de dein ye aapke paas option maujood hai"
+    summary_en: "Rules in recorded fatwa that if someone vomits involuntarily during fasting, although the fast is technically intact, the person possesses an open option to terminate the fast and make it up later, citing the Prophet breaking fast after vomiting in Sunan Abi Dawud."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud (Prophet breaking fast after vomiting)"
+        timestamp: "00:00:58"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:29-00:03:35"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C08
+    move_type: definition
+    quote: "ye jo roza jis rozay mein Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ko qay aayi aur aap alayhis salatu was salam ne phir uske baad kha pee liya aur roza iftar kar liya ye farz roza nahin tha ye nafl roza tha... Jami at-Tirmidhi ke andar tafseeli yahi hadees Imam Tirmidhi rahmatullahi ta'ala alayh bayan karke uski aage wazahat aur uski aage tashreeh karte hue wazeh taur par likhte hain ke ye nafli roza tha jo Nabi-e-Pak sallallahu alayhi wa aalihi wa sallam ne khatam kar diya"
+    summary_en: "Demonstrates that the opponent conflated obligatory (farz) Ramadan fasts with voluntary (nafl) fasts: Imam Tirmidhi in Jami at-Tirmidhi explicitly notes that the narration in Sunan Abi Dawud of the Prophet breaking fast after vomiting pertained exclusively to a voluntary fast, not an obligatory Ramadan fast."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi (clarification that the vomiting narration was a nafl fast)"
+        timestamp: "00:03:22"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:36-00:05:37"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C08
+    move_type: support-chain
+    quote: "Jami at-Tirmidhi aur Musnad Ahmad ibn Hanbal mein hadees hai Nabi-e-Pak sallallahu alayhi wa sallam ne farmaya as-sa'imul-mutatawwi'u ameeru nafsihi in sha'a saama wa in sha'a aftara ke nafli roza rakhne wala woh apne nafs ka ameen hai agar chahe to woh roza poora kar le aur agar chahe to woh iftar kar le"
+    summary_en: "Cites Tirmidhi and Musnad Ahmad ('The voluntary fasting person is master of himself'), Sahih Muslim (Aisha on the Prophet breaking voluntary fast when offered hays), and Sunan Abi Dawud 2457 to establish the scriptural basis for terminating voluntary fasts."
+    evidence_cited:
+      - as_said: "Jami at-Tirmidhi and Musnad Ahmad ('as-sa'imu al-mutatawwi'u ameeru nafsihi')"
+        timestamp: "00:03:55"
+      - as_said: "Sahih Muslim / Sunan an-Nasa'i (Hadith of Aisha on hays)"
+        timestamp: "00:04:20"
+      - as_said: "Sunan Abi Dawud 2457 (Hafsah and Aisha breaking voluntary fast)"
+        timestamp: "00:05:40"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:38-00:08:05"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C08
+    move_type: support-chain
+    quote: "Sahih Bukhari ki 1968 number hadees hai... Hazrat Abu al-Darda radiyallahu ta'ala anhu ne jo nafli roza rakha hua tha aapne usko torh diya aur khana tanawul farmaya aur iske alawa Sunan an-Nasa'i ke andar 2325 number hadees hai... farmaya ke nafli roza rakhne wala woh aise hai ke jaise koi shakhs apne maal se sadqah nikalne wala"
+    summary_en: "Cites Sahih Bukhari 1968 (Salman al-Farsi compelling Abu al-Darda to break his voluntary fast to eat) and Sunan an-Nasa'i 2325 (comparing nafl fast to voluntary charity that may be retained or given), proving the discretionary exit applies uniquely to nafl."
+    evidence_cited:
+      - as_said: "Sahih Bukhari 1968 (Salman al-Farsi and Abu al-Darda)"
+        timestamp: "00:06:55"
+      - as_said: "Sunan an-Nasa'i 2325 (Aisha, parable of voluntary charity)"
+        timestamp: "00:07:15"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:08:31-00:10:59"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: counter-question
+    maps_to: CQ-36
+    move_type: consistency
+    quote: "jab khud-ba-khud qay aa gayi to roza nahin toota aur continue uska roza pehle ki tarah maujood hai to ab kis bunyad pe Mirza Jhelumi ne ye kaha hai ke woh roza khatam kar sakta hai aur Ramazan ke rozay ki baat ho rahi hai farz rozay ki baat ho rahi hai... farz roza qay aane se chunke toota nahin hai to usko poora karna hoga agar koi shakhs farz rozay ko torega to woh gunahgar hoga"
+    summary_en: "Exposes the legal fallacy: since involuntary vomiting does not break the fast, the Ramadan fast remains legally binding; giving people an arbitrary 'option' to terminate an intact obligatory fast violates Shari'ah and causes people to incur the sin of breaking Ramadan fasts without excuse."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: FQ-EM-C08
+    side: ali-mirza
+    summary_en: "A fasting person who experiences involuntary vomiting has the legitimate option in Shari'ah to terminate an obligatory Ramadan fast and make it up later, based on Sunan Abi Dawud."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: FQ-EM-C08
+    text: "chahe khud-ba-khud bhi qay aayi hai aapke paas option hai chahe to us rozay ko continue karein khwah us rozay ko khatam kar dein"
+    timestamp: "00:01:10"

@@ -1,0 +1,126 @@
+source_id: yt-Fu25DYUAts8
+moves:
+  - move_id: M01
+    timestamp: "00:01:25-00:02:00"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: IS-EM-C05
+    move_type: definition
+    quote: "Al-istimdad yani kisi bhi hasti ko museebat aur pareshani mein apni dua ki qabooliat ke liye pukarna jo Islam mein sirf Allah Ta'ala ke sath khaas hai. Aur uska zikr Quran-e-Pak mein jo hum har namaz mein tilawat karte hain: 'Iyyaaka Na'budu wa Iyyaaka Nasta'een'. Allah hum sirf teri ibadat karte hain aur ghaib mein madad ke liye, dua ke liye sirf tujhi ko pukarte hain."
+    summary_en: "Defines istimdad as invoking an entity in times of distress for prayer acceptance, arguing this is exclusive to Allah in the unseen based on Surah Al-Fatiha."
+    evidence_cited:
+      - as_said: "Surah Al-Fatiha (Iyyaaka Na'budu wa Iyyaaka Nasta'een)"
+        timestamp: "00:01:47"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:02:43-00:03:22"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: IS-EM-C01
+    move_type: definition
+    quote: "Misal ke taur par agar koi shakhs dua mein Sayyiduna Ali ko pukarta hai aur kehta hai 'Ya Ali madad' ma'adhAllah, ke aye Ali radiyallahu ta'ala anhu meri madad farmaiye, toh ye hogi istimdad, ghaibana madad ke liye pukarna. Lekin agar koi shakhs yun kehta hai ke 'Allah, tujhe Sayyiduna Ali ka wasita, mera ye mas'ala hal farma de', yani dua wo Allah se karta hai aur wasita aur qurb ka zariya Sayyiduna Ali ko banata hai, toh isko kahein ge al-tawassul aur waseela. In dono mein zameen aasman ka farq hai."
+    summary_en: "Distinguishes between istimdad (invoking an entity directly across the unseen) and waseela (asking Allah using a status as means)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:33-00:04:10"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: IS-EM-C04
+    move_type: principle
+    quote: "Bhaiyon is baat ka jhagda nahi hai ke Sayyiduna Ali ko Allah Ta'ala ne ikhtiyar diya hua hai ya nahi diya hua, ya wo Allah ke ikhtiyar se madad farma sakte hain ya nahi farma sakte. Ye jhagda hi nahi hai. Jhagda ye hai ke kisi ke paas ikhtiyar ho Allah ka diya hua tab bhi usko ghaib mein madad ke liye pukarna khalisatan shirk hai! Barish kaun barsata hai? Allah. Duty kiski hai? Farishton ki. Lekin barish agar farishton se maangein ge jinhein Allah ne izn bhi diya hua hai toh ye khalisatan shirk ho jaye ga."
+    summary_en: "Argues that even if delegated power were assumed, asking created beings (such as angels in charge of rain) in the unseen is shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:48:26-00:49:15"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: attack-chain
+    quote: "Toh wo hadith jo hai us mein Muhammad bin Khazim Abu Muawiyah aur A'mash mudallis hain. Jo ravi thiqah hai lekin wo mudallis hain aur 'an' se riwayat kar rahe hain, aur ye pet rule hai muhadditheen ka ke mudallis ki 'an' wali riwayat da'eef hoti hai jab tak sama' ki tasreeh maujood na ho. Lihaaza ye agla portion jis ko sahara bana kar Aap sallallahu alayhi wa sallam ki wafat ke baad bhi is tarah ki duaon ko istemal kiya ja raha hai wo ghalati par mabni hai. Wo portion hai hi da'eef, aur mudallis ki 'an' wali riwayat da'eef hoti hai."
+    summary_en: "Argues that the narration of Malik al-Dar regarding seeking rain at the Prophet's grave is weak due to tadlees of Abu Muawiyah and al-A'mash narrating with 'an'."
+    evidence_cited:
+      - as_said: "Al-Musannaf Ibn Abi Shaybah"
+        timestamp: "00:48:00"
+      - as_said: "Dala'il al-Nubuwwah Imam Bayhaqi"
+        timestamp: "00:48:02"
+      - as_said: "Muqaddamah Sahih Muslim (rule on mudallis 'an-'ana)"
+        timestamp: "00:49:18"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:53:20-00:53:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    maps_to: TW-EM-C03
+    move_type: practice-consensus
+    quote: "Toh Sayyiduna Umar Farooq radiyallahu ta'ala anhu ne qabr-e-Rasool par ja kar Huzoor ko request nahi kiya. Unhone kaha ke hum Aap sallallahu alayhi wa sallam ko pehle le ke aate the wo dua karte the, yani tawassul kya? Dua. Ab Aap sallallahu alayhi wa sallam ke chacha Sayyiduna Abbas bin Abdul Muttalib radiyallahu ta'ala anhu ki dua, lekin wo dunyawi zindagi mein maujood the."
+    summary_en: "Argues from Bukhari 1010 that Umar requested supplication from Abbas because he was alive, rather than going to the Prophet's grave."
+    evidence_cited:
+      - as_said: "Sahih Bukhari hadith 1010"
+        timestamp: "00:52:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:54:10-00:54:45"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: consistency
+    quote: "Inhi ahadith ke rawion mein ek ravi Sayyiduna Umar bhi hain radiyallahu ta'ala anhu. Yani Sayyiduna Umar ko toh ye yaqeen tha ke maine Huzoor ki mubarak zindagi mein pyala pesh kiya aur ungliyan dakhil keen, toh Huzoor ki wafat ke baad qabr pe pyala le jate aur kehte Ya Rasool Allah haath mubarak bahar nikalein aur is mein daal dein taake paani ke chashme jari ho jayein. Lekin unko pata tha ye gustakhi hai, Huzoor sallallahu alayhi wa sallam barzakhi hayat ke sath zinda hain, ab aap ke sath communication hamari us tarah nahi ho sakti."
+    summary_en: "Cites Umar narrating the water miracle during the Prophet's lifetime to argue that if post-death physical aid were possible, Umar would have brought a cup to the grave during drought."
+    evidence_cited:
+      - as_said: "Sahih Bukhari and Sahih Muslim (Hudaybiyyah water miracle)"
+        timestamp: "00:53:50"
+    responds_to: null
+    confidence: medium
+
+  - move_id: M07
+    timestamp: "01:25:35-01:26:50"
+    speaker: Mirza
+    side: ali-mirza
+    kind: claim
+    reported: false
+    move_type: principle
+    quote: "Insaniyat ka Magna Carta Surah Al-Baqarah ki ayat number 186 hai... Mehboob alayhis salam jab mere bande aap se poochein mere baare mein toh farmaiye bilkul tumhare qareeb hoon... Qabool karta hoon pukarne wale ki dua ko jab wo mujhse dua karta hai... Mere bande pochte hain toh batao main tumhare bilkul qareeb hoon, koi protocol nahi Allah ki bargah mein jane ke liye siwaye iske ke Allah ki hamd aur Nabi par durood shareef aur wo paanch sahih waseele jo maine bayan kiye."
+    summary_en: "Cites Quran 2:186 to argue that believers approach Allah directly in prayer without any intermediary protocol."
+    evidence_cited:
+      - as_said: "Surah Al-Baqarah ayat 186"
+        timestamp: "01:25:45"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-EM-C06
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The report of Malik al-Dar regarding a man seeking rain at the Prophet's grave during Umar's caliphate is unauthentic due to the tadlees of narrators Abu Muawiyah and al-A'mash."
+    move_type: attack-chain
+    first_seen: M04
+
+phrasings:
+  - maps_to: TW-EM-C06
+    text: "wo hadith jo hai us mein Muhammad bin Khazim Abu Muawiyah aur A'mash mudallis hain... mudallis ki 'an' wali riwayat da'eef hoti hai jab tak sama' ki tasreeh maujood na ho"
+    timestamp: "00:48:26"
+  - maps_to: IS-EM-C04
+    text: "Jhagda ye hai ke kisi ke paas ikhtiyar ho Allah ka diya hua tab bhi usko ghaib mein madad ke liye pukarna khalisatan shirk hai"
+    timestamp: "00:03:48"

@@ -1,0 +1,65 @@
+source_id: yt-2NrUrJqrOyE
+moves:
+  - move_id: M01
+    timestamp: "00:00:35-00:01:15"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: claim
+    reported: true
+    reported_by: Razavi
+    move_type: charge
+    quote: "Mirza Muhammad Ali Jhelumi ne 40 minute ka clip upload kiya apne YouTube channel par 'Mufti Muneeb Ka Poora Sach'. Aur phir Mirza ne apni purani riwayat ke mutabiq Sahaba-e-Kiram ke hawalay se zabaan-darazi shuru ki, Sahaba ki kamzoriyan nikaalta hai, unki ghaltiyan nikaalta hai."
+    summary_en: "Relays Mirza's critique of Mufti Muneeb-ur-Rahman and his public criticism of companions involved in historical battles."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:48-00:02:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SB-EM-C01
+    move_type: practice-consensus
+    quote: "Huzoor Ghaus-e-Paak Sarkar Shaykh Abdul Qadir Jilani rahmatullahi ta'ala alayh ki kitab Ghunyat al-Talibeen ki pehli jild safha number 163 par Ghaus-e-Paak Sarkar farmate hain... 'Wattafaqat ahlus-sunnati 'ala kaffil-lisan'... Ahl-e-Sunnat wal Jama'at is baat par muttafiq hain ke Sahaba-e-Kiram ke mashajiraat ke baare mein apni zabaan ko band rakha jaye. Aur unke bayan karne se ruka jaye, aur unke fazl aur khubi ki tasdeeq ki jaye aur jo unke darmiyan ikhtilaf hua usko Allah Rabbul Izzat ke supurd kar diya jaye."
+    summary_en: "Cites Shaykh Abdul Qadir Jilani in Ghunyat al-Talibeen (Vol 1, p. 163) confirming the consensus of Ahl al-Sunnah to restrain tongues from discussing the disputes among companions."
+    evidence_cited:
+      - as_said: "Ghunyat al-Talibeen by Shaykh Abdul Qadir Jilani Vol 1 p. 163"
+        timestamp: "00:01:48"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "01:20:21-01:21:40"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SB-EM-C02
+    move_type: principle
+    quote: "Sahaba-e-Kiram radiyallahu anhum ne un masail mein ikhtilaf kiya jo mahall-e-ijtihad the, jahan har shakhs ne apne taur par daleel pesh ki. In jhagdon ki wajah se un mein se kisi ek ke upar bhi fisq ka itlaq nahi hota... Jang-e-Jamal aur Jang-e-Siffeen mein Hazrat Ali ke muqable mein aane walon se ijtihadi khata hui hai. Inaad aur dushmani ki bunyad par wo nahi nikle, ijtihad tha unka aur har ek apne ijtihad par ma'zoor tha. Mirza Jhelumi 10 saal pehle maanta tha, ab usne naya paintra badla aur U-turn liya aur kaha ke nahi wo mulkiyyat aur dunya ke liye lad rahe the."
+    summary_en: "Explains the Sunni theological position that companions who fought Ali at Jamal and Siffeen committed an interpretive error (khata-e-ijtihadi) rather than rebellion based on malice or worldly greed, rejecting charges of fisq."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: SB-EM-C01
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Mainstream Sunni scholars use the principle of kaff al-lisan (restraining the tongue) to censor historical truth and defend oppressive actions committed by companions against Ali."
+    move_type: charge
+    first_seen: M01
+
+  - id: SB-EM-C02
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "The battle of Siffeen was not an honest interpretive error (ijtihad) by Muawiyah, but rebellion motivated by dynastic rule and worldly ambition (mulkiyyat)."
+    move_type: charge
+    first_seen: M03
+
+phrasings:
+  - maps_to: SB-EM-C02
+    text: "wo mulkiyyat aur dunya ke liye lad rahe the... baghi giroh the"
+    timestamp: "01:21:28"

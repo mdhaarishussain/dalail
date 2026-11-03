@@ -1,0 +1,102 @@
+source_id: yt-6wVuqbC2cu0
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:26"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: definition
+    quote: "Karamat khilaf-e-shara nahi hoti, khilaf-e-aql zaroor hoti hai jis ko aap khariq-e-aadat kehte hain. Aaj kal unhone naya drama shuru kar diya hai khariq-e-aadat wala, wo kehte hain jee Engineer sahab ghalat keh rahe hain khilaf-e-aql na kahein khariq-e-aadat kahein. Khariq-e-aadat bhi yahi hai: physical phenomena of nature ko todne wali cheez, jo cheez aadat mein nahi hai uske khilaf jana. Basically Ghazali ne inko ye patti padha di hai, wo ye kehta hai ke aadat ye nahi hai ke insaan hawa mein uday lekin udd bhi sakta hai, kabhi kabhar ho sakta hai isliye ye khariq-e-aadat ko le kar chalte hain."
+    summary_en: "Argues that breaking customary norms (khariq-e-aadat) is synonymous with contrary to reason (khilaf-e-aql), asserting that physical laws cannot be breached by human beings."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:26-00:00:53"
+    speaker: Mirza (played clip)
+    side: ali-mirza
+    kind: claim
+    reported: false
+    played_clip: true
+    move_type: principle
+    quote: "Hum kehte hain insaan hawa mein udd hi nahi sakta, uski competency hi nahi hai... Kehte hain khariq-e-aadat yani kabhi kabhar udd bhi sakta hai? Nahi bhai, physical phenomena of nature itne mohkam hain ye toot hi nahi sakte siwaye nabi ke zariye Allah Ta'ala koi execution karwa de wo ek alag baat."
+    summary_en: "Claims that physical laws of nature are unbreachable by saints, stating humans cannot fly and miracles breaking nature are reserved strictly for prophets."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:36-00:05:30"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C04
+    move_type: definition
+    quote: "Mantiq aur usool ke sath talluq rakhne wala is baat ko samajhta hai ke muhaal aur mustaheel ki teen qismein hain: muhaal-e-aadi, muhaal-e-aqli aur muhaal-e-shar'i. Ulama ne karamat aur mojaza ki tareef mein likha hai: 'amrun khariqun' — ye aadat ke khilaf hota hai, aql ke khilaf nahi hota... Ab jo karamat aur mojaza hai, kyunke Allah Rabbul Alameen ki qudrat se nabi se mojaza saadir hota hai aur Allah ki qudrat se wali se karamat saadir hoti hai. Toh kyunke Allah ki qudrat se ho raha hai, ab Allah ki qudrat par aql kya daleel qaim karegi ke ye muhaal hai? Lihaaza jo karamat hai wo khilaf-e-aql nahi hoti, khilaf-e-aadat hoti hai."
+    summary_en: "Distinguishes rationally impossible (muhal aqli, e.g. 2+2=3 or co-existence of opposites) from customarily extraordinary (muhal aadi), explaining miracles proceed from divine omnipotence and are therefore not rationally impossible."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:05:54-00:07:35"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C04
+    move_type: practice-consensus
+    quote: "Hafiz Hibatullah al-Lalaka'i, unhone apni kitab Sharh Usul I'tiqad Ahl al-Sunnah jild number ek safha number 508 pe likha: mojaza wo hota hai jo khariq lil-'adah hota hai... Qadi Abu Bakr al-Baqillani unki kitab hai Kitab Tamhid al-Awa'il wa Talkhis al-Dala'il safha number 57 pe mojaza ki tareef mein likha ke mojaza khariq lil-'adah hota hai. Aur ye Ibn Taymiyyah ka Majmu' al-Fatawa jild number 11 safha number 311 aur 312 pe mojaza aur karamat ke hawale se likhte hain: 'al-mu'jizatu lin-nabiyyi wal-karamatu lil-waliyyi... wa kilaahuma khariqun lil-'adah'. Ye dono amr aadat ko phadne wale hote hain, aql ke khilaf nahi hote balkay aadat ke khilaf hote hain."
+    summary_en: "Cites al-Lalaka'i, al-Baqillani, and Ibn Taymiyyah in Majmu' al-Fatawa explicitly defining both prophetic miracles and saintly karamat as breaking customary habits (khariq lil-'adah) rather than contrary to intellect."
+    evidence_cited:
+      - as_said: "Sharh Usul I'tiqad Ahl al-Sunnah by al-Lalaka'i Vol 1 p. 508"
+        timestamp: "00:05:54"
+      - as_said: "Tamhid al-Awa'il by al-Baqillani p. 57"
+        timestamp: "00:06:29"
+      - as_said: "Majmu' al-Fatawa by Ibn Taymiyyah Vol 11 p. 311-312"
+        timestamp: "00:07:05"
+    responds_to: M01
+    confidence: medium
+
+  - move_id: M05
+    timestamp: "00:08:00-00:08:35"
+    speaker: Razavi
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: KR-EM-C01
+    move_type: principle
+    quote: "Data Ganj Bakhsh Ali bin Uthman Hujwiri rahmatullahi alayh Kashf al-Mahjub shareef mein farmate hain: 'karamat-e-wali az hukm-e-shar'-e-nabi munafat nakunad' — wali Allah ki karamat nabi ki shariat ke mukhalif nahi hoti. Ab ye baat bhi samajhne ki zaroorat hai ke shariat ke wo mohkam aur wazeh mujma' alayh masail, wali Allah ki karamat uske khilaf nahi hoti."
+    summary_en: "Cites Ali al-Hujwiri in Kashf al-Mahjub affirming that a saint's karamat never contradicts definitive consensus rulings of Shariah."
+    evidence_cited:
+      - as_said: "Kashf al-Mahjub by Ali al-Hujwiri"
+        timestamp: "00:08:05"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: KR-EM-C04
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Physical phenomena of nature are unbroken laws that cannot be breached by saints; therefore, saintly miracles breaking natural laws (khariq-e-aadat) are physically impossible."
+    move_type: principle
+    first_seen: M02
+
+  - id: KR-EM-C05
+    legacy_id: null
+    side: ali-mirza
+    summary_en: "Equates contrary to habit (khariq-e-aadat) with contrary to intellect (khilaf-e-aql), claiming any breach of physical laws represents an irrational impossibility."
+    move_type: definition
+    first_seen: M01
+
+phrasings:
+  - maps_to: KR-EM-C04
+    text: "physical phenomena of nature itne mohkam hain ye toot hi nahi sakte siwaye nabi ke zariye"
+    timestamp: "00:00:45"
+  - maps_to: KR-EM-C05
+    text: "Karamat khilaf-e-shara nahi hoti, khilaf-e-aql zaroor hoti hai jis ko aap khariq-e-aadat kehte hain"
+    timestamp: "00:00:00"

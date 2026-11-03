@@ -1,0 +1,43 @@
+source_id: yt-RedTD9XEVIc
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:11"
+    speaker: C
+    side: moderator
+    kind: claim
+    maps_to: FQ-EM-C01
+    move_type: charge
+    quote: "Kaha jaata hai ke Imam-e-Azam alayhir rahmah qiyas ko hadees par tarjeeh dete hain is baare mein wazahat farmayein"
+    summary_en: "Presents the common objection from opponents alleging that Imam Abu Hanifa gave precedence to analogical deduction (qiyas) over prophetic hadith."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:12-00:01:26"
+    speaker: A
+    side: ahl-e-sunnat
+    kind: response
+    maps_to: FQ-EM-C01
+    move_type: principle
+    quote: "Imam Abu Hanifa rahmatullahi alayh ka apna bayan maujood hai woh farmate hain jab mujhe masla pesh aata hai to sabse pehle uska hal main Kitabullah se talash karta hoon phir Sunnat-e-Rasool se talash karta hoon phir Sahaba ke aqwal mein se kisi qaul ko leta hoon aur agar in tamam masadir se mujhe nahin koi cheez milti to phir main ijtihad karta hoon phir kya karta hoon qiyas karta hoon to qiyas ka jo darjah aur number hai woh sabse aakhir mein aata hai"
+    summary_en: "Cites Ibn Abd al-Barr's al-Intiqa' and Badruddin al-Ayni's Umdat al-Qari to document Abu Hanifa's stated hierarchy of jurisprudence: Quran -> Sunnah -> Sahaba statements -> Qiyas (only when textual sources are exhausted), rejecting the claim that he placed qiyas over hadith."
+    evidence_cited:
+      - as_said: "Kitab al-Intiqa' by Imam Ibn Abd al-Barr"
+        timestamp: "00:00:30"
+      - as_said: "Umdat al-Qari Sharh Sahih al-Bukhari by Imam Badruddin al-Ayni"
+        timestamp: "00:00:35"
+    responds_to: M01
+    confidence: high
+
+new_claims:
+  - id: FQ-EM-C01
+    side: ali-mirza
+    summary_en: "Imam Abu Hanifa prioritized analogical reasoning (qiyas) over prophetic hadith in legal deductions."
+    move_type: charge
+    first_seen: M01
+
+phrasings:
+  - maps_to: FQ-EM-C01
+    text: "Imam-e-Azam alayhir rahmah qiyas ko hadees par tarjeeh dete hain"
+    timestamp: "00:00:03"
