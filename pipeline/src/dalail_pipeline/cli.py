@@ -147,10 +147,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             from .sources import new_source
 
             folder = new_source(corpus_dir, url=args.url, file=args.file, source_id=args.id)
-            print(
-                f"created {folder}\n"
-                f"  next: fill in scholar/work/lang in meta.yaml, then /ingest-article {folder.relative_to(repo)}"
-            )
+            shown = folder.relative_to(repo) if folder.is_relative_to(repo) else folder
+            print(f"created {folder}\n  next: fill in scholar/work/lang in meta.yaml, then /ingest-article {shown}")
             return 0
 
         if args.command == "check-verbatim":

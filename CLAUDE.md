@@ -61,6 +61,9 @@ Thresholds live in config and are tuned via `/eval`. Never return a single "matc
 - When a library's current API differs from what the brief assumes, check its docs, then note the change in `docs/decisions/`.
 - Ask the owner before adding any dependency that makes network calls, any analytics, or anything that changes the non-negotiables.
 - At the end of each phase report: what was built, how to run it, test/eval results, known issues, and questions.
+- Ingest articles only with `/ingest-article` (`.claude/commands/ingest-article.md`); `ingest-finish` must report 0 errors. Never edit `corpus/sources/` (snapshots are immutable).
+- `eval/questions.real.yaml` is human-written only: never generate, edit, reformat or copy aliases into it (see `eval/REAL_QUESTIONS.md`). Report real and fixture eval results separately.
+- Prod builds exclude non-verified nodes and prune follow-up edges to them (reported); citing an unverified hadith or an ayah missing from `corpus/quran/` fails the build.
 
 ## Commands
 
@@ -76,7 +79,10 @@ uv run python -m dalail_pipeline fetch-model            # pinned e5 GGUF -> mode
 uv run python -m dalail_pipeline validate [--prod]
 uv run python -m dalail_pipeline build --dev|--prod [--no-embed]
 uv run python -m dalail_pipeline stats
-uv run python -m dalail_pipeline embed-queries ../eval/questions.fixture.yaml
+uv run python -m dalail_pipeline new-source --url URL | --file PATH [--id ID]
+uv run python -m dalail_pipeline ingest-finish <source-id>   # spans, cited_in, checks, summary
+uv run python -m dalail_pipeline check-verbatim | dedupe | next-id node --topic T | next-id hadith
+uv run python -m dalail_pipeline embed-queries ../eval/questions.fixture.yaml ../eval/questions.real.yaml
 pnpm --filter @dalail/eval eval [--mode keyword|hybrid]  # top-1 / top-3 / ambiguous / no-match
 pnpm --filter @dalail/mobile android   # dev client on emulator/device (needs Android SDK)
 ```
