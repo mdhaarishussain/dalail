@@ -2,7 +2,7 @@
   "expo": {
     "name": "Dalail",
     "slug": "dalail",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -19,7 +19,8 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "org.dalail.app",
-      "permissions": []
+      "permissions": [],
+      "versionCode": 2
     },
     "plugins": [
       "expo-router",

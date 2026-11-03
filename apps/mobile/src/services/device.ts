@@ -42,7 +42,10 @@ export async function initDeviceServices(): Promise<Services> {
   });
 
   // Copy the bundled DB (and model) out of the APK once per app build.
-  const build = `${DeviceInfo.getVersion()}+${DeviceInfo.getBuildNumber()}`;
+  // Re-copy bundled files after every install/update, not only when the version changes
+  // (a dev APK installed over another with the same version must still replace dalail.db).
+  const updated = await DeviceInfo.getLastUpdateTime().catch(() => 0);
+  const build = `${DeviceInfo.getVersion()}+${DeviceInfo.getBuildNumber()}+${updated}`;
   const fresh = kv.getItemSync(INSTALLED_KEY) !== build;
   await moveAssetsDatabase({ filename: DB_FILE, path: 'custom', overwrite: fresh });
   let modelPath: string | null = null;
