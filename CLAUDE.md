@@ -64,6 +64,7 @@ Thresholds live in config and are tuned via `/eval`. Never return a single "matc
 - Ingest articles only with `/ingest-article` (`.claude/commands/ingest-article.md`); `ingest-finish` must report 0 errors. Never edit `corpus/sources/` (snapshots are immutable).
 - `eval/questions.real.yaml` is human-written only: never generate, edit, reformat or copy aliases into it (see `eval/REAL_QUESTIONS.md`). Report real and fixture eval results separately.
 - Scholar-supplied fields use `<field>_origin: scholar_review` plus an entry in `corpus/reviews/<node-id>.yaml` (who wrote/approved, sha256), only on verified nodes. Never set or fill these yourself; the owner records them with `record-review`.
+- `research/` (e.g. `research/munazara/`, Gemini and Whisper transcripts) is unverified research only: never ingest it, never copy its text into `corpus/`, never show it in the app. Nodes come only from scholar articles captured in `corpus/sources/`.
 - Sources carry `default_opponent`; ingestion flags claims from another group for the owner, never guesses. Never translate or transliterate article text (Urdu script stays Urdu script).
 - Prod builds exclude non-verified nodes and prune follow-up edges to them (reported); citing an unverified hadith or an ayah missing from `corpus/quran/` fails the build.
 
@@ -85,6 +86,8 @@ uv run python -m dalail_pipeline new-source --url URL | --file PATH --opponent I
 uv run python -m dalail_pipeline record-review --node N --field short_answer --written-by W --approved-by A
 uv run python -m dalail_pipeline ingest-finish <source-id>   # spans, cited_in, checks, summary
 uv run python -m dalail_pipeline check-verbatim | dedupe | next-id node --topic T | next-id hadith
+uv run python -m dalail_pipeline transcribe <audio> --source-id yt-<id>   # dev-only, needs --extra transcribe
+python research/munazara/tools/coverage.py [--update-readme]               # transcript coverage audit
 uv run python -m dalail_pipeline embed-queries ../eval/questions.fixture.yaml ../eval/questions.real.yaml
 pnpm --filter @dalail/eval eval [--mode keyword|hybrid]  # top-1 / top-3 / ambiguous / no-match
 pnpm --filter @dalail/mobile android   # dev client on emulator/device (needs Android SDK)

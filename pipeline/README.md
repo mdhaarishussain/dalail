@@ -13,6 +13,11 @@ uv run python -m dalail_pipeline build --dev       # needs the model unless --no
 uv run python -m dalail_pipeline build --prod
 uv run python -m dalail_pipeline stats
 uv run pytest && uv run ruff check . && uv run ruff format --check .
+
+# research only (never used by the app): local speech-to-text for research/munazara
+uv sync --extra transcribe
+uv run python -m dalail_pipeline fetch-model --transcription   # pinned faster-whisper large-v3, ~3.1 GB
+uv run python -m dalail_pipeline transcribe ../research/munazara/audio/yt-<id>.m4a --source-id yt-<id>
 ```
 
 Errors are printed as `path:line: error CODE: message`. Tests that need the model are skipped

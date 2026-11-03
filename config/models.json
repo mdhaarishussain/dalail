@@ -1,5 +1,5 @@
 {
-  "_doc": "Single model registry (brief \u00a73). Embedding model is used identically by the pipeline and the app. LLM candidates are added in Phase 5. runtime_n_ctx is what llama.cpp is given: the model's trained length is 511, and n_ctx=511 trips a GGML assert, so 512 is used (inputs are truncated).",
+  "_doc": "Single model registry (brief §3). Embedding model is used identically by the pipeline and the app. LLM candidates are added in Phase 5. runtime_n_ctx is what llama.cpp is given: the model's trained length is 511, and n_ctx=511 trips a GGML assert, so 512 is used (inputs are truncated).",
   "embedding": {
     "id": "multilingual-e5-small-q8_0",
     "base_model": "intfloat/multilingual-e5-small",
@@ -16,5 +16,17 @@
     "query_prefix": "query: ",
     "passage_prefix": "passage: "
   },
-  "llm": []
+  "llm": [],
+  "transcription": {
+    "_doc": "Developer-only (research/munazara transcripts). Never bundled in the app.",
+    "id": "whisper-large-v3",
+    "repo": "Systran/faster-whisper-large-v3",
+    "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+    "license": "MIT",
+    "approx_size_bytes": 3091000000,
+    "dir": "whisper-large-v3",
+    "compute_type": "int8",
+    "beam_size": 5,
+    "vad_filter": true
+  }
 }

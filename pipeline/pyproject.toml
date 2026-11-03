@@ -14,6 +14,8 @@ dependencies = [
 [project.optional-dependencies]
 # Needed only for `embed` / `build` with vectors. Compiles llama.cpp (CPU) on install.
 embed = ["llama-cpp-python==0.3.36"]
+# Developer-only speech-to-text for research/munazara (downloads a ~3.1 GB model once).
+transcribe = ["faster-whisper==1.2.1"]
 
 [dependency-groups]
 dev = ["pytest>=8", "ruff>=0.6"]

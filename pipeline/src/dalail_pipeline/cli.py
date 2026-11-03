@@ -32,6 +32,7 @@ COMMANDS: dict[str, str] = {
     "ingest-finish": "After /ingest-article: fill spans, sync cited_in, validate, find duplicates, summarise.",
     "dedupe": "Report nodes whose claims look like duplicates (embedding cosine + token overlap).",
     "next-id": "Print the next free node id for a topic, or the next hadith id.",
+    "transcribe": "Developer-only: transcribe an audio file with faster-whisper large-v3 (research/munazara).",
     "parity-export": "Write the e5 parity set (20 strings + pipeline vectors) for the app's Diagnostics screen.",
     "record-review": "Owner: record who wrote/approved a scholar_review field (hashes the current value).",
 }
@@ -65,6 +66,13 @@ def build_parser() -> argparse.ArgumentParser:
             cmd.add_argument("source_id")
         if name in {"ingest-finish", "dedupe"}:
             cmd.add_argument("--no-model", action="store_true", help="Token overlap only (skip embeddings).")
+        if name == "fetch-model":
+            cmd.add_argument("--transcription", action="store_true", help="Fetch the pinned Whisper model instead.")
+        if name == "transcribe":
+            cmd.add_argument("audio", type=Path, help="Audio file (kept out of git).")
+            cmd.add_argument("--source-id", required=True, help="yt-<YouTube id>")
+            cmd.add_argument("--language", default="ur", help="Whisper language code (default ur; 'auto' to detect).")
+            cmd.add_argument("--force", action="store_true", help="Replace an existing transcript.")
         if name == "record-review":
             cmd.add_argument("--node", required=True)
             cmd.add_argument("--field", required=True)
@@ -145,6 +153,21 @@ def main(argv: Sequence[str] | None = None) -> int:
 
         if args.command == "stats":
             print(stats_text(load_corpus(corpus_dir, include_fixtures=True)))
+            return 0
+
+        if args.command == "fetch-model" and args.transcription:
+            from .transcribe import fetch_transcription_model, transcription_model
+
+            print(f"ok: {fetch_transcription_model(transcription_model(repo))}")
+            return 0
+
+        if args.command == "transcribe":
+            from .transcribe import transcribe
+
+            lang = None if args.language == "auto" else args.language
+            out = transcribe(repo_root=repo, audio=args.audio.resolve(), source_id=args.source_id,
+                             language=lang, force=args.force)  # fmt: skip
+            print(f"wrote {out}")
             return 0
 
         if args.command == "fetch-model":

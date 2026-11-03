@@ -21,3 +21,14 @@ __pycache__/
 models/
 eval/.cache/
 eval/results/
+
+# research audio (supplied by the owner, never committed)
+research/munazara/audio/
+*.mp3
+*.m4a
+*.wav
+*.opus
+*.webm
+*.ogg
+*.flac
+*.aac
