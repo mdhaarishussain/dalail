@@ -227,7 +227,7 @@ describe('research nodes (dev builds, ADR 0008)', () => {
 
   it('shows banner, move type, candidate response with watch link, ask-back; no quick reply or share', async () => {
     const id = await researchNodeWithEverything();
-    const open = jest.spyOn(Linking, 'openURL').mockResolvedValue(true);
+    const open = jest.spyOn(Linking, 'openURL').mockResolvedValue(undefined);
     await show(<Rebuttal />, { id });
     expect(await screen.findByTestId('research-banner')).toBeTruthy();
     expect(screen.getByText('AI-extracted from video — not verified by scholars')).toBeTruthy();
