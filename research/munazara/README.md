@@ -95,10 +95,10 @@ Unmarked jumps: timestamp gaps over 2 minutes with no `[skipped …]` / `[not tr
 | Videos | Tier | Use for |
 | --- | --- | --- |
 | 1–46 | Research | Claims, debate sequences, leads to Mufti Razvi's answers (still unverified) |
-| 47 | Research, partial | A well-known live TV debate (Allama Hisham Elahi Zaheer's channel). Worth keeping, but the transcript stops at 00:23:26 of a 44:37 video, so the second half still needs transcribing |
+| 47 | **Low quality: opponent phrasing only** | A well-known live TV debate, but the Wahhabi side is Allama Hisham Elahi Zaheer (son of Ehsan Elahi Zaheer), so it is of limited use. The transcript also stops at 00:23:26 of a 44:37 video |
 | 48–56 | **Low quality: opponent phrasing only** | How Ahl-e-Hadith debaters word their objections (claim wording, Roman Urdu search phrasings). Not a source of answers or rebuttals |
 
-Why 48–56 are low quality:
+Why 47–56 are low quality:
 
 - The transcripts are heavily condensed: about 25 words per minute of video, against about 95 for videos 1–46 and roughly 120–150 in normal speech. Most have no gap markers yet are labelled `transcript_quality: good`, and several lines join separate sentences with "…".
 - They are mostly phone-call or channel debates between non-scholars. Several were uploaded by the opposing side with partisan titles, so they may be edited.
@@ -154,7 +154,7 @@ Why 48–56 are low quality:
 | 44 | [yt-qNxXG6_seps](transcripts/yt-qNxXG6_seps.md) · [yaml](extractions/yt-qNxXG6_seps.yaml) | [turn 33](notes/turn-33.md) | [Eng Muhammad Ali Mirza our Akhlaq e Nabuwat ka dawa exposed by MUFTI RASHID MAHMOOD RAZVI](https://www.youtube.com/watch?v=qNxXG6_seps) | munazara-transcript | debate | 6 | akhlaq-e-nabuwwat, vulgar-language, hypocrisy, derogatory-labels | near-full 1.06 |
 | 45 | [yt-eol43GtSS9E](transcripts/yt-eol43GtSS9E.md) · [yaml](extractions/yt-eol43GtSS9E.yaml) | [turn 34](notes/turn-34.md) | [Hazrat Ameer Muawiyah Bary Aqeedah E Ahle Sunnat vs DrTahir ul Qadri \| by Mufti Rashid Mahmood Razvi](https://www.youtube.com/watch?v=eol43GtSS9E) | munazara-transcript | debate | 6 | partial 0.65 |
 | 46 | [yt-dD66hGXISp0](transcripts/yt-dD66hGXISp0.md) · [yaml](extractions/yt-dD66hGXISp0.yaml) | [turn 35](notes/turn-35.md) | [Mola Ali Ki Fazilat Mein Ek Jhooti Riwayat Per Rafzi Qari Ahmad Hassan ko Jawab By MUFTI RASHID MAHMOOD RAZVI](https://www.youtube.com/watch?v=dD66hGXISp0) | munazara-transcript | debate | 6 | sahaba, afdaliyyat-e-sahaba, mola-ali-vs-abu-bakr, fabricated-hadith | near-full 1.17 |
-| 47 (partial) | [yt-sq2CPVTwIT0](transcripts/yt-sq2CPVTwIT0.md) · [yaml](extractions/yt-sq2CPVTwIT0.yaml) | [batch 2](notes/batch2-turn-01.md) | [وسیلہ کی شرعی حیثیت کیا ؟یاعلی مدد یا رسول مدد کہنا کیسا ہے ؟ لائیو پروگرام میں شدید بحث چھڑ گئی۔](https://www.youtube.com/watch?v=sq2CPVTwIT0) | munazara-transcript | debate | 16 | tawassul, istighatha |
+| 47 ⚠️ low quality | [yt-sq2CPVTwIT0](transcripts/yt-sq2CPVTwIT0.md) · [yaml](extractions/yt-sq2CPVTwIT0.yaml) | [batch 2](notes/batch2-turn-01.md) | [وسیلہ کی شرعی حیثیت کیا ؟یاعلی مدد یا رسول مدد کہنا کیسا ہے ؟ لائیو پروگرام میں شدید بحث چھڑ گئی۔](https://www.youtube.com/watch?v=sq2CPVTwIT0) | munazara-transcript | debate | 16 | tawassul, istighatha |
 | 48 ⚠️ low quality | [yt--Donk1omKUs](transcripts/yt--Donk1omKUs.md) · [yaml](extractions/yt--Donk1omKUs.yaml) | [batch 2](notes/batch2-turn-01.md) | [MUNAZRA ON ❤️❤️ YA RASOOLALLAHﷺ ❤️❤️  KEHNA KAISA](https://www.youtube.com/watch?v=-Donk1omKUs) | munazara-transcript | debate | 12 | istighatha, tawassul |
 | 49 ⚠️ low quality | [yt-SvTDDbl1uYw](transcripts/yt-SvTDDbl1uYw.md) · [yaml](extractions/yt-SvTDDbl1uYw.yaml) | [batch 2](notes/batch2-turn-01.md) | [Barelvi Munazir se Ahle Hadees ulma ki Waseela pr debate \| munazra wasila in Islam ](https://www.youtube.com/watch?v=SvTDDbl1uYw) | munazara-transcript | debate | 9 | istighatha, tawassul |
 | 50 ⚠️ low quality | [yt-VwfdF6s7SiY](transcripts/yt-VwfdF6s7SiY.md) · [yaml](extractions/yt-VwfdF6s7SiY.yaml) | [batch 2](notes/batch2-turn-01.md) | [Waseela Ahle Hadees VS Barelwi Munazra part-1](https://www.youtube.com/watch?v=VwfdF6s7SiY) | munazara-transcript | debate | 12 | tawassul, istighatha |
