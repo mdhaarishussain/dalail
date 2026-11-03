@@ -42,6 +42,16 @@ export default tseslint.config(
     },
   },
   {
+    // core runs inside React Native (Hermes): no Node built-ins in shipped code.
+    files: ['packages/core/src/**/*.ts'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        { patterns: [{ group: ['node:*'], message: 'core/src must run on Hermes' }] },
+      ],
+    },
+  },
+  {
     files: ['**/__tests__/**', '**/*.test.{ts,tsx}'],
     languageOptions: { globals: { ...globals.jest } },
   },

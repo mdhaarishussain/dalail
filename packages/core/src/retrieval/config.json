@@ -1,0 +1,13 @@
+{
+  "_doc": "Retrieval thresholds. Tuned with `pnpm eval` (see eval/README.md); change here, not in code.",
+  "rrfK": 60,
+  "ftsLimit": 200,
+  "vecLimit": 50,
+  "minConfidence": 0.5,
+  "minGap": 0.15,
+  "ambiguousWindow": 0.25,
+  "cosFloor": 0.85,
+  "cosCeil": 0.95,
+  "topicBoost": 0.05,
+  "maxCandidates": 3
+}

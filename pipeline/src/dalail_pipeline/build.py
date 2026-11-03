@@ -80,6 +80,11 @@ class BuildResult:
     report: Report
 
 
+def index_text(text: str) -> str:
+    """Text used for search. The FIXTURE: marker is display-only, so it is not indexed or embedded."""
+    return text.removeprefix(FIXTURE_MARK).lstrip()
+
+
 def _j(v: Any) -> str:
     return json.dumps(v if v is not None else {}, ensure_ascii=False, sort_keys=True)
 
@@ -116,7 +121,7 @@ def build(
     vectors: list[list[float]] | None = None
     if embed:
         embedder = Embedder(model, out_dir / ".embed-cache.sqlite")
-        vectors = embedder.passages([a[1] for a in aliases])
+        vectors = embedder.passages([index_text(a[1]) for a in aliases])
 
     out_dir.mkdir(parents=True, exist_ok=True)
     db_path = out_dir / "dalail.db"
@@ -200,7 +205,7 @@ def _write(
                 con.execute("INSERT INTO node_dalail VALUES (?, ?, ?, ?)", (d.id, ref, role, i))
 
     for i, (node_id, text, lang, kind) in enumerate(aliases, start=1):
-        n = normaliser(text)
+        n = normaliser(index_text(text))
         con.execute(
             "INSERT INTO node_aliases VALUES (?, ?, ?, ?, ?, ?, ?)",
             (i, node_id, text, n.norm, n.folded, lang, kind),
