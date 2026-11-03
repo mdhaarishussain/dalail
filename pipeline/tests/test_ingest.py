@@ -41,13 +41,18 @@ def test_new_source_from_markdown_and_no_overwrite(tmp_path: Path) -> None:
     md = tmp_path / "Some Notes.md"
     md.write_text("Line one\r\n\r\n\r\n\r\nLine two\n")
     corpus = tmp_path / "corpus"
-    folder = new_source(corpus, file=md, today=dt.date(2026, 11, 3))
+    corpus.mkdir()
+    (corpus / "opponents.yaml").write_text("- {id: wahhabi, name_en: W, name_roman_urdu: W}\n")
+    folder = new_source(corpus, file=md, opponent="wahhabi", today=dt.date(2026, 11, 3))
     assert folder.name == "some-notes"
     assert (folder / "source.md").read_bytes() == md.read_bytes()
     assert (folder / "text.txt").read_text() == "Line one\n\nLine two\n"
     assert "retrieved_on: '2026-11-03'" in (folder / "meta.yaml").read_text()
+    assert "default_opponent: wahhabi" in (folder / "meta.yaml").read_text()
     with pytest.raises(PipelineError, match="never overwritten"):
-        new_source(corpus, file=md)
+        new_source(corpus, file=md, opponent="wahhabi")
+    with pytest.raises(PipelineError, match="--opponent must be one of"):
+        new_source(corpus, file=md, opponent=None)
 
 
 def test_source_is_immutable(real_corpus: Path) -> None:
@@ -160,3 +165,15 @@ def test_duplicates_with_model(repo: Path, real_corpus: Path) -> None:
     (real_corpus / "nodes/test-real-002.md").write_text(dup)
     (pair,) = find_duplicates(load_corpus(real_corpus, include_fixtures=False), repo)
     assert pair.cosine is not None and pair.cosine > 0.99
+
+
+def test_opponent_differs_is_flagged(real_corpus: Path) -> None:
+    replace_in(real_corpus / NODE, "opponent: [wahhabi]", "opponent: [rawafidh]")
+    rep = validate(load_corpus(real_corpus, include_fixtures=False), "prod")
+    assert "OPPONENT_DIFFERS" in [w.code for w in rep.warnings]
+
+
+def test_source_needs_default_opponent(real_corpus: Path) -> None:
+    meta = real_corpus / "sources/test-source/meta.yaml"
+    meta.write_text(meta.read_text().replace("default_opponent: wahhabi", "default_opponent: ''"))
+    assert "SOURCE_OPPONENT" in errors(real_corpus)

@@ -118,6 +118,11 @@ def _decode(raw: bytes, header_charset: str | None) -> str:
     raise PipelineError("could not decode the source as UTF-8 or its declared charset; save it as UTF-8 and use --file")
 
 
+def opponent_ids(corpus_dir: Path) -> set[str]:
+    path = corpus_dir / "opponents.yaml"
+    return {str(o["id"]) for o in (yaml.safe_load(path.read_text()) or [])} if path.is_file() else set()
+
+
 def _slug(s: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     return s[:60].strip("-")
@@ -128,9 +133,12 @@ def sha256(path: Path) -> str:
 
 
 def new_source(corpus_dir: Path, *, url: str | None = None, file: Path | None = None, source_id: str | None = None,
-               today: dt.date | None = None) -> Path:  # fmt: skip
+               opponent: str | None = None, today: dt.date | None = None) -> Path:  # fmt: skip
     if bool(url) == bool(file):
         raise PipelineError("give exactly one of --url or --file")
+    known = opponent_ids(corpus_dir)
+    if not opponent or opponent not in known:
+        raise PipelineError(f"--opponent must be one of: {', '.join(sorted(known))} (got {opponent!r})")
     header_charset: str | None = None
     if url:
         req = urllib.request.Request(url, headers={"User-Agent": "dalail-pipeline (source snapshot)"})
@@ -175,6 +183,7 @@ def new_source(corpus_dir: Path, *, url: str | None = None, file: Path | None = 
         "scholar": "",
         "work": "",
         "lang": "",
+        "default_opponent": opponent,
         "retrieved_on": (today or dt.date.today()).isoformat(),
         "captured_from": "url" if url else "file",
         "original_filename": file.name if file else "",
@@ -186,6 +195,7 @@ def new_source(corpus_dir: Path, *, url: str | None = None, file: Path | None = 
     header = (
         "# Source snapshot. Never edit source.* or text.txt; a changed article becomes a new snapshot.\n"
         "# Owner: fill in scholar, work and lang (and url if captured from a file).\n"
+        "# default_opponent: the group this article answers; /ingest-article flags any claim from another group.\n"
     )
     (folder / "meta.yaml").write_text(header + yaml.safe_dump(meta, sort_keys=False, allow_unicode=True))
     return folder
@@ -221,6 +231,9 @@ def load_sources(corpus_dir: Path) -> tuple[dict[str, Source], list[Issue]]:
         if shas.get("source") != sha256(srcs[0]) or shas.get("text") != sha256(txt):
             msg = "source.* or text.txt changed since capture; sources are immutable — capture a new snapshot"
             issues.append(Issue(meta_path, 1, "SOURCE_MODIFIED", msg))
+        if str(meta.get("default_opponent") or "") not in opponent_ids(corpus_dir):
+            msg = "default_opponent is missing or not in opponents.yaml (owner sets it at capture)"
+            issues.append(Issue(meta_path, 1, "SOURCE_OPPONENT", msg))
         for k in ("scholar", "work"):
             if not str(meta.get(k) or "").strip():
                 issues.append(

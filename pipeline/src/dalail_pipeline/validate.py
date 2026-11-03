@@ -118,6 +118,13 @@ def validate(corpus: Corpus, mode: Mode = "dev") -> Report:
                     "body must contain a '## Response' section",
                 )
             )
+        src = corpus.sources.get(str(doc.data.get("source_id") or ""))
+        if src is not None and (default := src.meta.get("default_opponent")):
+            others = [o for o in doc.data.get("opponent") or [] if o != default]
+            if others:
+                add(Issue(doc.path, doc.line("opponent"), "OPPONENT_DIFFERS",
+                          f"opponent {others} differs from the source's default_opponent '{default}'; "
+                          "owner decision needed", "warning"))  # fmt: skip
         n_alias = len(doc.data.get("claim_roman_urdu") or [])
         if not ALIAS_MIN <= n_alias <= ALIAS_MAX:
             add(Issue(doc.path, doc.line("claim_roman_urdu"), "ALIAS_COUNT",

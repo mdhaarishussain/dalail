@@ -100,7 +100,7 @@ def capture_test_source(corpus: Path, tmp_path: Path) -> None:
 
     html = tmp_path / "test-article.html"
     html.write_text(TEST_ARTICLE)
-    new_source(corpus, file=html, source_id="test-source", today=dt.date(2026, 11, 3))
+    new_source(corpus, file=html, source_id="test-source", opponent="wahhabi", today=dt.date(2026, 11, 3))
     _, issues = fill_spans(load_corpus(corpus, include_fixtures=False), "test-source")
     assert [i for i in issues if i.severity == "error"] == []
 

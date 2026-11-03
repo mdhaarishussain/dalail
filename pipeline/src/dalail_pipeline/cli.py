@@ -58,6 +58,7 @@ def build_parser() -> argparse.ArgumentParser:
             src.add_argument("--url", help="Fetch this page (developer machine only).")
             src.add_argument("--file", type=Path, help="A saved .html / .md / .txt file.")
             cmd.add_argument("--id", help="Source id (kebab-case). Default: from the title or file name.")
+            cmd.add_argument("--opponent", help="Group the article answers (an id from corpus/opponents.yaml).")
         if name in {"fill-spans", "ingest-finish"}:
             cmd.add_argument("source_id")
         if name in {"ingest-finish", "dedupe"}:
@@ -144,9 +145,13 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 0
 
         if args.command == "new-source":
-            from .sources import new_source
+            from .sources import new_source, opponent_ids
 
-            folder = new_source(corpus_dir, url=args.url, file=args.file, source_id=args.id)
+            opponent = args.opponent
+            if not opponent and sys.stdin.isatty():
+                choices = sorted(opponent_ids(corpus_dir))
+                opponent = input(f"Which group does this article answer? [{'/'.join(choices)}]: ").strip()
+            folder = new_source(corpus_dir, url=args.url, file=args.file, source_id=args.id, opponent=opponent)
             shown = folder.relative_to(repo) if folder.is_relative_to(repo) else folder
             print(f"created {folder}\n  next: fill in scholar/work/lang in meta.yaml, then /ingest-article {shown}")
             return 0
