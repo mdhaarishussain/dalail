@@ -22,5 +22,6 @@ export async function runSearch(
     exec: services.repo.exec,
     queryEmbedding: embedding,
     statuses: services.repo.statuses,
+    isEligible: services.repo.isEligible,
   });
 }

@@ -10,7 +10,7 @@ describe('CorpusRepository (fixture dev DB)', () => {
   it('reads meta and topics', async () => {
     const meta = await repo.meta();
     expect(meta.buildMode).toBe('dev');
-    expect((await repo.topics()).map((t) => t.id)).toEqual(['tawassul', 'istighatha']);
+    expect((await repo.topics()).map((t) => t.id).slice(0, 2)).toEqual(['tawassul', 'istighatha']);
   });
 
   it('loads a node with refs and follow-ups in order', async () => {
@@ -46,5 +46,40 @@ describe('CorpusRepository (fixture dev DB)', () => {
     );
     expect(await repo.nodesByTopic('tawassul', 'rawafidh')).toEqual([]);
     expect((await repo.nodesByTopic('tawassul', 'wahhabi')).length).toBe(6);
+  });
+});
+
+describe('research content (dev builds, ADR 0008)', () => {
+  const exec = testExecutor();
+  const withResearch = new CorpusRepository(exec, ALL, true);
+  const without = new CorpusRepository(exec, ALL, false);
+
+  it('is hidden unless switched on', async () => {
+    const [row] = await exec.all(
+      "SELECT id FROM nodes WHERE origin = 'gemini-research' AND node_type = 'claim-only' LIMIT 1",
+    );
+    const id = String(row?.id);
+    expect(await without.node(id)).toBeNull();
+    const n = await withResearch.node(id);
+    expect(n?.origin).toBe('gemini-research');
+    expect(n?.research?.occurrences[0]?.deepLink).toMatch(
+      /^https:\/\/www\.youtube\.com\/watch\?v=.+&t=\d+s$/,
+    );
+  });
+
+  it('attaches counter-questions and lists only topics with content', async () => {
+    const [row] = await exec.all("SELECT to_id FROM edges WHERE kind = 'counters' LIMIT 1");
+    const n = await withResearch.node(String(row?.to_id));
+    expect(n?.research?.counterQuestions.length).toBeGreaterThan(0);
+    const visibleTopics = (await without.topicsWithContent()).map((t) => t.id);
+    expect(visibleTopics).toEqual(['tawassul', 'istighatha']);
+    expect((await withResearch.topicsWithContent()).length).toBeGreaterThan(2);
+  });
+
+  it('never returns counter-question nodes in topic lists', async () => {
+    const all = await Promise.all(
+      (await withResearch.topics()).map((t) => withResearch.nodesByTopic(t.id)),
+    );
+    expect(all.flat().some((n) => n.id.startsWith('rs-cq-'))).toBe(false);
   });
 });

@@ -14,6 +14,8 @@ export interface RetrievalCandidate {
   topic: string;
   claimEn: string;
   status: string;
+  /** 'scholar-article' (corpus) or 'gemini-research' (dev builds only, ADR 0008). */
+  origin: string;
 }
 
 export interface RetrievalResult {

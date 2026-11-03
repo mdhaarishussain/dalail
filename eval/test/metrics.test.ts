@@ -3,7 +3,7 @@ import type { RetrievalCandidate, RetrievalResult } from '@dalail/core';
 import { computeMetrics, type Outcome } from '../src/metrics';
 
 const cand = (nodeId: string): RetrievalCandidate => ({
-  nodeId, score: 1, confidence: 1, coverage: 1, cosine: null, topic: 't', claimEn: '', status: 'verified',
+  nodeId, score: 1, confidence: 1, coverage: 1, cosine: null, topic: 't', claimEn: '', status: 'verified', origin: 'scholar-article',
 }); // prettier-ignore
 const res = (status: RetrievalResult['status'], ...ids: string[]): RetrievalResult => ({
   status,

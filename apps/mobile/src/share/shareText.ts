@@ -2,8 +2,8 @@ import { parseDalilRef } from '@dalail/core';
 import type { Dalil, NodeDetail } from '../data/types';
 
 /** Only verified, non-fixture answers may leave the app. */
-export function canShare(node: Pick<NodeDetail, 'status' | 'isFixture'>): boolean {
-  return node.status === 'verified' && !node.isFixture;
+export function canShare(node: Pick<NodeDetail, 'status' | 'isFixture' | 'origin'>): boolean {
+  return node.status === 'verified' && !node.isFixture && node.origin !== 'gemini-research';
 }
 
 /** Reference label built only from stored data (never from memory). */

@@ -77,6 +77,8 @@ describe('share text', () => {
     status: 'verified',
     isFixture: false,
     opponents: [],
+    origin: 'scholar-article',
+    research: null,
     shortAnswer: 'Short',
     shortAnswerOrigin: 'article',
     bodyMd: '',
@@ -101,5 +103,6 @@ describe('share text', () => {
   it('refuses fixtures and unverified answers', () => {
     expect(canShare({ ...node, isFixture: true })).toBe(false);
     expect(formatShareText({ ...node, status: 'draft' }, [])).toBeNull();
+    expect(canShare({ ...node, origin: 'gemini-research' })).toBe(false);
   });
 });

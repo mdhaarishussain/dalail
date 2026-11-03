@@ -83,6 +83,11 @@ export default function Settings() {
         <Section title={t('settings.dev')}>
           <Row>
             <Chip
+              label={t('settings.showResearch')}
+              selected={s.showResearch}
+              onPress={() => s.set({ showResearch: !s.showResearch })}
+            />
+            <Chip
               label={t('settings.showUnverified')}
               selected={s.showUnverified}
               onPress={() => s.set({ showUnverified: !s.showUnverified })}

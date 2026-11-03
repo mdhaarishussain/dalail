@@ -1,4 +1,5 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react-native';
+import { Linking } from 'react-native';
 import type { ReactElement } from 'react';
 import { router } from 'expo-router';
 import { ServicesProvider, type Services } from '../services/ServicesContext';
@@ -210,5 +211,48 @@ describe('Browse, Saved, Settings', () => {
     expect(await screen.findByText('Content')).toBeTruthy();
     expect(screen.queryByText('Show unverified answers')).toBeNull();
     services = await testServices();
+  });
+});
+
+describe('research nodes (dev builds, ADR 0008)', () => {
+  beforeEach(() => resetUser({ onboarded: true }));
+
+  async function researchNodeWithEverything(): Promise<string> {
+    const rows = await services.repo.exec.all(
+      `SELECT e.to_id AS id FROM edges e JOIN nodes n ON n.id = e.to_id
+        WHERE e.kind = 'counters' AND n.research_json LIKE '%"candidate_responses": [{%' LIMIT 1`,
+    );
+    return String(rows[0]?.id);
+  }
+
+  it('shows banner, move type, candidate response with watch link, ask-back; no quick reply or share', async () => {
+    const id = await researchNodeWithEverything();
+    const open = jest.spyOn(Linking, 'openURL').mockResolvedValue(true);
+    await show(<Rebuttal />, { id });
+    expect(await screen.findByTestId('research-banner')).toBeTruthy();
+    expect(screen.getByText('AI-extracted from video — not verified by scholars')).toBeTruthy();
+    expect(screen.getByTestId('candidate-response-0')).toBeTruthy();
+    expect(screen.getByText('Ask them back')).toBeTruthy();
+    expect(screen.queryByTestId('short-answer')).toBeNull();
+    expect(screen.queryByTestId('share')).toBeNull();
+    expect(screen.queryByText('Quick reply')).toBeNull();
+    const watch = screen.getAllByText(/^Watch at /);
+    await fireEvent.press(watch[0] as never);
+    expect(open).toHaveBeenCalledWith(expect.stringMatching(/youtube\.com\/watch\?v=.+&t=\d+s$/));
+    open.mockRestore();
+  });
+
+  it('is hidden when "Show research content" is off', async () => {
+    const id = await researchNodeWithEverything();
+    resetUser({ onboarded: true, showResearch: false });
+    await show(<Rebuttal />, { id });
+    expect(await screen.findByText('This claim is not available.')).toBeTruthy();
+  });
+
+  it('settings show the research toggle on dev builds', async () => {
+    await show(<Settings />);
+    expect(await screen.findByText('Show research content')).toBeTruthy();
+    await fireEvent.press(screen.getByLabelText('Show research content'));
+    expect(useUser.getState().showResearch).toBe(false);
   });
 });

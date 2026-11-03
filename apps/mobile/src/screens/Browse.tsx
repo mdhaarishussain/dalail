@@ -12,9 +12,9 @@ export default function Browse() {
   const t = useT();
   const repo = useRepo();
   const language = useUser((s) => s.language);
-  const [topics, setTopics] = useState<Topic[]>([]);
+  const [topics, setTopics] = useState<(Topic & { count: number })[]>([]);
   useEffect(() => {
-    void repo.topics().then(setTopics);
+    void repo.topicsWithContent().then(setTopics);
   }, [repo]);
   return (
     <Screen>
@@ -32,6 +32,7 @@ export default function Browse() {
               testID={`topic-${tp.id}`}
             >
               <T variant="heading">{name}</T>
+              <T variant="muted">{t('browse.count', { n: tp.count })}</T>
             </Card>
           );
         })}

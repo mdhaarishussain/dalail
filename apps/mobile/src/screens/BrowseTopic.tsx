@@ -55,7 +55,11 @@ export default function BrowseTopic() {
             accessibilityLabel={n.claimEn}
             testID={`claim-${n.id}`}
           >
-            {n.status !== 'verified' && <Banner text={t('node.unverified')} />}
+            {n.origin === 'gemini-research' ? (
+              <T variant="small">{t('research.badge')}</T>
+            ) : (
+              n.status !== 'verified' && <Banner text={t('node.unverified')} />
+            )}
             <T>{n.claimEn}</T>
           </Card>
         ))}

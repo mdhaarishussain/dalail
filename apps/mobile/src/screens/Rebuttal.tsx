@@ -12,6 +12,7 @@ import { DalilCard } from '../ui/DalilCard';
 import { Markdown } from '../ui/Markdown';
 import { stripResponseHeading } from '../ui/markdown';
 import { PathBar } from '../ui/PathBar';
+import { ResearchRebuttal } from './ResearchRebuttal';
 import { space } from '../ui/theme';
 
 const openDalil = (ref: string) => router.push({ pathname: '/dalil/[ref]', params: { ref } });
@@ -57,6 +58,15 @@ export default function Rebuttal() {
     return (
       <Screen>
         <T>{t('node.notFound')}</T>
+      </Screen>
+    );
+  }
+
+  if (node.research) {
+    return (
+      <Screen>
+        <Stack.Screen options={{ title: t('node.title') }} />
+        <ResearchRebuttal node={node} research={node.research} />
       </Screen>
     );
   }

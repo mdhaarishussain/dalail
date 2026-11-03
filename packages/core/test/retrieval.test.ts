@@ -27,7 +27,7 @@ function makeDb(): SqlExecutor {
   const db = new DatabaseSync(':memory:');
   db.exec(`
     CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
-    CREATE TABLE nodes (id TEXT PRIMARY KEY, topic TEXT, claim_en TEXT, status TEXT);
+    CREATE TABLE nodes (id TEXT PRIMARY KEY, topic TEXT, claim_en TEXT, status TEXT, origin TEXT DEFAULT 'scholar-article', node_type TEXT DEFAULT 'claim-response');
     CREATE TABLE node_aliases (rowid INTEGER PRIMARY KEY, node_id TEXT, text TEXT, text_norm TEXT, text_folded TEXT);
     CREATE TABLE vec_aliases (alias_rowid INTEGER PRIMARY KEY, embedding BLOB);
     CREATE VIRTUAL TABLE nodes_fts USING fts5(text, text_norm, text_folded, node_id UNINDEXED, topic UNINDEXED, kind UNINDEXED);
@@ -46,7 +46,12 @@ function makeDb(): SqlExecutor {
   });
   let rowid = 0;
   for (const [id, topic, status, aliases, vec] of NODES) {
-    db.prepare('INSERT INTO nodes VALUES (?, ?, ?, ?)').run(id, topic, `claim ${id}`, status);
+    db.prepare('INSERT INTO nodes (id, topic, claim_en, status) VALUES (?, ?, ?, ?)').run(
+      id,
+      topic,
+      `claim ${id}`,
+      status,
+    );
     for (const text of aliases) {
       rowid += 1;
       const n = normaliseRomanUrdu(text);
@@ -122,6 +127,16 @@ describe('retrieve (keyword only)', () => {
     );
   });
 
+  it('lets isEligible include or exclude by origin', async () => {
+    const onlyResearch = await retrieve('qalam kitaab', {
+      exec,
+      isEligible: (n) => n.origin === 'gemini-research',
+    });
+    expect(onlyResearch.status).toBe('no_match');
+    const all = await retrieve('qalam kitaab', { exec, isEligible: () => true });
+    expect(all.candidates[0]?.origin).toBe('scholar-article');
+  });
+
   it('restricts candidates to allowedNodeIds', async () => {
     const r = await retrieve('ghar', { exec, allowedNodeIds: new Set(['n-clock']) });
     expect(r.candidates.map((c) => c.nodeId)).toEqual(['n-clock']);
@@ -163,7 +178,7 @@ describe('retrieve (hybrid)', () => {
 
 describe('decide', () => {
   const c = (nodeId: string, confidence: number): RetrievalCandidate => ({
-    nodeId, score: 0, confidence, coverage: confidence, cosine: null, topic: 't', claimEn: '', status: 'verified',
+    nodeId, score: 0, confidence, coverage: confidence, cosine: null, topic: 't', claimEn: '', status: 'verified', origin: 'scholar-article',
   }); // prettier-ignore
   const cfg = defaultRetrievalConfig;
   it('match needs a clear gap', () => {

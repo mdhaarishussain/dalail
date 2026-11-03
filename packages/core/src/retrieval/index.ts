@@ -14,6 +14,11 @@ export interface RetrieveOptions {
   statuses?: readonly string[];
   /** Restrict candidates to these node ids (eval uses it to keep fixture and real sets apart). */
   allowedNodeIds?: ReadonlySet<string>;
+  /**
+   * Final say on eligibility, given a node's status and origin ('scholar-article' or, in dev builds,
+   * 'gemini-research'). When set, `statuses` is ignored. Counter-question nodes are never candidates.
+   */
+  isEligible?: (node: { status: string; origin: string }) => boolean;
   config?: Partial<RetrievalConfig>;
 }
 
@@ -105,7 +110,7 @@ export async function retrieve(query: string, opts: RetrieveOptions): Promise<Re
   const ids = [...signals.keys()];
   const info = new Map<string, Row>();
   for (const r of await exec.all(
-    `SELECT id, topic, claim_en, status FROM nodes WHERE id IN (${ids.map(() => '?').join(',')})`,
+    `SELECT id, topic, claim_en, status, origin, node_type FROM nodes WHERE id IN (${ids.map(() => '?').join(',')})`,
     ids,
   )) {
     info.set(String(r.id), r);
@@ -114,7 +119,13 @@ export async function retrieve(query: string, opts: RetrieveOptions): Promise<Re
     const row = info.get(s.nodeId);
     return (
       row !== undefined &&
-      (!opts.statuses || opts.statuses.includes(String(row.status))) &&
+      String(row.node_type ?? 'claim-response') !== 'counter-question' &&
+      (opts.isEligible
+        ? opts.isEligible({
+            status: String(row.status),
+            origin: String(row.origin ?? 'scholar-article'),
+          })
+        : !opts.statuses || opts.statuses.includes(String(row.status))) &&
       (!opts.allowedNodeIds || opts.allowedNodeIds.has(s.nodeId))
     );
   });
@@ -152,6 +163,7 @@ export async function retrieve(query: string, opts: RetrieveOptions): Promise<Re
       topic,
       claimEn: String(row.claim_en),
       status: String(row.status),
+      origin: String(row.origin ?? 'scholar-article'),
     };
   });
   candidates.sort((a, b) => b.score - a.score || b.confidence - a.confidence);

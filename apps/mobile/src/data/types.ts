@@ -19,6 +19,38 @@ export interface NodeSummary {
   status: NodeStatus;
   isFixture: boolean;
   opponents: string[];
+  /** 'gemini-research' only in dev builds (ADR 0008). */
+  origin: 'scholar-article' | 'gemini-research';
+}
+
+/** AI-extracted debate data (dev builds only). Never verified, never shareable. */
+export interface ResearchInfo {
+  summaryEn: string;
+  moveType: string;
+  suggestedName: string | null;
+  occurrences: {
+    sourceId: string;
+    title: string;
+    quote: string;
+    at: string;
+    deepLink: string;
+    coverage: number;
+  }[];
+  candidateResponses: {
+    speaker: string;
+    quote: string;
+    summaryEn: string;
+    evidenceAsSaid: string[];
+    at: string;
+    deepLink: string;
+  }[];
+  counterQuestions: {
+    id: string;
+    quote: string;
+    summaryEn: string;
+    at: string;
+    deepLink: string;
+  }[];
 }
 
 export interface SourceRef {
@@ -30,6 +62,7 @@ export interface SourceRef {
 }
 
 export interface NodeDetail extends NodeSummary {
+  research: ResearchInfo | null;
   shortAnswer: string;
   shortAnswerOrigin: 'article' | 'scholar_review';
   bodyMd: string;

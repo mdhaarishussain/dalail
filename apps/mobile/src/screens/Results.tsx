@@ -59,7 +59,11 @@ export default function Results() {
               accessibilityLabel={c.claimEn}
               testID={`candidate-${c.nodeId}`}
             >
-              {c.status !== 'verified' && <Banner text={t('node.unverified')} />}
+              {c.origin === 'gemini-research' ? (
+                <T variant="small">{t('research.badge')}</T>
+              ) : (
+                c.status !== 'verified' && <Banner text={t('node.unverified')} />
+              )}
               <T>{c.claimEn}</T>
             </Card>
           ))}

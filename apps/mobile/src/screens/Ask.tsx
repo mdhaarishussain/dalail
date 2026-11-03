@@ -20,7 +20,7 @@ export default function Ask() {
   const [topics, setTopics] = useState<Topic[]>([]);
 
   useEffect(() => {
-    void repo.topics().then(setTopics);
+    void repo.topicsWithContent().then(setTopics);
   }, [repo]);
 
   if (!onboarded) return <Redirect href="/onboarding" />;

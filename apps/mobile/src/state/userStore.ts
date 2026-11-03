@@ -17,6 +17,8 @@ interface Data {
   dalilTranslation: DalilTranslation;
   /** Dev builds only: include draft / under-review nodes (always shown with an UNVERIFIED banner). */
   showUnverified: boolean;
+  /** Dev builds only: include the AI-extracted research set (ADR 0008). */
+  showResearch: boolean;
   recents: Entry[];
   bookmarks: string[];
   savedQuestions: Entry[];
@@ -46,6 +48,7 @@ export const initialData: Data = {
   mode: 'auto',
   dalilTranslation: 'both',
   showUnverified: true,
+  showResearch: true,
   recents: [],
   bookmarks: [],
   savedQuestions: [],
