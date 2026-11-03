@@ -1,0 +1,13 @@
+# REAL eval questions — HUMAN-WRITTEN ONLY. See eval/REAL_QUESTIONS.md.
+# Claude / tools must never generate, edit, reformat or "fix" entries in this file,
+# and must never copy node aliases (claim_roman_urdu) here. `validate` fails if a question
+# matches an alias exactly or near-exactly after normalisation.
+#
+# Entry format (required: q, plus expect and/or expect_status; required for real: added_by, added_on, origin):
+#   - q: "exactly what the person typed"
+#     expect: [tawassul-001]
+#     style: roman-urdu        # en | roman-urdu | mixed | ...
+#     added_by: "name"
+#     added_on: 2026-11-04
+#     origin: "owner"          # owner | scholar | saved-question export | ...
+questions: []

@@ -7,3 +7,5 @@ apps/mobile/ios
 apps/mobile/.expo
 pipeline
 corpus
+# session clone of the GitHub repo (not part of the tree)
+/dalail

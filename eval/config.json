@@ -1,0 +1,4 @@
+{
+  "_doc": "Eval integrity settings. A real question is a leak if, after Roman Urdu normalisation (folded form), it equals an alias/claim, or its token-set Jaccard >= jaccard, or its character similarity ratio >= ratio.",
+  "leak": { "jaccard": 0.8, "ratio": 0.9 }
+}

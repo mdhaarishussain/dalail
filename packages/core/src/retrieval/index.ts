@@ -12,6 +12,8 @@ export interface RetrieveOptions {
   queryEmbedding?: ArrayLike<number> | null;
   /** Only these node statuses are eligible. Default: every status present in the DB. */
   statuses?: readonly string[];
+  /** Restrict candidates to these node ids (eval uses it to keep fixture and real sets apart). */
+  allowedNodeIds?: ReadonlySet<string>;
   config?: Partial<RetrievalConfig>;
 }
 
@@ -110,7 +112,11 @@ export async function retrieve(query: string, opts: RetrieveOptions): Promise<Re
   }
   const eligible = [...signals.values()].filter((s) => {
     const row = info.get(s.nodeId);
-    return row !== undefined && (!opts.statuses || opts.statuses.includes(String(row.status)));
+    return (
+      row !== undefined &&
+      (!opts.statuses || opts.statuses.includes(String(row.status))) &&
+      (!opts.allowedNodeIds || opts.allowedNodeIds.has(s.nodeId))
+    );
   });
 
   // --- reciprocal rank fusion ----------------------------------------------------------

@@ -13,6 +13,7 @@ import yaml
 from . import __version__
 from .corpus import load_corpus
 from .errors import PipelineError
+from .evalcheck import check_real_eval
 from .models import embedding_model, fetch_model
 from .paths import find_repo_root
 from .stats import stats_text
@@ -47,7 +48,7 @@ def build_parser() -> argparse.ArgumentParser:
         if name == "embed":
             cmd.add_argument("--out", type=Path, help="Folder holding the cache (default: <repo>/dist).")
         if name == "embed-queries":
-            cmd.add_argument("questions", type=Path, help="YAML file with a `questions` list of {q: ...}.")
+            cmd.add_argument("questions", type=Path, nargs="+", help="YAML files with a `questions` list of {q: ...}.")
             cmd.add_argument("--out", type=Path, help="Default: <repo>/eval/.cache/query-embeddings.json")
     return parser
 
@@ -74,7 +75,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         if args.command == "validate":
             mode = "prod" if args.prod else "dev"
-            report = validate(load_corpus(corpus_dir, include_fixtures=mode == "dev"), mode)
+            corpus = load_corpus(corpus_dir, include_fixtures=mode == "dev")
+            report = validate(corpus, mode)
+            report.issues += check_real_eval(repo, corpus)
             _print_issues(report.issues, repo)
             print(
                 f"{mode}: {len(report.included_nodes)} node(s) in scope, {len(report.errors)} error(s), "
@@ -126,7 +129,11 @@ def main(argv: Sequence[str] | None = None) -> int:
             from .embed import Embedder
 
             model = embedding_model(repo)
-            qs = [q["q"] for q in (yaml.safe_load(args.questions.read_text()) or {}).get("questions", [])]
+            qs: list[str] = []
+            for f in args.questions:
+                for q in (yaml.safe_load(f.read_text()) or {}).get("questions") or []:
+                    if q["q"] not in qs:
+                        qs.append(q["q"])
             emb = Embedder(model, repo / "dist" / ".embed-cache.sqlite")
             vecs = emb.queries(qs)
             out = args.out or repo / "eval" / ".cache" / "query-embeddings.json"

@@ -122,6 +122,11 @@ describe('retrieve (keyword only)', () => {
     );
   });
 
+  it('restricts candidates to allowedNodeIds', async () => {
+    const r = await retrieve('ghar', { exec, allowedNodeIds: new Set(['n-clock']) });
+    expect(r.candidates.map((c) => c.nodeId)).toEqual(['n-clock']);
+  });
+
   it('is safe against FTS syntax in user input', async () => {
     for (const q of [
       '"qalam',
