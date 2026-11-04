@@ -1,0 +1,396 @@
+source_id: yt-ChDIrtcSy_U
+moves:
+  - move_id: M01
+    timestamp: "00:01:00-00:01:08"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "prayed two rak'ahs before the pagans executed him. He was captured, they kept him for a while as a prisoner,"
+    summary_en: "Cites the Companion Khubayb ibn 'Adiyy instituting two rak'ahs of prayer prior to execution by pagans during the Prophet's lifetime."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:01:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:52-00:02:03"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: null
+    move_type: classical-authority
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"fa-kana khubaybun huwa sanna r-rak'atayni li-kulli imri'in muslimin qutila sabran\", so the first to make a sunnah of praying two rak'ahs upon being killed was him."
+    summary_en: "Cites Abu Hurayrah's statement in Sahih al-Bukhari affirming that Khubayb was the first to institute (sanna) the practice of praying before execution."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:01:52"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:02:47-00:03:03"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"rabbana wa laka l-hamd hamdan kathiran tayyiban mubarakan fih\","
+    summary_en: "Cites Rifa'ah ibn Rafi' in Sahih al-Bukhari narrating that a Companion proactively added new words of praise in congregational prayer without prior instruction."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:02:17"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:03:41-00:03:57"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: null
+    move_type: classical-authority
+    quote: "Ibn Hajar said about this: [ARABIC RECITATION: Fath al-Bari] phrase_as_heard: \"wa stadalla bihi 'ala jawazi ihdathi dhikrin fi s-salati ghayri ma'thurin idha kana ghayra mukhalifin li-l-ma'thur\","
+    summary_en: "Cites Hafiz Ibn Hajar in Fath al-Bari deducing from the hadith the permissibility of innovating unrecorded dhikr in prayer provided it does not contradict transmitted texts."
+    evidence_cited:
+      - as_said: "Ibn Hajar, Fath al-Bari"
+        timestamp: "00:03:41"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:04:13-00:04:21"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "Do not let a Wahhabi fool you by saying that this is not a bid'ah and instead it is a"
+    summary_en: "Reports the opponent arguing that companion additions are exclusively prophetic sunnah rather than bid'ah due to subsequent prophetic approval."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:04:21-00:04:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K08
+    move_type: rebuttal
+    quote: "sunnah because the Prophet sallallahu 'alayhi wa sallam approved it. What's the answer to that? The Prophet's approving it does not"
+    summary_en: "Refutes the objection by noting that post-hoc approval proves the action was initiated proactively without prior command, contradicting the Wahhabi ban on initiative."
+    evidence_cited: []
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:05:16-00:05:26"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "did with the nightly Ramadan prayers, we spoke about those, there are several other examples, such as compiling the Qur'an"
+    summary_en: "Cites Abu Bakr and 'Umar compiling the scattered Qur'anic manuscripts into a single bounded volume (mushaf) as a major post-prophetic innovation."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:05:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:07:50-00:07:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "Abu Bakr said, he is still telling Zayd the story: I said to 'Umar: How can you do something that the Messenger of Allah"
+    summary_en: "Highlights Abu Bakr's initial hesitation using the exact wording opponents use today: 'How can you do something the Messenger of Allah did not do?'"
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:07:28"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:08:24-00:08:32"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"qala 'umaru huwa wallahi khayr\","
+    summary_en: "Cites 'Umar's definitive justification to Abu Bakr: 'By Allah, it is good' (huwa wallahi khayr), demonstrating the criterion of religious benefit."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:08:24"
+    responds_to: M08
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:10:02-00:10:25"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"qultu kayfa taf'alani shay'an lam yaf'alhu rasulullahi sallallahu 'alayhi wa sallam\","
+    summary_en: "Cites Zayd ibn Thabit repeating the identical objection to Abu Bakr and 'Umar, who answered with the same principle of goodness."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:10:02"
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:11:15-00:11:25"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "of the Prophet sallallahu 'alayhi wa sallam, some suggested his death, and some suggested the first reception of revelation. 'Umar chose"
+    summary_en: "Cites 'Umar establishing the Islamic calendar referenced to the Hijrah, documented in al-Misbah al-Munir by al-Fayyumi."
+    evidence_cited:
+      - as_said: "al-Fayyumi, al-Misbah al-Munir"
+        timestamp: "00:11:25"
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:12:26-00:12:32"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "Then he commanded for documenting dates."
+    summary_en: "Notes 'Umar's institution of the army registry (Diwan al-Jund) and dating system as unprecedented administrative religious innovations."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:13:42-00:13:51"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "the Prophet sallallahu 'alayhi wa sallam, Abu Bakr, and 'Umar. Then when 'Uthman ruled and the numbers of people increased, he added"
+    summary_en: "Cites Sahih al-Bukhari from as-Sa'ib ibn Yazid documenting Caliph 'Uthman adding an additional adhan for Friday prayer at az-Zawra'."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:12:47"
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:14:24-00:14:32"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "What if the Wahhabi says that these are not innovations, what Abu Bakr did and 'Umar did and 'Uthman did,"
+    summary_en: "Reports the opponent claiming that actions of the Rashidun caliphs are strictly 'sunnah' and cannot be described as innovations due to the hadith 'alaykum bi-sunnati'."
+    evidence_cited:
+      - as_said: "Hadith: 'alaykum bi-sunnati wa sunnati l-khulafa'"
+        timestamp: "00:14:40"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:16:07-00:16:15"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K09
+    move_type: dilemma
+    quote: "have no answer for that. Two: Tell me, is it permissible for someone to do in the religion what the"
+    summary_en: "Presents a closed-ended dilemma: If it is impermissible to introduce unpracticed matters, the caliphs' acts could not be sunnah; if permissible, good innovations are validated."
+    evidence_cited: []
+    responds_to: M14
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:17:35-00:17:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K09
+    move_type: theological-reductio
+    quote: "And look at how he unwittingly made the caliphs as impeccable as the Prophet himself, meaning he didn't realize that"
+    summary_en: "Exposes the opponent's dilemma: claiming the caliphs' sunnah is identical to prophetic legislation unwittingly adopts the Shi'ite doctrine of imamic infallibility ('ismah)."
+    evidence_cited: []
+    responds_to: M14
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:21:38-00:21:57"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "Question: What about the people after the Companions? Ibn Abi Dawud narrated in al-Masahif from Harun ibn Musa that he said:"
+    summary_en: "Cites Ibn Abi Dawud in Kitab al-Masahif showing that Yahya ibn Ya'mar was the first to introduce dotting (nuqat) into the mushaf."
+    evidence_cited:
+      - as_said: "Ibn Abi Dawud, Kitab al-Masahif"
+        timestamp: "00:21:38"
+    responds_to: null
+    confidence: high
+
+  - move_id: M18
+    timestamp: "00:23:40-00:23:52"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K10
+    move_type: concession-press
+    quote: "Question: What if the Wahhabi says that the dotting is not an innovation, it is just a writing convention?"
+    summary_en: "Cites Ibn Taymiyyah in Majmu' al-Fatawa acknowledging that dotting the mushaf is an innovation and ruling that there is nothing wrong with it."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah, Majmu' al-Fatawa"
+        timestamp: "00:23:52"
+    responds_to: null
+    confidence: high
+
+  - move_id: M19
+    timestamp: "00:25:20-00:25:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K10
+    move_type: consistency
+    quote: "The terminologies of the science of hadith, like sahih, hasan, and da'if, and those terminologies of other sciences are innovated. Even"
+    summary_en: "Details universal Islamic innovations accepted by all Muslims, including hadith grading terminologies, verse number circles, and written prayers on the Prophet."
+    evidence_cited: []
+    responds_to: M18
+    confidence: high
+
+  - move_id: M20
+    timestamp: "00:27:16-00:27:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: BD-WH-K11
+    move_type: charge
+    quote: "is the expansion of the Mas'a, the place of sa'y. So the Wahhabis, who claim to be the warriors against bid'ah,"
+    summary_en: "Charges Wahhabi authorities with introducing a catastrophic bad innovation by widening the Mas'a beyond its legitimate Shar'i boundaries, invalidating pilgrims' Hajj."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M21
+    timestamp: "00:29:17-00:29:25"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: BD-WH-K12
+    move_type: charge
+    quote: "Seeking the shortest distance for the Qibla instead of the direction, that's the problem here in North America, people facing"
+    summary_en: "Condemns the recent innovation of facing northeast (great circle shortest distance) in North America rather than southeast (facing the actual direction of the Ka'bah)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M22
+    timestamp: "00:30:58-00:31:07"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: admonition
+    quote: "Abbreviating the salah on the Prophet as SAW or PBUH,"
+    summary_en: "Admonishes against abbreviating prayers upon the Prophet (SAW, PBUH) or truncating the Name of Allah during rapid recitation."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: BD-WH-K08
+    side: wahhabi
+    summary_en: "Claims companion additions in worship approved post-hoc by the Prophet are exclusively prophetic sunnah and cannot demonstrate proactive innovation."
+    move_type: restrict-evidence
+    first_seen: M05
+
+  - id: BD-WH-K09
+    side: wahhabi
+    summary_en: "Claims that actions introduced by the Rashidun caliphs are exclusively sunnah and cannot be categorized as bid'ah."
+    move_type: restrict-evidence
+    first_seen: M14
+
+  - id: BD-WH-K10
+    side: wahhabi
+    summary_en: "Claims that dotting the Qur'an and adding structural markings is merely a non-religious writing convention rather than an innovation."
+    move_type: definition
+    first_seen: M18
+
+  - id: BD-WH-K11
+    side: wahhabi
+    summary_en: "Claims expanding the Mas'a outside its historical boundaries is a valid administrative expansion."
+    move_type: charge
+    first_seen: M20
+
+  - id: BD-WH-K12
+    side: wahhabi
+    summary_en: "Claims facing the shortest distance (great circle) satisfies the religious requirement of facing the Qibla."
+    move_type: charge
+    first_seen: M21
+
+counter_questions:
+  - id: CQ-BD-04
+    summary_en: "If bid'ah is the absolute opposite of sunnah, why did you explain 'Umar's 'ni'mat al-bid'ah' as 'what a good revival of the sunnah'?"
+    used_in: M15
+
+  - id: CQ-BD-05
+    summary_en: "Is it permissible for someone to do in the religion what the Prophet sallallahu 'alayhi wa sallam did not do (yes or no)?"
+    used_in: M15
+
+  - id: CQ-BD-06
+    summary_en: "Could one of the guided caliphs possibly make a mistake in the religion (yes or no)?"
+    used_in: M16
+
+debate_tips:
+  - timestamp: "00:16:27"
+    quote: "only yes or no. We discussed that before: anytime you're serious with someone, just ask him a close-ended question that"
+    summary_en: "Trap evading opponents with tight, closed-ended questions requiring only a binary 'yes' or 'no'."
+
+  - timestamp: "00:19:12"
+    quote: "Is it possible that those caliphs could make a mistake in religion? Here, if you ask him that after he"
+    summary_en: "Ask whether the Rashidun caliphs were capable of religious errors to expose the opponent's unwitting endorsement of Shi'ite infallibility."
+
+  - timestamp: "00:23:52"
+    quote: "Well, even Ibn Taymiyyah acknowledges that it is an innovation and he accepts it. He said in Majmu' al-Fatawa:"
+    summary_en: "Cite Ibn Taymiyyah's own explicit acceptance of the dotting of the mushaf as an innovation to silence claims that it is merely a writing convention."
+
+  - timestamp: "00:26:26"
+    quote: "them? They contradict themselves, saying whatever the Prophet did not do or ordered to be done is a forbidden innovation."
+    summary_en: "Confront opponents with their daily reliance on post-prophetic innovations (grammar, printing, dotting, universities) to expose their inconsistent double standards."
