@@ -1,0 +1,260 @@
+source_id: "yt-ENHmxPv9Jn0"
+moves:
+  - move_id: "M01"
+    timestamp: "00:00:30-00:00:42"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "definition"
+    reported: false
+    answers: null
+    move_type: "definition"
+    quote: "a paper or the like on which Qur'an and supplications for protection are written is called hirz, or hijab, or"
+    summary_en: "Defines hirz (also termed hijab or ta'widh) as written Qur'an or protective supplications carried or worn for protection."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M02"
+    timestamp: "00:00:45-00:01:01"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "principle"
+    reported: false
+    answers: "HZ-WH-K01"
+    move_type: "principle"
+    quote: "It is religiously substantiated and neither blasphemy nor worship of other than Allah. Religious evidence has priority over all opinions,"
+    summary_en: "States that wearing a hirz is substantiated by religious evidence and constitutes neither disbelief (kufr) nor worship of other than Allah."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M03"
+    timestamp: "00:02:57-00:03:03"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "historical-evidence"
+    reported: false
+    answers: null
+    move_type: "historical-evidence"
+    quote: "[ARABIC RECITATION: Sunan at-Tirmidhi] phrase_as_heard: \"fa-kana 'abdullahi bnu 'amrin yu'allimuha man balagha min waladih\", 'Abdullah ibn 'Amr used to teach it to his pubescent children, that's a Companion;"
+    summary_en: "Cites Companion 'Abdullah ibn 'Amr teaching the prophetic nightmare du'a to children with understanding, and writing it for younger children."
+    evidence_cited:
+      - as_said: "Sunan at-Tirmidhi"
+        timestamp: "00:01:38"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M04"
+    timestamp: "00:03:08-00:03:17"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "textual-evidence"
+    reported: false
+    answers: "HZ-WH-K01"
+    move_type: "textual-evidence"
+    quote: "[ARABIC RECITATION: Sunan at-Tirmidhi] phrase_as_heard: \"katabaha fi sakkah thumma 'allaqaha fi 'unuqih\", wrote it and hung it on their necks. At-Tirmidhi said this hadith is hasan gharib, which means it"
+    summary_en: "Cites the explicit narration in Sunan at-Tirmidhi showing 'Abdullah ibn 'Amr hung written du'a around his children's necks, graded Hasan by at-Tirmidhi."
+    evidence_cited:
+      - as_said: "Sunan at-Tirmidhi"
+        timestamp: "00:03:08"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M05"
+    timestamp: "00:03:17-00:03:28"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "response"
+    reported: false
+    answers: "HZ-WH-K02"
+    move_type: "rebuttal"
+    quote: "is a reliable hadith. Al-Albani's weakening this hadith is weightless, because he is not qualified to grade any hadith. He"
+    summary_en: "Dismisses al-Albani's weakening of the hadith, noting that modern sectarian figures lack recognized credentials as hadith masters (huffaz)."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M06"
+    timestamp: "00:04:59-00:05:07"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: null
+    move_type: "classical-authority"
+    quote: "[ARABIC RECITATION: al-Majmu' Sharh al-Muhadhdhab] phrase_as_heard: \"qala l-qadi husaynun wa ghayruh yukrahu li-man 'alayhi l-hadathu hamlu t-ta'awidh\", al-Qadi Husayn and others said that it is disliked for the one who needs to make wudu to carry the ta'awidh,"
+    summary_en: "Quotes Imam an-Nawawi in al-Majmu' citing al-Qadi Husayn on the rulings of carrying ta'awidh containing Qur'an."
+    evidence_cited:
+      - as_said: "an-Nawawi, al-Majmu' Sharh al-Muhadhdhab"
+        timestamp: "00:04:39"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M07"
+    timestamp: "00:05:50-00:06:15"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: "HZ-WH-K01"
+    move_type: "classical-authority"
+    quote: "that it is permissible to hang the hirz which has in it Qur'an on the women, children, and men."
+    summary_en: "Cites classical Shafi'i legal authorities permitting hanging hirz containing Qur'an upon women, children, and men."
+    evidence_cited:
+      - as_said: "al-Qadi Husayn, an-Nawawi"
+        timestamp: "00:04:59"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M08"
+    timestamp: "00:08:03-00:08:10"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: "HZ-WH-K01"
+    move_type: "classical-authority"
+    quote: "he said: Malik said there is no problem about the Qur'an being hung on the menstruating women. He mentioned the"
+    summary_en: "Cites Imam Malik in al-Mudawwanah affirming that there is no objection to hanging written Qur'an on menstruating women or children if encased."
+    evidence_cited:
+      - as_said: "Malik, al-Mudawwanah al-Kubra"
+        timestamp: "00:07:52"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M09"
+    timestamp: "00:12:29-00:12:40"
+    speaker: "S"
+    side: "wahhabi"
+    kind: "claim"
+    reported: true
+    answers: null
+    move_type: "restrict-evidence"
+    quote: "talismans or amulets that the Prophet sallallahu 'alayhi wa sallam said are shirk, these are things from the Jahiliyyah, from the"
+    summary_en: "Reports the opponent citing hadiths declaring tama'im to be shirk to argue that all written amulets are prohibited."
+    evidence_cited:
+      - as_said: "Hadith: inna r-ruqa wa t-tama'ima shirk"
+        timestamp: "00:12:29"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M10"
+    timestamp: "00:13:58-00:14:05"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "response"
+    reported: false
+    answers: "HZ-WH-K03"
+    move_type: "distinction"
+    quote: "we are saying is what was clear before the Wahhabis came up with the confusion. Those people from the era"
+    summary_en: "Distinguishes between pagan tama'im (believed to possess independent causal power) and Islamic hirz (a created means whose benefit is created solely by Allah)."
+    evidence_cited: []
+    responds_to: "M09"
+    confidence: "high"
+
+  - move_id: "M11"
+    timestamp: "00:14:24-00:14:34"
+    speaker: "S"
+    side: "wahhabi"
+    kind: "claim"
+    reported: true
+    answers: null
+    move_type: "theological-challenge"
+    quote: "he asks, but a Wahhabi that is: Why rely on these written words? Can Allah protect you without these words?"
+    summary_en: "Reports the opponent asking why one relies on written words if Allah is capable of protecting without intermediate means."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M12"
+    timestamp: "00:14:34-00:14:42"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "response"
+    reported: false
+    answers: "HZ-WH-K04"
+    move_type: "theological-principle"
+    quote: "This is his exact question about making tawassul, and the answer is the same. Wearing the hirz is another"
+    summary_en: "Explains that wearing a hirz operates under the theological framework of asbab (created means), exactly like tawassul, medicine, and drinking water."
+    evidence_cited: []
+    responds_to: "M11"
+    confidence: "high"
+
+  - move_id: "M13"
+    timestamp: "00:15:56-00:16:03"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "counter-question"
+    reported: false
+    answers: "HZ-WH-K04"
+    move_type: "parity"
+    quote: "Therefore it is valid for us to also ask them: Why do you drink water and not merely rely on"
+    summary_en: "Poses a parity challenge: If using created means compromises reliance on Allah, why do opponents drink water, take medicine, lock doors, or recite verbal du'a?"
+    evidence_cited: []
+    responds_to: "M11"
+    confidence: "high"
+
+  - move_id: "M14"
+    timestamp: "00:16:39-00:16:48"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "principle"
+    reported: false
+    answers: "HZ-WH-K01"
+    move_type: "parity"
+    quote: "a hirz. If drinking water, taking medicine, using a lock, and uttering words do not make a person fall into"
+    summary_en: "Concludes that if ordinary physical means do not constitute shirk, wearing written Qur'anic words as a spiritual means cannot constitute shirk."
+    evidence_cited: []
+    responds_to: "M11"
+    confidence: "high"
+
+new_claims:
+  - id: "HZ-WH-K01"
+    side: "wahhabi"
+    summary_en: "Claims that hanging written Qur'an or supplications around the neck (hirz/ta'widh) is prohibited, major sin, or shirk."
+    move_type: "charge"
+    first_seen: "M02"
+
+  - id: "HZ-WH-K02"
+    side: "wahhabi"
+    summary_en: "Claims the hadith of 'Abdullah ibn 'Amr hanging written du'a around children's necks is weak and unauthentic."
+    move_type: "restrict-evidence"
+    first_seen: "M05"
+
+  - id: "HZ-WH-K03"
+    side: "wahhabi"
+    summary_en: "Conflates Islamic Qur'anic amulets (hirz) with the prohibited pre-Islamic pagan amulets (tama'im)."
+    move_type: "false-analogy"
+    first_seen: "M09"
+
+  - id: "HZ-WH-K04"
+    side: "wahhabi"
+    summary_en: "Claims relying on intermediate written means (asbab) for protection negates reliance on Allah and constitutes shirk."
+    move_type: "theological-challenge"
+    first_seen: "M11"
+
+counter_questions:
+  - id: "CQ-HZ-01"
+    summary_en: "If using a created means for protection is shirk, why do you drink water for thirst, take medicine for illness, lock your door, or recite words with your tongue?"
+    used_in: "M13"
+
+  - id: "CQ-HZ-02"
+    summary_en: "Can Allah relieve your thirst without water or protect your home without a door lock?"
+    used_in: "M13"
+
+debate_tips:
+  - timestamp: "00:03:08"
+    quote: "wrote it and hung it on their necks. At-Tirmidhi said this hadith is hasan gharib, which means it"
+    summary_en: "Cite the authentic Sunan at-Tirmidhi narration documenting Companion 'Abdullah ibn 'Amr writing supplications and hanging them on his children's necks."
+
+  - timestamp: "00:08:03"
+    quote: "he said: Malik said there is no problem about the Qur'an being hung on the menstruating women. He mentioned the"
+    summary_en: "Cite Imam Malik in al-Mudawwanah and Imam an-Nawawi in al-Majmu' to demonstrate classical consensus permitting encased Qur'anic amulets."
+
+  - timestamp: "00:13:58"
+    quote: "we are saying is what was clear before the Wahhabis came up with the confusion. Those people from the era"
+    summary_en: "Clarify that the condemned tama'im of the Jahiliyyah involved pagan polytheistic beliefs of intrinsic causality, distinct from Muslim reliance on Allah through created means."
+
+  - timestamp: "00:15:56"
+    quote: "Therefore it is valid for us to also ask them: Why do you drink water and not merely rely on"
+    summary_en: "Use the analogy of taking medicine and drinking water to expose the opponent's absurd rejection of ordinary created means (asbab)."
