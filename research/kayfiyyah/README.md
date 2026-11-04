@@ -1,3 +1,4 @@
+| 38 | [yt-E5b1NEh5Wng](transcripts/yt-E5b1NEh5Wng.md) · [yaml](extractions/yt-E5b1NEh5Wng.yaml) | [Bid^ah (innovation) Linguistically and Religiously (Part 1)](https://www.youtube.com/watch?v=E5b1NEh5Wng) | 00:37:08 | 30 | 7 | 3 | 5 | BD, CL, DM |
 # Kayfiyyah playlist (Gemini, unverified)
 
 Transcripts and argument maps from the YouTube playlist [How to Debate the So-called Salafiyyah](https://www.youtube.com/playlist?list=PLkAW17wfktA6qF465PyPfc0-M1xNRj2Or) (channel: Knowledge, 103 videos). The videos are an English reading of, and commentary on, the book *Al-Kayfiyyah* (Taibah Books). Processed with Google Gemini from 2026-11-03.
