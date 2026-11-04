@@ -21,6 +21,7 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 - Every `quote` in every extraction is an exact substring of its transcript. Gemini's first extractions for #2 and #8 failed this and were re-issued.
 - All extraction files parse as YAML. One syntax fix: in #8, `CQ-K08`'s `summary_en` had text after the closing quote; it was moved inside the quotes.
 - #30 has two lines spanning about two minutes each (the speaker counting down while waiting for audience answers); there are no unmarked gaps.
+- #37 (Defending the Mawlid) is less complete: 00:02:35–00:03:31 is marked not transcribed, and 00:18:57–00:22:40 is somewhat condensed (about 70 words a minute against about 130 normally). #36 was re-transcribed after an earlier condensed span was found.
 - `transcript_quality` for #8 and #21 still says `fair` from Part 1; both are now complete (Parts 1 and 2).
 
 ## Videos
@@ -39,3 +40,7 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 | 28 | [yt-mDiU5AEXOZw](transcripts/yt-mDiU5AEXOZw.md) · [yaml](extractions/yt-mDiU5AEXOZw.yaml) | [The Wahhabiyyah: The Origin of Their Name](https://www.youtube.com/watch?v=mDiU5AEXOZw) | 00:13:43 | 11 | 1 | 2 | 3 | DM, TK, SF |
 | 29 | [yt-NRX5xOh7wG0](transcripts/yt-NRX5xOh7wG0.md) · [yaml](extractions/yt-NRX5xOh7wG0.yaml) | [Questions, Answers and Pointers in Debate (Part 3: Istiwa' & Hadith of the Slave Girl)](https://www.youtube.com/watch?v=NRX5xOh7wG0) | 00:41:37 | 17 | 2 | 3 | 5 | SF, DM |
 | 30 | [yt-VjNHXpkh5us](transcripts/yt-VjNHXpkh5us.md) · [yaml](extractions/yt-VjNHXpkh5us.yaml) | [Defending Tawassul (4): The Truth About the Dead and the Absent!](https://www.youtube.com/watch?v=VjNHXpkh5us) | 00:51:56 | 20 | 13 | 3 | 5 | TW, DM |
+| 31 | [yt-5fuZFtI9QnU](transcripts/yt-5fuZFtI9QnU.md) · [yaml](extractions/yt-5fuZFtI9QnU.yaml) | [Defending Tawassul (2): Its Linguistic and Religious Meanings](https://www.youtube.com/watch?v=5fuZFtI9QnU) | 00:43:11 | 20 | 14 | 3 | 5 | TW, DM |
+| 35 | [yt-sjbybbsl-gs](transcripts/yt-sjbybbsl-gs.md) · [yaml](extractions/yt-sjbybbsl-gs.yaml) | [Questions, Answers and Pointers in Debate (Part 2: History of Wahhabism/God Existing Without Place)](https://www.youtube.com/watch?v=sjbybbsl-gs) | 00:43:25 | 20 | 14 | 3 | 5 | SF, DM, AH |
+| 36 | [yt-11Sayu5WRB0](transcripts/yt-11Sayu5WRB0.md) · [yaml](extractions/yt-11Sayu5WRB0.yaml) | [What Do You Do if Your Opponent Commits Kufr (blasphemy; disbelief)?](https://www.youtube.com/watch?v=11Sayu5WRB0) | 00:35:59 | 20 | 13 | 3 | 6 | TK, DM, AH |
+| 37 | [yt-aBtfpl43rtk](transcripts/yt-aBtfpl43rtk.md) · [yaml](extractions/yt-aBtfpl43rtk.yaml) | [Defending the Mawlid](https://www.youtube.com/watch?v=aBtfpl43rtk) | 00:25:05 | 20 | 13 | 3 | 5 | BD, SF, DM |
