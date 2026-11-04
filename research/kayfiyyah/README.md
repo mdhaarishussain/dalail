@@ -1,4 +1,3 @@
-| 38 | [yt-E5b1NEh5Wng](transcripts/yt-E5b1NEh5Wng.md) · [yaml](extractions/yt-E5b1NEh5Wng.yaml) | [Bid^ah (innovation) Linguistically and Religiously (Part 1)](https://www.youtube.com/watch?v=E5b1NEh5Wng) | 00:37:08 | 30 | 7 | 3 | 5 | BD, CL, DM |
 # Kayfiyyah playlist (Gemini, unverified)
 
 Transcripts and argument maps from the YouTube playlist [How to Debate the So-called Salafiyyah](https://www.youtube.com/playlist?list=PLkAW17wfktA6qF465PyPfc0-M1xNRj2Or) (channel: Knowledge, 103 videos). The videos are an English reading of, and commentary on, the book *Al-Kayfiyyah* (Taibah Books). Processed with Google Gemini from 2026-11-03.
@@ -45,3 +44,4 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 | 35 | [yt-sjbybbsl-gs](transcripts/yt-sjbybbsl-gs.md) · [yaml](extractions/yt-sjbybbsl-gs.yaml) | [Questions, Answers and Pointers in Debate (Part 2: History of Wahhabism/God Existing Without Place)](https://www.youtube.com/watch?v=sjbybbsl-gs) | 00:43:25 | 20 | 14 | 3 | 5 | SF, DM, AH |
 | 36 | [yt-11Sayu5WRB0](transcripts/yt-11Sayu5WRB0.md) · [yaml](extractions/yt-11Sayu5WRB0.yaml) | [What Do You Do if Your Opponent Commits Kufr (blasphemy; disbelief)?](https://www.youtube.com/watch?v=11Sayu5WRB0) | 00:35:59 | 20 | 13 | 3 | 6 | TK, DM, AH |
 | 37 | [yt-aBtfpl43rtk](transcripts/yt-aBtfpl43rtk.md) · [yaml](extractions/yt-aBtfpl43rtk.yaml) | [Defending the Mawlid](https://www.youtube.com/watch?v=aBtfpl43rtk) | 00:25:05 | 20 | 13 | 3 | 5 | BD, SF, DM |
+| 38 | [yt-E5b1NEh5Wng](transcripts/yt-E5b1NEh5Wng.md) · [yaml](extractions/yt-E5b1NEh5Wng.yaml) | [Bid^ah (innovation) Linguistically and Religiously (Part 1)](https://www.youtube.com/watch?v=E5b1NEh5Wng) | 00:37:08 | 30 | 7 | 3 | 5 | BD, CL, DM |
