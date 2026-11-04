@@ -1,0 +1,374 @@
+source_id: yt-AxzGS0G-SFo
+moves:
+  - move_id: M01
+    timestamp: "00:00:31-00:00:39"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: historical-evidence
+    reported: false
+    answers: null
+    move_type: historical-evidence
+    quote: "[ARABIC RECITATION: Kitab al-Masahif] phrase_as_heard: \"awwalu man naqata l-masahifa yahya bnu ya'mar\", the first to dot the mushafs was Yahya ibn Ya'mar,"
+    summary_en: "Cites Ibn Abi Dawud in Kitab al-Masahif documenting that Yahya ibn Ya'mar was the first to introduce dotting into the mushaf."
+    evidence_cited:
+      - as_said: "Ibn Abi Dawud, Kitab al-Masahif"
+        timestamp: "00:00:01"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:01:45-00:01:56"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: null
+    move_type: classical-authority
+    quote: "he said: Read from it and do not dot it yourself, read from it and do not dot it yourself."
+    summary_en: "Cites early jurist ash-Sha'bi advising a student to read from a dotted page while cautioning against individual scribal alteration."
+    evidence_cited:
+      - as_said: "Ibn Abi Shaybah, al-Musannaf"
+        timestamp: "00:01:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:03:06-00:03:17"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: definition
+    quote: "Question: What if he says that the dotting is not an innovation, it is merely a writing convention?"
+    summary_en: "Reports the opponent claiming that dotting the Qur'an is merely a secular writing convention rather than a religious innovation."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:04:15-00:04:23"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K10
+    move_type: concession-press
+    quote: "[ARABIC RECITATION: Majmu' al-Fatawa] phrase_as_heard: \"wa-s-sahihu annahu la ba'sa bihi\", and what is correct is that there is nothing wrong with it. That's Ibn Taymiyyah: what's correct is that it's"
+    summary_en: "Cites Ibn Taymiyyah in Majmu' al-Fatawa explicitly confirming that dotting is an innovation and declaring that there is nothing wrong with it."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah, Majmu' al-Fatawa"
+        timestamp: "00:03:34"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:04:46-00:04:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K10
+    move_type: consistency
+    quote: "writing sallallahu 'alayhi wa sallam is an innovation. The Messenger sallallahu 'alayhi wa sallam did not order for it to be written after his name in the"
+    summary_en: "Points out that universal Islamic practices like writing sallallahu 'alayhi wa sallam after the Prophet's name were not practiced in the Prophet's official letters."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:05:13"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:06:49-00:06:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: BD-WH-K11
+    move_type: charge
+    quote: "still many others that have not been mentioned, among the bad innovations is the expansion of the Mas'a, the place"
+    summary_en: "Condemns the modern Wahhabi expansion of the Mas'a beyond its Shar'i boundaries, invalidating the sa'y of pilgrims and trapping them in ihram."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:08:11-00:08:19"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "to be an abhorrent major sin, and some claim it to be shirk and kufr."
+    summary_en: "Reports the opponent claiming that commemorating the Mawlid of the Prophet is a major sin, shirk, or kufr."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:09:14-00:09:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K14
+    move_type: consensus
+    quote: "it was a consensus, no one objected to it, not even Ibn Taymiyyah."
+    summary_en: "Affirms the historical consensus (ijma') of scholars from the 6th century onward endorsing the Mawlid without scholarly objection, including Ibn Taymiyyah."
+    evidence_cited:
+      - as_said: "Hadith: la tajtami'u ummati 'ala dalalah"
+        timestamp: "00:09:29"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:12:35-00:12:45"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K14
+    move_type: analogy
+    quote: "did Ibn Hajar say? He said: This hadith promotes thanking Allah for an endowment that He gave, or a calamity that"
+    summary_en: "Cites Hafiz Ibn Hajar deducing the validity of the Mawlid from the authentic hadith of 'Ashura, where gratitude to Allah for a historic endowment recurs annually."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:11:10"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:13:46-00:13:54"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K14
+    move_type: classical-authority
+    quote: "as-Suyuti said in the aforementioned book: The answer according to me is that the basis of practicing the"
+    summary_en: "Cites Imam as-Suyuti in Husn al-Maqsid defining the Mawlid as gathering for Qur'an, prophetic biography, feeding people, and honoring the Prophet."
+    evidence_cited:
+      - as_said: "as-Suyuti, Husn al-Maqsid fi 'Amal al-Mawlid"
+        timestamp: "00:10:34"
+    responds_to: M07
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:15:00-00:15:08"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "Question: What if he says the Companions of the Prophet sallallahu 'alayhi wa sallam loved him more than others, so had"
+    summary_en: "Reports the opponent claiming that had the Mawlid been praiseworthy, the Companions would have practiced it first."
+    evidence_cited: []
+    responds_to: M08
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:15:41-00:15:47"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K15
+    move_type: rebuttal
+    quote: "Our response is that it is true that the Companions were the best, but this does not mean that any goodness"
+    summary_en: "Rebuts the claim by establishing that the excellence of the Companions does not dictate that every subsequent beneficial practice had to occur to them first."
+    evidence_cited: []
+    responds_to: M11
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:18:08-00:18:17"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: false-analogy
+    quote: "Question: What if he says that Mawlid is like Christmas, and that the Messenger sallallahu 'alayhi wa sallam said: Do not"
+    summary_en: "Reports the opponent analogizing the Mawlid to Christian celebrations of Christmas and citing the hadith against Christian exaggeration."
+    evidence_cited:
+      - as_said: "Hadith: la tatruni kama atrati n-nasara"
+        timestamp: "00:18:17"
+    responds_to: M08
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:18:43-00:18:49"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K16
+    move_type: distinction
+    quote: "is the son of God, not by being happy that he was born! That's not the bad part, that they"
+    summary_en: "Distinguishes between Christian deviation (deifying Jesus and pagan rituals) and Islamic Mawlid (monotheistic gratitude, Qur'an, and charity)."
+    evidence_cited: []
+    responds_to: M13
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:20:53-00:21:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Qur'an 22:77] phrase_as_heard: \"wa-f'alu l-khayr\", do the good. Meaning where's the evidence there?"
+    summary_en: "Cites Qur'an 22:77 ('wa-f'alu l-khayr') as an unrestricted scriptural mandate validating all lawful forms of gathering for good deeds."
+    evidence_cited:
+      - as_said: "Qur'an 22:77"
+        timestamp: "00:20:53"
+    responds_to: null
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:21:37-00:21:45"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: BD-WH-K17
+    move_type: charge
+    quote: "The tawheed of godhood, they say, what's this three aspects of tawheed? The tawheed of godhood, the tawheed of lordship,"
+    summary_en: "Condemns the Wahhabi tripartite division of tawheed (uluhiyyah, rububiyyah, asma' wa-s-sifat) as an unprecedented heretical innovation in creed."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:22:29-00:22:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K17
+    move_type: consistency
+    quote: "for him to say: No one is God but Allah; and he doesn't have to say: And no one is"
+    summary_en: "Challenges the opponent: If uluhiyyah and rububiyyah are distinct entities, why is the Shahadah 'La ilaha illa Allah' sufficient to enter Islam without mentioning Rabb?"
+    evidence_cited: []
+    responds_to: M16
+    confidence: high
+
+  - move_id: M18
+    timestamp: "00:22:41-00:22:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K17
+    move_type: textual-evidence
+    quote: "in the grave, and they ask you: Who's your Lord? They don't also say: And by the way, who's your"
+    summary_en: "Points out that angels in the grave ask solely 'Who is your Rabb?', proving that confirming rububiyyah encompasses uluhiyyah."
+    evidence_cited:
+      - as_said: "Hadith of questioning in the grave"
+        timestamp: "00:22:41"
+    responds_to: M16
+    confidence: high
+
+  - move_id: M19
+    timestamp: "00:23:26-00:23:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K17
+    move_type: textual-challenge
+    quote: "one ayah or one hadith, a single ayah or a single hadith that says that there are three aspects of"
+    summary_en: "Challenges opponents to produce a single ayah or hadith explicitly stating that tawheed consists of three parts."
+    evidence_cited: []
+    responds_to: M16
+    confidence: high
+
+  - move_id: M20
+    timestamp: "00:25:10-00:25:20"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Qur'an 57:27] phrase_as_heard: \"wa rahbaniyyatan ibtada'uha ma katabnaha 'alayhim illa btigha'a ridwanillah\","
+    summary_en: "Cites Qur'an 57:27 explicitly praising the early followers of 'Isa for innovating monasticism (rahbaniyyatan ibtada'uha) seeking Allah's pleasure."
+    evidence_cited:
+      - as_said: "Qur'an 57:27"
+        timestamp: "00:25:10"
+    responds_to: null
+    confidence: high
+
+  - move_id: M21
+    timestamp: "00:27:01-00:27:10"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: quranic-principle
+    quote: "obligated to do this, but it was rewardable and praiseworthy. What further shows that it was a good innovation is"
+    summary_en: "Explains that Allah praised uncommanded devotional innovations performed for His pleasure, establishing the Quranic principle of good innovation."
+    evidence_cited:
+      - as_said: "Qur'an 57:27"
+        timestamp: "00:25:10"
+    responds_to: M20
+    confidence: high
+
+new_claims:
+  - id: BD-WH-K14
+    side: wahhabi
+    summary_en: "Claims commemorating the birth of the Prophet (Mawlid) is a sinful innovation, shirk, or kufr."
+    move_type: charge
+    first_seen: M07
+
+  - id: BD-WH-K15
+    side: wahhabi
+    summary_en: "Claims that any praiseworthy act would have been performed first by the Companions, rejecting subsequent derivations."
+    move_type: restrict-evidence
+    first_seen: M11
+
+  - id: BD-WH-K16
+    side: wahhabi
+    summary_en: "Analogizes the Islamic Mawlid to Christian celebrations of Christmas, asserting it constitutes prohibited imitation."
+    move_type: false-analogy
+    first_seen: M13
+
+  - id: BD-WH-K17
+    side: wahhabi
+    summary_en: "Claims tawheed is categorized into three separate divisions (uluhiyyah, rububiyyah, asma' wa-s-sifat)."
+    move_type: definition
+    first_seen: M16
+
+counter_questions:
+  - id: CQ-BD-13
+    summary_en: "If godhood and lordship are distinct aspects of tawheed, why is the Shahadah 'La ilaha illa Allah' sufficient to enter Islam without mentioning Rabb?"
+    used_in: M17
+
+  - id: CQ-BD-14
+    summary_en: "Why do the angels in the grave ask only 'man rabbuk' (who is your Lord) without asking about your God?"
+    used_in: M18
+
+  - id: CQ-BD-15
+    summary_en: "Can you produce a single ayah from the Qur'an or a single hadith explicitly dividing tawheed into three parts?"
+    used_in: M19
+
+debate_tips:
+  - timestamp: "00:15:41"
+    quote: "Our response is that it is true that the Companions were the best, but this does not mean that any goodness"
+    summary_en: "Dismantle the 'Sahabah would have done it first' fallacy by showing that countless accepted Islamic practices (dotting, grammar, institutions) were originated post-Sahabah."
+
+  - timestamp: "00:18:43"
+    quote: "is the son of God, not by being happy that he was born! That's not the bad part, that they"
+    summary_en: "Refute comparisons between Mawlid and Christmas by contrasting Christian polytheistic deification with orthodox Muslim praise and charitable feeding."
+
+  - timestamp: "00:23:26"
+    quote: "one ayah or one hadith, a single ayah or a single hadith that says that there are three aspects of"
+    summary_en: "Demand explicit textual proof for the Wahhabi tripartite division of tawheed to expose that their own foundational doctrine is an unprecedented innovation in creed."
+
+  - timestamp: "00:27:01"
+    quote: "obligated to do this, but it was rewardable and praiseworthy. What further shows that it was a good innovation is"
+    summary_en: "Cite Qur'an 57:27 as definitive scriptural evidence that Allah explicitly praises uncommanded innovations instituted sincerely for His pleasure."
