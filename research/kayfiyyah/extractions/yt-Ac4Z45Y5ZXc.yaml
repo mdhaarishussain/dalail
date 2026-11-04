@@ -1,0 +1,413 @@
+source_id: yt-Ac4Z45Y5ZXc
+moves:
+  - move_id: M01
+    timestamp: "00:00:30-00:00:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "what was made without a previous example, ya'ni something invented without a previous example. There is no dispraise in the"
+    summary_en: "Defines bid'ah linguistically as anything originated without a prior precedent, noting that the lexical term carries no inherent dispraise."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:51-00:01:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Religiously, it is something not revealed explicitly in the Qur'an or the Sunnah. Here the Wahhabis' mistake is believing that"
+    summary_en: "Defines bid'ah religiously as any practice not explicitly revealed in the Qur'an or Sunnah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:01:01-00:01:11"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: definition
+    quote: "anything not done by the Prophet is sinful, sallallahu 'alayhi wa sallam, because it is an innovation, ya'ni that anything that's"
+    summary_en: "Reports the opponent's premise that any act not performed by the Prophet is inherently sinful by virtue of being an innovation."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:01:11-00:01:20"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: BD-WH-K01
+    move_type: criterion
+    quote: "an innovation is sinful. The truth though is that anything new must be checked to see if it complies with"
+    summary_en: "Establishes that newly introduced matters must be evaluated against Islamic legal principles rather than categorically condemned."
+    evidence_cited: []
+    responds_to: M03
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:01:46-00:01:57"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "[ARABIC RECITATION: Hadith] phrase_as_heard: \"kullu bid'atin dalalah\", apparently it says every innovation is misguidance. We'll say it that way also in English: every innovation is misguidance. And"
+    summary_en: "Reports the opponent citing the hadith 'kullu bid'atin dalalah' to claim that all newly introduced matters are misguidance."
+    evidence_cited:
+      - as_said: "Hadith: kullu bid'atin dalalah"
+        timestamp: "00:01:46"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:04:28-00:04:40"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K02
+    move_type: textual-analysis
+    quote: "but for this hadith we say, like an-Nawawi, this is a case of 'ammun makhsus, a specified generality, a specified"
+    summary_en: "Applies Imam an-Nawawi's usuli classification that 'kullu bid'atin dalalah' is a specified generality ('amm makhsus), denoting most innovations rather than an absolute universal."
+    evidence_cited:
+      - as_said: "an-Nawawi, Sharh Sahih Muslim"
+        timestamp: "00:04:28"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:06:15-00:06:26"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: analogy
+    quote: "[ARABIC RECITATION: Hadith] phrase_as_heard: \"kullu 'aynin zaniyah\", every eye is a fornicator. Despite the general wording, the prophets, the pious people, the blind men, and the children,"
+    summary_en: "Illustrates specified generality through the hadith 'kullu 'aynin zaniyah', where general wording excludes prophets, pious individuals, the blind, and children."
+    evidence_cited:
+      - as_said: "Hadith: kullu 'aynin zaniyah"
+        timestamp: "00:06:15"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:07:19-00:07:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Qur'an 46:25] phrase_as_heard: \"tudammiru kulla shay'in bi-amri rabbiha\", it was destroying everything. It means that wind destroyed most things in the area. The violent windstorm that destroyed the"
+    summary_en: "Demonstrates Qur'anic specified generality via 46:25, where 'destroying everything' denotes most things in the region rather than heaven and earth."
+    evidence_cited:
+      - as_said: "Qur'an 46:25"
+        timestamp: "00:07:19"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:07:57-00:08:11"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: analogy
+    quote: "[ARABIC RECITATION: Hadith] phrase_as_heard: \"talabu l-'ilmi faridatun 'ala kulli muslim\", seeking the knowledge is obligatory on every Muslim. So that includes also the babies? No, it means every accountable"
+    summary_en: "Cites the hadith on seeking knowledge being obligatory on 'every Muslim' as an established specified generality limited to accountable persons."
+    evidence_cited:
+      - as_said: "Hadith: talabu l-'ilmi faridah"
+        timestamp: "00:07:57"
+    responds_to: M06
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:09:30-00:09:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K01
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Sahih Muslim] phrase_as_heard: \"man sanna fi l-islami sunnatan hasanatan falahu ajruha wa ajru man 'amila biha\", whoever paves in Islam a good path has its reward and the reward of whoever practiced it. This is"
+    summary_en: "Cites the authentic hadith in Sahih Muslim praising whoever institutes a good path (sunnah hasanah) in Islam as explicit proof for praiseworthy innovation."
+    evidence_cited:
+      - as_said: "Sahih Muslim: man sanna fi l-islam"
+        timestamp: "00:09:30"
+    responds_to: M05
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:11:30-00:11:40"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "whoever starts a good path in Islam? This hadith is neither restricted to the Companions nor to their time, because"
+    summary_en: "Reports opponent claims that the hadith of good innovation was exclusively restricted to the Companions or their generation."
+    evidence_cited: []
+    responds_to: M10
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:12:17-00:12:26"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: restrict-evidence
+    quote: "Whoever starts a good sunnah meaning whoever revives a good sunnah of the Prophet, it does not refer to"
+    summary_en: "Reports the opponent arguing that 'man sanna' refers exclusively to reviving a dormant prophetic sunnah."
+    evidence_cited: []
+    responds_to: M10
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:13:32-00:13:45"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K04
+    move_type: reductio
+    quote: "evil sunnah of the Prophet sallallahu 'alayhi wa sallam: [ARABIC RECITATION: Sahih Muslim] phrase_as_heard: \"wa man sanna fi l-islami sunnatan sayyi'atan\","
+    summary_en: "Forces a reductio ad absurdum: if sunnah in this hadith meant prophetic practice, the second clause would absurdly mean reviving an evil sunnah of the Prophet."
+    evidence_cited:
+      - as_said: "Sahih Muslim: wa man sanna sunnatan sayyi'atan"
+        timestamp: "00:13:32"
+    responds_to: M12
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:14:48-00:14:55"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: linguistic-analysis
+    quote: "the word bid'ah is not present in this hadith? Some of the more ignorant will argue that the specific wording of bid'ah"
+    summary_en: "Reports the opponent claiming the hadith cannot justify good innovation because the specific noun bid'ah is absent."
+    evidence_cited: []
+    responds_to: M10
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:15:36-00:15:44"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K05
+    move_type: textual-analysis
+    quote: "of al-Bukhari: [ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"man ahdatha fi amrina hadha ma laysa minhu fa-huwa radd\","
+    summary_en: "Analyzes the hadith of 'A'ishah in Sahih al-Bukhari, showing that the restrictive clause 'ma laysa minhu' (what does not comply with it) explicitly limits rejection to conflicting matters."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:15:36"
+    responds_to: null
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:18:04-00:18:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: usul-principle
+    quote: "that which does not comply with it. So when he argues and says minhu, minhu means from it,"
+    summary_en: "Explains that omitting the restrictive phrase 'ma laysa minhu' would render the Prophet's words redundant; by mafhum al-mukhalafah, what complies with religion is accepted."
+    evidence_cited: []
+    responds_to: M15
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:20:14-00:20:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: BD-WH-K05
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Musnad Abi 'Awanah] phrase_as_heard: \"man ahdatha fi amrina hadha ma laysa fihi ja'izun fa-huwa radd\", whoever invents in our affair what is not permissible, then he is rejected or it is rejected. So then"
+    summary_en: "Cites the narration in Musnad Abi 'Awanah: 'Whoever invents in this affair of ours what is not permissible is rejected', proving that what is permissible is accepted."
+    evidence_cited:
+      - as_said: "Abu 'Awanah, Musnad Abi 'Awanah"
+        timestamp: "00:20:02"
+    responds_to: M15
+    confidence: high
+
+  - move_id: M18
+    timestamp: "00:20:57-00:21:04"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Qur'an 5:3] phrase_as_heard: \"al-yawma akmaltu lakum dinakum\", today I have finalized your religion for you. This verse is not about innovations, so they're going to bring this"
+    summary_en: "Reports the opponent citing Qur'an 5:3 ('Today I have finalized your religion for you') to argue that subsequent derivation or development is forbidden."
+    evidence_cited:
+      - as_said: "Qur'an 5:3"
+        timestamp: "00:20:57"
+    responds_to: null
+    confidence: high
+
+  - move_id: M19
+    timestamp: "00:21:04-00:21:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: BD-WH-K06
+    move_type: tafsir-analysis
+    quote: "ayah as a proof for innovations, it's not about innovations. An-Nasafi, the interpreter, said that it either"
+    summary_en: "Cites Imam an-Nasafi explaining that 5:3 signifies victory over enemies or the final conveyance of universal legal foundations that validate derived rulings."
+    evidence_cited:
+      - as_said: "an-Nasafi, Madarik at-Tanzil"
+        timestamp: "00:21:04"
+    responds_to: M18
+    confidence: high
+
+  - move_id: M20
+    timestamp: "00:23:12-00:23:30"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: null
+    move_type: classical-authority
+    quote: "innovation. Like Ibn Hajar said in the explanation:"
+    summary_en: "Cites Hafiz Ibn Hajar explaining that when early scholars used 'bid'ah' without restriction, they meant blameworthy doctrinal heresy (such as tajsim)."
+    evidence_cited:
+      - as_said: "Ibn Hajar, Nukhbat al-Fikar / Fath al-Bari"
+        timestamp: "00:23:12"
+    responds_to: null
+    confidence: high
+
+  - move_id: M21
+    timestamp: "00:24:55-00:25:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K01
+    move_type: classical-authority
+    quote: "[ARABIC RECITATION: Manaqib ash-Shafi'i] phrase_as_heard: \"al-muhdathatu min al-umuri darbani\", the innovated matters are of two types:"
+    summary_en: "Cites Imam ash-Shafi'i in Manaqib ash-Shafi'i dividing innovations into blameworthy (opposing Book, Sunnah, athar, ijma') and praiseworthy (conforming to good and opposing none of them)."
+    evidence_cited:
+      - as_said: "al-Bayhaqi, Manaqib ash-Shafi'i"
+        timestamp: "00:24:55"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M22
+    timestamp: "00:27:33-00:27:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: BD-WH-K01
+    move_type: definition
+    quote: "[ARABIC RECITATION: Tahdhib al-Asma' wa-l-Lughat] phrase_as_heard: \"al-bid'atu bi-kasri l-ba'i fi l-shar'i hiya ihdathu ma lam yakun fi 'ahdi rasulillahi sallallahu 'alayhi wa sallam wa hiya tanqasimu ila hasanatin wa qabihah\","
+    summary_en: "Quotes Imam an-Nawawi in Tahdhib al-Asma' wa-l-Lughat defining religious bid'ah as anything not present during the prophetic era, divided into good and bad."
+    evidence_cited:
+      - as_said: "an-Nawawi, Tahdhib al-Asma' wa-l-Lughat"
+        timestamp: "00:27:33"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M23
+    timestamp: "00:28:43-00:28:57"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K01
+    move_type: classical-authority
+    quote: "may Allah accept his deeds, said towards the end of the book Qawa'id al-Ahkam: The innovation is divided into obligatory, prohibited, recommended, disliked, and indifferent. Indifferent means either way it's the same. So"
+    summary_en: "Quotes Sultan al-'Ulama al-'Izz ibn 'Abd al-Salam dividing innovations across the five comprehensive categories of Islamic law (ahkam taklifiyyah)."
+    evidence_cited:
+      - as_said: "al-'Izz ibn 'Abd al-Salam, Qawa'id al-Ahkam"
+        timestamp: "00:28:43"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M24
+    timestamp: "00:30:13-00:30:21"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K01
+    move_type: classical-authority
+    quote: "The innovation could be obligatory,"
+    summary_en: "Cites Hanafi jurist Ibn 'Abidin in Radd al-Muhtar detailing examples of obligatory innovations (refutations of sects, Arabic syntax) and recommended innovations (schools, inns)."
+    evidence_cited:
+      - as_said: "Ibn 'Abidin, Radd al-Muhtar"
+        timestamp: "00:30:02"
+    responds_to: M03
+    confidence: high
+
+  - move_id: M25
+    timestamp: "00:33:12-00:33:18"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K01
+    move_type: concession-press
+    quote: "[ARABIC RECITATION: Majmu' al-Fatawa] phrase_as_heard: \"wa man qala fi ba'di l-bida'i innaha bid'atun hasanah fa-dhalika idha qama dalilun shar'iyyun 'ala annaha mustahabbah\","
+    summary_en: "Quotes Ibn Taymiyyah in Majmu' al-Fatawa explicitly confirming that whoever describes an innovation as good is correct whenever religious evidence substantiates it as recommended."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah, Majmu' al-Fatawa"
+        timestamp: "00:32:43"
+    responds_to: M03
+    confidence: high
+
+new_claims: []
+
+counter_questions:
+  - id: CQ-BD-08
+    summary_en: "If 'man sanna fi l-islam' denotes reviving prophetic sunnah, does 'wa man sanna sunnatan sayyi'atan' mean reviving an evil sunnah of the Prophet?"
+    used_in: M13
+
+  - id: CQ-BD-09
+    summary_en: "Why did the Prophet add 'ma laysa minhu' (what does not comply with it) in the hadith of 'A'ishah if every introduced matter was rejected by default?"
+    used_in: M16
+
+debate_tips:
+  - timestamp: "00:04:28"
+    quote: "but for this hadith we say, like an-Nawawi, this is a case of 'ammun makhsus, a specified generality, a specified"
+    summary_en: "Invoke Imam an-Nawawi's usuli classification of 'kullu bid'atin dalalah' as a specified generality ('amm makhsus) to dismantle simplistic literalism."
+
+  - timestamp: "00:13:32"
+    quote: "evil sunnah of the Prophet sallallahu 'alayhi wa sallam: [ARABIC RECITATION: Sahih Muslim] phrase_as_heard: \"wa man sanna fi l-islami sunnatan sayyi'atan\","
+    summary_en: "When an interlocutor claims 'sunnah' in the hadith strictly means prophetic sunnah, cite the second half to force an inescapable absurdity."
+
+  - timestamp: "00:27:01"
+    quote: "that, give him the quote of ash-Shafi'i, watch how nice and gentle he's going to be. Tell him: Why you"
+    summary_en: "Confront opponents with Imam ash-Shafi'i's explicit two-fold division of innovation, challenging them to either accept it or label an imam of the Salaf an innovator."
+
+  - timestamp: "00:33:18"
+    quote: "and whoever said about some innovations that they are good innovations would be correct only if a religious evidence stands"
+    summary_en: "Quote Ibn Taymiyyah's own words in Majmu' al-Fatawa conceding the validity of good innovations substantiated by proof to disarm followers of his movement."
