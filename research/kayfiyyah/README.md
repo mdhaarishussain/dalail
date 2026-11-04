@@ -20,6 +20,7 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 - Every transcript runs to within about a minute of the video's end, at 100–147 words per minute (near-complete speech), with no "…" and no jump over 90 seconds between lines.
 - Every `quote` in every extraction is an exact substring of its transcript. Gemini's first extractions for #2 and #8 failed this and were re-issued.
 - All extraction files parse as YAML. One syntax fix: in #8, `CQ-K08`'s `summary_en` had text after the closing quote; it was moved inside the quotes.
+- #30 has two lines spanning about two minutes each (the speaker counting down while waiting for audience answers); there are no unmarked gaps.
 - `transcript_quality` for #8 and #21 still says `fair` from Part 1; both are now complete (Parts 1 and 2).
 
 ## Videos
@@ -35,3 +36,6 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 | 19 | [yt-k2ZL3Jbwp0I](transcripts/yt-k2ZL3Jbwp0I.md) · [yaml](extractions/yt-k2ZL3Jbwp0I.yaml) | [Defending Tawassul (1): The Meaning of Worship, and Why Tawassul is not Shirk](https://www.youtube.com/watch?v=k2ZL3Jbwp0I) | 00:29:28 | 15 | 1 | 1 | 4 | TW, IB, IS, DM |
 | 21 | [yt-iJgAsdXN8ZY](transcripts/yt-iJgAsdXN8ZY.md) · [yaml](extractions/yt-iJgAsdXN8ZY.yaml) | [Questions, Answers and Pointers in Debate (Part 1: Should We Call Ourselves Salafis?)](https://www.youtube.com/watch?v=iJgAsdXN8ZY) | 00:49:43 | 17 | 3 | 2 | 8 | DM, TK, SF |
 | 24 | [yt-4DpHuzVZP98](transcripts/yt-4DpHuzVZP98.md) · [yaml](extractions/yt-4DpHuzVZP98.yaml) | [How To Debate with the So-Called Salafiyyah: Review](https://www.youtube.com/watch?v=4DpHuzVZP98) | 00:10:09 | 8 | 2 | 2 | 3 | DM, TK, SF |
+| 28 | [yt-mDiU5AEXOZw](transcripts/yt-mDiU5AEXOZw.md) · [yaml](extractions/yt-mDiU5AEXOZw.yaml) | [The Wahhabiyyah: The Origin of Their Name](https://www.youtube.com/watch?v=mDiU5AEXOZw) | 00:13:43 | 11 | 1 | 2 | 3 | DM, TK, SF |
+| 29 | [yt-NRX5xOh7wG0](transcripts/yt-NRX5xOh7wG0.md) · [yaml](extractions/yt-NRX5xOh7wG0.yaml) | [Questions, Answers and Pointers in Debate (Part 3: Istiwa' & Hadith of the Slave Girl)](https://www.youtube.com/watch?v=NRX5xOh7wG0) | 00:41:37 | 17 | 2 | 3 | 5 | SF, DM |
+| 30 | [yt-VjNHXpkh5us](transcripts/yt-VjNHXpkh5us.md) · [yaml](extractions/yt-VjNHXpkh5us.yaml) | [Defending Tawassul (4): The Truth About the Dead and the Absent!](https://www.youtube.com/watch?v=VjNHXpkh5us) | 00:51:56 | 20 | 13 | 3 | 5 | TW, DM |
