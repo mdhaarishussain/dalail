@@ -19,7 +19,7 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 - All 103 queue video IDs resolve on YouTube. Gemini's first queue had 24 wrong IDs (15 misread from screenshots, mostly I/l, and 9 made up for #66–#74); they were corrected in `queue.yaml` from the live playlist.
 - Every transcript runs to within about a minute of the video's end, at 100–147 words per minute (near-complete speech), with no "…" and no jump over 90 seconds between lines.
 - Every `quote` in every extraction is an exact substring of its transcript. Gemini's first extractions for #2 and #8 failed this and were re-issued.
-- All extraction files parse as YAML. One syntax fix: in #8, `CQ-K08`'s `summary_en` had text after the closing quote; it was moved inside the quotes.
+- All extraction files parse as YAML. One syntax fix: in #8, `CQ-K08`'s `summary_en` had text after the closing quote; it was moved inside the quotes. In #84, six values were wrapped in double quotes because unquoted colons or apostrophes broke the YAML; the text is unchanged.
 - #30 has two lines spanning about two minutes each (the speaker counting down while waiting for audience answers); there are no unmarked gaps.
 - #37 (Defending the Mawlid) is less complete: 00:02:35–00:03:31 is marked not transcribed, and 00:18:57–00:22:40 is somewhat condensed (about 70 words a minute against about 130 normally). #36 was re-transcribed after an earlier condensed span was found.
 - `transcript_quality` for #8 and #21 still says `fair` from Part 1; both are now complete (Parts 1 and 2).
@@ -48,3 +48,4 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 | 43 | [yt-ChDIrtcSy_U](transcripts/yt-ChDIrtcSy_U.md) · [yaml](extractions/yt-ChDIrtcSy_U.yaml) | [Examples of Good Bid^ah (Innovations)](https://www.youtube.com/watch?v=ChDIrtcSy_U) | 00:33:32 | 22 | 5 | 3 | 4 | BD, CL, DM |
 | 58 | [yt-WJeUSc3At0Y](transcripts/yt-WJeUSc3At0Y.md) · [yaml](extractions/yt-WJeUSc3At0Y.yaml) | [The Linguistic Meaning of Bid^ah](https://www.youtube.com/watch?v=WJeUSc3At0Y) | 00:07:24 | 11 | 0 | 1 | 2 | BD, CL, DM |
 | 83 | [yt-Ac4Z45Y5ZXc](transcripts/yt-Ac4Z45Y5ZXc.md) · [yaml](extractions/yt-Ac4Z45Y5ZXc.yaml) | [Even Ibn Taymiyah Said There are Two Kinds of Religious Innovation: Good and Bad](https://www.youtube.com/watch?v=Ac4Z45Y5ZXc) | 00:35:09 | 25 | 0 | 2 | 4 | BD, CL, DM |
+| 84 | [yt-pvffugKYs1U](transcripts/yt-pvffugKYs1U.md) · [yaml](extractions/yt-pvffugKYs1U.yaml) | [Umar's Commanding the Muslims to Pray Exactly 20 Rak^ats Behind One Imam was Such a Good Innovation](https://www.youtube.com/watch?v=pvffugKYs1U) | 00:48:51 | 24 | 1 | 3 | 4 | BD, CL, DM |
