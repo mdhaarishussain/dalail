@@ -1,0 +1,156 @@
+topic_code: "BD"
+topic_name: "Bid'ah (Innovation)"
+covered_videos:
+  - playlist_index: 38
+    source_id: "yt-E5b1NEh5Wng"
+    title: "Bid^ah (innovation) Linguistically and Religiously (Part 1)"
+  - playlist_index: 43
+    source_id: "yt-ChDIrtcSy_U"
+    title: "Examples of Good Bid^ah (Innovations)"
+  - playlist_index: 58
+    source_id: "yt-WJeUSc3At0Y"
+    title: "The Linguistic Meaning of Bid^ah"
+  - playlist_index: 83
+    source_id: "yt-Ac4Z45Y5ZXc"
+    title: "Even Ibn Taymiyah Said There are Two Kinds of Religious Innovation: Good and Bad"
+  - playlist_index: 84
+    source_id: "yt-pvffugKYs1U"
+    title: "Umar's Commanding the Muslims to Pray Exactly 20 Rak^ats Behind One Imam was Such a Good Innovation"
+  - playlist_index: 85
+    source_id: "yt-AxzGS0G-SFo"
+    title: "Good Innovations: Dotting the Qur'an & Mawlid. Bad Innovation: Three Aspects of TawHeed"
+
+claims:
+  - id: "BD-WH-K01"
+    summary_en: "Claims that any act or form not explicitly performed by the Prophet is inherently sinful by virtue of being an innovation."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K02"
+    summary_en: "Interprets 'kullu bid'atin dalalah' as an absolute universal with zero exceptions, condemning all subsequent developments."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K03"
+    summary_en: "Claims the hadith 'man sanna fi l-islam sunnatan hasanah' was exclusively restricted to the Companions."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K04"
+    summary_en: "Claims 'man sanna fi l-islam sunnatan hasanah' refers only to reviving a dormant prophetic practice."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K05"
+    summary_en: "Interprets 'man ahdatha fi amrina hadha ma laysa minhu fa-huwa radd' to reject every newly introduced practice."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K06"
+    summary_en: "Cites Qur'an 5:3 ('al-yawma akmaltu lakum dinakum') to argue that religion was finalized in form such that any subsequent derivation is invalid."
+    sources: ['yt-E5b1NEh5Wng', 'yt-Ac4Z45Y5ZXc']
+
+  - id: "BD-WH-K07"
+    summary_en: "Claims 'Umar ibn al-Khattab's praise 'ni'mat al-bid'ah' meant only the linguistic meaning of reviving an existing sunnah."
+    sources: ['yt-E5b1NEh5Wng', 'yt-WJeUSc3At0Y', 'yt-pvffugKYs1U']
+
+  - id: "BD-WH-K08"
+    summary_en: "Claims companion additions in worship approved post-hoc by the Prophet are exclusively prophetic sunnah and cannot demonstrate proactive innovation."
+    sources: ['yt-ChDIrtcSy_U', 'yt-pvffugKYs1U']
+
+  - id: "BD-WH-K09"
+    summary_en: "Claims that actions introduced by the Rashidun caliphs are exclusively sunnah and cannot be categorized as bid'ah."
+    sources: ['yt-ChDIrtcSy_U', 'yt-pvffugKYs1U']
+
+  - id: "BD-WH-K10"
+    summary_en: "Claims that dotting the Qur'an and adding structural markings is merely a non-religious writing convention rather than an innovation."
+    sources: ['yt-ChDIrtcSy_U', 'yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K11"
+    summary_en: "Claims expanding the Mas'a outside its historical boundaries is a valid administrative expansion."
+    sources: ['yt-ChDIrtcSy_U', 'yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K12"
+    summary_en: "Claims facing the shortest distance (great circle) satisfies the religious requirement of facing the Qibla."
+    sources: ['yt-ChDIrtcSy_U', 'yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K13"
+    summary_en: "Claims tarawih in congregation was entirely established by the Prophet, leaving no room for 'Umar to innovate."
+    sources: ['yt-pvffugKYs1U']
+
+  - id: "BD-WH-K14"
+    summary_en: "Claims commemorating the birth of the Prophet (Mawlid) is a sinful innovation, shirk, or kufr."
+    sources: ['yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K15"
+    summary_en: "Claims that any praiseworthy act would have been performed first by the Companions, rejecting subsequent derivations."
+    sources: ['yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K16"
+    summary_en: "Analogizes the Islamic Mawlid to Christian celebrations of Christmas, asserting it constitutes prohibited imitation."
+    sources: ['yt-AxzGS0G-SFo']
+
+  - id: "BD-WH-K17"
+    summary_en: "Claims tawheed is categorized into three separate divisions (uluhiyyah, rububiyyah, asma' wa-s-sifat)."
+    sources: ['yt-AxzGS0G-SFo']
+
+counter_questions:
+  - id: "CQ-BD-01"
+    summary_en: "If 'man sanna fi l-islam' denotes reviving prophetic sunnah, does the second half ('wa man sanna sunnatan sayyi'atan') mean reviving an evil sunnah of the Prophet?"
+    primary_source: "yt-E5b1NEh5Wng"
+
+  - id: "CQ-BD-02"
+    summary_en: "Why did the Prophet add the qualifying clause 'ma laysa minhu' (what does not comply with it) in the hadith of 'A'ishah if every new action were rejected by default?"
+    primary_source: "yt-E5b1NEh5Wng"
+
+  - id: "CQ-BD-03"
+    summary_en: "Which classical Arabic dictionary defines bid'ah as 'revival' rather than initiating something unprecedented?"
+    primary_source: "yt-WJeUSc3At0Y"
+
+  - id: "CQ-BD-04"
+    summary_en: "If bid'ah is the absolute opposite of sunnah, why do you explain 'Umar's 'ni'mat al-bid'ah' as 'what a good revival of the sunnah'?"
+    primary_source: "yt-ChDIrtcSy_U"
+
+  - id: "CQ-BD-05"
+    summary_en: "Is it permissible for someone to do in the religion what the Prophet sallallahu 'alayhi wa sallam did not do (yes or no)?"
+    primary_source: "yt-ChDIrtcSy_U"
+
+  - id: "CQ-BD-06"
+    summary_en: "Could one of the guided caliphs possibly make a mistake in the religion (yes or no)?"
+    primary_source: "yt-ChDIrtcSy_U"
+
+  - id: "CQ-BD-07"
+    summary_en: "If godhood and lordship are distinct aspects of tawheed, why is the Shahadah 'La ilaha illa Allah' sufficient to enter Islam without mentioning Rabb?"
+    primary_source: "yt-AxzGS0G-SFo"
+
+  - id: "CQ-BD-08"
+    summary_en: "Why do the angels in the grave ask only 'man rabbuk' (who is your Lord) without asking about your God?"
+    primary_source: "yt-AxzGS0G-SFo"
+
+  - id: "CQ-BD-09"
+    summary_en: "Can you produce a single ayah from the Qur'an or a single hadith explicitly dividing tawheed into three parts?"
+    primary_source: "yt-AxzGS0G-SFo"
+
+debate_tips:
+  - id: "DT-BD-01"
+    principle: "Specified Generality ('Amm Makhsus)"
+    summary_en: "Invoke Imam an-Nawawi's usuli classification of 'kullu bid'atin dalalah' as a specified generality ('amm makhsus) via parallel hadiths ('kullu 'aynin zaniyah') and Qur'an 46:25 to dismantle simplistic literalism."
+
+  - id: "DT-BD-02"
+    principle: "Mafhum al-Mukhalafah"
+    summary_en: "Use the usuli distinction between mantuq and mafhum on the hadith 'man ahdatha fi amrina hadha ma laysa minhu' to demonstrate that condemning what opposes religion logically validates what complies with it."
+
+  - id: "DT-BD-03"
+    principle: "Lexicon Challenge"
+    summary_en: "Challenge opponents claiming 'Umar meant 'linguistic revival' to produce a single classical Arabic dictionary supporting that definition, as classical lexicons uniformly define bid'ah as unprecedented origination."
+
+  - id: "DT-BD-04"
+    principle: "Concession Pressing (Ibn Taymiyyah)"
+    summary_en: "Quote Ibn Taymiyyah's admissions in Majmu' al-Fatawa validating good innovations supported by religious proof and explicitly confirming the dotting of the mushaf as an innovation."
+
+  - id: "DT-BD-05"
+    principle: "Caliphal Dilemma & Infallibility"
+    summary_en: "Ask whether the Rashidun caliphs were capable of religious errors to expose the opponent's dilemma: either validate good innovations or unwittingly endorse Shi'ite doctrines of imamic infallibility."
+
+  - id: "DT-BD-06"
+    principle: "Refuting Companion Precedence"
+    summary_en: "Dismantle the 'Sahabah would have done it first' fallacy by showing that universal Islamic institutions (dotting, grammar, madrasahs) post-dated the Companions without being rejected."
+
+  - id: "DT-BD-07"
+    principle: "Qur'anic Precedent for Good Innovation"
+    summary_en: "Cite Qur'an 57:27 as definitive scriptural evidence that Allah explicitly praises uncommanded devotional innovations performed sincerely for His pleasure."
