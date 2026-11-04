@@ -1,0 +1,250 @@
+source_id: "yt-UurEmkkKLAg"
+moves:
+  - move_id: "M01"
+    timestamp: "00:00:22-00:00:31"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "consensus"
+    reported: false
+    answers: null
+    move_type: "consensus"
+    quote: "recommendation. Muslims have a consensus that the dead benefit from the supplication of the living and their charities given on behalf"
+    summary_en: "Establishes scholarly consensus that the deceased benefit from the supplications (du'a) and charitable donations made on their behalf by the living."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M02"
+    timestamp: "00:01:22-00:01:30"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: null
+    move_type: "classical-authority"
+    quote: "[ARABIC RECITATION: al-'Aqidah at-Tahawiyyah] phrase_as_heard: \"wa fi du'a'i l-ahya'i wa sadaqatihim manfa'atun li-l-amwat\", which means the supplication of the living for the dead and the charities on their behalf is beneficial for"
+    summary_en: "Cites Imam at-Tahawi in his celebrated Creed affirming that supplications and charities offered by the living benefit the deceased."
+    evidence_cited:
+      - as_said: "al-'Aqidah at-Tahawiyyah"
+        timestamp: "00:01:08"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M03"
+    timestamp: "00:01:35-00:01:47"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: "GV-WH-K01"
+    move_type: "classical-authority"
+    quote: "dead. Al-Khadimi said in the explanation of that, said in the explanation of al-Bariqah: He said: As for reciting the Qur'an at"
+    summary_en: "Cites al-Khadimi in al-Bariqah confirming that jurists across schools are definitive regarding the religious legitimacy of reciting Qur'an at the grave."
+    evidence_cited:
+      - as_said: "al-Khadimi, al-Bariqah al-Mahmudiyyah"
+        timestamp: "00:01:35"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M04"
+    timestamp: "00:02:16-00:02:22"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "quote"
+    reported: false
+    answers: "GV-WH-K01"
+    move_type: "classical-authority"
+    quote: "of al-Muhadhdhab: It is recommended for the one who visits the graves to recite what is easy for him of"
+    summary_en: "Quotes Imam an-Nawawi in al-Majmu' affirming the recommendation (istihbab) of reciting easy portions of the Qur'an and making du'a when visiting graves."
+    evidence_cited:
+      - as_said: "an-Nawawi, al-Majmu' Sharh al-Muhadhdhab"
+        timestamp: "00:02:09"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M05"
+    timestamp: "00:03:04-00:03:13"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "historical-evidence"
+    reported: false
+    answers: null
+    move_type: "scriptural-analogy"
+    quote: "the recitation of the Qur'an over the grave the hadith of the moist stick, the one that the Prophet sallallahu 'alayhi"
+    summary_en: "Cites the authentic hadith in al-Bukhari and Muslim where the Prophet placed two halves of a split fresh palm branch on two graves to lighten their punishment."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari, Sahih Muslim"
+        timestamp: "00:03:33"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M06"
+    timestamp: "00:03:51-00:04:00"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "response"
+    reported: false
+    answers: "GV-WH-K01"
+    move_type: "a-fortiori"
+    quote: "lightened for them by the plants, then how about by the recitation of the Qur'an by a believing person? He's"
+    summary_en: "Presents al-Qurtubi's and an-Nawawi's a fortiori deduction: If punishment is lightened by the tasbih of plants, the recitation of a believer is even more beneficial."
+    evidence_cited:
+      - as_said: "al-Qurtubi, at-Tadhkirah"
+        timestamp: "00:02:55"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M07"
+    timestamp: "00:05:18-00:05:28"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: "textual-evidence"
+    reported: false
+    answers: "GV-WH-K01"
+    move_type: "textual-evidence"
+    quote: "[ARABIC RECITATION: Sunan Abi Dawud] phrase_as_heard: \"iqra'u 'ala mawtakum surata yasin\", said: Recite Yasin on your dead. Abu Dawud narrated it. There is also"
+    summary_en: "Cites the hadith of Ma'qil ibn Yasar in Sunan Abi Dawud instructing Muslims to recite Surat Yasin over their deceased."
+    evidence_cited:
+      - as_said: "Sunan Abi Dawud, Sunan Ibn Majah"
+        timestamp: "00:05:03"
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M08"
+    timestamp: "00:06:40-00:06:48"
+    speaker: "S"
+    side: "wahhabi"
+    kind: claim
+    reported: true
+    answers: null
+    move_type: "restrict-evidence"
+    quote: "said that these hadiths are in reference to reciting over the one who's on his deathbed, he hasn't died yet?"
+    summary_en: "Reports the opponent claiming that 'recite over your dead' refers exclusively to the dying person on their deathbed rather than the deceased in the grave."
+    evidence_cited: []
+    responds_to: "M07"
+    confidence: "high"
+
+  - move_id: "M09"
+    timestamp: "00:07:14-00:07:24"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: response
+    reported: false
+    answers: "GV-WH-K02"
+    move_type: "linguistic-analysis"
+    quote: "say mawtakum means recite on those who are not dead yet. Al-mawta means the people who have died, so there's no"
+    summary_en: "Refutes the deathbed restriction, establishing that 'al-mawta' lexically denotes the dead and interpreting it as the dying is an unjustified metaphorical ta'wil."
+    evidence_cited: []
+    responds_to: "M08"
+    confidence: "high"
+
+  - move_id: "M10"
+    timestamp: "00:08:08-00:08:16"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: response
+    reported: false
+    answers: "GV-WH-K02"
+    move_type: "parity"
+    quote: "from the recitation of Yasin, although this recitation is not from his own deeds, then the dead person would"
+    summary_en: "Argues parity: If a dying person benefits from another's recitation despite it not being their own deed, the deceased likewise benefits from proxy recitation."
+    evidence_cited: []
+    responds_to: "M08"
+    confidence: "high"
+
+  - move_id: "M11"
+    timestamp: "00:09:08-00:09:18"
+    speaker: "S"
+    side: "wahhabi"
+    kind: claim
+    reported: true
+    answers: null
+    move_type: "charge"
+    quote: "came reciting at the grave, and Ahmad said: Hey you, certainly reciting at the grave is an innovation! When we"
+    summary_en: "Reports the opponent citing Imam Ahmad ibn Hanbal's initial censure of a blind man reciting at a grave to claim it is an innovation."
+    evidence_cited: []
+    responds_to: null
+    confidence: "high"
+
+  - move_id: "M12"
+    timestamp: "00:09:59-00:10:08"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: historical-evidence
+    reported: false
+    answers: "GV-WH-K03"
+    move_type: "retraction-evidence"
+    quote: "his grave, and I heard Ibn 'Umar making the same will. Then Ahmad said: Go back to the man and tell him"
+    summary_en: "Cites al-Khallal in al-Amr bi-l-Ma'ruf documenting Imam Ahmad retracting his censure and ordering the reciter back after being informed of 'Abdullah ibn 'Umar's will."
+    evidence_cited:
+      - as_said: "al-Khallal, al-Amr bi-l-Ma'ruf"
+        timestamp: "00:10:08"
+    responds_to: "M11"
+    confidence: "high"
+
+  - move_id: "M13"
+    timestamp: "00:11:15-00:11:22"
+    speaker: "S"
+    side: "ahl-e-sunnat"
+    kind: response
+    reported: false
+    answers: "GV-WH-K04"
+    move_type: "contextual-clarification"
+    quote: "That ash-Shafi'i said when that was in the public cemetery and it prevents people from using the land; as"
+    summary_en: "Exposes selective quotation: Ash-Shafi'i in al-Umm opposed building over graves only in public endowments where space is restricted, not on private property."
+    evidence_cited:
+      - as_said: "ash-Shafi'i, al-Umm"
+        timestamp: "00:10:51"
+    responds_to: null
+    confidence: "high"
+
+new_claims:
+  - id: "GV-WH-K01"
+    side: "wahhabi"
+    summary_en: "Claims reciting the Qur'an over the graves of deceased Muslims is an impermissible innovation or prohibited act."
+    move_type: "charge"
+    first_seen: "M03"
+
+  - id: "GV-WH-K02"
+    side: "wahhabi"
+    summary_en: "Interprets hadiths instructing recitation over the dead ('iqra'u 'ala mawtakum') as referring strictly to the dying on their deathbeds."
+    move_type: "restrict-evidence"
+    first_seen: "M08"
+
+  - id: "GV-WH-K03"
+    side: "wahhabi"
+    summary_en: "Cites Imam Ahmad's initial censure of reciting at graves while ignoring his confirmed retraction."
+    move_type: "selective-citation"
+    first_seen: "M11"
+
+  - id: "GV-WH-K04"
+    side: "wahhabi"
+    summary_en: "Cites Imam ash-Shafi'i's disapproval of building structures over graves in public cemeteries to prohibit all grave visitation practices."
+    move_type: "selective-citation"
+    first_seen: "M13"
+
+counter_questions:
+  - id: "CQ-GV-01"
+    summary_en: "If a dying person benefits from another person's recitation despite it not being their own deed, why would a deceased person be barred from benefiting from proxy recitation?"
+    used_in: "M10"
+
+  - id: "CQ-GV-02"
+    summary_en: "If the punishment of graves is lightened by the natural tasbih of moist palm sticks, how could it not be lightened by a believer reciting the speech of Allah?"
+    used_in: "M06"
+
+debate_tips:
+  - timestamp: "00:03:51"
+    quote: "lightened for them by the plants, then how about by the recitation of the Qur'an by a believing person? He's"
+    summary_en: "Utilize al-Qurtubi's a fortiori argument from the Sahih al-Bukhari hadith of the two moist sticks to establish that Qur'anic recitation at the grave provides greater benefit."
+
+  - timestamp: "00:07:49"
+    quote: "make this interpretation for the hadith. It doesn't say recite the Qur'an on those who are dying and they didn't"
+    summary_en: "Refute the 'deathbed' interpretation of 'iqra'u 'ala mawtakum' by demonstrating that 'al-mawta' lexically denotes the deceased, rendering restrictive interpretations unfounded."
+
+  - timestamp: "00:10:18"
+    quote: "Ahmad said reciting at the graves is a bid'ah, tell him: Imam Ahmad retracted that! When a hadith was recited"
+    summary_en: "When an opponent quotes Imam Ahmad calling recitation at the grave an innovation, confront them with his documented retraction in al-Khallal's al-Amr bi-l-Ma'ruf."
+
+  - timestamp: "00:11:15"
+    quote: "That ash-Shafi'i said when that was in the public cemetery and it prevents people from using the land; as"
+    summary_en: "Check opponent citations against original primary sources like al-Umm to expose omitted qualifications regarding public versus private burial land."
