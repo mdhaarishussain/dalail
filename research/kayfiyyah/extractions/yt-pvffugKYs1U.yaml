@@ -1,0 +1,375 @@
+source_id: yt-pvffugKYs1U
+moves:
+- move_id: M01
+  timestamp: 00:00:52-00:01:03
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "ni''mat al-bid''atu hadhihi wa-llati yanamuna ''anha afdal", what a good innovation this is, and the one you perform after sleeping is better. This makes the Wahhabi''s blood'
+  summary_en: Cites 'Umar ibn al-Khattab's explicit declaration 'ni'mat al-bid'atu hadhihi' in Sahih al-Bukhari upon gathering the Muslims for 20 rak'ahs of tarawih behind one imam.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:00:52
+  responds_to: null
+  confidence: high
+- move_id: M02
+  timestamp: 00:01:13-00:01:23
+  speaker: S
+  side: wahhabi
+  kind: claim
+  reported: true
+  answers: null
+  move_type: restrict-evidence
+  quote: 'Question: What if they say that the Prophet sallallahu ''alayhi wa sallam already prayed taraweeh, so there is no'
+  summary_en: Reports the opponent arguing that tarawih contains no innovation because the Prophet had prayed night prayers in congregation.
+  evidence_cited: []
+  responds_to: M01
+  confidence: high
+- move_id: M03
+  timestamp: 00:01:35-00:01:47
+  speaker: S
+  side: ahl-e-sunnat
+  kind: response
+  reported: false
+  answers: BD-WH-K13
+  move_type: distinction
+  quote: the night prayers called Qiyam Ramadan are more general than taraweeh, that's true. Taraweeh is specifically twenty rak'ahs, while
+  summary_en: Distinguishes between general Qiyam Ramadan (unspecified number) and tarawih (specifically 20 rak'ahs in ongoing congregation instituted by 'Umar).
+  evidence_cited: []
+  responds_to: M02
+  confidence: high
+- move_id: M04
+  timestamp: 00:02:32-00:02:43
+  speaker: S
+  side: wahhabi
+  kind: claim
+  reported: true
+  answers: null
+  move_type: linguistic-analysis
+  quote: 'What if he says that the linguistic meaning of bid''ah is revival, and ''Umar only meant: What a good'
+  summary_en: Reports the opponent claiming that 'Umar meant only the linguistic meaning of 'revival' of the Sunnah rather than a religious innovation.
+  evidence_cited: []
+  responds_to: M01
+  confidence: high
+- move_id: M05
+  timestamp: 00:04:02-00:04:15
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: BD-WH-K07
+  move_type: lexicon-evidence
+  quote: '[ARABIC RECITATION: Kitab al-''Ayn] phrase_as_heard: "al-bad''u ihdathu shay''in lam yakun lahu ''ilmun wa la dhikrun wa la ma''rifah", the initiation of something previously unknown, nor did it have any previous creation or mentioning.'
+  summary_en: Cites Kitab al-'Ayn by al-Khalil ibn Ahmad proving that al-bad' denotes unprecedented origination, refuting the claim of revival.
+  evidence_cited:
+  - as_said: al-Khalil ibn Ahmad, Kitab al-'Ayn
+    timestamp: 00:03:46
+  responds_to: M04
+  confidence: high
+- move_id: M06
+  timestamp: 00:06:17-00:06:33
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: BD-WH-K07
+  move_type: lexicon-evidence
+  quote: 'You say: bada''tu with the thing, meaning I initiated it: [ARABIC RECITATION: al-Misbah al-Munir] phrase_as_heard: "bada''tu bi-sh-shay''i idha abdaytahu",'
+  summary_en: Cites al-Fayyumi in al-Misbah al-Munir defining bada'tu as initiating something anew after completion.
+  evidence_cited:
+  - as_said: al-Fayyumi, al-Misbah al-Munir
+    timestamp: 00:06:06
+  responds_to: M04
+  confidence: high
+- move_id: M07
+  timestamp: 00:08:54-00:09:05
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: BD-WH-K07
+  move_type: lexicon-evidence
+  quote: '[ARABIC RECITATION: Lisan al-''Arab] phrase_as_heard: "bada''a ash-shay''a yabda''uhu bad''an", he bada''a the thing, so past tense he introduced the thing, yabda''u present and future tense he introduces or'
+  summary_en: Cites Ibn Manzur in Lisan al-'Arab establishing that bada'a means starting and initiating, not restarting an established practice.
+  evidence_cited:
+  - as_said: Ibn Manzur, Lisan al-'Arab
+    timestamp: 00:08:42
+  responds_to: M04
+  confidence: high
+- move_id: M08
+  timestamp: 00:10:18-00:10:31
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: BD-WH-K07
+  move_type: lexicon-evidence
+  quote: '[ARABIC RECITATION: as-Sihah] phrase_as_heard: "ikhtara''ahu la ''ala mithal", he invented it without a previous example. Allah:'
+  summary_en: Cites al-Jawhari in as-Sihah defining abda'ahu as inventing something without a prior precedent.
+  evidence_cited:
+  - as_said: al-Jawhari, as-Sihah
+    timestamp: 00:09:47
+  responds_to: M04
+  confidence: high
+- move_id: M09
+  timestamp: 00:13:44-00:13:50
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: BD-WH-K07
+  move_type: classical-authority
+  quote: '[ARABIC RECITATION: Fath al-Bari] phrase_as_heard: "qawluhu ni''mati l-bid''atu hiya ma lam yakun lahu sabaq", ''Umar''s saying what a good bid''ah it is: that which has no precedent;'
+  summary_en: Cites Hafiz Ibn Hajar in Fath al-Bari explaining that 'Umar's statement refers to that which has no precedent, conforming to the Sunnah.
+  evidence_cited:
+  - as_said: Ibn Hajar, Fath al-Bari
+    timestamp: 00:13:33
+  responds_to: M04
+  confidence: high
+- move_id: M10
+  timestamp: 00:15:37-00:15:43
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: null
+  move_type: classical-authority
+  quote: '[ARABIC RECITATION: Sharh Sahih al-Bukhari li-Ibn Battal] phrase_as_heard: "ma kana ''umaru li-yasunna sunnatan illa wa law ra''aha n-nabiyyu la-radiyaha",'
+  summary_en: Cites Ibn Battal's commentary on Sahih al-Bukhari affirming that 'Umar would not institute a practice unless it were such that the Prophet would approve.
+  evidence_cited:
+  - as_said: Ibn Battal, Sharh Sahih al-Bukhari
+    timestamp: 00:14:57
+  responds_to: null
+  confidence: high
+- move_id: M11
+  timestamp: 00:19:11-00:19:21
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "innaha la-bid''atun wa inna la-min ahsani ma ahdathu", and surely it is among the best of what they have innovated. What, Duha was an innovation? But it''s not,'
+  summary_en: Cites 'Abdullah ibn 'Umar in Sahih al-Bukhari declaring Salat ad-Duha to be an innovation and 'among the best of what they have innovated'.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:19:11
+  responds_to: null
+  confidence: high
+- move_id: M12
+  timestamp: 00:23:03-00:23:16
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "fa-kana khubaybun huwa sanna r-rak''atayni li-kulli imri''in muslimin qutila sabran", the first to make a sunnah of praying two rak''ahs upon being killed was him, or was he, he'
+  summary_en: Cites Abu Hurayrah in Sahih al-Bukhari confirming Khubayb was the first to institute two rak'ahs of prayer before execution.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:23:03
+  responds_to: null
+  confidence: high
+- move_id: M13
+  timestamp: 00:25:20-00:25:29
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "ra''aytu bid''atan wa thalathina malakan yabdarunaha ayyuhum yaktubuha awwal", I saw thirty-something angels rushing to it, which of them will write it first.'
+  summary_en: Cites the hadith of Rifa'ah ibn Rafi' in Sahih al-Bukhari where a Companion added tahmid in prayer and the Prophet witnessed over thirty angels racing to record it.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:24:01
+  responds_to: null
+  confidence: high
+- move_id: M14
+  timestamp: 00:25:45-00:25:58
+  speaker: S
+  side: ahl-e-sunnat
+  kind: quote
+  reported: false
+  answers: null
+  move_type: classical-authority
+  quote: proven by this is the permissibility of innovating a dhikr in the prayer, one not narrated from the Prophet,
+  summary_en: Cites Ibn Hajar deducing the permissibility of innovating unrecorded dhikr in prayer provided it does not contradict transmitted texts.
+  evidence_cited:
+  - as_said: Ibn Hajar, Fath al-Bari
+    timestamp: 00:25:38
+  responds_to: null
+  confidence: high
+- move_id: M15
+  timestamp: 00:26:15-00:26:24
+  speaker: S
+  side: wahhabi
+  kind: claim
+  reported: true
+  answers: null
+  move_type: restrict-evidence
+  quote: 'no Wahhabi fool you by saying: This is no bid''ah, this is a sunnah, the Prophet sallallahu ''alayhi wa sallam approved'
+  summary_en: Reports the opponent claiming that companion additions approved post-hoc are prophetic sunnah, not innovations.
+  evidence_cited: []
+  responds_to: M13
+  confidence: high
+- move_id: M16
+  timestamp: 00:26:34-00:26:43
+  speaker: S
+  side: ahl-e-sunnat
+  kind: response
+  reported: false
+  answers: BD-WH-K08
+  move_type: rebuttal
+  quote: negate the fact that the man did it proactively, without taking it from the Prophet, which is exactly what
+  summary_en: Explains that post-hoc approval demonstrates proactive initiation from oneself, which contradicts the Wahhabi prohibition of religious initiative.
+  evidence_cited: []
+  responds_to: M15
+  confidence: high
+- move_id: M17
+  timestamp: 00:31:17-00:31:30
+  speaker: S
+  side: ahl-e-sunnat
+  kind: textual-evidence
+  reported: false
+  answers: null
+  move_type: textual-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "qultu li-''umara kayfa taf''alu shay''an lam yaf''alhu rasulullahi sallallahu ''alayhi wa sallam", how can you do something that the Messenger of Allah did not do? This is a Wahhabi''s exact question when'
+  summary_en: Cites Abu Bakr initially asking 'Umar the exact objection used by opponents: 'How can you do something that the Messenger of Allah did not do?'
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:29:14
+  responds_to: null
+  confidence: high
+- move_id: M18
+  timestamp: 00:31:49-00:31:56
+  speaker: S
+  side: ahl-e-sunnat
+  kind: textual-evidence
+  reported: false
+  answers: null
+  move_type: textual-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "qala ''umaru huwa wallahi khayr", ''Umar said: It is by God good.'
+  summary_en: Cites 'Umar's response 'huwa wallahi khayr' (by Allah it is good) as establishing the foundational criterion for praiseworthy innovation.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:31:49
+  responds_to: M17
+  confidence: high
+- move_id: M19
+  timestamp: 00:39:43-00:39:51
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: '[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: "kana n-nida''u yawma l-jumu''ati awwaluhu idha jalasa l-imamu ''ala l-minbar ''ala ''ahdi rasulillahi sallallahu ''alayhi wa sallama wa abi bakrin wa ''umar", the call to prayer on Friday would be initiated when the imam sat on the pulpit during the time of'
+  summary_en: Cites Sahih al-Bukhari documenting that 'Uthman introduced the second Friday adhan at az-Zawra' due to demographic growth.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:39:08
+  responds_to: null
+  confidence: high
+- move_id: M20
+  timestamp: 00:41:44-00:41:54
+  speaker: S
+  side: wahhabi
+  kind: claim
+  reported: true
+  answers: null
+  move_type: restrict-evidence
+  quote: innovations? So that's an important one to know how to answer.
+  summary_en: Reports the opponent claiming that actions of the Rashidun caliphs are exclusively 'sunnah' and cannot be categorized as innovations due to the hadith 'alaykum bi-sunnati'.
+  evidence_cited:
+  - as_said: Hadith: 'alaykum bi-sunnati
+    timestamp: 00:42:10
+  responds_to: M19
+  confidence: high
+- move_id: M21
+  timestamp: 00:43:17-00:43:27
+  speaker: S
+  side: ahl-e-sunnat
+  kind: counter-question
+  reported: false
+  answers: BD-WH-K09
+  move_type: consistency
+  quote: 'you may ask two questions. One: If bid''ah is the opposite of sunnah, then why did you explain ''Umar''s statement'
+  summary_en: Points out inconsistency: If bid'ah is strictly the antithesis of sunnah, why did opponents interpret 'Umar's 'ni'mat al-bid'ah' as 'what a good revival of sunnah'?
+  evidence_cited: []
+  responds_to: M20
+  confidence: high
+- move_id: M22
+  timestamp: 00:45:26-00:45:36
+  speaker: S
+  side: ahl-e-sunnat
+  kind: counter-question
+  reported: false
+  answers: BD-WH-K09
+  move_type: dilemma
+  quote: permissible for someone to do in the religion what the Prophet sallallahu 'alayhi wa sallam did not do, yes or no?
+  summary_en: Presents a closed-ended dilemma: If impermissible to introduce unpracticed matters, the caliphs' acts could not be sunnah; if permissible, good innovations are validated.
+  evidence_cited: []
+  responds_to: M20
+  confidence: high
+- move_id: M23
+  timestamp: 00:46:16-00:46:25
+  speaker: S
+  side: ahl-e-sunnat
+  kind: response
+  reported: false
+  answers: BD-WH-K09
+  move_type: theological-reductio
+  quote: 'how to answer that. You tell them: You are making the caliphs impeccable by equating their sunnah to the Prophet''s'
+  summary_en: Exposes the opponent's dilemma: claiming the caliphs' sunnah is identical to prophetic legislation equates their authority to prophetic infallibility ('ismah).
+  evidence_cited: []
+  responds_to: M20
+  confidence: high
+- move_id: M24
+  timestamp: 00:48:04-00:48:18
+  speaker: S
+  side: ahl-e-sunnat
+  kind: historical-evidence
+  reported: false
+  answers: null
+  move_type: historical-evidence
+  quote: absolutely no matter what. That's why when 'Ali, when he burned alive some people as a punishment, Ibn 'Abbas
+  summary_en: Cites Ibn 'Abbas disagreeing with Caliph 'Ali's method of capital punishment, demonstrating that companion actions were evaluated by Shar'i criteria, not accepted unconditionally.
+  evidence_cited:
+  - as_said: Sahih al-Bukhari
+    timestamp: 00:48:04
+  responds_to: M23
+  confidence: high
+new_claims:
+- id: BD-WH-K13
+  side: wahhabi
+  summary_en: Claims tarawih in congregation was entirely established by the Prophet, leaving no room for 'Umar to innovate.
+  move_type: restrict-evidence
+  first_seen: M02
+counter_questions:
+- id: CQ-BD-10
+  summary_en: If bid'ah is the absolute opposite of sunnah, why do you explain 'Umar's 'ni'mat al-bid'ah' as 'what a good revival of the sunnah'?
+  used_in: M21
+- id: CQ-BD-11
+  summary_en: Is it permissible for someone to do in the religion what the Prophet sallallahu 'alayhi wa sallam did not do (yes or no)?
+  used_in: M22
+- id: CQ-BD-12
+  summary_en: Could one of the guided caliphs possibly make a mistake in the religion (yes or no)?
+  used_in: M23
+debate_tips:
+- timestamp: 00:11:22
+  quote: 'you say: Do you have a reference? Which dictionary are you taking? Show me! And he will not have anything.'
+  summary_en: Challenge opponents asserting that bid'ah means 'revival' to produce a single classical Arabic dictionary supporting that claim.
+- timestamp: 00:20:40
+  quote: that it's not really a bid'ah, that's not the point. The point is what, what his conviction was, that
+  summary_en: When debating Ibn 'Umar's praise of Salat ad-Duha as an innovation, focus on the Companion's underlying conviction that praiseworthy innovations exist.
+- timestamp: 00:43:41
+  quote: 'questions, but choose one and stick to it. Very important when you debate with somebody: don't give them everything you'
+  summary_en: Select a single devastating question and maintain focus on it rather than providing multiple points that open avenues for diversion.
+- timestamp: 00:45:26
+  quote: permissible for someone to do in the religion what the Prophet sallallahu 'alayhi wa sallam did not do, yes or no?
+  summary_en: Use closed-ended yes/no dilemmas on caliphal additions to force opponents to either validate good innovations or declare caliphal additions illegitimate.
