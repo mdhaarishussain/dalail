@@ -1,0 +1,304 @@
+source_id: yt-NRX5xOh7wG0
+moves:
+  - move_id: M01
+    timestamp: "00:04:36-00:05:03"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "The scholars of the Salaf have two ways to explain this ayah of istiwa' and other ayat like it. One: The first method is not to specify any meaning for it. This means not to translate it and not to pick any other word for it. They simply say: Istawa as He said about Himself."
+    summary_en: "Presents the first method of the Salaf regarding mutashabihat: affirming the revealed text without assigning a physical or translated meaning (tafwid al-ma'na)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:05:03-00:05:44"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "They did not say: He rose over His Throne as He said about Himself, nor He sat or settled on the Throne as He said about Himself, no. That is from the translators who call themselves Salafis, that \"He rose over the Throne in a manner that befits His majesty.\""
+    summary_en: "Rejects the modern translation 'rose over the Throne' as an innovation falsely ascribed to the Salaf."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:05:44-00:06:09"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "This method is the meaning of what ash-Shafi'i said: I believe in what came from Allah according to whatever meaning Allah willed, and in what came from the Messenger of Allah according to whatever meaning the Messenger of Allah meant. This does not mean that he takes it literally, as some would suggest to you it means."
+    summary_en: "Interprets Imam ash-Shafi'i's famous submission to divine intent as resignation of details to Allah, not literalism."
+    evidence_cited:
+      - as_said: "Saying of Imam ash-Shafi'i on the meaning of revealed texts"
+        timestamp: "00:05:44"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:07:40-00:08:37"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "The second method is to explain it with meanings that not only work in the language, but that also are befitting to His majesty. So know that istawa has over ten meanings, not all of them befit Allah."
+    summary_en: "Presents the second valid method: contextual non-literal explanation (ta'wil) employing linguistic meanings befitting divine transcendence."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:09:37-00:10:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: charge
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "Some people interpret the istiwa' of Allah exactly as it means in this ayah here, that He settled upon the Throne, they say, or was firmly established on it. So they unwittingly compared Allah to a boat."
+    summary_en: "Shows that translating istawa as physical settling (istiqrar) anthropomorphizes Allah by likening His attribute to the landing of Noah's ark on Judi (11:44)."
+    evidence_cited:
+      - as_said: "Surah Hud 11:44: 'wastawat 'ala al-judiyyi'"
+        timestamp: "00:09:37"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:14:00-00:14:36"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "So al-Bukhari documented that Mujahid, the student of Ibn 'Abbas, said istawa means he dominated over the Throne: [ARABIC RECITATION: quotation from Mujahid] phrase_as_heard: \"istawa 'ala al-'arsh\"."
+    summary_en: "Cites Sahih al-Bukhari documenting Mujahid interpreting istawa 'ala al-'arsh as 'ala / dominated over."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari from Mujahid: 'istawa 'ala al-'arsh'"
+        timestamp: "00:14:00"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:14:36-00:15:21"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "Also at-Tabari, who is a leading mujtahid imam of the Salaf, he said in his Tafsir that among the meanings of istawa is taking possession and subjugation, and there are still more."
+    summary_en: "Cites Imam at-Tabari's Tafsir affirming that istawa encompasses subjugation and taking possession (istila')."
+    evidence_cited:
+      - as_said: "Imam at-Tabari in his Tafsir on meanings of istawa"
+        timestamp: "00:14:36"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:16:41-00:17:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SF-WH-K04
+    move_type: reconciliation
+    quote: "Firstly, no, it does not. Among Allah's names is al-Qahir, the Dominator, or al-Qahhar, the Subjugator. Therefore, if this meaning were unbecoming and non-befitting, it would not have been a name of Allah. So no, it doesn't imply a struggle, saying subjugated and dominated does not imply a struggle, or else then Allah's name al-Qahir means the struggler."
+    summary_en: "Refutes the objection that istila' implies prior struggle by pointing out that Allah is named al-Qahir and al-Qahhar without any struggle."
+    evidence_cited:
+      - as_said: "Divine names al-Qahir and al-Qahhar"
+        timestamp: "00:16:41"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:17:14-00:18:39"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: consistency
+    quote: "Secondly, I told you that you cannot be a follower of the Salaf if you are correcting the Salaf, yani we thought you were Salafis! How come it's so hard for you to accept what the Salaf said? If you are correcting them, then they should be following you."
+    summary_en: "Exposes the hypocrisy of claiming to follow the Salaf while rejecting explanations transmitted by Mujahid and at-Tabari in favor of modern authorities."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:19:00-00:19:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: SF-WH-K05
+    move_type: consistency
+    quote: "Had the Salaf understood this hadith as you do, they would have gone around asking people \"Where is Allah?\" as you do, but they did not."
+    summary_en: "Argues that if testing people with 'Where is Allah?' were normative Sunnah, the Salaf would have practiced it systematically."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:20:24-00:21:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The way to test someone's faith is to ask them about the shahadah, and that's what the Prophet, sallallahu 'alayhi wa sallam, did with the slave girl in the other version of this hadith. The other version of the hadith of the slave girl, the one narrated by Imam Malik, he actually did ask her about the shahadah."
+    summary_en: "Shows that testing faith occurs via the two testimonies of faith, as recorded in Imam Malik's version of the hadith of the slave girl."
+    evidence_cited:
+      - as_said: "Imam Malik's version of the hadith of the slave girl in the Muwatta'"
+        timestamp: "00:20:24"
+    responds_to: null
+    confidence: high
+
+  - move_id: M12
+    timestamp: "00:26:27-00:26:53"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "The known hadith rule is that the versions of a hadith must be merged to be explained properly. In the version of Ibn Hibban, he didn't ask her \"Where is Allah?\", he asked her: \"Who is your Lord?\" And in the version of Malik, he asked her: \"Do you testify that no one is God except Allah?\" This is how you test one's Islamic faith."
+    summary_en: "Applies the hadith methodology rule requiring harmonization of all variant texts (Ibn Hibban, Malik, Muslim) to derive the common legal meaning."
+    evidence_cited:
+      - as_said: "Sahih Ibn Hibban version: 'man rabbuki?'"
+        timestamp: "00:26:27"
+      - as_said: "Muwatta' Malik version: 'a-tash-hadina an la ilaha illallah?'"
+        timestamp: "00:26:27"
+    responds_to: null
+    confidence: high
+
+  - move_id: M13
+    timestamp: "00:32:17-00:32:53"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "First of all, even the version of Muslim that you are accustomed to, the one that you know, the only one you knew, it does not say above the heavens. It says \"fi as-sama'\", which literally means in the sky, not over the heavens. So know that you have been deceived by the people you trust. They took advantage of your lack of Arabic and mistranslated the hadith."
+    summary_en: "Exposes the mistranslation of 'fi as-sama'' as 'above the heavens' to match modern sectarian creed."
+    evidence_cited:
+      - as_said: "Sahih Muslim: 'fi as-sama''"
+        timestamp: "00:32:17"
+    responds_to: null
+    confidence: high
+
+  - move_id: M14
+    timestamp: "00:34:53-00:35:09"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: reconciliation
+    quote: "Secondly, I just told you the correct rule is to merge all the versions of the hadith to find the common meaning. The common meaning of all of them is that he was asking her about her belief, not about a place."
+    summary_en: "Concludes that the unified meaning across all versions is inquiring into the slave girl's belief and status, not spatial localization."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M15
+    timestamp: "00:36:52-00:37:17"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "Its authenticity is disputable. To Muslim it is authentic, but some of the scholars said that the hadith is weak because it is disordered or inconsistent. One version seems to say \"Where is Allah?\", while another says: \"Do you testify that there is no god but Allah?\""
+    summary_en: "Notes that hadith scholars evaluated the text as disordered (mudtarib) due to irreconcilable internal textual variations."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M16
+    timestamp: "00:39:33-00:40:09"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "So a hadith cannot be evidence for the creed unless it is indisputably sound, and this hadith's soundness is disputable."
+    summary_en: "Formulates the foundational principle that creed cannot be established upon solitary reports with disputed soundness or internal disorder."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M17
+    timestamp: "00:40:17-00:40:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: reconciliation
+    quote: "It always takes more effort to clean up a mess than to make it. We are the cleanup crew."
+    summary_en: "Explains why thorough, contextual refutation requires meticulous scholarly labor compared to crude superficial literalism."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: SF-WH-K04
+    side: wahhabi
+    summary_en: "Claims that explaining istawa as istila' (subjugation/dominance) is invalid because it allegedly implies a prior struggle."
+    move_type: charge
+    first_seen: M08
+
+  - id: SF-WH-K05
+    side: wahhabi
+    summary_en: "Asserts that asking 'Where is Allah?' is the normative Sunnah test of a person's faith based on the hadith of the slave girl."
+    move_type: charge
+    first_seen: M10
+
+counter_questions:
+  - id: CQ-K26
+    summary_en: "If istila' implies a struggle, does Allah's divine name al-Qahir (the Subjugator) imply that Allah struggles?"
+    used_in: M08
+
+  - id: CQ-K27
+    summary_en: "If asking 'Where is Allah?' tests Islamic faith, why would an affirmative answer distinguish a Muslim from Jews and Christians who also say God is in heaven?"
+    used_in: M10
+
+  - id: CQ-K28
+    summary_en: "How can a solitary hadith with multiple mutually contradictory wordings (mudtarib) serve as definitive proof for spatial direction in creed?"
+    used_in: M16
+
+debate_tips:
+  - timestamp: "00:03:46"
+    quote: "So in a debate, and also in a lesson, and when you teach people and when you give dawah, keep your answers and keep your statements as brief as possible."
+    summary_en: "Keep debate responses concise to prevent interlocutors from misunderstanding or seizing on secondary tangents."
+
+  - timestamp: "00:15:21"
+    quote: "So don't feel bad to say the truth without having the Arabic text, but equip yourself with those Arabic texts, memorize them so that you can have them handy and ready."
+    summary_en: "Communicate clearly in the language of discussion while memorizing original Arabic texts to deploy when challenged."
+
+  - timestamp: "00:30:18"
+    quote: "The fact that you do not know it does not negate its validity. Don't let them tell you \"I don't know it\", as if he's saying therefore it's not proof, never let that happen."
+    summary_en: "Firmly reject an opponent's attempt to dismiss evidence merely because their sectarian authorities kept it hidden from them."
+
+  - timestamp: "00:36:04"
+    quote: "This is why you need to keep your answers brief, minimize the amount of information in your answers, and I remind myself. The more information you put in there, the more is going to go over his head."
+    summary_en: "Limit cognitive load in debate exchanges; presenting too many distinct evidential points at once prevents interlocutors from assimilating the core proof."
+
+  - timestamp: "00:39:33"
+    quote: "So a hadith cannot be evidence for the creed unless it is indisputably sound, and this hadith's soundness is disputable."
+    summary_en: "Disqualify solitary, internally conflicted narrations from serving as foundational proofs for Islamic dogma."

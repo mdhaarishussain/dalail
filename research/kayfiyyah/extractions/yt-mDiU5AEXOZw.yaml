@@ -1,0 +1,188 @@
+source_id: yt-mDiU5AEXOZw
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:10"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "Call them the Wahhabiyyah. This is the name given to them by the scholars when they first deviated more than two hundred years ago."
+    summary_en: "States that the name 'Wahhabiyyah' was assigned by contemporary Islamic scholars over two centuries ago."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:10-00:00:33"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "Some claim that there is no such faction called the Wahhabiyyah, or that this title was introduced by the non-Muslims."
+    summary_en: "Reports the opponent claim that the faction name 'Wahhabiyyah' does not exist or was an invention of non-Muslims."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:00:33-00:01:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: DM-WH-K07
+    move_type: support-chain
+    quote: "Refer them to the book of Muhammad ibn 'Abd al-Wahhab's own brother, whose name is also Ibn 'Abd al-Wahhab, the good scholar Shaykh Sulayman ibn 'Abd al-Wahhab, who wrote books refuting his brother and his followers. Among them is: [ARABIC RECITATION: book title] phrase_as_heard: \"as-sawa'iq al-ilahiyyah fi ar-raddi 'ala al-wahhabiyyah\". The Divine Bolts in Refuting the Wahhabis."
+    summary_en: "Cites the published treatise of Muhammad ibn Abd al-Wahhab's biological brother refuting the group under the title 'al-Wahhabiyyah'."
+    evidence_cited:
+      - as_said: "Shaykh Sulayman ibn 'Abd al-Wahhab in As-Sawa'iq al-Ilahiyyah fi ar-Radd 'ala al-Wahhabiyyah"
+        timestamp: "00:00:33"
+    responds_to: M02
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:02:08-00:02:33"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: charge
+    quote: "One would find many Wahhabis who are offended by being called Wahhabis, saying that it is sinful to use the term because it is derived from Allah's name al-Wahhab, the One Who gives abundantly."
+    summary_en: "Reports the opponent argument that using 'Wahhabi' is sinful because it allegedly insults the divine name al-Wahhab."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:07:39-00:08:12"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: response
+    reported: false
+    answers: DM-WH-K06
+    move_type: definition
+    quote: "Therefore, the one who understands Arabic understands that when we say Wahhabi, we are not actually attributing those people to al-Wahhab, who is Allah the Exalted. Rather, we are attributing them to Muhammad ibn 'Abd al-Wahhab, or more specifically to the last part of his name, 'Abd al-Wahhab, the slave of al-Wahhab."
+    summary_en: "Clarifies that the nisbah 'Wahhabi' grammatically derives from the founder's father's name 'Abd al-Wahhab, not the divine attribute itself."
+    evidence_cited: []
+    responds_to: M04
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:09:02-00:09:20"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: support-chain
+    quote: "If keeping the first part leads to confusion, the first part of the name is omitted and the second part is kept. Hence, anyone attributed to Muhammad ibn 'Abd al-Wahhab is not called 'Abdi, but Wahhabi. That's the rule in the language."
+    summary_en: "Explains the morphological rule in Arabic for genitive compounds (idafah), where dropping the first term ('Abd) avoids ambiguity."
+    evidence_cited:
+      - as_said: "Rules of an-Nasab in Arabic morphology (Sarf)"
+        timestamp: "00:04:30"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:09:20-00:09:51"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: practice-consensus
+    quote: "Like if someone is attributed to 'Abd al-Ashhal or 'Abd al-Qays, he would not be called 'Abdi, rather Ashhali or Qaysi. That's the rule in the language. When making the nasab to the first word of the idafah is confusing or problematic, then they give it to the second part. Likewise, the follower of 'Abd al-Qadir is called Qadiri."
+    summary_en: "Provides classical precedents ('Abd al-Ashhal -> Ashhali, 'Abd al-Qays -> Qaysi, 'Abd al-Qadir -> Qadiri) confirming the dropping of 'Abd."
+    evidence_cited: []
+    responds_to: M06
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:09:51-00:10:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "They also fraudulently call themselves Ahl al-Haqq, the people of the truth, and Ahl al-Hadith, the people of the science of hadith. They have also been called La-Madhhabiyyah. Maybe that's back from the 90s or something, I don't know if people still use that term, La-Madhhabiyyah, those who do not claim any school of fiqh, and Ghayr Muqallidin, those who do not imitate."
+    summary_en: "Surveys historical titles and self-designations adopted by the movement (Ahl al-Haqq, Ahl al-Hadith, La-Madhhabiyyah, Ghayr Muqallidin)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:11:09-00:11:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: claim
+    reported: false
+    answers: null
+    move_type: charge
+    quote: "Truly they are Ahl al-Kibr, the people of arrogance; Ahl ad-Dalalah, the people of misguidance; al-Mushabbihah, the people who liken Allah to His creations; al-Mujassimah, the people who believe that Allah has a body; al-Jihawiyyah, those who attribute a direction to Allah; as-Sawtiyyah, those who attribute a voice or sound to Allah; Hashwiyyah, people who speak nonsense; and kuffar, blasphemers, disbelievers, among other titles."
+    summary_en: "Enumerates descriptive designations applied to anthropomorphic sects by classical Sunni scholars based on theological errors."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:11:35-00:11:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: definition
+    quote: "And as far as labeling Wahhabis as kufr, that's a general label. That means that the faction in general terms is a misguided faction that believes in blasphemy, because they liken Allah to the creations."
+    summary_en: "Clarifies that judgments of kufr on the faction apply generally to its creedal tenets rather than indiscriminately to every claimant."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:12:45-00:13:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: restrict-evidence
+    quote: "It's possible that a person affiliates with a deviant faction and doesn't even know what they believe, so you cannot call him a kafir because of the affiliation that he gave to you."
+    summary_en: "Affirms that individual takfir cannot be pronounced merely due to sectarian affiliation if the individual is ignorant of the faction's actual beliefs."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: DM-WH-K07
+    side: wahhabi
+    summary_en: "Claims that there is no historical faction named 'Wahhabiyyah' and that the term was fabricated by non-Muslims."
+    move_type: charge
+    first_seen: M02
+
+counter_questions:
+  - id: CQ-K24
+    summary_en: "If the name 'Wahhabiyyah' was invented by non-Muslims, why did Muhammad ibn Abd al-Wahhab's brother use it in his book title?"
+    used_in: M03
+
+  - id: CQ-K25
+    summary_en: "If dropping the first term of an idafah in nisbah were invalid, why is someone attributed to Abd al-Qadir called Qadiri rather than Abdi?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:00:33"
+    quote: "Refer them to the book of Muhammad ibn 'Abd al-Wahhab's own brother, whose name is also Ibn 'Abd al-Wahhab, the good scholar Shaykh Sulayman ibn 'Abd al-Wahhab, who wrote books refuting his brother and his followers."
+    summary_en: "Disarm claims that 'Wahhabi' is a Western or colonial slur by citing internal 18th-century refutations by the founder's own brother."
+
+  - timestamp: "00:09:02"
+    quote: "If keeping the first part leads to confusion, the first part of the name is omitted and the second part is kept. Hence, anyone attributed to Muhammad ibn 'Abd al-Wahhab is not called 'Abdi, but Wahhabi. That's the rule in the language."
+    summary_en: "Use standard classical Arabic morphology (sarf) to dismantle the semantic objection that 'Wahhabi' insults the divine name al-Wahhab."
+
+  - timestamp: "00:12:45"
+    quote: "It's possible that a person affiliates with a deviant faction and doesn't even know what they believe, so you cannot call him a kafir because of the affiliation that he gave to you."
+    summary_en: "Maintain strict justice in debate: condemn sectarian anthropomorphic doctrines generally without hastily pronouncing takfir on confused or uneducated lay individuals."
