@@ -10,6 +10,7 @@ Transcripts and argument maps from the YouTube playlist [How to Debate the So-ca
 | --- | --- |
 | `queue.yaml` | All 103 playlist videos with Gemini's tiers (A: tawassul, istighatha, worship, bid'ah, mawlid, takfir, debating method; B: attributes / istiwa / tajseem) |
 | `transcripts/<source_id>.md` | Frontmatter (incl. `playlist_index`, `coverage`) + timestamped English transcript. Long videos are in two parts in one file |
+| `registry/bd-bidah.yaml` | Gemini's summary of the bid'ah block (#38, #43, #58, #83, #84, #85): claims, counter-questions and debate tips. Every ID in it matches the extraction files |
 | `extractions/<source_id>.yaml` | Moves, provisional claim IDs (`<TOPIC>-WH-K##`), counter-questions (`CQ-K##`) and `debate_tips` |
 
 Claim and counter-question IDs use a separate `K` series so they do not clash with `research/munazara/registry/claims.yaml`; they still need reconciling.
@@ -49,3 +50,4 @@ Claim and counter-question IDs use a separate `K` series so they do not clash wi
 | 58 | [yt-WJeUSc3At0Y](transcripts/yt-WJeUSc3At0Y.md) · [yaml](extractions/yt-WJeUSc3At0Y.yaml) | [The Linguistic Meaning of Bid^ah](https://www.youtube.com/watch?v=WJeUSc3At0Y) | 00:07:24 | 11 | 0 | 1 | 2 | BD, CL, DM |
 | 83 | [yt-Ac4Z45Y5ZXc](transcripts/yt-Ac4Z45Y5ZXc.md) · [yaml](extractions/yt-Ac4Z45Y5ZXc.yaml) | [Even Ibn Taymiyah Said There are Two Kinds of Religious Innovation: Good and Bad](https://www.youtube.com/watch?v=Ac4Z45Y5ZXc) | 00:35:09 | 25 | 0 | 2 | 4 | BD, CL, DM |
 | 84 | [yt-pvffugKYs1U](transcripts/yt-pvffugKYs1U.md) · [yaml](extractions/yt-pvffugKYs1U.yaml) | [Umar's Commanding the Muslims to Pray Exactly 20 Rak^ats Behind One Imam was Such a Good Innovation](https://www.youtube.com/watch?v=pvffugKYs1U) | 00:48:51 | 24 | 1 | 3 | 4 | BD, CL, DM |
+| 85 | [yt-AxzGS0G-SFo](transcripts/yt-AxzGS0G-SFo.md) · [yaml](extractions/yt-AxzGS0G-SFo.yaml) | [Good Innovations: Dotting the Qur'an & Mawlid. Bad Innovation: Three Aspects of TawHeed](https://www.youtube.com/watch?v=AxzGS0G-SFo) | 00:41:34 | 21 | 4 | 3 | 4 | BD, CL, DM |
