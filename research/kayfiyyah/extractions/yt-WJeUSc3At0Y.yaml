@@ -1,0 +1,189 @@
+source_id: yt-WJeUSc3At0Y
+moves:
+  - move_id: M01
+    timestamp: "00:00:00-00:00:08"
+    speaker: S
+    side: wahhabi
+    kind: claim
+    reported: true
+    answers: null
+    move_type: linguistic-analysis
+    quote: "He must have meant the linguistic meaning of bid'ah. Shall we check the linguistic meaning of innovations, since they claimed"
+    summary_en: "Reports the opponent claiming that 'Umar ibn al-Khattab's statement 'ni'mat al-bid'ah' meant only the linguistic meaning of reviving an existing sunnah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:00:17-00:00:31"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K07
+    move_type: lexicon-evidence
+    quote: "it is attributed to al-Khalil ibn Ahmad, the shaykh of Sibawayh: al-bad'u [ARABIC RECITATION: Kitab al-'Ayn] phrase_as_heard: \"al-bad'u ihdathu shay'in lam yakun lahu 'ilmun wa la dhikrun wa la ma'rifah\", is"
+    summary_en: "Cites Kitab al-'Ayn by early Salaf lexicographer al-Khalil ibn Ahmad establishing that al-bad' lexically means initiating something previously unknown and unmentioned."
+    evidence_cited:
+      - as_said: "al-Khalil ibn Ahmad, Kitab al-'Ayn"
+        timestamp: "00:00:17"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:00:43-00:01:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "meant the linguistic meaning of bid'ah! [ARABIC RECITATION: Qur'an 2:117] phrase_as_heard: \"badi'u s-samawati wa l-ard\","
+    summary_en: "Cites Qur'an 2:117 ('Badi'u s-samawati wa l-ard'), demonstrating that the Divine attribute Badi' signifies originating creation without a previous example."
+    evidence_cited:
+      - as_said: "Qur'an 2:117"
+        timestamp: "00:00:43"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:01:22-00:01:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "qala Allah: [ARABIC RECITATION: Qur'an 46:9] phrase_as_heard: \"qul ma kuntu bid'an min ar-rusul\","
+    summary_en: "Cites Qur'an 46:9 where 'bid'an min ar-rusul' denotes being the first of the messengers, corroborating the lexical sense of unprecedented origination."
+    evidence_cited:
+      - as_said: "Qur'an 46:9"
+        timestamp: "00:01:22"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:02:10-00:02:19"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K07
+    move_type: lexicon-evidence
+    quote: "meaning of bid'ah! In the dictionary al-Misbah al-Munir,"
+    summary_en: "Cites al-Fayyumi's classical lexicon al-Misbah al-Munir confirming that bada'a means initiating something anew, not restarting a prior practice."
+    evidence_cited:
+      - as_said: "al-Fayyumi, al-Misbah al-Munir"
+        timestamp: "00:02:10"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:03:27-00:03:33"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"man ahdatha fi amrina hadha\", whoever invented in this affair of ours?"
+    summary_en: "Connects lexical definitions to the hadith 'man ahdatha fi amrina hadha', explaining that ihdath and bid'ah denote newly originated matters."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:03:27"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:04:07-00:04:23"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K07
+    move_type: lexicon-evidence
+    quote: "we need to look in the dictionaries, right? Here's another dictionary: Lisan al-'Arab,"
+    summary_en: "Cites Ibn Manzur's authoritative lexicon Lisan al-'Arab defining bada'a as originating and starting a matter without precedence."
+    evidence_cited:
+      - as_said: "Ibn Manzur, Lisan al-'Arab"
+        timestamp: "00:04:07"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:04:51-00:05:02"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K07
+    move_type: lexicon-evidence
+    quote: "is what was innovated in the religion. He must have meant the linguistic meaning of bid'ah! And one more dictionary: as-Sihah,"
+    summary_en: "Cites al-Jawhari's seminal lexicon as-Sihah defining abda'ahu as inventing something without a prior model (ikhtara'ahu la 'ala mithal)."
+    evidence_cited:
+      - as_said: "al-Jawhari, as-Sihah"
+        timestamp: "00:04:51"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:05:58-00:06:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-K07
+    move_type: challenge
+    quote: "if they are saying that 'Umar does not know Arabic. Which dictionary would they like to present to prove their"
+    summary_en: "Challenges the opponent to produce a single classical Arabic dictionary that defines bid'ah as 'revival' rather than unprecedented origination."
+    evidence_cited: []
+    responds_to: M01
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:06:23-00:06:33"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: quote
+    reported: false
+    answers: BD-WH-K07
+    move_type: classical-authority
+    quote: "[ARABIC RECITATION: Fath al-Bari] phrase_as_heard: \"qawluhu ni'mati l-bid'atu hiya ma lam yakun lahu sabaq\", 'Umar's saying what a good bid'ah it is: that which has no precedent; fa-ma wafaq,"
+    summary_en: "Cites Ibn Hajar al-'Asqalani in Fath al-Bari explaining that 'Umar meant what has no prior precedent, and that what conforms to the Sunnah is praiseworthy."
+    evidence_cited:
+      - as_said: "Ibn Hajar, Fath al-Bari"
+        timestamp: "00:06:05"
+    responds_to: M01
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:07:15-00:07:23"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: textual-evidence
+    reported: false
+    answers: null
+    move_type: textual-evidence
+    quote: "[ARABIC RECITATION: Sahih al-Bukhari] phrase_as_heard: \"ni'mat al-bid'atu hadhihi\", what an excellent innovation this is! What an excellent innovation this is! That means that innovations, some of them are"
+    summary_en: "Concludes from 'Umar's explicit praise 'ni'mat al-bid'atu hadhihi' in Sahih al-Bukhari that religious innovations can be excellent and praiseworthy."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:07:15"
+    responds_to: null
+    confidence: high
+
+new_claims: []
+
+counter_questions:
+  - id: CQ-BD-07
+    summary_en: "Which classical Arabic dictionary defines bid'ah as 'revival' (ihya') rather than originating something without precedent?"
+    used_in: M09
+
+debate_tips:
+  - timestamp: "00:05:45"
+    quote: "that their claim about what 'Umar meant of the linguistic meaning is false, since they do not know Arabic. Because"
+    summary_en: "Directly confront opponents claiming 'Umar meant 'linguistic revival' by demanding classical Arabic lexicons, as no dictionary defines bid'ah as revival."
+
+  - timestamp: "00:06:05"
+    quote: "point? We'll be waiting. Ibn Hajar does not explain it like them, meaning the statement of 'Umar. He doesn't say 'Umar meant"
+    summary_en: "Cite Ibn Hajar al-'Asqalani's commentary in Fath al-Bari explaining that 'Umar's praise referred to an unprecedented action conforming to the Sunnah."
