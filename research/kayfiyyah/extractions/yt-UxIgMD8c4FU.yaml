@@ -79,29 +79,29 @@ new_claims:
 counter_questions:
   - id: "CQ01"
     target: "Opponent"
-    question: "If you claim that Allah is over the Throne in a unique way without being in a place, why do you point upward in the exact same physical direction as created objects?",
+    question: "If you claim that Allah is over the Throne in a unique way without being in a place, why do you point upward in the exact same physical direction as created objects?"
     quote: "things are over so I said to him but if you were to point you would point in the same direction that you would point for anything else that's over you so he didn't have an answer for that"
     summary_en: "A counter-question exposing that the Wahhabi claim of 'over without place' is disingenuous, as proven by their physical gesturing toward the sky."
   - id: "CQ02"
     target: "Opponent"
-    question: "If you claim you do not assert a spatial location for Allah, why do you argue that the Prophet asked the slave girl 'ayna Allah' specifically to establish a physical place?",
+    question: "If you claim you do not assert a spatial location for Allah, why do you argue that the Prophet asked the slave girl 'ayna Allah' specifically to establish a physical place?"
     quote: "a place when the prophet said where's Allah this is what the wahhabis believe that Allah is in a place"
     summary_en: "A counter-question confronting opponents with their internal contradiction between denying spatial containment and asserting that 'ayna' proves physical location."
   - id: "CQ03"
     target: "Opponent"
-    question: "If 'ayna' only inquires about physical place, how do you explain the well-known Arabic proverb 'ayna ath-thurayya min ath-thara' comparing exalted status to dust?",
+    question: "If 'ayna' only inquires about physical place, how do you explain the well-known Arabic proverb 'ayna ath-thurayya min ath-thara' comparing exalted status to dust?"
     quote: "where is plates compared to the soil that's a proverb very famous proverb"
     summary_en: "A linguistic counter-question refuting the assertion that 'ayna' in Arabic cannot denote rank or status."
 debate_tips:
   - id: "DT01"
-    topic: "The initial response of an unsuspecting believer to ambiguous hadiths",
+    topic: "The initial response of an unsuspecting believer to ambiguous hadiths"
     quote: "that God would be in a place this unsuspecting one who never knew this Hadith of the slave girl and then he just got confused by this wahhabi who presented him with something that seems to be IR that is irrational seems to be attributed to the prophet he should say at the very least let me ask let me"
     summary_en: "When presented with an unfamiliar, seemingly problematic text, take time to consult knowledgeable scholars while holding firmly to the unshakeable certainty that Allah does not resemble creation."
   - id: "DT02"
-    topic: "Refuting opponents by sticking firmly to a single solid proof",
+    topic: "Refuting opponents by sticking firmly to a single solid proof"
     quote: "there's other references like that too but we don't have to go through every reference and every proof just gather your proofs and accustom yourself to refuting your opponent with one proof don't jump all over the place"
     summary_en: "Do not scatter your focus across dozens of arguments; master a single conclusive evidence and hold your opponent to answering it."
   - id: "DT03"
-    topic: "Rebutting opponents who selectively limit texts to Bukhari and Muslim",
+    topic: "Rebutting opponents who selectively limit texts to Bukhari and Muslim"
     quote: "books the authentic Hadith are spread throughout hundreds of books you lazy wahhabi you want to settle with bukari and"
     summary_en: "Remind opponents that authentic Sunnah spans collections like the Muwatta' and Musnad Ahmad, and comprehensive fiqh requires harmonizing all authentic narrations."

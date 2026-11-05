@@ -79,29 +79,29 @@ new_claims:
 counter_questions:
   - id: "CQ01"
     target: "Opponent"
-    question: "What reason do you have to insist on physical literalism for ambiguous texts other than a desire to liken Allah to His creations?",
+    question: "What reason do you have to insist on physical literalism for ambiguous texts other than a desire to liken Allah to His creations?"
     quote: "why else would you take those statements by their literal meanings if you don't want to liken Allah to their to his Creations so he might."
     summary_en: "A counter-question confronting the anthropomorphist premise that rejecting corporeal literalism equates to denying divine attributes."
   - id: "CQ02"
     target: "Opponent"
-    question: "Who told you that Allah must either be physically inside the creation or physically outside of it, when He existed before space and direction were created?",
+    question: "Who told you that Allah must either be physically inside the creation or physically outside of it, when He existed before space and direction were created?"
     quote: "what about neither inside nor outside who told you that has to be inside or outside and there's no third option here so what they're going to say. say they're going to say well we never saw anything otherwise did you ever see something otherwise right there means"
     summary_en: "A logical counter-question challenging the false spatial dichotomy imposed onto divine existence by anthropomorphists."
   - id: "CQ03"
     target: "Opponent"
-    question: "If you truly believed every single innovation without exception is misguidance, why do you shift the goalposts to excuse Umar's innovation of congregational Tarawih?",
+    question: "If you truly believed every single innovation without exception is misguidance, why do you shift the goalposts to excuse Umar's innovation of congregational Tarawih?"
     quote: "it wasn't permissible for Omar to innovate because nobody can innovate anything but you couldn't stick to your guns because you're wrong so you move the gold post and you say well om on he can though he's qualified thank you you're welcome."
     summary_en: "A counter-question exposing the opponent's inconsistency when they retreat from 'every bid'ah is misguidance' to special pleading."
 debate_tips:
   - id: "DT01"
-    topic: "Anchor every debate in decisive muhkam verses",
+    topic: "Anchor every debate in decisive muhkam verses"
     quote: "like nothing is like him in any way so then if we saw another Ayah like. we say it's not a physical abess because then something would be like him in some way and like that"
     summary_en: "Always anchor discussions of divine attributes in the explicit, decisive verse 'laysa kamithlihi shay'' (Surah ash-Shura 42:11)."
   - id: "DT02"
-    topic: "Directly deny false labels without taking the defensive bait",
+    topic: "Directly deny false labels without taking the defensive bait"
     quote: "so I'll just defy him so then if he wants to continue that conversation then probably I'll have the upper hand from there because he's going to then try to prove to me that this is aristot Alan philosophies"
     summary_en: "When an opponent hurls sectarian slurs like 'Aristotelian philosophy', flatly reject the false claim and force them to substantiate it."
   - id: "DT03"
-    topic: "Highlighting opponent concessions and moving the goalposts",
+    topic: "Highlighting opponent concessions and moving the goalposts"
     quote: "agreeing with me but you don't want to accept that you're agreeing with me you want to halfway agree with me you want to try and sort of agree with me and then still defy me at the same"
     summary_en: "Identify when an opponent moves the goalposts after their absolute claim collapses, making them acknowledge that they have conceded your point."

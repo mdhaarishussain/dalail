@@ -79,29 +79,29 @@ new_claims:
 counter_questions:
   - id: "CQ01"
     target: "Opponent"
-    question: "How can you claim that using 'Wahhabi' is forbidden because al-Wahhab is Allah, when the rules of Arabic grammar explicitly derive nisbah from the second part of a compound name?",
+    question: "How can you claim that using 'Wahhabi' is forbidden because al-Wahhab is Allah, when the rules of Arabic grammar explicitly derive nisbah from the second part of a compound name?"
     quote: "so how could you you how could you use the name of God to explain to refer to that is deviant people and then call them wahhabis how's that"
     summary_en: "A counter-question dismantling the naive objection that using 'Wahhabi' profanes a divine name."
   - id: "CQ02"
     target: "Opponent"
-    question: "How can you be deceived by outward pious actions like fasting and garment lengths, when the Prophet foretold preachers at the gates of Hell who speak our language and share our skin?",
+    question: "How can you be deceived by outward pious actions like fasting and garment lengths, when the Prophet foretold preachers at the gates of Hell who speak our language and share our skin?"
     quote: "and I find them everywhere is that what you're saying okay so the prophet s he said in aith there are people they have our skin means they look like us."
     summary_en: "A counter-question warning against being duped by outward cosmetic adherence to Sunnah when creed is compromised."
   - id: "CQ03"
     target: "Opponent"
-    question: "Why do you deceptively quote the first half of Abu Hanifah's statement on Istiwa' while deliberately cutting off his immediate negation of sitting, dwelling, and spatial need?",
+    question: "Why do you deceptively quote the first half of Abu Hanifah's statement on Istiwa' while deliberately cutting off his immediate negation of sitting, dwelling, and spatial need?"
     quote: "you nasty dirty filthy wahhabi who on purpose cut off the rest of the quote while you knew it was there when Abu"
     summary_en: "A sharp counter-question confronting opponents with their intellectual dishonesty in truncating Abu Hanifah's text."
 debate_tips:
   - id: "DT01"
-    topic: "Answering closed questions simply before offering elaboration",
+    topic: "Answering closed questions simply before offering elaboration"
     quote: "if he says to me is it permissible to use the name wahhabi I'd say yes it is because that's what he asked me that's the answer to his question so if he wants more usually I'll let him ask"
     summary_en: "Give a direct, concise answer to closed questions first and allow the interlocutor to ask follow-up questions instead of overwhelming them prematurely."
   - id: "DT02"
-    topic: "Grammatical defense of the label 'Wahhabi'",
+    topic: "Grammatical defense of the label 'Wahhabi'"
     quote: "leave out Muhammad so we're not going to say we're not going to say AB so what's left is that"
     summary_en: "Demonstrate that in compound names, omitting common elements like Muhammad and Abd leaves the distinguishing term, proving the linguistic legitimacy of 'Wahhabi'."
   - id: "DT03"
-    topic: "Exposing cherry-picked quotes from early imams",
+    topic: "Exposing cherry-picked quotes from early imams"
     quote: "they take a piece of what Abu hanifah said and they know the rest of what's there in the very same paragraph they know it's there except some of them who don't check"
     summary_en: "Always verify the complete context and subsequent sentences of classical texts cited by opponents, as they frequently omit explicit qualifying sentences."

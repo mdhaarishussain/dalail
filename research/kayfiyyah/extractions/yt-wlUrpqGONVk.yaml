@@ -79,29 +79,29 @@ new_claims:
 counter_questions:
   - id: "CQ01"
     target: "Opponent"
-    question: "If you believe the Creator is an eternal physical body, how can you rationally prove that the universe is temporally created?",
+    question: "If you believe the Creator is an eternal physical body, how can you rationally prove that the universe is temporally created?"
     quote: "so how could he prove that the world is created when he believes in an eternal body cuz whatever he says to prove whatever he argu"
     summary_en: "A counter-question exposing that corporeal theology destroys the cosmological argument for the universe's temporal creation."
   - id: "CQ02"
     target: "Opponent"
-    question: "Why do you attempt to evade the Prophet's explicit declaration that 'there is nothing above You and nothing below You' by nitpicking the names az-Zahir and al-Batin?",
+    question: "Why do you attempt to evade the Prophet's explicit declaration that 'there is nothing above You and nothing below You' by nitpicking the names az-Zahir and al-Batin?"
     quote: "above you mean and what does there's nothing below you mean why aren't you asking about that part"
     summary_en: "A counter-question confronting opponents who try to distract from the explicit negation of physical direction in the Prophet's du'a."
   - id: "CQ03"
     target: "Opponent"
-    question: "Since you initiated the claim that consensus is restricted to the Companions, why should I present evidence before you substantiate your own assertion?",
+    question: "Since you initiated the claim that consensus is restricted to the Companions, why should I present evidence before you substantiate your own assertion?"
     quote: "you made your claim first so why don't you present your evidence before you ask me to present mine since this is all based on your claim in the first place we wouldn't be even having this conversation had you not made that claim why don't you produce your evidence and then we'll see what he has"
     summary_en: "A procedural counter-question maintaining proper debate protocol on the burden of proof."
 debate_tips:
   - id: "DT01"
-    topic: "Use primary authentic hadiths rather than reports lacking chains",
+    topic: "Use primary authentic hadiths rather than reports lacking chains"
     quote: "evidence in your debate. you don't want to submit it as evidence in your debate now you might say but wait a minute you just right now submitted it and I would say to you not really only for clarity here because what we're submitting is really the Hadith of the Prophet"
     summary_en: "Anchor your argument in primary sahih hadiths like Imran ibn Husayn's narration in Bukhari rather than secondary athar that opponents can easily dismiss for lacking a continuous chain."
   - id: "DT02"
-    topic: "Never initiate a topic without knowing the proof and deeper details",
+    topic: "Never initiate a topic without knowing the proof and deeper details"
     quote: "if you want to be able to give a person aof then don't talk about something unless you know the proof don't open the subject about something and here's general advice for you"
     summary_en: "Ensure you have substantive knowledge and supporting evidence ready before introducing any theological claim in debate."
   - id: "DT03"
-    topic: "Truth cannot be cornered; focus on relevance",
+    topic: "Truth cannot be cornered; focus on relevance"
     quote: "you're on the truth there's no issue about being cornered what's he going to do corner you into the truth there's no issue there what are you what are you trying to avoid trying to avoid having to answer a question"
     summary_en: "Do not fear being 'cornered' when standing on sound orthodoxy; simply speak the truth and dismiss irrelevant tangent questions."

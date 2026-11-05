@@ -79,29 +79,29 @@ new_claims:
 counter_questions:
   - id: "CQ01"
     target: "Opponent"
-    question: "If you argue that a clock has hands that are different from human hands, does that not still prove that a clock's hands are physical created parts occupying space?",
+    question: "If you argue that a clock has hands that are different from human hands, does that not still prove that a clock's hands are physical created parts occupying space?"
     quote: "he says to you doesn't the clock have hand so you just give him a simple yes it does so now"
     summary_en: "A counter-question dismantling the false clock-hand analogy, proving that every physical hand cited remains a created spatial body."
   - id: "CQ02"
     target: "Opponent"
-    question: "Why do you demand that physical nouns like hands and face be taken literally like hearing and sight, when taking physical nouns literally confirms created physicality?",
+    question: "Why do you demand that physical nouns like hands and face be taken literally like hearing and sight, when taking physical nouns literally confirms created physicality?"
     quote: "why can't you take these literally like you take those literally the answer is cuz if you take them literally you'll be confirming something physical that means right there created because physicality is created."
     summary_en: "A counter-question exposing the category error of conflating abstract attributes with physical, dimensional limbs."
   - id: "CQ03"
     target: "Opponent"
-    question: "If asserting that the Creator and creation share identical meanings is not likening Allah to creation, what could possibly constitute tashbih in your view?",
+    question: "If asserting that the Creator and creation share identical meanings is not likening Allah to creation, what could possibly constitute tashbih in your view?"
     quote: "what's wrong with you that's blasphemy if that's not comparing Allah to the creation what do you think is comparing Allah to the creation"
     summary_en: "A counter-question exposing that Wahhabis render the concept of tashbih meaningless by sanctioning identical semantic meanings."
 debate_tips:
   - id: "DT01"
-    topic: "Responding to the clock-hand analogy",
+    topic: "Responding to the clock-hand analogy"
     quote: "he said the clock is a body and occupy space that's also a way to answer yes but let let's go this way really quick though that's very good answer too"
     summary_en: "Accept the premise that a clock has hands, then immediately corner the opponent by pointing out that clock hands are still physical bodies occupying space, defeating their attempt to escape corporealism."
   - id: "DT02"
-    topic: "Focus on the proof rather than linguistic posturing",
+    topic: "Focus on the proof rather than linguistic posturing"
     quote: "it doesn't matter if I know how to speak Arabic or not here's the proof do you have an answer for this proof"
     summary_en: "Do not allow an opponent to derail a debate by demanding to know if you speak Arabic; hold them strictly to answering the scriptural proof presented."
   - id: "DT03"
-    topic: "Maintaining focus against splinter distractions",
+    topic: "Maintaining focus against splinter distractions"
     quote: "you're talking to him you're staying on point he's trying to get you off point if he says something you can't let him take you off say that's something else"
     summary_en: "Recognize when an opponent introduces peripheral tangents to distract from a losing argument; firmly bring the discussion back to the core topic."
