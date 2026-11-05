@@ -1,0 +1,94 @@
+registry_id: REGISTRY-REVIEW-SERIES-COMPLETE
+corpus: "How to Debate the So-called Salafiyyah"
+channel: "Knowledge"
+playlist_url: "https://www.youtube.com/playlist?list=PLkAW17wfktA6qF465PyPfc0-M1xNRj2Or"
+scope: "Complete Book Review Series (Questions 1 through 127; Playlist Items #91 to #102)"
+status: "COMPLETED"
+
+review_videos_registry:
+  - playlist_index: 91
+    source_id: yt-V-Hi0iD2Glg
+    review_number: "REVIEW 1"
+    questions_covered: "Questions 1 - 13"
+    duration: "00:50:49"
+    key_themes: ["Epistemology of creed", "Takfir rules and boundaries", "Sectarian naming and origins of Wahhabism"]
+
+  - playlist_index: 92
+    source_id: yt-OGAibCXqU6c
+    review_number: "REVIEW 2"
+    questions_covered: "Questions 14 - 21"
+    duration: "00:48:53"
+    key_themes: ["Affirmation of divine transcendence (Tanzih)", "Negation of physical bodily parts (jism, a'da')", "Grammatical rules of Majaz (metaphor)"]
+
+  - playlist_index: 93
+    source_id: yt-6EbQNPxIawc
+    review_number: "REVIEW 3"
+    questions_covered: "Questions 22 - 32"
+    duration: "00:50:14"
+    key_themes: ["The verse of Istiwa' (Surah Ta-Ha 20:5)", "Linguistic meanings of istila' and subjugation", "Refutation of physical ascension (istiqrar/su'ud)"]
+
+  - playlist_index: 94
+    source_id: yt-YJ3e-wlcwnQ
+    review_number: "REVIEW 4"
+    questions_covered: "Questions 33 - 40"
+    duration: "00:47:51"
+    key_themes: ["The Hadith of the Slave Girl (Mu'awiyah ibn al-Hakam)", "Reconciling variant hadith wordings (Malik, Ahmad, Ibn Hibban)", "Authenticity and text disorders (idtirab)"]
+
+  - playlist_index: 95
+    source_id: yt-wlUrpqGONVk
+    review_number: "REVIEW 5"
+    questions_covered: "Questions 41 - 57"
+    duration: "00:46:02"
+    key_themes: ["Attributes of Hearing, Sight, and Speech (Kalam)", "Eternal uncreated divine speech without letters or sounds", "Refutation of Hawadith la awwala laha (infinite past creations)"]
+
+  - playlist_index: 96
+    source_id: yt-UxIgMD8c4FU
+    review_number: "REVIEW 6"
+    questions_covered: "Questions 58 - 73"
+    duration: "00:45:23"
+    key_themes: ["Seeing Allah in the Hereafter (Ru'yah)", "Vision without spatial orientation, direction, or distance", "Surah al-Qiyamah 75:22-23 and al-An'am 6:103"]
+
+  - playlist_index: 97
+    source_id: yt-CRvzuDMvZao
+    review_number: "REVIEW 7"
+    questions_covered: "Questions 74 - 88"
+    duration: "00:55:33"
+    key_themes: ["The Hadith of Descent (Nuzul)", "Explanation of first-person pronouns via an appointed conveying angel", "Linguistic attribution of actions in Arabic rhetoric"]
+
+  - playlist_index: 98
+    source_id: yt-xnoz2sQYu5w
+    review_number: "REVIEW 8"
+    questions_covered: "Questions 89 - 92"
+    duration: "00:37:08"
+    key_themes: ["Divine Yad without limbs or organs", "Refutation of literalism on the dual form (bi-yadayya)", "Surah Sad 38:45 and al-Ma'idah 5:64", "Grammar of Wajh in Surah ar-Rahman 55:27"]
+
+  - playlist_index: 99
+    source_id: yt-B44fpc0NTUE
+    review_number: "REVIEW 9"
+    questions_covered: "Questions 93 - 102"
+    duration: "00:42:14"
+    key_themes: ["Sunni classification of Bid'ah (good vs bad innovation)", "Hadith of Man sanna sunnatan hasanatan", "Umar's Tarawih prayer ('ni'mat al-bid'ah hadhihi')", "Companion innovations during and after the Prophet"]
+
+  - playlist_index: 100
+    source_id: yt-KLWpGX6k69Y
+    review_number: "REVIEW 10"
+    questions_covered: "Questions 103 - 109"
+    duration: "00:36:23"
+    key_themes: ["Caliph additions and the infallibility dilemma", "Dotting of the Qur'an admitted by Ibn Taymiyyah", "Mawlid defense against Christmas comparison", "Surah al-Hadid 57:27 and monasticism", "Refutation of tri-part tawhid"]
+
+  - playlist_index: 101
+    source_id: yt-kHMJkE0gpjA
+    review_number: "REVIEW 10 (cont.)"
+    questions_covered: "Questions 110 - 115"
+    duration: "00:42:55"
+    key_themes: ["Worship ('ibadah) vs respect (sujud al-tahiyyah)", "Invalidity of Taymiyyan conditions for tawassul (alive and present)", "Hadith of the Blind Man and Uthman ibn Hunayf", "Umar's tawassul via al-Abbas", "Calling the Prophet in Tashahhud"]
+
+  - playlist_index: 102
+    source_id: yt-rekslgPKZKc
+    review_number: "REVIEW 11 (END OF BOOK)"
+    questions_covered: "Questions 115 - 127"
+    duration: "00:47:47"
+    key_themes: ["Ibn Umar's 'ya Muhammad' in al-Kalim al-Tayyib", "Al-Albani's textual alteration exposed", "Grammar of al-Mustaghath bihi (Ibn Hisham)", "Bilal ibn al-Harith at the grave (Ibn Kathir authentication)", "Prophet Ibrahim calling the dead birds", "Permissibility of Qur'anic amulets (Abdullah ibn Amr)", "Reciting Ya-Sin over the deceased"]
+
+total_review_questions_completed: 127
+final_status: "COMPLETE_AND_VERIFIED"
