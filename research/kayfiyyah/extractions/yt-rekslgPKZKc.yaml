@@ -1,0 +1,214 @@
+source_id: yt-rekslgPKZKc
+moves:
+  - move_id: M01
+    timestamp: "00:03:28-00:03:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: TW-WH-C05
+    move_type: critique
+    quote: "the devast. evidence in that Alani actually perverted the Hadith and he removed the word yah from the narration which is the calling particle he removed it from IB Tamia's book we can't remove it from all the other places where it's"
+    summary_en: "Exposes al-Albani's censorship of Ibn Taymiyyah's al-Kalim al-Tayyib, where he expunged the calling particle 'ya' from Ibn Umar's narration to obscure evidence of calling the Prophet."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah (al-Kalim al-Tayyib)"
+        timestamp: "00:01:17"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:06:44-00:07:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: turnabout
+    reported: false
+    answers: TW-WH-C05
+    move_type: turnabout
+    quote: "it from I'd say to that wahabi that's a horrible answer how come you will permit this answer for ibar . and you won't permit it for anybody else who does who says the exact same words so anyone who else who says yeah Muhammad after the prophet's death you're going to tell him he committed sh and he's cir"
+    summary_en: "Exposes the double standard of claiming Ibn Umar merely intended to 'summon the Prophet in his heart' while charging ordinary Muslims who utter the exact same words with shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:11:28-00:11:59"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: linguistic-analysis
+    quote: "the. one whom you call for seeking his help is called here ibam defined it he said it is every name called for relief from trouble or for assistance in repelling difficulty so that's what ibar"
+    summary_en: "Cites Ibn Hisham's grammatical definition of al-Mustaghath bihi (the one whose aid is invoked) to prove that seeking assistance through created beings is an established linguistic category."
+    evidence_cited:
+      - as_said: "Ibn Hisham (Sharh Qatr an-Nada)"
+        timestamp: "00:10:01"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:20:58-00:21:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: TW-WH-C06
+    move_type: text-proof
+    quote: "authentic he's saying the report is authentic that's how they authenticate the report they don't just say the chain of narration is authentic okay have a nice day as for the the story there throw that in the trash but the chain is really fine go and take it take this Chain break the report away throw the report away just keep the chain memorize that chain and be happy with it all the way up until from Malik it's"
+    summary_en: "Affirms that Ibn Kathir authenticating the chain of narration (isnad sahih) for the report of Bilal ibn al-Harith at the grave authenticates the narrative itself according to hadith methodology."
+    evidence_cited:
+      - as_said: "Ibn Kathir (al-Bidayah wan-Nihayah)"
+        timestamp: "00:19:28"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:22:09-00:22:38"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: defense
+    reported: false
+    answers: TW-WH-C06
+    move_type: defense
+    quote: "dreams so you say to him that's besides the point nobody said that the evidence is in the dream the evidence is in what the companion did without anyone objecting to him not even Omar and we know who Omar is. we know his strictness when it comes to obeying"
+    summary_en: "Refutes the objection that dreams carry no legal weight, clarifying that the evidence lies in the companion Bilal's physical deed at the grave and the silent consensus of Umar and the Sahabah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:24:39-00:25:17"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: reductio
+    reported: false
+    answers: null
+    move_type: reductio
+    quote: "their objection then if a wahhabi told me their silence to what he did was their objection to him then I'd say to that wahhabi then be silent you why are you talking and that really should shut him up there because he doesn't even realize how he set himself. up there and then you can build on that that's not how the prophet s. wasam taught us how to"
+    summary_en: "Reductio ad absurdum against the claim that the companions objected through silence, noting that Islamic law obligates verbal denunciation of actual idolatry."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:25:51-00:26:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: IB-WH-C02
+    move_type: definition
+    quote: "making supplication praying to God is worship is the meaning of this Hadith Dua here doesn't mean. merely calling yes Dua has the meaning of n calling like oh that's called n calling and you can call it Dua calling but when the prophet s. wasam"
+    summary_en: "Explains that the hadith 'ad-du'a'u huwa al-'ibadah' defines supplication directed to Allah in divine worship, not mundane calling (nida') or linguistic invocation."
+    evidence_cited:
+      - as_said: "Hadith 'ad-du'a'u huwa al-'ibadah'"
+        timestamp: "00:25:40"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:29:52-00:30:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: IB-WH-C02
+    move_type: text-proof
+    quote: "them then call them oh Abraham. and then all their pieces will come back to you that was the miracle of ibim so he called the dead wab is not going to call him a cfir for that or mush and also he called the absent"
+    summary_en: "Cites the Qur'anic narrative of Prophet Ibrahim calling upon the dead birds and calling the absent from Mount Abu Qubays to prove calling the deceased or absent is not inherently shirk."
+    evidence_cited:
+      - as_said: "Surah al-Baqarah 2:260"
+        timestamp: "00:29:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:33:18-00:33:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: ta'wil
+    reported: false
+    answers: null
+    move_type: ta'wil
+    quote: "a moron so the M here in this Ayah the dead those are the mushriks who are alive. Allah likened them to dead ones not that they were really dead they were alive you don't make them hear oh Muhammad those dead ones you don't make them hear those ones who are alive that you're calling them to"
+    summary_en: "Interprets Surah an-Naml 27:80 ('innaka la tusmi'u al-mawta') as a metaphor for living polytheists who refuse to accept guidance, refuting the claim that the deceased cannot hear."
+    evidence_cited:
+      - as_said: "Surah an-Naml 27:80"
+        timestamp: "00:32:08"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:40:03-00:40:26"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: TM-WH-C01
+    move_type: historical-proof
+    quote: "did not reach puberty among his children those who weren't big enough yet to say it for themselves he wrote it and hung it on their necks uh that's sahabi and we have here commentaries of the scholars who validated that uh an nawi Imam Malik Salah."
+    summary_en: "Cites the practice of the Sahabi Abdullah ibn Amr writing Qur'anic verses and supplications to hang around the necks of children, validated by Imam Malik, an-Nawawi, and Ibn al-Salah."
+    evidence_cited:
+      - as_said: "Sunan at-Tirmidhi (Abdullah ibn Amr)"
+        timestamp: "00:39:26"
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:45:40-00:46:08"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: turnabout
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "that prove reciting Quran over the dead so he might say some of the explain these hadiths they mean to recite over the one who's dying he's not. dead yet so you might say to that wahhabi why would it just turn all of a sudden into worship let's say I'm reciting over this Muslim he's dying if I'm reciting Quran while he's dying he's still alive though"
+    summary_en: "Cites the prophetic command 'iqra'u 'ala mawtakum Ya-Sin' (recite Ya-Sin over your dead) and dismantles the arbitrary claim that reciting Qur'an over the deceased constitutes idolatry."
+    evidence_cited:
+      - as_said: "Hadith 'iqra'u 'ala mawtakum Ya-Sin'"
+        timestamp: "00:45:31"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: TW-WH-C05
+    summary_en: "The narration of Ibn Umar saying 'ya Muhammad' is weak, or he merely intended to summon the Prophet in his thoughts without vocalized calling."
+    first_seen: M01
+
+  - id: TW-WH-C06
+    summary_en: "The report of the companion seeking rain at the Prophet's grave during the famine under Umar is inauthentic or relies on invalid evidence from dreams."
+    first_seen: M04
+
+  - id: IB-WH-C02
+    summary_en: "The hadith 'ad-du'a'u huwa al-'ibadah' proves that every vocalized call directed toward a non-present or deceased created entity is acts of worship."
+    first_seen: M07
+
+  - id: TM-WH-C01
+    summary_en: "Wearing written Qur'anic verses or prophetic supplications for protection (hirz/ruqyah) constitutes forbidden amulets (tama'im) and shirk."
+    first_seen: M10
+
+counter_questions:
+  - id: CQ-TW-04
+    summary_en: "Why do you permit the excuse of 'summoning in the heart' exclusively for Ibn Umar while charging ordinary Muslims who say the exact same words with shirk?"
+    used_in: M02
+
+  - id: CQ-IB-02
+    summary_en: "When Prophet Ibrahim called upon the dead birds and addressed the absent humanity for Hajj, was he engaging in polytheistic worship?"
+    used_in: M08
+
+  - id: CQ-TM-01
+    summary_en: "Did the companion Abdullah ibn Amr and classical authorities like Imam Malik and an-Nawawi sanction major shirk by permitting Qur'anic amulets for children?"
+    used_in: M10
+
+debate_tips:
+  - timestamp: "00:16:11"
+    quote: "here so this is important issue here if you want to have pure a some people it's not their concern so I remind you and I remind myself to let your concern to have a pure AA pure pure AA don't you want to have. money no Haram money zero Haram money right yes don't you want to have uh lawful relationship with your spouse"
+    summary_en: "Prioritize sound, unadulterated creed ('aqidah) above all else, ensuring complete freedom from sectarian innovations and anthropomorphic deviations."
+
+  - timestamp: "00:35:37"
+    quote: "question yes or no or is the answer for the question some elaboration it's this way or that way so just like if I don't want to accept for someone to ask me uh if I don't want if I don't accept for someone. to dodge my answer when I say to him a question a question I want to hear from him yes"
+    summary_en: "Dissect questions carefully to determine whether they demand a direct yes/no response or conceptual elaboration, applying the same fairness you expect from interlocutors."
+
+  - timestamp: "00:46:57"
+    quote: "any evidence there's no need for us to take this alternative interpretation cuz there's no need for this interpretation this alternative interpretation has no need by that we have completed how to debate the so-called salaf and we completed all the review questions there"
+    summary_en: "Reject strained figurative reinterpretations invented solely to escape textual counter-proofs when the apparent meaning is sound and grounded in scholarly consensus."

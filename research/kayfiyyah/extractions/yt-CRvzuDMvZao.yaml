@@ -1,0 +1,208 @@
+source_id: yt-CRvzuDMvZao
+moves:
+  - move_id: M01
+    timestamp: "00:05:53-00:06:16"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: IS-WH-C01
+    move_type: turnabout
+    quote: "same reasoning to avoid the words Rose over. since that means that he was not the highest and then he had to overcome that and become the highest that would mean the throne was higher than him and then after he wasn't the highest he became the highest"
+    summary_en: "Turnabout challenging why the opponent avoids istila' on grounds of struggle but accepts 'rose over', which would imply Allah was not the highest until overcoming the Throne."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:08:50-00:09:14"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: defense
+    reported: false
+    answers: null
+    move_type: defense
+    quote: "the reason the arush was mentioned in particular is because the arush has a special status it does have a special status the has a special status it's the largest creation of Allah tala"
+    summary_en: "Affirms that the Throne is singled out because it is the largest of all creations, signifying that if the greatest entity is subjugated, all else is subordinate."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:14:01-00:14:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: IS-WH-C02
+    move_type: text-proof
+    quote: "there was never a god with him had that been the case then every God would have taken what it created and some of them would have Rose over others and some of them would have Rose over others what does that mean."
+    summary_en: "Cites Surah al-Mu'minun 23:91 to demonstrate that the verb 'ala with the preposition 'ala denotes supremacy and domination rather than physical ascent."
+    evidence_cited:
+      - as_said: "Surah al-Mu'minun 23:91"
+        timestamp: "00:14:01"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:20:44-00:21:06"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: hermeneutic
+    quote: "because the scholar if he even wrote that if what's there is what he really wrote a scholar could make a mistake and also. uh his book could be tampered with there"
+    summary_en: "Explains that non-compliant passages in classical texts represent either an uncharacteristic slip by the scholar or subsequent scribal corruption and tampering."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:26:49-00:27:18"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: LG-WH-C01
+    move_type: principle
+    quote: "them well it seems you're ignorant because the scholars of language always cite lines of poetry that they don't know who said it as. as long as it's confirmed for them that it's from the old Arabs"
+    summary_en: "States that classical lexicographers routinely cited poetic shawāhid of anonymous attribution provided the poetry was authenticated to the pre-Islamic or early Arab era."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:29:01-00:29:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: defense
+    reported: false
+    answers: LG-WH-C01
+    move_type: defense
+    quote: "that's not true as long as it's confirmed that his speech came from the time of the old Arabs which that's the"
+    summary_en: "Clarifies that linguistic evidence from classical poets is authoritative based on historical era and linguistic purity, regardless of the poet's Christian faith."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:30:08-00:30:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: distinction
+    quote: "meanings a physical meaning and a majestic meaning y a literal meaning and a figurative meaning the literal meaning is a physical highness a physical position the figurative meaning is statistical meaning that means status."
+    summary_en: "Distinguishes between spatial elevation and majestic highness of status when interpreting texts attributing highness ('uluww) to Allah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:31:58-00:32:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "L they are susceptible to figurative meanings let's look at some references we have imzi gave the 26th verse ofat as an example of without the meaning of"
+    summary_en: "Cites Imam ar-Razi's reference to Surah at-Tawbah 9:26 to show that 'anzala' is used for the descent of serenity (as-Sakinah) without physical relocation."
+    evidence_cited:
+      - as_said: "Surah at-Tawbah 9:26"
+        timestamp: "00:31:58"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:35:11-00:35:35"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: hermeneutic
+    quote: "say but alari narrated this and his book is second only to the book of Allah so that's easy one same thing they say with Muslim like we covered in the Hadith of the slavery. girl we're going to say to them yes he narrated The Hadith but he didn't explain the Hadith the Hadith"
+    summary_en: "Points out that al-Bukhari compiled the hadith of descent without asserting literal physical relocation, directing to classic commentaries like Fath al-Bari."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari"
+        timestamp: "00:35:11"
+      - as_said: "Fath al-Bari"
+        timestamp: "00:35:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:44:36-00:45:04"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: explanation
+    reported: false
+    answers: NZ-WH-C01
+    move_type: linguistic-analysis
+    quote: "ordered to descend he was also ordered to call out and convey from Allah let's underline that word he's conveying from Allah it's as if the angel says oh people your Lord says."
+    summary_en: "Explains that the first-person pronouns in the descent hadith represent an appointed angel conveying divine speech verbatim on Allah's behalf."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:54:36-00:55:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: hermeneutic
+    reported: false
+    answers: null
+    move_type: theological-principle
+    quote: "you did not throw when you threw rather Allah threw so what does it mean it means you did not"
+    summary_en: "Cites Surah al-Anfal 8:17 to show that actions enacted through created causes are attributed to Allah in terms of ultimate creation and command."
+    evidence_cited:
+      - as_said: "Surah al-Anfal 8:17"
+        timestamp: "00:54:36"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IS-WH-C01
+    summary_en: "Conquering (istila') is unbefitting for Allah because it implies a preceding struggle or lack of control."
+    first_seen: M01
+
+  - id: IS-WH-C02
+    summary_en: "Whenever the verb istawa comes with the particle 'ala, it emphatically and literally means physically rising over."
+    first_seen: M03
+
+  - id: LG-WH-C01
+    summary_en: "Lines of poetry from an unknown author or a non-Muslim poet cannot be cited as linguistic evidence for Qur'anic meanings."
+    first_seen: M05
+
+  - id: NZ-WH-C01
+    summary_en: "The pronouns in the Hadith of Nuzul ('who calls Me so that I answer him') prove that Allah Himself descends rather than an angel."
+    first_seen: M10
+
+counter_questions:
+  - id: CQ-CR-01
+    summary_en: "If conquering implies struggling or not being in control before, why do you not use the same reasoning against 'rose over', which would imply He was not the highest before?"
+    used_in: M01
+
+  - id: CQ-CR-02
+    summary_en: "Why is Allah described as Rabb al-'Arsh in particular if He is the Lord and Sustainer of all creations?"
+    used_in: M02
+
+  - id: CQ-CR-03
+    summary_en: "When a translator conveys speech by saying 'I say', does that mean the translator is speaking about himself or conveying another's words?"
+    used_in: M10
+
+debate_tips:
+  - timestamp: "00:22:20"
+    quote: "saying that is means to conquer or subjugate. and we have here some proofs amongst the names of Allah is that's why if you want don't even use"
+    summary_en: "Do not hesitate to cite istila' and subjugation as established meanings of istawa among the Salaf, supported by Allah's names al-Qahir and al-Qahhar."
+
+  - timestamp: "00:39:35"
+    quote: "just like the Hadith of the slave girl then you get the proper meaning so that's why we said those who said this Hadith means The Descent of the mercies it's as if they weren't aware of the other versions"
+    summary_en: "Always gather and synthesize all textual variants of a narration before forming a theological conclusion."
+
+  - timestamp: "00:43:52"
+    quote: "shown the proof will you accept then I would say yes. and then I turned the question on them and if you are shown the proof will you accept and they never said yes that's how much tunnel vision they have so when they ask you that turn the question right"
+    summary_en: "Expose ideological obstinacy by reciprocating the demand to accept proof: agree conditionally, then ask if the opponent will likewise accept evidence."

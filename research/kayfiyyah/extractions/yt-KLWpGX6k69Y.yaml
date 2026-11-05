@@ -1,0 +1,206 @@
+source_id: yt-KLWpGX6k69Y
+moves:
+  - move_id: M01
+    timestamp: "00:13:23-00:13:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: turnabout
+    reported: false
+    answers: BD-WH-C05
+    move_type: turnabout
+    quote: "here after this point you ask him this question this requires only a yes or no so if he says no. then how would with the guided calus's introduced be Sunnah and if he says yes then he validates good Innovations so I hope that's clear so that one if you needed to take notes on that one because that's one"
+    summary_en: "Poses a decisive dilemma: if it is forbidden to introduce what the Prophet did not do, the caliphs' additions cannot be sunnah; if permissible, good innovations are validated."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:17:12-00:17:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: dilemma
+    reported: false
+    answers: BD-WH-C05
+    move_type: dilemma
+    quote: "mistake that means you're deeming them impeccable so which one they could possibly make a mistake and therefore they're not impeccable and you should only follow their sunah when it complies with the prophet Sunnah or they could never. make a mistake so say they could make a mistake it's possible and you should only follow their Sunnah when"
+    summary_en: "Exposes that claiming the caliphs could not introduce innovations makes them infallible/impeccable like the Prophet, whereas recognizing their fallibility means novel practices must be judged by compliance with divine law."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:19:18-00:19:47"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "are let's See's quote said. it was said about the dots to be disliked because it is an innovation and it was said that it's not disliked because of the need yeah put disliked there we could put"
+    summary_en: "Cites Ibn Taymiyyah's admission that adding diacritical dots to the Qur'an was an unprecedented innovation, yet deemed permissible due to necessity."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah (Majmu' al-Fatawa)"
+        timestamp: "00:19:18"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:20:37-00:21:05"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: MW-WH-C01
+    move_type: critique
+    quote: "had the M been good they would have been the first to do it that's a common one that the wahhabi say and that's really weak don't let a wahhabi get this one past you and don't sweat from this question say to him it's not everything that's good the sahaba thought of it before anyone else. so that's basically what you're saying you're saying had the M been good the sahaba would have been the first"
+    summary_en: "Refutes the universal claim 'had it been good the Sahabah would have preceded us to it', pointing out numerous universally accepted good practices they did not originate."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:21:52-00:22:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: distinction
+    reported: false
+    answers: MW-WH-C02
+    move_type: distinction
+    quote: "say acknowledging jesus' birthday by itself is not the bad thing anyway so maybe. maybe he would say so anyway that means like Christmas I'll say no it's not so if he wants to say yes it is I'll say no it's not if he wants to say yes it is I'll say it's no it's not if he says well why not then I'd say because the Christians worship Jesus and they incorporate"
+    summary_en: "Differentiates the Mawlid from Christmas, emphasizing that Christians commit shirk by worshipping Jesus, whereas the Mawlid involves permissible devotions and honoring the Prophet without deification."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:23:56-00:24:26"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: defense
+    reported: false
+    answers: MW-WH-C02
+    move_type: defense
+    quote: "just mean people that's it. standing around with their arms crossed and their their faces frowning it's like the edges of their lips are drooping below their chins that's how hard their frowns are no problem here it's not like Christmas and it's no problem with it being like no problem and this Hadith doesn't apply here do not exaggerate in my praise as the"
+    summary_en: "Affirms that gathering to recite the Prophet's seerah, share food, give gifts, and sing praises are inherently virtuous actions permissible on any day."
+    evidence_cited:
+      - as_said: "Hadith on praise (Bukhari)"
+        timestamp: "00:24:20"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:25:57-00:26:22"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: distinction
+    reported: false
+    answers: null
+    move_type: distinction
+    quote: "that's meaningless there's no point here he says what you're celebrating is death so no you're not if he says but was the same day I'll say even if it was doesn't mean he celebrating his death so if he says well what's the difference I'll say it's the intention moron it's the intention and if you were to say the Shiites were the first to practice M I'll say that's a lie"
+    summary_en: "Explains that actions are defined by their underlying intentions, just as intention differentiates between a gift (hadiyyah) and charity (sadaqah)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:30:12-00:30:36"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: turnabout
+    reported: false
+    answers: TW-WH-C01
+    move_type: turnabout
+    quote: "all those together like that and then do it this way as one thing then I'd say to him then according to you three aspects of toed is invalid so if he says how so y. now if he's a Wabi who has a bit of sense he'll know why because he's just going to take he's just going to see how I'm taking his argument and applying it to his own conviction and if he"
+    summary_en: "Applies the opponents' objection against packaging good deeds to their own tri-part division of tawhid, which is an unprecedented modern packaging of distinct textual verses."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:32:13-00:32:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "innovated we didn't ordain it on them they made it themselves they only did it for seeking Allah's acceptance. so it's good Innovation they might say uh but that was for the nation of Jesus there's no R in this nation of Muhammad the answer would be it's not the point whether there's r or not so that's famous"
+    summary_en: "Cites Surah al-Hadid 57:27 where Allah praises the followers of Jesus for innovating monasticism seeking divine pleasure, establishing the scriptural precedent for good innovation."
+    evidence_cited:
+      - as_said: "Surah al-Hadid 57:27"
+        timestamp: "00:32:05"
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:35:12-00:35:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: TW-WH-C01
+    move_type: theological-proof
+    quote: "wouldn't have to go back and say so that proves that the and the are the same and when the Angels question you in the grave and they say who's your lord they don't go back and say. and by the way who's your god cuz when you said who's your lord you said who's your god in"
+    summary_en: "Proves that rububiyyah and uluhiyyah are doctrinally synonymous: the Shahadah requires only affirming Allah's Godhead, and the questioning in the grave asks only 'Who is your Lord?'."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:35:57-00:36:23"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: TW-WH-C01
+    move_type: text-proof
+    quote: "she said Allah so how did you split them into two it's because you're an innovator you are the innovator Wabi yeah it sounds like Trinity yes it does well let's stop there."
+    summary_en: "Points out that variant narrations of the slave girl hadith use Rabb and Ilah interchangeably, refuting the artificial sectarian bifurcation of tawhid."
+    evidence_cited:
+      - as_said: "Hadith of the slave girl (variants)"
+        timestamp: "00:35:34"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: BD-WH-C05
+    summary_en: "Additions by the four rightly-guided caliphs are sunnahs rather than innovations because the Prophet commanded adherence to their sunnah."
+    first_seen: M01
+
+  - id: MW-WH-C01
+    summary_en: "Had celebrating the Mawlid been good, the Sahabah would have preceded everyone to it since they loved the Prophet the most."
+    first_seen: M04
+
+  - id: MW-WH-C02
+    summary_en: "Celebrating the Prophet's birthday is an innovation resembling Christmas and constitutes impermissible exaggeration in praising him."
+    first_seen: M05
+
+  - id: TW-WH-C01
+    summary_en: "Tawhid is fundamentally divided into three independent categories: rububiyyah, uluhiyyah, and asma' wa sifat."
+    first_seen: M08
+
+counter_questions:
+  - id: CQ-BD-04
+    summary_en: "Is it permissible in religion to introduce an act that the Prophet did not do?"
+    used_in: M01
+
+  - id: CQ-MW-01
+    summary_en: "If the Sahabah preceded us to all good matters, why did they not add diacritical dots and vowels to the Qur'an?"
+    used_in: M04
+
+  - id: CQ-TW-01
+    summary_en: "When the angels question a deceased person in the grave by asking 'Who is your Lord?', why do they not also ask 'Who is your God?'"
+    used_in: M10
+
+debate_tips:
+  - timestamp: "00:18:27"
+    quote: "there's moves. is aren't there they require combinations right yeah that's basically that's what this is a combo this argument here is a combo so when you got him in the right position then you hit him with your combo that means needs two three four sentences some setup some something like this then what you got him then bang bang bang bang so while you're trying to set your combo up there he's gonna try to get out of there uh"
+    summary_en: "Structure multi-step theological dilemmas like a martial arts combination: set up premises methodically so the opponent cannot escape the logical conclusion."
+
+  - timestamp: "00:26:22"
+    quote: "yes don't be afraid to tell him to show you his documents a lot of times you're going to be afraid to ask him for his reference because he's gonna give you something maybe you're afraid he'll give you something okay let me see what you have it's like brothers and sisters when I said right here what made the"
+    summary_en: "Never shy away from demanding an opponent produce their classical citations and textual evidence when they make historical or sectarian assertions."
+
+  - timestamp: "00:33:07"
+    quote: "if you're not aware of how to deal with wahhabi that's how it's going to take you right off your argument it's not about the r it's about for good Innovation whatever it was so practice staying focused brothers and sisters and I remind myself I always practice staying focused and. lessons I'm always telling you stay focused don't let someone take you off etc etc uh repeat yourself if you"
+    summary_en: "Maintain disciplined focus on the underlying theological principle being proven rather than getting pulled into tangential arguments about specific historical examples."

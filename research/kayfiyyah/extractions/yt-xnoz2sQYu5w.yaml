@@ -1,0 +1,208 @@
+source_id: yt-xnoz2sQYu5w
+moves:
+  - move_id: M01
+    timestamp: "00:04:15-00:04:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: HD-WH-C01
+    move_type: principle
+    quote: "from the book or the Sunnah for indeed that is a foundation of blasphemy and that's what's meant when Allah tal says. Allah misguides many by the"
+    summary_en: "Cites the scholarly maxim that following apparent meanings of ambiguous texts is a foundation of blasphemy, referencing Surah al-Baqarah 2:26."
+    evidence_cited:
+      - as_said: "Surah al-Baqarah 2:26"
+        timestamp: "00:04:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:05:57-00:06:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: distinction
+    reported: false
+    answers: null
+    move_type: distinction
+    quote: "without me determining or. without anyone or having to without having to determine exactly what it means but it doesn't mean the apparent meaning though when we say and this is important when we say here in this context Allah knows what it means"
+    summary_en: "Explains that non-specific tafwid affirms the wording while explicitly negating the apparent anthropomorphic meaning."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:08:28-00:09:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: HD-WH-C02
+    move_type: definition
+    quote: "hand f. and I in a literal sense those are concrete nouns concretes that means their literal the literal sense of them is something physical is something composed is a created object concrete now but knowledge power will these are not objects"
+    summary_en: "Differentiates concrete bodily nouns from abstract attributes like knowledge and power which do not entail physical composition."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:14:36-00:14:58"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: hermeneutic
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "and others said this verse was put forth to an to approximate an understanding so us means it was put forth it was given a flow and it was given a wording a phrasing it was."
+    summary_en: "Cites Ibn Hajar in Fath al-Bari explaining that 'bi-yadayya' was framed as an approximation for human understanding, not a literal assertion of limbs."
+    evidence_cited:
+      - as_said: "Fath al-Bari"
+        timestamp: "00:14:36"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:18:59-00:19:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: explanation
+    reported: false
+    answers: null
+    move_type: linguistic-analysis
+    quote: "important or delicate now this is not likening Allah to the Creations only if you take it literally as likening Allah to the Creations because we're saying it doesn't mean real to real hands so it's not like Creations it means the importance and status of Adam"
+    summary_en: "Explains that engaging an object with both hands signifies high importance and special care, symbolizing Adam's unique nobility rather than bodily hands."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:21:53-00:22:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "to Allah that was more difficult for you when it came to the one who's not. like the Creations that was more difficult for you here's their translation from what they call the noble Quran translation they have copy paste they said and remember our slaves ibim ishak and yakob all owners of strength and worshiping"
+    summary_en: "Exposes the opponents' inconsistency in interpreting 'hands' figuratively as strength for the prophets in 38:45 while insisting on literal limbs for Allah."
+    evidence_cited:
+      - as_said: "Surah Sad 38:45"
+        timestamp: "00:21:53"
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:24:10-00:24:36"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: HD-WH-C03
+    move_type: principle
+    quote: "dual form is not off limits to figurative speech neither the singular form nor the Dual form nor the plural forms of words are off limits. to figurative speech"
+    summary_en: "Refutes the notion that dual forms cannot be metaphorical in Arabic, showing that dual, singular, and plural nouns all admit figurative usages."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:26:15-00:26:41"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: HD-WH-C03
+    move_type: text-proof
+    quote: "between the two hands of his mercy so his Mercy has two hands no Wabi really should be stumped with this one that's good one I think I never used it on a. Happ though but I can't reckon what's going to say that's strong if you give him this Ayah and as for this"
+    summary_en: "Cites Surah al-A'raf 7:57 where winds are 'between the two hands of His mercy', proving dual hands is used figuratively for concepts without limbs."
+    evidence_cited:
+      - as_said: "Surah al-A'raf 7:57"
+        timestamp: "00:26:15"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:26:41-00:27:08"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: null
+    move_type: reductio
+    quote: "Hadith they say it means both of his hands are right hands I'd say to a wahhabi so right there what you just said right there out of your mouth should be enough for you that for you to. think twice about your situation cuz you want to convince me that God has two hands and both of them"
+    summary_en: "Highlights that narrations describing both divine hands as right hands demonstrate a metaphorical affirmation of honor rather than physical anatomical hands."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:30:37-00:31:04"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: null
+    move_type: grammatical-proof
+    quote: "goes back to so what does mean it means actually the self of your lord or if I flip those words around your lord himself your your lord. himself"
+    summary_en: "Provides grammatical proof from Surah ar-Rahman 55:27 that wajh denotes Allah Himself, as the nominative adjective dhu agrees in case with wajh rather than the genitive rabbik."
+    evidence_cited:
+      - as_said: "Surah ar-Rahman 55:27"
+        timestamp: "00:30:37"
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:35:51-00:36:17"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: SP-WH-C01
+    move_type: theological-principle
+    quote: "with his eternal speech that's not a language and with this eternal. speech He commands for something to be and he commands it in eternity not in time like not that he's going to command something tomorrow and he wasn't commanding it whatever is going to exist tomorrow not that he's going"
+    summary_en: "Explains that kun fa-yakun reflects divine command through uncreated eternal speech without temporal sounds or delay."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: HD-WH-C01
+    summary_en: "The Qur'an explicitly states that Allah has two hands because the word yad appears in the dual form bi-yadayya and yadahu."
+    first_seen: M01
+
+  - id: HD-WH-C02
+    summary_en: "If one affirms divine attributes like knowledge and power, one must equally affirm face, hand, and eye in their apparent literal meanings."
+    first_seen: M03
+
+  - id: HD-WH-C03
+    summary_en: "The dual form in Arabic is strictly literal and off-limits to metaphorical or figurative interpretation."
+    first_seen: M07
+
+  - id: SP-WH-C01
+    summary_en: "The divine command 'Kun' (Be) consists of sequential letters and sounds uttered whenever Allah creates an entity in time."
+    first_seen: M11
+
+counter_questions:
+  - id: CQ-HD-01
+    summary_en: "If you interpret 'hands' figuratively as strength for the prophets in Surah Sad 38:45, why do you forbid figurative interpretation for Allah?"
+    used_in: M06
+
+  - id: CQ-HD-02
+    summary_en: "Does the mercy of Allah possess two physical hands when Surah al-A'raf 7:57 mentions winds appearing 'between the two hands of His mercy'?"
+    used_in: M08
+
+  - id: CQ-HD-03
+    summary_en: "If both hands of Allah are described as right hands, does that not demonstrate a metaphorical expression of nobility rather than physical symmetry?"
+    used_in: M09
+
+debate_tips:
+  - timestamp: "00:12:47"
+    quote: "would say what's right so going to correct your intention maybe you don't think he will listen to you but maybe he will who knows correct your intention I remind myself try to convince. him but if you can't do that then I say silence him silence him and whenever you silence him be silent"
+    summary_en: "Strive first to guide and convince your interlocutor, but if they persist obstinately, silence them with clear proof and remain silent to observe their reaction."
+
+  - timestamp: "00:17:12"
+    quote: "whenever you have a figurative meaning then the words that are there. that are not to be taken literally they should have some significance to the figurative meaning you're getting at"
+    summary_en: "Maintain semantic coherence in metaphorical interpretation so that figurative usages correspond directly to the contextual phrasing."
+
+  - timestamp: "00:19:49"
+    quote: "to it so that wahabi then he's going to be like I don't know there you're not convincing me. so then all right it should be enough for you that Allah has not liked the Creations but you can't understand that so you're not still not going to stop so now I'm going to silence you"
+    summary_en: "When an opponent ignores universal rational axioms of divine transcendence, proceed directly to silencing them using textual counter-proofs."

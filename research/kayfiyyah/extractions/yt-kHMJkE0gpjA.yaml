@@ -1,0 +1,206 @@
+source_id: yt-kHMJkE0gpjA
+moves:
+  - move_id: M01
+    timestamp: "00:03:22-00:03:50"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: distinction
+    reported: false
+    answers: IB-WH-C01
+    move_type: distinction
+    quote: "that's not the point whether it's permissible or it's not permissible to do that the prophet didn't say he committed sh. didn't call him a whole cafir so if he says that what if he says that it's forbidden to prostrate to a man in the law of Muhammad then you say that's besides the point it's not the issue and"
+    summary_en: "Differentiates between a sinful prostration of respect and idolatrous worship, noting that the Prophet forbade prostrating to humans without declaring the companion an apostate."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:06:50-00:07:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: explanation
+    reported: false
+    answers: null
+    move_type: analogy
+    quote: "it more likely it has a reason it has a goal it has an end a reason or point he . he's saying it's like the Wabi saying what's even the point to do it you might it's it's pointless it's not pointless it has the point makes it more likely for you to get what you're seeking then we say"
+    summary_en: "Explains that seeking an intermediary (tawassul) is an established means that increases the likelihood of supplication being answered, analogous to taking medicine or locking doors."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:12:35-00:13:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: TW-WH-C02
+    move_type: text-proof
+    quote: "every condition or any condition that is not in the book of Allah is invalid even if it were a 100 conditions so you can't just go around making up conditions so what's the condition that they put they said that the one you're making by is alive. and present what's your evidence wahabi he says because or else it's worship tell him that's not an Evidence that's"
+    summary_en: "Cites the legal hadith invalidating conditions not grounded in divine revelation, rejecting the fabricated restriction that tawassul requires the intermediary to be alive and present."
+    evidence_cited:
+      - as_said: "Hadith on conditions (Bukhari/Muslim)"
+        timestamp: "00:12:35"
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:15:45-00:16:10"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: TW-WH-C02
+    move_type: text-proof
+    quote: "this Dua and then the one who was telling the story The Companion who was telling this story about what happened with the blind man and the prophet he said it hadn't been long when the blind man came back . back to us with his vision restored when the man came back to us with his vision restored as if he had never been blind so that part of the Hadith proves that you can make toas by someone who's"
+    summary_en: "Cites the Hadith of the Blind Man to prove that supplication through the Prophet was performed in his physical absence, refuting the condition of physical presence."
+    evidence_cited:
+      - as_said: "Hadith of the Blind Man"
+        timestamp: "00:14:03"
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:20:51-00:21:28"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: TW-WH-C03
+    move_type: critique
+    quote: "a reason to if he has a reason to then he would do it. in other words we're saying to you ohab just because did not do something doesn't mean that what he didn't do is Haram that's what you're saying that's the Twisted Mind of a wahhabi that's how you can't let the"
+    summary_en: "Refutes the flawed deduction that Umar making tawassul through al-Abbas proves supplication through the deceased Prophet is forbidden; a companion choosing one permissible act does not prohibit another."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:27:25-00:27:57"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: explanation
+    reported: false
+    answers: TW-WH-C03
+    move_type: historical-proof
+    quote: "the fact that he made by Al abas doesn't prove that he didn't make by the prophet because he died his doing it by Al abas is doesn't mean he didn't do it by the prophet because the prophet died it just means that he made a decision for some reason for something that he saw he made a decision"
+    summary_en: "Clarifies that Umar's tawassul via al-Abbas was explicitly to demonstrate honor for the Prophet's family and status, not due to the impermissibility of supplication via the deceased Prophet."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:31:12-00:31:36"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: TW-WH-C04
+    move_type: text-proof
+    quote: "permissible to ask the dead or call upon the dead so you give him proof that what about in The Prayer in the don't you say peace be upon you oh Prophet that's calling the dead right there. in the prayer so how you say you can't call someone who died so then he's going to move the"
+    summary_en: "Cites the confirmed wording of the Tashahhud ('as-salamu 'alayka ayyuha an-Nabiyyu') recited in daily prayers as conclusive evidence that addressing the Prophet after death is not polytheism."
+    evidence_cited:
+      - as_said: "Tashahhud in prayer"
+        timestamp: "00:31:12"
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:33:43-00:34:12"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: TW-WH-C04
+    move_type: tactic
+    quote: "because you cornered him he moved the goal post there so you tell him well that's not my question though is it permissible to call upon the dead to ask him for something that's not my question my question is and you might need to. to just remind him of the proofs in light of the T which is confirmed you can't call anybody a mush for saying confirmed tah even if there were a version of the tah that doesn't say oh Prophet there"
+    summary_en: "Exposes the opponent's goalpost shifting: when confronted with the Tashahhud and the Hadith of the Blind Man, they shift from claiming calling the dead is shirk to claiming asking them for something is shirk."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:37:38-00:38:01"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: null
+    move_type: critique
+    quote: "this is sh too unless that one were alive and present told no it's not kufur what's wrong with you you're an extremist to deem a person cfir because he called someone who's not in his presence or because he called someone who passed away that was enough for you to demon. a whole cir you're an"
+    summary_en: "Condemns the extremism of making takfir against Muslims merely for calling upon an absent or deceased person without any belief or intention of divine worship."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:40:03-00:40:26"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: definition
+    reported: false
+    answers: IB-WH-C01
+    move_type: definition
+    quote: "words he said calling without intention of worship is considered what is considered normal behavior absolutely normal behavior hey yo hey hey yo come here that's what that's is calling somebody or you went to grave for example and he said uh oh my dead relative."
+    summary_en: "Clarifies that linguistically calling (nida') without the intention of divine adoration or attribution of creation is mundane human communication, not worship ('ibadah)."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:41:22-00:41:56"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: turnabout
+    reported: false
+    answers: null
+    move_type: turnabout
+    quote: "this book it's weak though so even if it were weak. I Tam said it's a good word though did Tam commit kufur here for deeming good according to you here he has no way out he said is that book trustworthy or should we stay away the book of uh I Tamia you don't need it we're just citing it to to crush a wahabi it's not because we want"
+    summary_en: "Cites Ibn Taymiyyah's inclusion of Ibn Umar's narration ('ya Muhammad') in al-Kalim al-Tayyib, demanding whether Ibn Taymiyyah committed shirk by recording and praising it as a good word."
+    evidence_cited:
+      - as_said: "Ibn Taymiyyah (al-Kalim al-Tayyib)"
+        timestamp: "00:40:54"
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: IB-WH-C01
+    summary_en: "Any act of prostration or calling upon a created being constitutes worship ('ibadah) and major shirk by definition."
+    first_seen: M01
+
+  - id: TW-WH-C02
+    summary_en: "Tawassul is only valid through a righteous person who is physically alive and present; doing so through the deceased or absent is shirk."
+    first_seen: M03
+
+  - id: TW-WH-C03
+    summary_en: "Umar making tawassul through al-Abbas proves that supplication through the deceased Prophet is strictly forbidden."
+    first_seen: M05
+
+  - id: TW-WH-C04
+    summary_en: "Calling upon or addressing the dead is inherently polytheism (shirk) in Islamic theology."
+    first_seen: M07
+
+counter_questions:
+  - id: CQ-IB-01
+    summary_en: "When a man prostrated before the Prophet, why did the Prophet not declare him a mushrik or order him to renew his Islam?"
+    used_in: M01
+
+  - id: CQ-TW-02
+    summary_en: "Where in the Qur'an or Sunnah is there an authentic text stating that an intermediary in tawassul must be physically alive and present?"
+    used_in: M03
+
+  - id: CQ-TW-03
+    summary_en: "If addressing the deceased is polytheism, why do all Muslims address the deceased Prophet directly in every daily prayer ('as-salamu 'alayka ayyuha an-Nabiyyu')?"
+    used_in: M07
+
+debate_tips:
+  - timestamp: "00:03:50"
+    quote: "we're going to see here always beware of a wahabi reaching for something beside the point we saw an example last time we. we talked about the Ayah of the good Innovation done by the followers of"
+    summary_en: "Remain vigilant against opponent deflections that reach for peripheral legal rulings to derail theological arguments on shirk and innovation."
+
+  - timestamp: "00:25:48"
+    quote: "to prove something he's implying and not saying don't ask him to prove something that he didn't really say and he's just kind of hinting. at it he might say to you well I never said that or something like this and you're going to say what but you that's what it means when you said to me and then you don't want to go"
+    summary_en: "Never ask an opponent to prove an unstated implication or insinuation; only demand proof for explicit claims they have stated to keep debate control."
+
+  - timestamp: "00:30:48"
+    quote: "the goalpost as they say it means he asks you a question your answer puts the ball right in the goal but. but he doesn't want the ball to be in the goal so he's going to move the goal post so that your ball won't be in there and he's going to say it's not permissible to call on the dead to ask him for for something that's not how he said it first though first going to say it's not"
+    summary_en: "Identify and immediately call out moving the goalposts when an interlocutor shifts their definitions after their initial objection has been answered."

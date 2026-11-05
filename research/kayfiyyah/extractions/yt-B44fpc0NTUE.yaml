@@ -1,0 +1,204 @@
+source_id: yt-B44fpc0NTUE
+moves:
+  - move_id: M01
+    timestamp: "00:06:59-00:07:29"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: BD-WH-C01
+    move_type: principle
+    quote: "companions will say to but the word whoever is General though you don't have any evidence to say that whoever here is only for the companions"
+    summary_en: "Affirms that the conditional pronoun 'man' (whoever) in the hadith of sunnah hasanah is universal and cannot be arbitrarily restricted to the Sahabah without textual evidence."
+    evidence_cited:
+      - as_said: "Sahih Muslim"
+        timestamp: "00:01:41"
+    responds_to: null
+    confidence: high
+
+  - move_id: M02
+    timestamp: "00:08:38-00:09:00"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: consistency
+    reported: false
+    answers: BD-WH-C01
+    move_type: consistency
+    quote: "there just like say Sunnah in the other part that's what you said that you're going to be consistent I'm going to be consistent are you going to be consistent so I'm going to say here Sunnah in the first part doesn't mean Sunnah of the Prophet like it doesn't mean that in the second part of the Hadith."
+    summary_en: "Exposes the opponent's inconsistency: if sunnah in the first half meant the Prophet's practice, the second half (sunnah sayyi'ah) would absurdly mean an evil prophetic practice."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M03
+    timestamp: "00:13:20-00:13:46"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: defense
+    reported: false
+    answers: null
+    move_type: linguistic-analysis
+    quote: "wahhabi a wahhabi baby doesn't matter if the word's not there the meaning is clear."
+    summary_en: "Dismisses the objection that the literal root bid'ah is absent from the hadith, explaining that sanna sunnatan linguistically denotes initiating an unprecedented pathway."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M04
+    timestamp: "00:15:19-00:15:42"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: distinction
+    reported: false
+    answers: BD-WH-C02
+    move_type: distinction
+    quote: "it means and they basically mean the same thing either it means most Innovations are misguidance. so K means most or it means every Innovation that doesn't comply with the rules of the religion so then"
+    summary_en: "Presents the classical Sunni reconciliations of 'kullu bid'atin dalalah': either kull denotes 'most' as an 'amm makhsus, or it is restricted to innovations conflicting with the Shari'ah."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M05
+    timestamp: "00:19:58-00:20:27"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: hermeneutic
+    reported: false
+    answers: null
+    move_type: text-proof
+    quote: "Hadith is whoever makes something happen in this affair of ours that is from it then it's not rejected That's What's Understood from that understood means not stated you have two things what's pronounced and whom What's Understood sometimes you"
+    summary_en: "Applies mafhum al-mukhalafah to Aisha's hadith, demonstrating that innovating what complies with religious principles is accepted rather than rejected."
+    evidence_cited:
+      - as_said: "Hadith of Aisha (Bukhari/Muslim)"
+        timestamp: "00:17:17"
+    responds_to: null
+    confidence: high
+
+  - move_id: M06
+    timestamp: "00:23:06-00:23:34"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: principle
+    reported: false
+    answers: null
+    move_type: tactic
+    quote: "might seem like what I just told you is evading his question but that's not evading his question that's a trap how that's a trap because trying to take you off the fact that said so what he's doing he's really changing the subject he's he doesn't maybe think."
+    summary_en: "Warns against being diverted by arguments about whether the Prophet prayed Tarawih, maintaining focus on Umar's explicit characterization of it as an innovation."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M07
+    timestamp: "00:32:26-00:32:48"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: critique
+    reported: false
+    answers: BD-WH-C03
+    move_type: linguistic-analysis
+    quote: "y. from his perspective there's nothing he can do here but blatantly lie to you in your face this is a bold boldfaced lie right here the linguistic meaning of b is Revival so since that's a boldfaced lie that means"
+    summary_en: "Refutes the fabricated claim that bid'ah linguistically means revival, challenging opponents to produce a single classical Arabic dictionary supporting that definition."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M08
+    timestamp: "00:32:48-00:33:12"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: text-proof
+    reported: false
+    answers: BD-WH-C03
+    move_type: text-proof
+    quote: "then for sure when said what a good it was not. not saying a Revival he was talking about the B we're talking about there is a such thing as a good Innovation and if you haven't conceived what is that because the prophet prayed so some he prayed in Jam"
+    summary_en: "Affirms that Umar's phrase 'ni'mat al-bid'ah hadhihi' constitutes an indisputable textual proof for the validity of praiseworthy innovations."
+    evidence_cited:
+      - as_said: "Sahih al-Bukhari (Saying of Umar)"
+        timestamp: "00:24:16"
+    responds_to: null
+    confidence: high
+
+  - move_id: M09
+    timestamp: "00:36:13-00:36:36"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-question
+    reported: false
+    answers: BD-WH-C04
+    move_type: turnabout
+    quote: "a wahhabi who at the time I considered a big wahhabi I said to him what was it before the prophet approved it what was his answer to me he said the. answer to this is impossible it's impossible to answer that question that's how stubborn he was he literally said to"
+    summary_en: "Points out that the companion who added novel supplications in prayer did so prior to prophetic approval, establishing that initiating a good act is praiseworthy."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M10
+    timestamp: "00:37:54-00:38:18"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: BD-WH-C04
+    move_type: historical-proof
+    quote: "new the answer is yes. and compiling the Quran into a single mus that is that does fall under there but some Scholars said we don't say the mus is a but they meant this is not the manners this"
+    summary_en: "Cites the historical compilation of the Qur'an into a single mushaf under Abu Bakr, Umar, and Zayd as an unprecedented post-prophetic initiative."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+  - move_id: M11
+    timestamp: "00:40:26-00:40:48"
+    speaker: S
+    side: ahl-e-sunnat
+    kind: counter-evidence
+    reported: false
+    answers: BD-WH-C04
+    move_type: historical-proof
+    quote: "K how would it not be and two basing the Islamic calendar on the migration of the Prophet s. wasam review for you review that for yourself making an Army Reserve with registered soldiers an additional event called for Friday prayer so two events on Friday."
+    summary_en: "Lists major companion innovations introduced after the Prophet: instituting the Hijri calendar, creating the military registry, and establishing the second Friday adhan under Uthman."
+    evidence_cited: []
+    responds_to: null
+    confidence: high
+
+new_claims:
+  - id: BD-WH-C01
+    summary_en: "The hadith of 'man sanna fi al-Islami sunnatan hasanatan' refers exclusively to the companions or to reviving an existing prophetic sunnah."
+    first_seen: M01
+
+  - id: BD-WH-C02
+    summary_en: "Every religious innovation without exception is misguidance according to the absolute wording of 'kullu bid'atin dalalah'."
+    first_seen: M04
+
+  - id: BD-WH-C03
+    summary_en: "The statement of Umar ibn al-Khattab ('ni'mat al-bid'ah hadhihi') was purely linguistic and meant a revival of the prophetic sunnah, not a good innovation."
+    first_seen: M07
+
+  - id: BD-WH-C04
+    summary_en: "Innovations were only acceptable if approved by the Prophet during his lifetime, and the companions never introduced new matters after him."
+    first_seen: M09
+
+counter_questions:
+  - id: CQ-BD-01
+    summary_en: "If 'sunnah hasanah' means reviving the Prophet's practice, does 'sunnah sayyi'ah' in the same hadith mean an evil practice of the Prophet?"
+    used_in: M02
+
+  - id: CQ-BD-02
+    summary_en: "Can you produce a single classical Arabic dictionary that defines the noun 'bid'ah' as meaning 'revival'?"
+    used_in: M07
+
+  - id: CQ-BD-03
+    summary_en: "What was the status of the companion's novel supplication in prayer before the Prophet heard and approved it?"
+    used_in: M09
+
+debate_tips:
+  - timestamp: "00:05:23"
+    quote: "don't let him get away with that it's really such an underhanded thing to say and very deceitful if a Muslim heard that answer and took that answer because he thought really okay so there's not good Innovations there's not"
+    summary_en: "Do not allow opponents to dismiss companion innovations as an exclusive exception; restricting general hadiths without evidence is an invalid tactic."
+
+  - timestamp: "00:13:20"
+    quote: "so when he says that you can't let him take you off of there yeah you you say that's your claim and then you refute this claim till it's done or you don't go off of there yourself also don't"
+    summary_en: "Never permit the interlocutor to derail the discussion onto peripheral tangents; hold them strictly to their initial claim until it is fully refuted."
+
+  - timestamp: "00:41:51"
+    quote: "if the prophet didn't do it then they're going to say but he was. companion so here remember that answer right there is really proving your point but he was a companion why you saying that because any question."
+    summary_en: "Recognize that an opponent's defense of a companion's novel practice concedes the central Sunni premise: that good additions introduced by non-prophets can be meritorious."
