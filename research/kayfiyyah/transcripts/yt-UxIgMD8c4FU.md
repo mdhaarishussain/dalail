@@ -1,7 +1,5 @@
 ---
 source_id: yt-UxIgMD8c4FU
----
-source_id: yt-UxIgMD8c4FU
 source_kind: scholar-lecture
 url: "https://www.youtube.com/watch?v=UxIgMD8c4FU"
 title: "How to Debate the So-Called Salafiyyah REVIEW 6! (QUESTIONS 58 - 73)"

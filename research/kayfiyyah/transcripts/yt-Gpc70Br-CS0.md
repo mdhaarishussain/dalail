@@ -1,7 +1,5 @@
 ---
 source_id: yt-Gpc70Br-CS0
----
-source_id: yt-Gpc70Br-CS0
 source_kind: scholar-lecture
 url: "https://www.youtube.com/watch?v=Gpc70Br-CS0"
 title: "Reciting Qur'an and Making Du^a' at the Graves"
